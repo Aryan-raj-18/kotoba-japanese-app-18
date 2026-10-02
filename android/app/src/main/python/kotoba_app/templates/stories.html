@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Short Stories — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">読み物 — yomimono, reading</p>
+  <h1>Short Stories</h1>
+  <p class="hero-lede">
+    Graded stories you can read line by line, with hiragana, romaji, and
+    English on tap. Each one ends with comprehension questions and a full
+    breakdown of the grammar and what the story is really about.
+  </p>
+</section>
+
+<section class="story-grid">
+  {% for st in stories %}
+  <a class="story-card" href="{{ url_for('story_detail', story_id=st.id) }}">
+    <span class="story-level level-{{ st.level }}">{{ st.level }}</span>
+    <h2>{{ st.title_jp }}</h2>
+    <p class="story-title-en">{{ st.title_en }}</p>
+    <p class="story-summary">{{ st.summary }}</p>
+    <p class="story-meta">{{ st.sentences|length }} lines · {{ st.vocab|length }} vocab · {{ st.questions|length }} questions</p>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

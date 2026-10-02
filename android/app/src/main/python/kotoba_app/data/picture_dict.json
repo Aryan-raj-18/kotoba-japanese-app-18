@@ -1,0 +1,4076 @@
+[
+ {
+  "word": "四角形",
+  "reading": "しかっけい",
+  "romaji": "shikakkei",
+  "meaning": "rectangle",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "円形",
+  "reading": "えんけい",
+  "romaji": "enkei",
+  "meaning": "circle",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "八角形",
+  "reading": "はっかっけい",
+  "romaji": "hakkakkei",
+  "meaning": "octagon",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "五角形",
+  "reading": "ごかっけい",
+  "romaji": "gokakkei",
+  "meaning": "pentagon",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "正方形",
+  "reading": "せいほうけい",
+  "romaji": "seihōkei",
+  "meaning": "square",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "ハート型",
+  "reading": "はーとがた",
+  "romaji": "hātogata",
+  "meaning": "heart shape",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "だ円形",
+  "reading": "だえんけい",
+  "romaji": "daenkei",
+  "meaning": "oval",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "星型",
+  "reading": "ほしがた",
+  "romaji": "hoshigata",
+  "meaning": "star shape",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "三角形",
+  "reading": "さんかっけい",
+  "romaji": "sankakkei",
+  "meaning": "triangle",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "六角形",
+  "reading": "ろっかっけい",
+  "romaji": "rokkakkei",
+  "meaning": "hexagon",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "ひし形",
+  "reading": "ひしがた",
+  "romaji": "hishigata",
+  "meaning": "diamond shape",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "形",
+  "reading": "かたち",
+  "romaji": "katachi",
+  "meaning": "shape",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "大きさ",
+  "reading": "おおきさ",
+  "romaji": "ōkisa",
+  "meaning": "size",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "もっと大きい",
+  "reading": "もっとおおきい",
+  "romaji": "motto ōkii",
+  "meaning": "larger",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "もっと小さい",
+  "reading": "もっとちいさい",
+  "romaji": "motto chiisai",
+  "meaning": "smaller",
+  "category": "Shapes & Sizes"
+ },
+ {
+  "word": "金色",
+  "reading": "きんいろ",
+  "romaji": "kin'iro",
+  "meaning": "gold (color)",
+  "category": "Colors"
+ },
+ {
+  "word": "銀色",
+  "reading": "ぎんいろ",
+  "romaji": "gin'iro",
+  "meaning": "silver (color)",
+  "category": "Colors"
+ },
+ {
+  "word": "濃い",
+  "reading": "こい",
+  "romaji": "koi",
+  "meaning": "dark (color)",
+  "category": "Colors"
+ },
+ {
+  "word": "薄い",
+  "reading": "うすい",
+  "romaji": "usui",
+  "meaning": "light (color)",
+  "category": "Colors"
+ },
+ {
+  "word": "上",
+  "reading": "うえ",
+  "romaji": "ue",
+  "meaning": "up (opposite of 下 shita, down)",
+  "category": "Opposites"
+ },
+ {
+  "word": "下",
+  "reading": "した",
+  "romaji": "shita",
+  "meaning": "down (opposite of 上 ue, up)",
+  "category": "Opposites"
+ },
+ {
+  "word": "受ける",
+  "reading": "うける",
+  "romaji": "ukeru",
+  "meaning": "to receive (opposite of あげる, to give)",
+  "category": "Opposites"
+ },
+ {
+  "word": "あげる",
+  "reading": "あげる",
+  "romaji": "ageru",
+  "meaning": "to give (opposite of 受ける ukeru, to receive)",
+  "category": "Opposites"
+ },
+ {
+  "word": "たくさん",
+  "reading": "たくさん",
+  "romaji": "takusan",
+  "meaning": "many (opposite of 少し sukoshi, few)",
+  "category": "Opposites"
+ },
+ {
+  "word": "少し",
+  "reading": "すこし",
+  "romaji": "sukoshi",
+  "meaning": "few, a little (opposite of たくさん takusan, many)",
+  "category": "Opposites"
+ },
+ {
+  "word": "背が高い",
+  "reading": "せがたかい",
+  "romaji": "se ga takai",
+  "meaning": "tall (opposite of 背が低い se ga hikui, short)",
+  "category": "Opposites"
+ },
+ {
+  "word": "背が低い",
+  "reading": "せがひくい",
+  "romaji": "se ga hikui",
+  "meaning": "short (height, opposite of 背が高い se ga takai, tall)",
+  "category": "Opposites"
+ },
+ {
+  "word": "古い",
+  "reading": "ふるい",
+  "romaji": "furui",
+  "meaning": "old (things, opposite of 新しい atarashii, new)",
+  "category": "Opposites"
+ },
+ {
+  "word": "新しい",
+  "reading": "あたらしい",
+  "romaji": "atarashii",
+  "meaning": "new (opposite of 古い furui, old)",
+  "category": "Opposites"
+ },
+ {
+  "word": "出る",
+  "reading": "でる",
+  "romaji": "deru",
+  "meaning": "to exit (opposite of 入る hairu, to enter)",
+  "category": "Opposites"
+ },
+ {
+  "word": "入る",
+  "reading": "はいる",
+  "romaji": "hairu",
+  "meaning": "to enter (opposite of 出る deru, to exit)",
+  "category": "Opposites"
+ },
+ {
+  "word": "良い",
+  "reading": "よい",
+  "romaji": "yoi",
+  "meaning": "good (opposite of 悪い warui, bad)",
+  "category": "Opposites"
+ },
+ {
+  "word": "悪い",
+  "reading": "わるい",
+  "romaji": "warui",
+  "meaning": "bad (opposite of 良い yoi, good)",
+  "category": "Opposites"
+ },
+ {
+  "word": "忙しい",
+  "reading": "いそがしい",
+  "romaji": "isogashii",
+  "meaning": "busy (opposite of 暇 hima, idle)",
+  "category": "Opposites"
+ },
+ {
+  "word": "暇",
+  "reading": "ひま",
+  "romaji": "hima",
+  "meaning": "idle, free time (opposite of 忙しい isogashii, busy)",
+  "category": "Opposites"
+ },
+ {
+  "word": "長い",
+  "reading": "ながい",
+  "romaji": "nagai",
+  "meaning": "long (opposite of 短い mijikai, short)",
+  "category": "Opposites"
+ },
+ {
+  "word": "短い",
+  "reading": "みじかい",
+  "romaji": "mijikai",
+  "meaning": "short (length, opposite of 長い nagai, long)",
+  "category": "Opposites"
+ },
+ {
+  "word": "年をとっています",
+  "reading": "としをとっています",
+  "romaji": "toshi o totte imasu",
+  "meaning": "old (age, opposite of 若い wakai, young)",
+  "category": "Opposites"
+ },
+ {
+  "word": "若い",
+  "reading": "わかい",
+  "romaji": "wakai",
+  "meaning": "young (opposite of 年をとっています, old)",
+  "category": "Opposites"
+ },
+ {
+  "word": "大きい",
+  "reading": "おおきい",
+  "romaji": "ōkii",
+  "meaning": "big (opposite of 小さい chiisai, small)",
+  "category": "Opposites"
+ },
+ {
+  "word": "小さい",
+  "reading": "ちいさい",
+  "romaji": "chiisai",
+  "meaning": "small (opposite of 大きい ōkii, big)",
+  "category": "Opposites"
+ },
+ {
+  "word": "開ける",
+  "reading": "あける",
+  "romaji": "akeru",
+  "meaning": "to open (opposite of 閉める shimeru, to close)",
+  "category": "Opposites"
+ },
+ {
+  "word": "閉める",
+  "reading": "しめる",
+  "romaji": "shimeru",
+  "meaning": "to close (opposite of 開ける akeru, to open)",
+  "category": "Opposites"
+ },
+ {
+  "word": "太っています",
+  "reading": "ふとっています",
+  "romaji": "futotte imasu",
+  "meaning": "fat (opposite of 痩せています yasete imasu, thin)",
+  "category": "Opposites"
+ },
+ {
+  "word": "痩せています",
+  "reading": "やせています",
+  "romaji": "yasete imasu",
+  "meaning": "thin (opposite of 太っています futotte imasu, fat)",
+  "category": "Opposites"
+ },
+ {
+  "word": "着る",
+  "reading": "きる",
+  "romaji": "kiru",
+  "meaning": "to put on (clothes, opposite of 脱ぐ nugu, to take off)",
+  "category": "Opposites"
+ },
+ {
+  "word": "脱ぐ",
+  "reading": "ぬぐ",
+  "romaji": "nugu",
+  "meaning": "to take off (clothes, opposite of 着る kiru, to put on)",
+  "category": "Opposites"
+ },
+ {
+  "word": "難しい",
+  "reading": "むずかしい",
+  "romaji": "muzukashii",
+  "meaning": "difficult (opposite of 優しい yasashii, easy)",
+  "category": "Opposites"
+ },
+ {
+  "word": "優しい",
+  "reading": "やさしい",
+  "romaji": "yasashii",
+  "meaning": "easy, kind (opposite of 難しい muzukashii, difficult)",
+  "category": "Opposites"
+ },
+ {
+  "word": "ある",
+  "reading": "ある",
+  "romaji": "aru",
+  "meaning": "to have, there is (opposite of ない nai)",
+  "category": "Opposites"
+ },
+ {
+  "word": "ない",
+  "reading": "ない",
+  "romaji": "nai",
+  "meaning": "to not have, there isn't (opposite of ある aru)",
+  "category": "Opposites"
+ },
+ {
+  "word": "来る",
+  "reading": "くる",
+  "romaji": "kuru",
+  "meaning": "to come (opposite of 行く iku, to go)",
+  "category": "Opposites"
+ },
+ {
+  "word": "行く",
+  "reading": "いく",
+  "romaji": "iku",
+  "meaning": "to go (opposite of 来る kuru, to come)",
+  "category": "Opposites"
+ },
+ {
+  "word": "着く",
+  "reading": "つく",
+  "romaji": "tsuku",
+  "meaning": "to arrive (opposite of 出かける dekakeru, to leave)",
+  "category": "Opposites"
+ },
+ {
+  "word": "出かける",
+  "reading": "でかける",
+  "romaji": "dekakeru",
+  "meaning": "to leave, go out (opposite of 着く tsuku, to arrive)",
+  "category": "Opposites"
+ },
+ {
+  "word": "中",
+  "reading": "なか",
+  "romaji": "naka",
+  "meaning": "inside (opposite of 外 soto, outside)",
+  "category": "Opposites"
+ },
+ {
+  "word": "外",
+  "reading": "そと",
+  "romaji": "soto",
+  "meaning": "outside (opposite of 中 naka, inside)",
+  "category": "Opposites"
+ },
+ {
+  "word": "前",
+  "reading": "まえ",
+  "romaji": "mae",
+  "meaning": "in front (opposite of 後ろ ushiro, behind)",
+  "category": "Opposites"
+ },
+ {
+  "word": "後ろ",
+  "reading": "うしろ",
+  "romaji": "ushiro",
+  "meaning": "behind (opposite of 前 mae, in front)",
+  "category": "Opposites"
+ },
+ {
+  "word": "お腹がいっぱいです",
+  "reading": "おなかがいっぱいです",
+  "romaji": "onaka ga ippai desu",
+  "meaning": "full (stomach, opposite of お腹が空いています, hungry)",
+  "category": "Opposites"
+ },
+ {
+  "word": "お腹が空いています",
+  "reading": "おなかがすいています",
+  "romaji": "onaka ga suite imasu",
+  "meaning": "hungry (opposite of お腹がいっぱいです, full)",
+  "category": "Opposites"
+ },
+ {
+  "word": "覚える",
+  "reading": "おぼえる",
+  "romaji": "oboeru",
+  "meaning": "to remember (opposite of 忘れる wasureru, to forget)",
+  "category": "Opposites"
+ },
+ {
+  "word": "始まる",
+  "reading": "はじまる",
+  "romaji": "hajimaru",
+  "meaning": "to begin (opposite of 終わる owaru, to end)",
+  "category": "Opposites"
+ },
+ {
+  "word": "終わる",
+  "reading": "おわる",
+  "romaji": "owaru",
+  "meaning": "to end (opposite of 始まる hajimaru, to begin)",
+  "category": "Opposites"
+ },
+ {
+  "word": "近い",
+  "reading": "ちかい",
+  "romaji": "chikai",
+  "meaning": "near (opposite of 遠い tōi, far)",
+  "category": "Opposites"
+ },
+ {
+  "word": "遠い",
+  "reading": "とおい",
+  "romaji": "tōi",
+  "meaning": "far (opposite of 近い chikai, near)",
+  "category": "Opposites"
+ },
+ {
+  "word": "違う",
+  "reading": "ちがう",
+  "romaji": "chigau",
+  "meaning": "wrong (opposite of 正しい tadashii, right)",
+  "category": "Opposites"
+ },
+ {
+  "word": "正しい",
+  "reading": "ただしい",
+  "romaji": "tadashii",
+  "meaning": "right, correct (opposite of 違う chigau, wrong)",
+  "category": "Opposites"
+ },
+ {
+  "word": "本物",
+  "reading": "ほんもの",
+  "romaji": "honmono",
+  "meaning": "real (opposite of 偽物 nisemono, fake)",
+  "category": "Opposites"
+ },
+ {
+  "word": "偽物",
+  "reading": "にせもの",
+  "romaji": "nisemono",
+  "meaning": "fake (opposite of 本物 honmono, real)",
+  "category": "Opposites"
+ },
+ {
+  "word": "速い",
+  "reading": "はやい",
+  "romaji": "hayai",
+  "meaning": "fast (opposite of 遅い osoi, slow)",
+  "category": "Opposites"
+ },
+ {
+  "word": "遅い",
+  "reading": "おそい",
+  "romaji": "osoi",
+  "meaning": "slow (opposite of 速い hayai, fast)",
+  "category": "Opposites"
+ },
+ {
+  "word": "高い",
+  "reading": "たかい",
+  "romaji": "takai",
+  "meaning": "high, expensive (opposite of 低い hikui, low)",
+  "category": "Opposites"
+ },
+ {
+  "word": "低い",
+  "reading": "ひくい",
+  "romaji": "hikui",
+  "meaning": "low (opposite of 高い takai, high)",
+  "category": "Opposites"
+ },
+ {
+  "word": "借りる",
+  "reading": "かりる",
+  "romaji": "kariru",
+  "meaning": "to borrow (opposite of 貸す kasu, to lend)",
+  "category": "Opposites"
+ },
+ {
+  "word": "貸す",
+  "reading": "かす",
+  "romaji": "kasu",
+  "meaning": "to lend (opposite of 借りる kariru, to borrow)",
+  "category": "Opposites"
+ },
+ {
+  "word": "悲しい",
+  "reading": "かなしい",
+  "romaji": "kanashii",
+  "meaning": "sad (opposite of 嬉しい ureshii, happy)",
+  "category": "Opposites"
+ },
+ {
+  "word": "嬉しい",
+  "reading": "うれしい",
+  "romaji": "ureshii",
+  "meaning": "happy (opposite of 悲しい kanashii, sad)",
+  "category": "Opposites"
+ },
+ {
+  "word": "円",
+  "reading": "えん",
+  "romaji": "en",
+  "meaning": "yen (Japanese currency)",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "紙幣",
+  "reading": "しへい",
+  "romaji": "shihei",
+  "meaning": "paper money",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "硬貨",
+  "reading": "こうか",
+  "romaji": "kōka",
+  "meaning": "coins",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "一円",
+  "reading": "いちえん",
+  "romaji": "ichi en",
+  "meaning": "one yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "五円",
+  "reading": "ごえん",
+  "romaji": "go en",
+  "meaning": "five yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "五十円",
+  "reading": "ごじゅうえん",
+  "romaji": "gojū en",
+  "meaning": "fifty yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "百円",
+  "reading": "ひゃくえん",
+  "romaji": "hyaku en",
+  "meaning": "one hundred yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "五百円",
+  "reading": "ごひゃくえん",
+  "romaji": "gohyaku en",
+  "meaning": "five hundred yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "千円",
+  "reading": "せんえん",
+  "romaji": "sen en",
+  "meaning": "one thousand yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "五千円",
+  "reading": "ごせんえん",
+  "romaji": "gosen en",
+  "meaning": "five thousand yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "一万円",
+  "reading": "いちまんえん",
+  "romaji": "ichiman en",
+  "meaning": "ten thousand yen",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "小切手",
+  "reading": "こぎって",
+  "romaji": "kogitte",
+  "meaning": "check",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "小銭",
+  "reading": "こぜに",
+  "romaji": "kozeni",
+  "meaning": "small change",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "クレジットカード",
+  "reading": "くれじっとかーど",
+  "romaji": "kurejitto kādo",
+  "meaning": "credit card",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "貯金",
+  "reading": "ちょきん",
+  "romaji": "chokin",
+  "meaning": "savings",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "為替",
+  "reading": "かわせ",
+  "romaji": "kawase",
+  "meaning": "currency exchange",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "引き出す",
+  "reading": "ひきだす",
+  "romaji": "hikidasu",
+  "meaning": "to withdraw money",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "お金",
+  "reading": "おかね",
+  "romaji": "okane",
+  "meaning": "money",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "値段",
+  "reading": "ねだん",
+  "romaji": "nedan",
+  "meaning": "price",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "割引",
+  "reading": "わりびき",
+  "romaji": "waribiki",
+  "meaning": "discount",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "安い",
+  "reading": "やすい",
+  "romaji": "yasui",
+  "meaning": "cheap",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "高い",
+  "reading": "たかい",
+  "romaji": "takai",
+  "meaning": "expensive",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "利子",
+  "reading": "りし",
+  "romaji": "rishi",
+  "meaning": "interest",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "ローン",
+  "reading": "ろーん",
+  "romaji": "rōn",
+  "meaning": "loan, credit",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "借金",
+  "reading": "しゃっきん",
+  "romaji": "shakkin",
+  "meaning": "debt",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "預金",
+  "reading": "よきん",
+  "romaji": "yokin",
+  "meaning": "bank deposit",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "口座番号",
+  "reading": "こうざばんごう",
+  "romaji": "kōza bangō",
+  "meaning": "account number",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "領収書",
+  "reading": "りょうしゅうしょ",
+  "romaji": "ryōshūsho",
+  "meaning": "receipt",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "掛け金",
+  "reading": "かけきん",
+  "romaji": "kakekin",
+  "meaning": "installment payment",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "税金",
+  "reading": "ぜいきん",
+  "romaji": "zeikin",
+  "meaning": "tax",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "現金",
+  "reading": "げんきん",
+  "romaji": "genkin",
+  "meaning": "cash",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "Sサイズ",
+  "reading": "えすさいず",
+  "romaji": "esu saizu",
+  "meaning": "S size (clothing)",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "Mサイズ",
+  "reading": "えむさいず",
+  "romaji": "emu saizu",
+  "meaning": "M size (clothing)",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "Lサイズ",
+  "reading": "えるさいず",
+  "romaji": "eru saizu",
+  "meaning": "L size (clothing)",
+  "category": "Money & Shopping"
+ },
+ {
+  "word": "春",
+  "reading": "はる",
+  "romaji": "haru",
+  "meaning": "spring",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "夏",
+  "reading": "なつ",
+  "romaji": "natsu",
+  "meaning": "summer",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "秋",
+  "reading": "あき",
+  "romaji": "aki",
+  "meaning": "autumn, fall",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "冬",
+  "reading": "ふゆ",
+  "romaji": "fuyu",
+  "meaning": "winter",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "暖かい",
+  "reading": "あたたかい",
+  "romaji": "atatakai",
+  "meaning": "warm",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "そよ風",
+  "reading": "そよかぜ",
+  "romaji": "soyokaze",
+  "meaning": "a gentle breeze",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "桃の花",
+  "reading": "もものはな",
+  "romaji": "momo no hana",
+  "meaning": "peach blossoms",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "咲く",
+  "reading": "さく",
+  "romaji": "saku",
+  "meaning": "to flower, to bloom",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "小雨",
+  "reading": "こさめ",
+  "romaji": "kosame",
+  "meaning": "drizzle",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "日傘",
+  "reading": "ひがさ",
+  "romaji": "higasa",
+  "meaning": "sunshade, parasol",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "水遊び",
+  "reading": "みずあそび",
+  "romaji": "mizuasobi",
+  "meaning": "water play",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "雪だるまを作る",
+  "reading": "ゆきだるまをつくる",
+  "romaji": "yukidaruma o tsukuru",
+  "meaning": "to make a snowman",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "収穫",
+  "reading": "しゅうかく",
+  "romaji": "shūkaku",
+  "meaning": "harvest",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "扇子",
+  "reading": "せんす",
+  "romaji": "sensu",
+  "meaning": "folding fan",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "雪合戦",
+  "reading": "ゆきがっせん",
+  "romaji": "yukigassen",
+  "meaning": "snowball fight",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "日焼け止め",
+  "reading": "ひやけどめ",
+  "romaji": "hiyakedome",
+  "meaning": "sunblock lotion",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "作物",
+  "reading": "さくもつ",
+  "romaji": "sakumotsu",
+  "meaning": "crops",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "四季",
+  "reading": "しき",
+  "romaji": "shiki",
+  "meaning": "four seasons",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "祝日",
+  "reading": "しゅくじつ",
+  "romaji": "shukujitsu",
+  "meaning": "festival, holiday",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "新年",
+  "reading": "しんねん",
+  "romaji": "shinnen",
+  "meaning": "New Year",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "花火",
+  "reading": "はなび",
+  "romaji": "hanabi",
+  "meaning": "fireworks",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "成人の日",
+  "reading": "せいじんのひ",
+  "romaji": "seijin no hi",
+  "meaning": "Coming of Age Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "節分",
+  "reading": "せつぶん",
+  "romaji": "setsubun",
+  "meaning": "beginning of spring festival",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "子供の日",
+  "reading": "こどものひ",
+  "romaji": "kodomo no hi",
+  "meaning": "Children's Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "七夕",
+  "reading": "たなばた",
+  "romaji": "Tanabata",
+  "meaning": "Star Festival",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "体育の日",
+  "reading": "たいいくのひ",
+  "romaji": "taiiku no hi",
+  "meaning": "Health and Sports Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "運動会",
+  "reading": "うんどうかい",
+  "romaji": "undōkai",
+  "meaning": "sports day event",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "文化の日",
+  "reading": "ぶんかのひ",
+  "romaji": "bunka no hi",
+  "meaning": "Culture Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "お餅",
+  "reading": "おもち",
+  "romaji": "omochi",
+  "meaning": "sticky rice cake",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "和菓子",
+  "reading": "わがし",
+  "romaji": "wagashi",
+  "meaning": "Japanese traditional cakes",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "父の日",
+  "reading": "ちちのひ",
+  "romaji": "Chichi no hi",
+  "meaning": "Father's Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "母の日",
+  "reading": "はははのひ",
+  "romaji": "Haha no hi",
+  "meaning": "Mother's Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "バレンタインデー",
+  "reading": "ばれんたいんでー",
+  "romaji": "Barentain dē",
+  "meaning": "Valentine's Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "チョコレート",
+  "reading": "ちょこれーと",
+  "romaji": "chokorēto",
+  "meaning": "chocolates",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "バラ",
+  "reading": "ばら",
+  "romaji": "bara",
+  "meaning": "roses",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "感謝祭",
+  "reading": "かんしゃさい",
+  "romaji": "Kanshasai",
+  "meaning": "Thanksgiving",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "ハロウィーン",
+  "reading": "はろうぃーん",
+  "romaji": "Harowiin",
+  "meaning": "Halloween",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "復活祭",
+  "reading": "ふっかつさい",
+  "romaji": "Fukkatsusai",
+  "meaning": "Easter",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "憲法記念日",
+  "reading": "けんぽうきねんび",
+  "romaji": "Kenpō Kinenbi",
+  "meaning": "Constitution Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "誕生日",
+  "reading": "たんじょうび",
+  "romaji": "tanjōbi",
+  "meaning": "birthday",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "夏休み",
+  "reading": "なつやすみ",
+  "romaji": "natsuyasumi",
+  "meaning": "summer vacation",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "冬休み",
+  "reading": "ふゆやすみ",
+  "romaji": "fuyuyasumi",
+  "meaning": "winter vacation",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "記念日",
+  "reading": "きねんび",
+  "romaji": "kinenbi",
+  "meaning": "anniversary",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "周年",
+  "reading": "しゅうねん",
+  "romaji": "shūnen",
+  "meaning": "anniversary (of years)",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "ゴールデンウィーク",
+  "reading": "ごーるでんうぃーく",
+  "romaji": "Gōruden wiiku",
+  "meaning": "Golden Week",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "贈り物",
+  "reading": "おくりもの",
+  "romaji": "okurimono",
+  "meaning": "gift",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "クリスマス",
+  "reading": "くりすます",
+  "romaji": "Kurisumasu",
+  "meaning": "Christmas",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "サンタクロース",
+  "reading": "さんたくろーす",
+  "romaji": "Santakurōsu",
+  "meaning": "Santa Claus",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "ホワイトデー",
+  "reading": "ほわいとでー",
+  "romaji": "Howaitodē",
+  "meaning": "White Day",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "ひな祭り",
+  "reading": "ひなまつり",
+  "romaji": "Hinamatsuri",
+  "meaning": "Doll Festival",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "天皇誕生日",
+  "reading": "てんのうたんじょうび",
+  "romaji": "Tennō tanjōbi",
+  "meaning": "Emperor's Birthday",
+  "category": "Seasons & Holidays"
+ },
+ {
+  "word": "試験",
+  "reading": "しけん",
+  "romaji": "shiken",
+  "meaning": "exam",
+  "category": "School & Learning"
+ },
+ {
+  "word": "数学",
+  "reading": "すうがく",
+  "romaji": "sūgaku",
+  "meaning": "mathematics",
+  "category": "School & Learning"
+ },
+ {
+  "word": "体育",
+  "reading": "たいいく",
+  "romaji": "taiiku",
+  "meaning": "physical education",
+  "category": "School & Learning"
+ },
+ {
+  "word": "辞書",
+  "reading": "じしょ",
+  "romaji": "jisho",
+  "meaning": "dictionary",
+  "category": "School & Learning"
+ },
+ {
+  "word": "ホワイトボード",
+  "reading": "ほわいとぼーど",
+  "romaji": "howaitobōdo",
+  "meaning": "whiteboard",
+  "category": "School & Learning"
+ },
+ {
+  "word": "黒板",
+  "reading": "こくばん",
+  "romaji": "kokuban",
+  "meaning": "blackboard",
+  "category": "School & Learning"
+ },
+ {
+  "word": "図書館",
+  "reading": "としょかん",
+  "romaji": "toshokan",
+  "meaning": "library",
+  "category": "School & Learning"
+ },
+ {
+  "word": "教室",
+  "reading": "きょうしつ",
+  "romaji": "kyōshitsu",
+  "meaning": "classroom",
+  "category": "School & Learning"
+ },
+ {
+  "word": "先生",
+  "reading": "せんせい",
+  "romaji": "sensei",
+  "meaning": "teacher",
+  "category": "School & Learning"
+ },
+ {
+  "word": "コピー機",
+  "reading": "こぴーき",
+  "romaji": "kopiiki",
+  "meaning": "photocopier",
+  "category": "School & Learning"
+ },
+ {
+  "word": "手をあげる",
+  "reading": "てをあげる",
+  "romaji": "te o ageru",
+  "meaning": "to raise your hand",
+  "category": "School & Learning"
+ },
+ {
+  "word": "計算機",
+  "reading": "けいさんき",
+  "romaji": "keisanki",
+  "meaning": "calculator",
+  "category": "School & Learning"
+ },
+ {
+  "word": "科学",
+  "reading": "かがく",
+  "romaji": "kagaku",
+  "meaning": "science",
+  "category": "School & Learning"
+ },
+ {
+  "word": "教授",
+  "reading": "きょうじゅ",
+  "romaji": "kyōju",
+  "meaning": "professor",
+  "category": "School & Learning"
+ },
+ {
+  "word": "講義室",
+  "reading": "こうぎしつ",
+  "romaji": "kōgishitsu",
+  "meaning": "lecture hall",
+  "category": "School & Learning"
+ },
+ {
+  "word": "生徒",
+  "reading": "せいと",
+  "romaji": "seito",
+  "meaning": "student",
+  "category": "School & Learning"
+ },
+ {
+  "word": "クラスメート",
+  "reading": "くらすめーと",
+  "romaji": "kurasumēto",
+  "meaning": "classmate",
+  "category": "School & Learning"
+ },
+ {
+  "word": "宿題",
+  "reading": "しゅくだい",
+  "romaji": "shukudai",
+  "meaning": "homework",
+  "category": "School & Learning"
+ },
+ {
+  "word": "一つ",
+  "reading": "ひとつ",
+  "romaji": "hitotsu",
+  "meaning": "counter for general objects (hitotsu, futatsu, mittsu...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一人",
+  "reading": "ひとり",
+  "romaji": "hitori",
+  "meaning": "counter for people (hitori, futari, sannin...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一枚",
+  "reading": "いちまい",
+  "romaji": "ichimai",
+  "meaning": "counter for thin flat objects — paper, shirts, tickets (ichimai, nimai...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一本",
+  "reading": "いっぽん",
+  "romaji": "ippon",
+  "meaning": "counter for long cylindrical objects — pencils, trees (ippon, nihon...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一台",
+  "reading": "いちだい",
+  "romaji": "ichidai",
+  "meaning": "counter for machines — cars, computers (ichidai, nidai...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一杯",
+  "reading": "いっぱい",
+  "romaji": "ippai",
+  "meaning": "counter for cups and glasses of drink (ippai, nihai...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一匹",
+  "reading": "いっぴき",
+  "romaji": "ippiki",
+  "meaning": "counter for small animals (ippiki, nihiki...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一頭",
+  "reading": "いっとう",
+  "romaji": "ittō",
+  "meaning": "counter for large animals (ittō, nitō...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一個",
+  "reading": "いっこ",
+  "romaji": "ikko",
+  "meaning": "counter for small or round objects (ikko, niko...)",
+  "category": "Counters"
+ },
+ {
+  "word": "一冊",
+  "reading": "いっさつ",
+  "romaji": "issatsu",
+  "meaning": "counter for books and notebooks (issatsu, nisatsu...)",
+  "category": "Counters"
+ },
+ {
+  "word": "十一",
+  "reading": "じゅういち",
+  "romaji": "jūichi",
+  "meaning": "eleven",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "十二",
+  "reading": "じゅうに",
+  "romaji": "jūni",
+  "meaning": "twelve",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "二十",
+  "reading": "にじゅう",
+  "romaji": "nijū",
+  "meaning": "twenty",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "三十",
+  "reading": "さんじゅう",
+  "romaji": "sanjū",
+  "meaning": "thirty",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "四十",
+  "reading": "よんじゅう",
+  "romaji": "yonjū",
+  "meaning": "forty",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "五十",
+  "reading": "ごじゅう",
+  "romaji": "gojū",
+  "meaning": "fifty",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "六十",
+  "reading": "ろくじゅう",
+  "romaji": "rokujū",
+  "meaning": "sixty",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "七十",
+  "reading": "ななじゅう",
+  "romaji": "nanajū",
+  "meaning": "seventy",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "八十",
+  "reading": "はちじゅう",
+  "romaji": "hachijū",
+  "meaning": "eighty",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "九十",
+  "reading": "きゅうじゅう",
+  "romaji": "kyūjū",
+  "meaning": "ninety",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "十万",
+  "reading": "じゅうまん",
+  "romaji": "jūman",
+  "meaning": "one hundred thousand",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "百万",
+  "reading": "ひゃくまん",
+  "romaji": "hyakuman",
+  "meaning": "one million",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "一億",
+  "reading": "いちおく",
+  "romaji": "ichioku",
+  "meaning": "one hundred million",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "十億",
+  "reading": "じゅうおく",
+  "romaji": "jūoku",
+  "meaning": "one billion",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "半分",
+  "reading": "はんぶん",
+  "romaji": "hanbun",
+  "meaning": "one half",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "四分の一",
+  "reading": "よんぶんのいち",
+  "romaji": "yonbun no ichi",
+  "meaning": "one quarter",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "四分の三",
+  "reading": "よんぶんのさん",
+  "romaji": "yonbun no san",
+  "meaning": "three quarters",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "三分の一",
+  "reading": "さんぶんのいち",
+  "romaji": "sanbun no ichi",
+  "meaning": "one third",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "三分の二",
+  "reading": "さんぶんのに",
+  "romaji": "sanbun no ni",
+  "meaning": "two thirds",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "割る",
+  "reading": "わる",
+  "romaji": "waru",
+  "meaning": "to divide",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "掛ける",
+  "reading": "かける",
+  "romaji": "kakeru",
+  "meaning": "to multiply",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "引く",
+  "reading": "ひく",
+  "romaji": "hiku",
+  "meaning": "to subtract",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "足す",
+  "reading": "たす",
+  "romaji": "tasu",
+  "meaning": "to add",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "足し算",
+  "reading": "たしざん",
+  "romaji": "tashizan",
+  "meaning": "addition",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "引き算",
+  "reading": "ひきざん",
+  "romaji": "hikizan",
+  "meaning": "subtraction",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "掛け算",
+  "reading": "かけざん",
+  "romaji": "kakezan",
+  "meaning": "multiplication",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "割り算",
+  "reading": "わりざん",
+  "romaji": "warizan",
+  "meaning": "division",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "偶数",
+  "reading": "ぐうすう",
+  "romaji": "gūsū",
+  "meaning": "even numbers",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "奇数",
+  "reading": "きすう",
+  "romaji": "kisū",
+  "meaning": "odd numbers",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "第一",
+  "reading": "だいいち",
+  "romaji": "dai-ichi",
+  "meaning": "first (ordinal)",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "第二",
+  "reading": "だいに",
+  "romaji": "dai-ni",
+  "meaning": "second (ordinal)",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "第三",
+  "reading": "だいさん",
+  "romaji": "dai-san",
+  "meaning": "third (ordinal)",
+  "category": "Numbers & Counting"
+ },
+ {
+  "word": "弁護士",
+  "reading": "べんごし",
+  "romaji": "bengoshi",
+  "meaning": "lawyer",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "裁判官",
+  "reading": "さいばんかん",
+  "romaji": "saibankan",
+  "meaning": "judge",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "投資家",
+  "reading": "とうしか",
+  "romaji": "tōshika",
+  "meaning": "financier",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "エンジニア",
+  "reading": "えんじにあ",
+  "romaji": "enjinia",
+  "meaning": "engineer",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "会計士",
+  "reading": "かいけいし",
+  "romaji": "kaikeishi",
+  "meaning": "accountant",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "薬剤師",
+  "reading": "やくざいし",
+  "romaji": "yakuzaishi",
+  "meaning": "pharmacist",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "芸術家",
+  "reading": "げいじゅつか",
+  "romaji": "geijutsuka",
+  "meaning": "artist",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "音楽家",
+  "reading": "おんがくか",
+  "romaji": "ongakuka",
+  "meaning": "musician",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "建築家",
+  "reading": "けんちくか",
+  "romaji": "kenchikuka",
+  "meaning": "architect",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "事務所",
+  "reading": "じむしょ",
+  "romaji": "jimusho",
+  "meaning": "office",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "管理職",
+  "reading": "かんりしょく",
+  "romaji": "kanrishoku",
+  "meaning": "manager",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "秘書",
+  "reading": "ひしょ",
+  "romaji": "hisho",
+  "meaning": "secretary",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "シェフ",
+  "reading": "しぇふ",
+  "romaji": "shefu",
+  "meaning": "chef",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "写真家",
+  "reading": "しゃしんか",
+  "romaji": "shashinka",
+  "meaning": "photographer",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "パイロット",
+  "reading": "ぱいろっと",
+  "romaji": "pairotto",
+  "meaning": "pilot",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "歯医者",
+  "reading": "はいしゃ",
+  "romaji": "haisha",
+  "meaning": "dentist",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "消防士",
+  "reading": "しょうぼうし",
+  "romaji": "shōbōshi",
+  "meaning": "firefighter",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "農家",
+  "reading": "のうか",
+  "romaji": "nōka",
+  "meaning": "farmer",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "会社",
+  "reading": "かいしゃ",
+  "romaji": "kaisha",
+  "meaning": "company",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "企業家",
+  "reading": "きぎょうか",
+  "romaji": "kigyōka",
+  "meaning": "entrepreneur",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "調べる",
+  "reading": "しらべる",
+  "romaji": "shiraberu",
+  "meaning": "to inspect",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "出勤する",
+  "reading": "しゅっきんする",
+  "romaji": "shukkin suru",
+  "meaning": "to go to work",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "同僚",
+  "reading": "どうりょう",
+  "romaji": "dōryō",
+  "meaning": "colleague",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "仕事",
+  "reading": "しごと",
+  "romaji": "shigoto",
+  "meaning": "work, job",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "職員",
+  "reading": "しょくいん",
+  "romaji": "shokuin",
+  "meaning": "staff, personnel",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "見習い",
+  "reading": "みならい",
+  "romaji": "minarai",
+  "meaning": "apprentice",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "インターン",
+  "reading": "いんたーん",
+  "romaji": "intān",
+  "meaning": "intern",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "アルバイト",
+  "reading": "あるばいと",
+  "romaji": "arubaito",
+  "meaning": "part-time job",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "残業する",
+  "reading": "ざんぎょうする",
+  "romaji": "zangyō suru",
+  "meaning": "to work overtime",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "方法",
+  "reading": "ほうほう",
+  "romaji": "hōhō",
+  "meaning": "method",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "機会",
+  "reading": "きかい",
+  "romaji": "kikai",
+  "meaning": "opportunity",
+  "category": "Work & Jobs"
+ },
+ {
+  "word": "病院",
+  "reading": "びょういん",
+  "romaji": "byōin",
+  "meaning": "hospital",
+  "category": "Health & Body"
+ },
+ {
+  "word": "看護師",
+  "reading": "かんごし",
+  "romaji": "kangoshi",
+  "meaning": "nurse",
+  "category": "Health & Body"
+ },
+ {
+  "word": "医者",
+  "reading": "いしゃ",
+  "romaji": "isha",
+  "meaning": "doctor",
+  "category": "Health & Body"
+ },
+ {
+  "word": "患者",
+  "reading": "かんじゃ",
+  "romaji": "kanja",
+  "meaning": "patient",
+  "category": "Health & Body"
+ },
+ {
+  "word": "血液検査",
+  "reading": "けつえきけんさ",
+  "romaji": "ketsueki kensa",
+  "meaning": "blood test",
+  "category": "Health & Body"
+ },
+ {
+  "word": "血圧",
+  "reading": "けつあつ",
+  "romaji": "ketsuatsu",
+  "meaning": "blood pressure",
+  "category": "Health & Body"
+ },
+ {
+  "word": "風邪をひく",
+  "reading": "かぜをひく",
+  "romaji": "kaze o hiku",
+  "meaning": "to catch a cold",
+  "category": "Health & Body"
+ },
+ {
+  "word": "咳が出る",
+  "reading": "せきがでる",
+  "romaji": "seki ga deru",
+  "meaning": "to cough",
+  "category": "Health & Body"
+ },
+ {
+  "word": "熱",
+  "reading": "ねつ",
+  "romaji": "netsu",
+  "meaning": "fever",
+  "category": "Health & Body"
+ },
+ {
+  "word": "病気になる",
+  "reading": "びょうきになる",
+  "romaji": "byōki ni naru",
+  "meaning": "to fall sick",
+  "category": "Health & Body"
+ },
+ {
+  "word": "薬を飲む",
+  "reading": "くすりをのむ",
+  "romaji": "kusuri o nomu",
+  "meaning": "to take medicine",
+  "category": "Health & Body"
+ },
+ {
+  "word": "薬",
+  "reading": "くすり",
+  "romaji": "kusuri",
+  "meaning": "medicine",
+  "category": "Health & Body"
+ },
+ {
+  "word": "錠剤",
+  "reading": "じょうざい",
+  "romaji": "jōzai",
+  "meaning": "pills",
+  "category": "Health & Body"
+ },
+ {
+  "word": "注射",
+  "reading": "ちゅうしゃ",
+  "romaji": "chūsha",
+  "meaning": "injection",
+  "category": "Health & Body"
+ },
+ {
+  "word": "頭",
+  "reading": "あたま",
+  "romaji": "atama",
+  "meaning": "head",
+  "category": "Health & Body"
+ },
+ {
+  "word": "首",
+  "reading": "くび",
+  "romaji": "kubi",
+  "meaning": "neck",
+  "category": "Health & Body"
+ },
+ {
+  "word": "頬",
+  "reading": "ほほ",
+  "romaji": "hoho",
+  "meaning": "cheek",
+  "category": "Health & Body"
+ },
+ {
+  "word": "顔",
+  "reading": "かお",
+  "romaji": "kao",
+  "meaning": "face",
+  "category": "Health & Body"
+ },
+ {
+  "word": "眉毛",
+  "reading": "まゆげ",
+  "romaji": "mayuge",
+  "meaning": "eyebrow",
+  "category": "Health & Body"
+ },
+ {
+  "word": "舌",
+  "reading": "した",
+  "romaji": "shita",
+  "meaning": "tongue",
+  "category": "Health & Body"
+ },
+ {
+  "word": "歯",
+  "reading": "は",
+  "romaji": "ha",
+  "meaning": "teeth",
+  "category": "Health & Body"
+ },
+ {
+  "word": "顎",
+  "reading": "あご",
+  "romaji": "ago",
+  "meaning": "chin",
+  "category": "Health & Body"
+ },
+ {
+  "word": "唇",
+  "reading": "くちびる",
+  "romaji": "kuchibiru",
+  "meaning": "lips",
+  "category": "Health & Body"
+ },
+ {
+  "word": "指",
+  "reading": "ゆび",
+  "romaji": "yubi",
+  "meaning": "fingers",
+  "category": "Health & Body"
+ },
+ {
+  "word": "足指",
+  "reading": "あしゆび",
+  "romaji": "ashiyubi",
+  "meaning": "toes",
+  "category": "Health & Body"
+ },
+ {
+  "word": "額",
+  "reading": "ひたい",
+  "romaji": "hitai",
+  "meaning": "forehead",
+  "category": "Health & Body"
+ },
+ {
+  "word": "肩",
+  "reading": "かた",
+  "romaji": "kata",
+  "meaning": "shoulder",
+  "category": "Health & Body"
+ },
+ {
+  "word": "筋肉",
+  "reading": "きんにく",
+  "romaji": "kinniku",
+  "meaning": "muscles",
+  "category": "Health & Body"
+ },
+ {
+  "word": "胸",
+  "reading": "むね",
+  "romaji": "mune",
+  "meaning": "chest",
+  "category": "Health & Body"
+ },
+ {
+  "word": "腹",
+  "reading": "はら",
+  "romaji": "hara",
+  "meaning": "abdomen",
+  "category": "Health & Body"
+ },
+ {
+  "word": "腕",
+  "reading": "うで",
+  "romaji": "ude",
+  "meaning": "arm",
+  "category": "Health & Body"
+ },
+ {
+  "word": "肘",
+  "reading": "ひじ",
+  "romaji": "hiji",
+  "meaning": "elbow",
+  "category": "Health & Body"
+ },
+ {
+  "word": "腿",
+  "reading": "もも",
+  "romaji": "momo",
+  "meaning": "thigh",
+  "category": "Health & Body"
+ },
+ {
+  "word": "膝",
+  "reading": "ひざ",
+  "romaji": "hiza",
+  "meaning": "knee",
+  "category": "Health & Body"
+ },
+ {
+  "word": "脚",
+  "reading": "あし",
+  "romaji": "ashi",
+  "meaning": "leg",
+  "category": "Health & Body"
+ },
+ {
+  "word": "足首",
+  "reading": "あしくび",
+  "romaji": "ashikubi",
+  "meaning": "ankle",
+  "category": "Health & Body"
+ },
+ {
+  "word": "臓器",
+  "reading": "ぞうき",
+  "romaji": "zōki",
+  "meaning": "organs",
+  "category": "Health & Body"
+ },
+ {
+  "word": "皮膚",
+  "reading": "ひふ",
+  "romaji": "hifu",
+  "meaning": "skin",
+  "category": "Health & Body"
+ },
+ {
+  "word": "血液",
+  "reading": "けつえき",
+  "romaji": "ketsueki",
+  "meaning": "blood",
+  "category": "Health & Body"
+ },
+ {
+  "word": "血管",
+  "reading": "けっかん",
+  "romaji": "kekkan",
+  "meaning": "blood vessels",
+  "category": "Health & Body"
+ },
+ {
+  "word": "骨",
+  "reading": "ほね",
+  "romaji": "hone",
+  "meaning": "bone",
+  "category": "Health & Body"
+ },
+ {
+  "word": "健康",
+  "reading": "けんこう",
+  "romaji": "kenkō",
+  "meaning": "health",
+  "category": "Health & Body"
+ },
+ {
+  "word": "胃",
+  "reading": "い",
+  "romaji": "i",
+  "meaning": "stomach",
+  "category": "Health & Body"
+ },
+ {
+  "word": "脳",
+  "reading": "のう",
+  "romaji": "nō",
+  "meaning": "brain",
+  "category": "Health & Body"
+ },
+ {
+  "word": "肺",
+  "reading": "はい",
+  "romaji": "hai",
+  "meaning": "lungs",
+  "category": "Health & Body"
+ },
+ {
+  "word": "心臓",
+  "reading": "しんぞう",
+  "romaji": "shinzō",
+  "meaning": "heart (organ)",
+  "category": "Health & Body"
+ },
+ {
+  "word": "腎臓",
+  "reading": "じんぞう",
+  "romaji": "jinzō",
+  "meaning": "kidneys",
+  "category": "Health & Body"
+ },
+ {
+  "word": "腸",
+  "reading": "ちょう",
+  "romaji": "chō",
+  "meaning": "intestines",
+  "category": "Health & Body"
+ },
+ {
+  "word": "肝臓",
+  "reading": "かんぞう",
+  "romaji": "kanzō",
+  "meaning": "liver",
+  "category": "Health & Body"
+ },
+ {
+  "word": "庭",
+  "reading": "にわ",
+  "romaji": "niwa",
+  "meaning": "garden",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "公園",
+  "reading": "こうえん",
+  "romaji": "kōen",
+  "meaning": "park",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "公害",
+  "reading": "こうがい",
+  "romaji": "kōgai",
+  "meaning": "pollution",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "草",
+  "reading": "くさ",
+  "romaji": "kusa",
+  "meaning": "grass",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "電気自動車",
+  "reading": "でんきじどうしゃ",
+  "romaji": "denki jidōsha",
+  "meaning": "electric car",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "海",
+  "reading": "うみ",
+  "romaji": "umi",
+  "meaning": "ocean",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "川",
+  "reading": "かわ",
+  "romaji": "kawa",
+  "meaning": "river",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "太陽エネルギー",
+  "reading": "たいようえねるぎー",
+  "romaji": "taiyō enerugii",
+  "meaning": "solar energy",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "静か",
+  "reading": "しずか",
+  "romaji": "shizuka",
+  "meaning": "quiet",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "空気",
+  "reading": "くうき",
+  "romaji": "kūki",
+  "meaning": "air",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "風力",
+  "reading": "ふうりょく",
+  "romaji": "fūryoku",
+  "meaning": "wind power",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "動物園",
+  "reading": "どうぶつえん",
+  "romaji": "dōbutsuen",
+  "meaning": "zoo",
+  "category": "Animals"
+ },
+ {
+  "word": "シマウマ",
+  "reading": "しまうま",
+  "romaji": "shimauma",
+  "meaning": "zebra",
+  "category": "Animals"
+ },
+ {
+  "word": "ゴリラ",
+  "reading": "ごりら",
+  "romaji": "gorira",
+  "meaning": "gorilla",
+  "category": "Animals"
+ },
+ {
+  "word": "恐竜",
+  "reading": "きょうりゅう",
+  "romaji": "kyōryū",
+  "meaning": "dinosaur",
+  "category": "Animals"
+ },
+ {
+  "word": "ヤギ",
+  "reading": "やぎ",
+  "romaji": "yagi",
+  "meaning": "goat",
+  "category": "Animals"
+ },
+ {
+  "word": "羊",
+  "reading": "ひつじ",
+  "romaji": "hitsuji",
+  "meaning": "sheep",
+  "category": "Animals"
+ },
+ {
+  "word": "オオカミ",
+  "reading": "おおかみ",
+  "romaji": "ōkami",
+  "meaning": "wolf",
+  "category": "Animals"
+ },
+ {
+  "word": "蛇",
+  "reading": "へび",
+  "romaji": "hebi",
+  "meaning": "snake",
+  "category": "Animals"
+ },
+ {
+  "word": "孔雀",
+  "reading": "くじゃく",
+  "romaji": "kujaku",
+  "meaning": "peacock",
+  "category": "Animals"
+ },
+ {
+  "word": "鶏",
+  "reading": "にわとり",
+  "romaji": "niwatori",
+  "meaning": "chicken",
+  "category": "Animals"
+ },
+ {
+  "word": "鳥",
+  "reading": "とり",
+  "romaji": "tori",
+  "meaning": "bird",
+  "category": "Animals"
+ },
+ {
+  "word": "竜",
+  "reading": "りゅう",
+  "romaji": "ryū",
+  "meaning": "dragon",
+  "category": "Animals"
+ },
+ {
+  "word": "蚊",
+  "reading": "か",
+  "romaji": "ka",
+  "meaning": "mosquito",
+  "category": "Animals"
+ },
+ {
+  "word": "ハエ",
+  "reading": "はえ",
+  "romaji": "hae",
+  "meaning": "housefly",
+  "category": "Animals"
+ },
+ {
+  "word": "蜂",
+  "reading": "はち",
+  "romaji": "hachi",
+  "meaning": "bee",
+  "category": "Animals"
+ },
+ {
+  "word": "蝶",
+  "reading": "ちょう",
+  "romaji": "chō",
+  "meaning": "butterfly",
+  "category": "Animals"
+ },
+ {
+  "word": "卓球",
+  "reading": "たっきゅう",
+  "romaji": "takkyū",
+  "meaning": "table tennis",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "ラグビー",
+  "reading": "らぐびー",
+  "romaji": "ragubii",
+  "meaning": "rugby",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "山登り",
+  "reading": "やまのぼり",
+  "romaji": "yamanobori",
+  "meaning": "mountain climbing",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "バドミントン",
+  "reading": "ばどみんとん",
+  "romaji": "badominton",
+  "meaning": "badminton",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "運動する",
+  "reading": "うんどうする",
+  "romaji": "undō suru",
+  "meaning": "to exercise",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "ランニング",
+  "reading": "らんにんぐ",
+  "romaji": "ranningu",
+  "meaning": "running",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "長距離走",
+  "reading": "ちょうきょりそう",
+  "romaji": "chōkyorisō",
+  "meaning": "long-distance running",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "短距離走",
+  "reading": "たんきょりそう",
+  "romaji": "tankyorisō",
+  "meaning": "sprint",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "自転車に乗る",
+  "reading": "じてんしゃにのる",
+  "romaji": "jitensha ni noru",
+  "meaning": "to cycle",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "競技会",
+  "reading": "きょうぎかい",
+  "romaji": "kyōgikai",
+  "meaning": "competition",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "ゴール",
+  "reading": "goーru",
+  "romaji": "gōru",
+  "meaning": "finish line, goal",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "ボート競技",
+  "reading": "ぼーときょうぎ",
+  "romaji": "bōto kyōgi",
+  "meaning": "rowing",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "水泳",
+  "reading": "すいえい",
+  "romaji": "suiei",
+  "meaning": "swimming",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "バレーボール",
+  "reading": "ばれーぼーる",
+  "romaji": "barēbōru",
+  "meaning": "volleyball",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "歩く",
+  "reading": "あるく",
+  "romaji": "aruku",
+  "meaning": "to walk",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "ゴルフ",
+  "reading": "ごるふ",
+  "romaji": "gorufu",
+  "meaning": "golf",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "アイススケート",
+  "reading": "あいすすけーと",
+  "romaji": "aisu sukēto",
+  "meaning": "ice-skating",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "スキー",
+  "reading": "すきー",
+  "romaji": "sukii",
+  "meaning": "skiing",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "スニーカー",
+  "reading": "すにーかー",
+  "romaji": "suniikā",
+  "meaning": "sneakers",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "テニス",
+  "reading": "てにす",
+  "romaji": "tenisu",
+  "meaning": "tennis",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "ラケット",
+  "reading": "らけっと",
+  "romaji": "raketto",
+  "meaning": "racket",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "バスケットボール",
+  "reading": "ばすけっとぼーる",
+  "romaji": "basukettobōru",
+  "meaning": "basketball",
+  "category": "Sports & Fitness"
+ },
+ {
+  "word": "ホテル",
+  "reading": "ほてる",
+  "romaji": "hoteru",
+  "meaning": "hotel",
+  "category": "Travel"
+ },
+ {
+  "word": "地図",
+  "reading": "ちず",
+  "romaji": "chizu",
+  "meaning": "map",
+  "category": "Travel"
+ },
+ {
+  "word": "旅行者",
+  "reading": "りょこうしゃ",
+  "romaji": "ryokōsha",
+  "meaning": "traveler",
+  "category": "Travel"
+ },
+ {
+  "word": "荷物",
+  "reading": "にもつ",
+  "romaji": "nimotsu",
+  "meaning": "luggage",
+  "category": "Travel"
+ },
+ {
+  "word": "スーツケース",
+  "reading": "すーつけーす",
+  "romaji": "sūtsukēsu",
+  "meaning": "suitcase",
+  "category": "Travel"
+ },
+ {
+  "word": "ガイド",
+  "reading": "がいど",
+  "romaji": "gaido",
+  "meaning": "tour guide",
+  "category": "Travel"
+ },
+ {
+  "word": "観光地",
+  "reading": "かんこうち",
+  "romaji": "kankōchi",
+  "meaning": "tourist attraction",
+  "category": "Travel"
+ },
+ {
+  "word": "パスポート",
+  "reading": "ぱすぽーと",
+  "romaji": "pasupōto",
+  "meaning": "passport",
+  "category": "Travel"
+ },
+ {
+  "word": "搭乗券",
+  "reading": "とうじょうけん",
+  "romaji": "tōjōken",
+  "meaning": "boarding pass",
+  "category": "Travel"
+ },
+ {
+  "word": "客船",
+  "reading": "きゃくせん",
+  "romaji": "kyakusen",
+  "meaning": "cruise ship",
+  "category": "Travel"
+ },
+ {
+  "word": "土産物店",
+  "reading": "みやげものてん",
+  "romaji": "miyagemonoten",
+  "meaning": "souvenir shop",
+  "category": "Travel"
+ },
+ {
+  "word": "カメラ",
+  "reading": "かめら",
+  "romaji": "kamera",
+  "meaning": "camera",
+  "category": "Travel"
+ },
+ {
+  "word": "写真",
+  "reading": "しゃしん",
+  "romaji": "shashin",
+  "meaning": "photograph",
+  "category": "Travel"
+ },
+ {
+  "word": "タイ",
+  "reading": "たい",
+  "romaji": "Tai",
+  "meaning": "Thailand",
+  "category": "Countries"
+ },
+ {
+  "word": "ミャンマー",
+  "reading": "みゃんまー",
+  "romaji": "Myanmā",
+  "meaning": "Myanmar",
+  "category": "Countries"
+ },
+ {
+  "word": "ベトナム",
+  "reading": "べとなむ",
+  "romaji": "Betonamu",
+  "meaning": "Vietnam",
+  "category": "Countries"
+ },
+ {
+  "word": "フィリピン",
+  "reading": "ふぃりぴん",
+  "romaji": "Firipin",
+  "meaning": "Philippines",
+  "category": "Countries"
+ },
+ {
+  "word": "ラオス",
+  "reading": "らおす",
+  "romaji": "Raosu",
+  "meaning": "Laos",
+  "category": "Countries"
+ },
+ {
+  "word": "カンボジア",
+  "reading": "かんぼじあ",
+  "romaji": "Kanbojia",
+  "meaning": "Cambodia",
+  "category": "Countries"
+ },
+ {
+  "word": "マレーシア",
+  "reading": "まれーしあ",
+  "romaji": "Marēshia",
+  "meaning": "Malaysia",
+  "category": "Countries"
+ },
+ {
+  "word": "ブルネイ",
+  "reading": "ぶるねい",
+  "romaji": "Burunei",
+  "meaning": "Brunei",
+  "category": "Countries"
+ },
+ {
+  "word": "シンガポール",
+  "reading": "しんがぽーる",
+  "romaji": "Shingapōru",
+  "meaning": "Singapore",
+  "category": "Countries"
+ },
+ {
+  "word": "インドネシア",
+  "reading": "いんどねしあ",
+  "romaji": "Indoneshia",
+  "meaning": "Indonesia",
+  "category": "Countries"
+ },
+ {
+  "word": "北アメリカ",
+  "reading": "きたあめりか",
+  "romaji": "Kita Amerika",
+  "meaning": "North America",
+  "category": "Countries"
+ },
+ {
+  "word": "南アメリカ",
+  "reading": "みなみあめりか",
+  "romaji": "Minami Amerika",
+  "meaning": "South America",
+  "category": "Countries"
+ },
+ {
+  "word": "ヨーロッパ",
+  "reading": "よーろっぱ",
+  "romaji": "Yōroppa",
+  "meaning": "Europe",
+  "category": "Countries"
+ },
+ {
+  "word": "アフリカ",
+  "reading": "あふりか",
+  "romaji": "Afurika",
+  "meaning": "Africa",
+  "category": "Countries"
+ },
+ {
+  "word": "アジア",
+  "reading": "あじあ",
+  "romaji": "Ajia",
+  "meaning": "Asia",
+  "category": "Countries"
+ },
+ {
+  "word": "オセアニア",
+  "reading": "おせあにあ",
+  "romaji": "Oseania",
+  "meaning": "Oceania",
+  "category": "Countries"
+ },
+ {
+  "word": "韓国",
+  "reading": "かんこく",
+  "romaji": "Kankoku",
+  "meaning": "Korea",
+  "category": "Countries"
+ },
+ {
+  "word": "中国",
+  "reading": "ちゅうごく",
+  "romaji": "Chūgoku",
+  "meaning": "China",
+  "category": "Countries"
+ },
+ {
+  "word": "インド",
+  "reading": "いんど",
+  "romaji": "Indo",
+  "meaning": "India",
+  "category": "Countries"
+ },
+ {
+  "word": "イタリア",
+  "reading": "いたりあ",
+  "romaji": "Itaria",
+  "meaning": "Italy",
+  "category": "Countries"
+ },
+ {
+  "word": "オーストラリア",
+  "reading": "おーすとらりあ",
+  "romaji": "Ōsutoraria",
+  "meaning": "Australia",
+  "category": "Countries"
+ },
+ {
+  "word": "カナダ",
+  "reading": "かなだ",
+  "romaji": "Kanada",
+  "meaning": "Canada",
+  "category": "Countries"
+ },
+ {
+  "word": "フランス",
+  "reading": "ふらんす",
+  "romaji": "Furansu",
+  "meaning": "France",
+  "category": "Countries"
+ },
+ {
+  "word": "ドイツ",
+  "reading": "どいつ",
+  "romaji": "Doitsu",
+  "meaning": "Germany",
+  "category": "Countries"
+ },
+ {
+  "word": "イギリス",
+  "reading": "いぎりす",
+  "romaji": "Igirisu",
+  "meaning": "Great Britain",
+  "category": "Countries"
+ },
+ {
+  "word": "オランダ",
+  "reading": "おらんだ",
+  "romaji": "Oranda",
+  "meaning": "Netherlands",
+  "category": "Countries"
+ },
+ {
+  "word": "ロシア",
+  "reading": "ろしあ",
+  "romaji": "Roshia",
+  "meaning": "Russia",
+  "category": "Countries"
+ },
+ {
+  "word": "スイス",
+  "reading": "すいす",
+  "romaji": "Suisu",
+  "meaning": "Switzerland",
+  "category": "Countries"
+ },
+ {
+  "word": "地球",
+  "reading": "ちきゅう",
+  "romaji": "chikyū",
+  "meaning": "globe",
+  "category": "Countries"
+ },
+ {
+  "word": "世界",
+  "reading": "せかい",
+  "romaji": "sekai",
+  "meaning": "world",
+  "category": "Countries"
+ },
+ {
+  "word": "英語",
+  "reading": "えいご",
+  "romaji": "Eigo",
+  "meaning": "English (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "フランス語",
+  "reading": "ふらんすご",
+  "romaji": "Furansugo",
+  "meaning": "French (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "ロシア語",
+  "reading": "ろしあご",
+  "romaji": "Roshiago",
+  "meaning": "Russian (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "ドイツ語",
+  "reading": "どいつご",
+  "romaji": "Doitsugo",
+  "meaning": "German (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "イタリア語",
+  "reading": "いたりあご",
+  "romaji": "Itariago",
+  "meaning": "Italian (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "スペイン語",
+  "reading": "すぺいんご",
+  "romaji": "Supeingo",
+  "meaning": "Spanish (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "トルコ語",
+  "reading": "とるこご",
+  "romaji": "Torukogo",
+  "meaning": "Turkish (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "アラビア語",
+  "reading": "あらびあご",
+  "romaji": "Arabiago",
+  "meaning": "Arabic (language)",
+  "category": "Languages"
+ },
+ {
+  "word": "ギター",
+  "reading": "ぎたー",
+  "romaji": "gitā",
+  "meaning": "guitar",
+  "category": "Music"
+ },
+ {
+  "word": "琴",
+  "reading": "こと",
+  "romaji": "koto",
+  "meaning": "koto (long zither)",
+  "category": "Music"
+ },
+ {
+  "word": "三味線",
+  "reading": "しゃみせん",
+  "romaji": "shamisen",
+  "meaning": "shamisen (three-string lute)",
+  "category": "Music"
+ },
+ {
+  "word": "バイオリン",
+  "reading": "ばいおりん",
+  "romaji": "baiorin",
+  "meaning": "violin",
+  "category": "Music"
+ },
+ {
+  "word": "尺八",
+  "reading": "しゃくはち",
+  "romaji": "shakuhachi",
+  "meaning": "shakuhachi (bamboo flute)",
+  "category": "Music"
+ },
+ {
+  "word": "踊る",
+  "reading": "おどる",
+  "romaji": "odoru",
+  "meaning": "to dance",
+  "category": "Music"
+ },
+ {
+  "word": "ドラム",
+  "reading": "どらむ",
+  "romaji": "doramu",
+  "meaning": "drums",
+  "category": "Music"
+ },
+ {
+  "word": "トランペット",
+  "reading": "とらんぺっと",
+  "romaji": "toranpetto",
+  "meaning": "trumpet",
+  "category": "Music"
+ },
+ {
+  "word": "ピアノ",
+  "reading": "ぴあの",
+  "romaji": "piano",
+  "meaning": "piano",
+  "category": "Music"
+ },
+ {
+  "word": "フルート",
+  "reading": "ふるーと",
+  "romaji": "furūto",
+  "meaning": "flute",
+  "category": "Music"
+ },
+ {
+  "word": "車",
+  "reading": "くるま",
+  "romaji": "kuruma",
+  "meaning": "car",
+  "category": "Transportation"
+ },
+ {
+  "word": "運転手",
+  "reading": "うんてんしゅ",
+  "romaji": "untenshu",
+  "meaning": "driver",
+  "category": "Transportation"
+ },
+ {
+  "word": "トラック",
+  "reading": "とらっく",
+  "romaji": "torakku",
+  "meaning": "truck",
+  "category": "Transportation"
+ },
+ {
+  "word": "ゴミ収集車",
+  "reading": "ごみしゅうしゅうしゃ",
+  "romaji": "gomi shūshūsha",
+  "meaning": "garbage truck",
+  "category": "Transportation"
+ },
+ {
+  "word": "配送トラック",
+  "reading": "はいそうとらっく",
+  "romaji": "haisō torakku",
+  "meaning": "delivery van",
+  "category": "Transportation"
+ },
+ {
+  "word": "新幹線",
+  "reading": "しんかんせん",
+  "romaji": "shinkansen",
+  "meaning": "bullet train",
+  "category": "Transportation"
+ },
+ {
+  "word": "オートバイ",
+  "reading": "おーとばい",
+  "romaji": "ōtobai",
+  "meaning": "motorcycle",
+  "category": "Transportation"
+ },
+ {
+  "word": "スポーツカー",
+  "reading": "すぽーつかー",
+  "romaji": "supōtsukā",
+  "meaning": "sports car",
+  "category": "Transportation"
+ },
+ {
+  "word": "飛行機で旅行する",
+  "reading": "ひこうきでりょこうする",
+  "romaji": "hikōki de ryokō suru",
+  "meaning": "to travel by airplane",
+  "category": "Transportation"
+ },
+ {
+  "word": "電車で旅行する",
+  "reading": "でんしゃでりょこうする",
+  "romaji": "densha de ryokō suru",
+  "meaning": "to travel by train",
+  "category": "Transportation"
+ },
+ {
+  "word": "どこ",
+  "reading": "どこ",
+  "romaji": "doko",
+  "meaning": "where",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "ここ",
+  "reading": "ここ",
+  "romaji": "koko",
+  "meaning": "here",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "そこ",
+  "reading": "そこ",
+  "romaji": "soko",
+  "meaning": "there",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "あそこ",
+  "reading": "あそこ",
+  "romaji": "asoko",
+  "meaning": "over there",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "北",
+  "reading": "きた",
+  "romaji": "kita",
+  "meaning": "north",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "南",
+  "reading": "みなみ",
+  "romaji": "minami",
+  "meaning": "south",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "東",
+  "reading": "ひがし",
+  "romaji": "higashi",
+  "meaning": "east",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "西",
+  "reading": "にし",
+  "romaji": "nishi",
+  "meaning": "west",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "北西",
+  "reading": "ほくせい",
+  "romaji": "hokusei",
+  "meaning": "northwest",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "北東",
+  "reading": "ほくとう",
+  "romaji": "hokutō",
+  "meaning": "northeast",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "南西",
+  "reading": "なんせい",
+  "romaji": "nansei",
+  "meaning": "southwest",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "南東",
+  "reading": "なんとう",
+  "romaji": "nantō",
+  "meaning": "southeast",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "道をたずねる",
+  "reading": "みちをたずねる",
+  "romaji": "michi o tazuneru",
+  "meaning": "to ask directions",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "道を教える",
+  "reading": "みちをおしえる",
+  "romaji": "michi o oshieru",
+  "meaning": "to give directions",
+  "category": "Directions & Position"
+ },
+ {
+  "word": "居間",
+  "reading": "いま",
+  "romaji": "ima",
+  "meaning": "living room",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "バルコニー",
+  "reading": "ばるこにー",
+  "romaji": "barukonii",
+  "meaning": "balcony",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "天井",
+  "reading": "てんじょう",
+  "romaji": "tenjō",
+  "meaning": "ceiling",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "鍵",
+  "reading": "かぎ",
+  "romaji": "kagi",
+  "meaning": "keys",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "絵画",
+  "reading": "かいが",
+  "romaji": "kaiga",
+  "meaning": "painting",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "椅子",
+  "reading": "いす",
+  "romaji": "isu",
+  "meaning": "chair",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "壁",
+  "reading": "かべ",
+  "romaji": "kabe",
+  "meaning": "wall",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "テレビ",
+  "reading": "てれび",
+  "romaji": "terebi",
+  "meaning": "television",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "絨毯",
+  "reading": "じゅうたん",
+  "romaji": "jūtan",
+  "meaning": "carpet",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "エアコン",
+  "reading": "えあこん",
+  "romaji": "eakon",
+  "meaning": "air conditioner",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "テーブル",
+  "reading": "てーぶる",
+  "romaji": "tēburu",
+  "meaning": "table",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "ソファ",
+  "reading": "そふぁ",
+  "romaji": "sofa",
+  "meaning": "sofa",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "床",
+  "reading": "ゆか",
+  "romaji": "yuka",
+  "meaning": "floor",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "カーテン",
+  "reading": "かーてん",
+  "romaji": "kāten",
+  "meaning": "curtain",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "窓",
+  "reading": "まど",
+  "romaji": "mado",
+  "meaning": "window",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "枕",
+  "reading": "まくら",
+  "romaji": "makura",
+  "meaning": "pillow",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "ベッド",
+  "reading": "べっど",
+  "romaji": "beddo",
+  "meaning": "bed",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "寝室",
+  "reading": "しんしつ",
+  "romaji": "shinshitsu",
+  "meaning": "bedroom",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "部屋",
+  "reading": "へや",
+  "romaji": "heya",
+  "meaning": "room",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "家",
+  "reading": "いえ",
+  "romaji": "ie",
+  "meaning": "home, house",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "アパート",
+  "reading": "あぱーと",
+  "romaji": "apāto",
+  "meaning": "apartment",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "屋根",
+  "reading": "やね",
+  "romaji": "yane",
+  "meaning": "roof",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "屋根裏",
+  "reading": "やねうら",
+  "romaji": "yaneura",
+  "meaning": "attic, loft",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "地下",
+  "reading": "ちか",
+  "romaji": "chika",
+  "meaning": "basement, cellar",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "車庫",
+  "reading": "しゃこ",
+  "romaji": "shako",
+  "meaning": "garage",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "玄関",
+  "reading": "げんかん",
+  "romaji": "genkan",
+  "meaning": "entrance",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "台所",
+  "reading": "だいどころ",
+  "romaji": "daidokoro",
+  "meaning": "kitchen",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "戸棚",
+  "reading": "とだな",
+  "romaji": "todana",
+  "meaning": "cabinet",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "冷蔵庫",
+  "reading": "れいぞうこ",
+  "romaji": "reizōko",
+  "meaning": "refrigerator",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "オーブン",
+  "reading": "おーぶん",
+  "romaji": "ōbun",
+  "meaning": "oven",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "電子レンジ",
+  "reading": "でんしれんじ",
+  "romaji": "denshi renji",
+  "meaning": "microwave oven",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "やかん",
+  "reading": "やかん",
+  "romaji": "yakan",
+  "meaning": "kettle",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "トースター",
+  "reading": "とーすたー",
+  "romaji": "tōsutā",
+  "meaning": "toaster",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "ストーブ",
+  "reading": "すとーぶ",
+  "romaji": "sutōbu",
+  "meaning": "stove",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "本棚",
+  "reading": "ほんだな",
+  "romaji": "hondana",
+  "meaning": "bookshelf",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "机",
+  "reading": "つくえ",
+  "romaji": "tsukue",
+  "meaning": "desk",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "浴室",
+  "reading": "よくしつ",
+  "romaji": "yokushitsu",
+  "meaning": "bathroom",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "トイレ",
+  "reading": "といれ",
+  "romaji": "toire",
+  "meaning": "toilet, washroom",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "シャワー",
+  "reading": "しゃわー",
+  "romaji": "shawā",
+  "meaning": "shower",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "お風呂",
+  "reading": "おふろ",
+  "romaji": "ofuro",
+  "meaning": "bathtub",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "鉢植え",
+  "reading": "はちうえ",
+  "romaji": "hachiue",
+  "meaning": "potted plant",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "入浴する",
+  "reading": "にゅうよくする",
+  "romaji": "nyūyoku suru",
+  "meaning": "to bathe",
+  "category": "House & Furniture"
+ },
+ {
+  "word": "息子",
+  "reading": "むすこ",
+  "romaji": "musuko",
+  "meaning": "son",
+  "category": "Family & People"
+ },
+ {
+  "word": "娘",
+  "reading": "むすめ",
+  "romaji": "musume",
+  "meaning": "daughter",
+  "category": "Family & People"
+ },
+ {
+  "word": "両親",
+  "reading": "りょうしん",
+  "romaji": "ryōshin",
+  "meaning": "parents",
+  "category": "Family & People"
+ },
+ {
+  "word": "妻",
+  "reading": "つま",
+  "romaji": "tsuma",
+  "meaning": "wife",
+  "category": "Family & People"
+ },
+ {
+  "word": "夫",
+  "reading": "おっと",
+  "romaji": "otto",
+  "meaning": "husband",
+  "category": "Family & People"
+ },
+ {
+  "word": "孫",
+  "reading": "まご",
+  "romaji": "mago",
+  "meaning": "grandson, granddaughter",
+  "category": "Family & People"
+ },
+ {
+  "word": "親戚",
+  "reading": "しんせき",
+  "romaji": "shinseki",
+  "meaning": "relatives",
+  "category": "Family & People"
+ },
+ {
+  "word": "隣人",
+  "reading": "りんじん",
+  "romaji": "rinjin",
+  "meaning": "neighbor",
+  "category": "Family & People"
+ },
+ {
+  "word": "家族",
+  "reading": "かぞく",
+  "romaji": "kazoku",
+  "meaning": "family",
+  "category": "Family & People"
+ },
+ {
+  "word": "お父さん",
+  "reading": "おとうさん",
+  "romaji": "otōsan",
+  "meaning": "father (polite, address form)",
+  "category": "Family & People"
+ },
+ {
+  "word": "お母さん",
+  "reading": "おかあさん",
+  "romaji": "okāsan",
+  "meaning": "mother (polite, address form)",
+  "category": "Family & People"
+ },
+ {
+  "word": "お姉さん",
+  "reading": "おねえさん",
+  "romaji": "onēsan",
+  "meaning": "older sister",
+  "category": "Family & People"
+ },
+ {
+  "word": "お兄さん",
+  "reading": "おにいさん",
+  "romaji": "oniisan",
+  "meaning": "older brother",
+  "category": "Family & People"
+ },
+ {
+  "word": "兄弟",
+  "reading": "きょうだい",
+  "romaji": "kyōdai",
+  "meaning": "brothers",
+  "category": "Family & People"
+ },
+ {
+  "word": "姉妹",
+  "reading": "しまい",
+  "romaji": "shimai",
+  "meaning": "sisters",
+  "category": "Family & People"
+ },
+ {
+  "word": "夫婦",
+  "reading": "ふうふ",
+  "romaji": "fūfu",
+  "meaning": "husband and wife",
+  "category": "Family & People"
+ },
+ {
+  "word": "いとこ",
+  "reading": "いとこ",
+  "romaji": "itoko",
+  "meaning": "cousins",
+  "category": "Family & People"
+ },
+ {
+  "word": "甥",
+  "reading": "おい",
+  "romaji": "oi",
+  "meaning": "nephew",
+  "category": "Family & People"
+ },
+ {
+  "word": "姪",
+  "reading": "めい",
+  "romaji": "mei",
+  "meaning": "niece",
+  "category": "Family & People"
+ },
+ {
+  "word": "曾おじいさん",
+  "reading": "ひいおじいさん",
+  "romaji": "hii ojiisan",
+  "meaning": "great grandfather",
+  "category": "Family & People"
+ },
+ {
+  "word": "曾おばあさん",
+  "reading": "ひいおばあさん",
+  "romaji": "hii obāsan",
+  "meaning": "great grandmother",
+  "category": "Family & People"
+ },
+ {
+  "word": "ホットドッグ",
+  "reading": "ほっとどっぐ",
+  "romaji": "hotto doggu",
+  "meaning": "hot dog",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "サンドイッチ",
+  "reading": "さんどいっち",
+  "romaji": "sandoitchi",
+  "meaning": "sandwich",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "パスタ",
+  "reading": "ぱすた",
+  "romaji": "pasuta",
+  "meaning": "pasta",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ドーナッツ",
+  "reading": "どーなっつ",
+  "romaji": "dōnattsu",
+  "meaning": "donuts",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "フランスパン",
+  "reading": "ふらんすぱん",
+  "romaji": "furansupan",
+  "meaning": "baguette",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "プリン",
+  "reading": "ぷりん",
+  "romaji": "purin",
+  "meaning": "pudding",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ラザニア",
+  "reading": "らざにあ",
+  "romaji": "razania",
+  "meaning": "lasagne",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "七面鳥",
+  "reading": "しちめんちょう",
+  "romaji": "shichimenchō",
+  "meaning": "turkey",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "アップルパイ",
+  "reading": "あっぷるぱい",
+  "romaji": "appuru pai",
+  "meaning": "apple pie",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ハム",
+  "reading": "はむ",
+  "romaji": "hamu",
+  "meaning": "ham",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "サラダ",
+  "reading": "さらだ",
+  "romaji": "sarada",
+  "meaning": "salad",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ステーキ",
+  "reading": "すてーき",
+  "romaji": "sutēki",
+  "meaning": "steak",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "マッシュポテト",
+  "reading": "まっしゅぽてと",
+  "romaji": "masshu poteto",
+  "meaning": "mashed potatoes",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ソーセージ",
+  "reading": "そーせーじ",
+  "romaji": "sōsēji",
+  "meaning": "sausage",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ミネラルウォーター",
+  "reading": "みねらるうぉーたー",
+  "romaji": "mineraru wōtā",
+  "meaning": "mineral water",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "フルーツジュース",
+  "reading": "ふるーつじゅーす",
+  "romaji": "furūtsu jūsu",
+  "meaning": "fruit juice",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "牛乳",
+  "reading": "ぎゅうにゅう",
+  "romaji": "gyūnyū",
+  "meaning": "milk",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "お茶",
+  "reading": "おちゃ",
+  "romaji": "ocha",
+  "meaning": "tea",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "アイスティー",
+  "reading": "あいすてぃー",
+  "romaji": "aisu tii",
+  "meaning": "iced tea",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "豆乳",
+  "reading": "とうにゅう",
+  "romaji": "tōnyū",
+  "meaning": "soy milk",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "コーラ",
+  "reading": "こーら",
+  "romaji": "kōra",
+  "meaning": "cola",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "水道水",
+  "reading": "すいどうすい",
+  "romaji": "suidōsui",
+  "meaning": "tap water",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "水",
+  "reading": "みず",
+  "romaji": "mizu",
+  "meaning": "water",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "喉が渇いている",
+  "reading": "のどがかわいている",
+  "romaji": "nodo ga kawaite iru",
+  "meaning": "thirsty",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "定食",
+  "reading": "ていしょく",
+  "romaji": "teishoku",
+  "meaning": "set menu",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "メニュー",
+  "reading": "めにゅー",
+  "romaji": "menyū",
+  "meaning": "menu",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ご飯",
+  "reading": "ごはん",
+  "romaji": "gohan",
+  "meaning": "cooked rice",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "チャーハン",
+  "reading": "ちゃーはん",
+  "romaji": "chāhan",
+  "meaning": "fried rice",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "箸",
+  "reading": "はし",
+  "romaji": "hashi",
+  "meaning": "chopsticks",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "茶碗",
+  "reading": "ちゃわん",
+  "romaji": "chawan",
+  "meaning": "rice bowl",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "白いご飯",
+  "reading": "しろいごはん",
+  "romaji": "shiroi gohan",
+  "meaning": "white rice",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "皿",
+  "reading": "さら",
+  "romaji": "sara",
+  "meaning": "plate",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "フォーク",
+  "reading": "ふぉーく",
+  "romaji": "fōku",
+  "meaning": "fork",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ナイフ",
+  "reading": "ないふ",
+  "romaji": "naifu",
+  "meaning": "knife",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "スプーン",
+  "reading": "すぷーん",
+  "romaji": "supūn",
+  "meaning": "spoon",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "豚肉",
+  "reading": "ぶたにく",
+  "romaji": "buta niku",
+  "meaning": "pork",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ラム",
+  "reading": "らむ",
+  "romaji": "ramu",
+  "meaning": "lamb, mutton",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "鴨肉",
+  "reading": "かもにく",
+  "romaji": "kamo niku",
+  "meaning": "duck",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "鶏肉",
+  "reading": "とりにく",
+  "romaji": "tori niku",
+  "meaning": "chicken (meat)",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "パセリ",
+  "reading": "ぱせり",
+  "romaji": "paseri",
+  "meaning": "parsley",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "魚介類",
+  "reading": "ぎょかいるい",
+  "romaji": "gyokairui",
+  "meaning": "seafood",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "タコ",
+  "reading": "たこ",
+  "romaji": "tako",
+  "meaning": "octopus",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "エビ",
+  "reading": "えび",
+  "romaji": "ebi",
+  "meaning": "shrimp, prawns",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "野菜",
+  "reading": "やさい",
+  "romaji": "yasai",
+  "meaning": "vegetables",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "チンゲン菜",
+  "reading": "ちんげんさい",
+  "romaji": "chingensai",
+  "meaning": "bok choy",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "小松菜",
+  "reading": "こまつな",
+  "romaji": "komatsuna",
+  "meaning": "Japanese mustard spinach",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ほうれん草",
+  "reading": "ほうれんそう",
+  "romaji": "hōrensō",
+  "meaning": "spinach",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "もやし",
+  "reading": "もやし",
+  "romaji": "moyashi",
+  "meaning": "bean sprouts",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "みかん",
+  "reading": "みかん",
+  "romaji": "mikan",
+  "meaning": "mandarin orange",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ココナッツ",
+  "reading": "ここなっつ",
+  "romaji": "kokonattsu",
+  "meaning": "coconut",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "パパイヤ",
+  "reading": "ぱぱいや",
+  "romaji": "papaiya",
+  "meaning": "papaya",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ライム",
+  "reading": "らいむ",
+  "romaji": "raimu",
+  "meaning": "lime",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ライチ",
+  "reading": "らいち",
+  "romaji": "raichi",
+  "meaning": "lychee",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "マスクメロン",
+  "reading": "ますくめろん",
+  "romaji": "masukumeron",
+  "meaning": "cantaloupe",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "柿",
+  "reading": "かき",
+  "romaji": "kaki",
+  "meaning": "persimmon",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ピーナッツ",
+  "reading": "ぴーなっつ",
+  "romaji": "piinattsu",
+  "meaning": "peanuts",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "くるみ",
+  "reading": "くるみ",
+  "romaji": "kurumi",
+  "meaning": "walnuts",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "アーモンド",
+  "reading": "あーもんど",
+  "romaji": "āmondo",
+  "meaning": "almonds",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ピスタチオ",
+  "reading": "ぴすたちお",
+  "romaji": "pisutachio",
+  "meaning": "pistachios",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "栗",
+  "reading": "くり",
+  "romaji": "kuri",
+  "meaning": "chestnuts",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "松の実",
+  "reading": "まつのみ",
+  "romaji": "matsu no mi",
+  "meaning": "pine nuts",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "カシューナッツ",
+  "reading": "かしゅーなっつ",
+  "romaji": "kashū nattsu",
+  "meaning": "cashew nuts",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ゴマ",
+  "reading": "ごま",
+  "romaji": "goma",
+  "meaning": "sesame seeds",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "大麦",
+  "reading": "おおむぎ",
+  "romaji": "ōmugi",
+  "meaning": "barley",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "そば",
+  "reading": "そば",
+  "romaji": "soba",
+  "meaning": "buckwheat",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "米",
+  "reading": "こめ",
+  "romaji": "kome",
+  "meaning": "rice (uncooked)",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "小麦",
+  "reading": "こむぎ",
+  "romaji": "komugi",
+  "meaning": "wheat",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "穀物",
+  "reading": "こくもつ",
+  "romaji": "kokumotsu",
+  "meaning": "grains, cereals",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "オートミール",
+  "reading": "おーとみーる",
+  "romaji": "ōtomiiru",
+  "meaning": "oatmeal",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "豆",
+  "reading": "まめ",
+  "romaji": "mame",
+  "meaning": "beans",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "とうもろこし",
+  "reading": "とうもろこし",
+  "romaji": "tōmorokoshi",
+  "meaning": "corn",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "小麦粉",
+  "reading": "こむぎこ",
+  "romaji": "komugiko",
+  "meaning": "flour",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "アレルギー",
+  "reading": "あれるぎー",
+  "romaji": "arerugii",
+  "meaning": "allergy",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "レインコート",
+  "reading": "れいんこーと",
+  "romaji": "reinkōto",
+  "meaning": "raincoat",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "長靴",
+  "reading": "ながぐつ",
+  "romaji": "nagagutsu",
+  "meaning": "boots",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "晴れた日",
+  "reading": "はれたひ",
+  "romaji": "hareta hi",
+  "meaning": "clear day",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "曇った日",
+  "reading": "くもったひ",
+  "romaji": "kumotta hi",
+  "meaning": "cloudy day",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "風が強い",
+  "reading": "かぜがつよい",
+  "romaji": "kaze ga tsuyoi",
+  "meaning": "windy",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "雨降り",
+  "reading": "あめふり",
+  "romaji": "amefuri",
+  "meaning": "raining",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "稲妻",
+  "reading": "いなずま",
+  "romaji": "inazuma",
+  "meaning": "lightning",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "嵐",
+  "reading": "あらし",
+  "romaji": "arashi",
+  "meaning": "thunderstorm",
+  "category": "Environment & Nature"
+ },
+ {
+  "word": "雪が降る",
+  "reading": "ゆきがふる",
+  "romaji": "yuki ga furu",
+  "meaning": "to snow",
+  "category": "Environment & Nature"
+ }
+]

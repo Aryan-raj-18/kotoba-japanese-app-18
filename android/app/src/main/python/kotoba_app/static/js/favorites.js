@@ -1,0 +1,6 @@
+document.addEventListener('DOMContentLoaded',()=>{
+ const input=document.getElementById('new-list-name'),btn=document.getElementById('create-list');
+ btn&&btn.addEventListener('click',async()=>{const name=input.value.trim();if(!name)return;const r=await fetch('/api/favorites/list',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name})});if(r.ok)location.reload();});
+ document.querySelectorAll('.favorite-copy').forEach(b=>b.addEventListener('click',async()=>{const card=b.closest('.favorite-card'),sel=card.querySelector('.favorite-copy-target'),target=sel&&sel.value;if(!target)return;const r=await fetch('/api/favorites/copy',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({source:card.dataset.sourceList,target,key:card.dataset.favoriteKey})});if(r.ok){KotobaLearn&&KotobaLearn.toast(`Copied to ${target}`);sel.value='';}}));
+ document.querySelectorAll('.favorite-remove').forEach(b=>b.addEventListener('click',async()=>{const card=b.closest('.favorite-card');const r=await fetch('/api/favorites/remove',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({list:card.dataset.sourceList,key:card.dataset.favoriteKey})});if(r.ok){card.remove();KotobaLearn&&KotobaLearn.toast('Removed from list');}}));
+});

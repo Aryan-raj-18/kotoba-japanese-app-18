@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}{{ r.glyph }} {{ r.meaning }} radical — Kotoba{% endblock %}
+
+{% block content %}
+<section class="detail-head">
+  <a class="back-link" href="{{ url_for('radicals_page') }}">← All radicals</a>
+  <div class="detail-top">
+    <div class="detail-char">{{ r.glyph }}</div>
+    <div class="detail-info">
+      <h1>{{ r.meaning|capitalize }}</h1>
+      <dl class="reading-list">
+        <div><dt>Radical name <span>(how Japanese people call it)</span></dt><dd>{{ r.name }} <span class="rad-romaji">· {{ r.romaji }}</span></dd></div>
+        <div><dt>Position</dt><dd>{{ r.position_label }} — {{ r.position_note }}</dd></div>
+        <div><dt>Stroke count</dt><dd>{{ r.strokes }}</dd></div>
+        {% if forms %}<div><dt>Related forms</dt><dd>{% for f in forms %}<a href="{{ url_for('radical_detail', rid=f.id) }}" class="rad-form-chip">{{ f.glyph }} {{ f.name }}</a> {% endfor %}</dd></div>{% endif %}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="rad-section">
+  <h2>How this radical formed</h2>
+  <p class="rad-origin">{{ r.origin }}</p>
+  <p class="rad-tip"><strong>How to use it:</strong> when you meet a new kanji containing {{ r.glyph }}, start by thinking “{{ r.meaning }}” — the character's meaning will be related.</p>
+</section>
+
+<section class="vocab-section">
+  <h2>Kanji with {{ r.glyph }} ({{ examples|length }})</h2>
+  {% for ex in examples %}
+  <div class="rad-ex">
+    <a class="rad-ex-char" {% if ex.id %}href="{{ url_for('kanji_detail', kanji_id=ex.id) }}"{% endif %}>{{ ex.kanji }}</a>
+    <div class="rad-ex-body">
+      <p class="rad-ex-meaning">{{ ex.meaning }}</p>
+      {% if ex.parts %}<p class="rad-ex-parts"><span>{{ ex.parts }}</span> — {{ ex.story }}</p>{% endif %}
+      <p class="rad-ex-read">
+        {% if ex.on %}<span><em>On</em> {{ ex.on }}</span>{% endif %}
+        {% if ex.kun %}<span><em>Kun</em> {{ ex.kun }}</span>{% endif %}
+      </p>
+    </div>
+  </div>
+  {% else %}
+  <p class="empty-note">No kanji from this app's lists use this radical yet.</p>
+  {% endfor %}
+</section>
+{% endblock %}

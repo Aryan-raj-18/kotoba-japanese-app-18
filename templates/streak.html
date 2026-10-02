@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">連続 — renzoku, streak</p>
+  <h1>Your Streak</h1>
+  <p class="hero-lede">
+    Every day you finish a Practice round or a Flashcards deck counts.
+    Miss a day and the streak starts over — so try to show up daily,
+    even for one quick round.
+  </p>
+</section>
+
+<section class="streak-stage">
+  <div class="streak-flame-big" id="streak-flame-big">🔥</div>
+  <div class="streak-current" id="streak-current-num">0</div>
+  <p class="streak-current-label">day streak</p>
+
+  <div class="streak-stats-row">
+    <div class="streak-stat">
+      <span class="streak-stat-num" id="streak-longest">0</span>
+      <span class="streak-stat-label">longest streak</span>
+    </div>
+    <div class="streak-stat">
+      <span class="streak-stat-num" id="streak-total">0</span>
+      <span class="streak-stat-label">total days active</span>
+    </div>
+  </div>
+
+  <h2 class="streak-cal-heading">Last 30 days</h2>
+  <div class="streak-calendar" id="streak-calendar"></div>
+
+  <p class="streak-empty-note" id="streak-empty-note" hidden>
+    No activity logged yet — finish a Practice round or a Flashcards
+    deck to start your streak today.
+  </p>
+
+
+  <h2 class="streak-cal-heading">Adaptive learning</h2>
+  <section class="learner-summary-grid dashboard-learner-grid">
+    <a class="learner-stat" href="{{ url_for('smart_review_page') }}"><span>Due now</span><strong>{{ learner.due }}</strong></a>
+    <a class="learner-stat" href="{{ url_for('mistakes_page') }}"><span>Mistakes to fix</span><strong>{{ learner.mistakes_open }}</strong></a>
+    <div class="learner-stat"><span>Accuracy</span><strong>{{ learner.accuracy }}%</strong></div>
+    <div class="learner-stat"><span>Level</span><strong>{{ learner.level }}</strong><small>{{ learner.xp }} XP</small></div>
+    <a class="learner-stat" href="{{ url_for('japan_explorer_page') }}"><span>Japan explored</span><strong>{{ learner.japan_visited }}/47</strong><small>passport stops</small></a>
+  </section>
+  <div class="xp-track" aria-label="XP progress"><span style="width: {{ (100 * learner.xp_into_level / learner.xp_per_level)|round }}%"></span></div>
+
+  <h2 class="streak-cal-heading">Memory stages</h2>
+  <div class="mastery-grid">
+    {% for stage in ['New','Learning','Weak','Familiar','Mastered'] %}<div class="mastery-stat mastery-{{ stage|lower }}"><strong>{{ learner.mastery[stage] }}</strong><span>{{ stage }}</span></div>{% endfor %}
+  </div>
+
+  <h2 class="streak-cal-heading">Daily missions</h2>
+  <div class="mission-grid dashboard-missions">{% for m in learner.missions %}<div class="mission-card {{ 'done' if m.done else '' }}"><span>{{ '✓' if m.done else '○' }}</span><div><strong>{{ m.title }}</strong><small>{{ m.current }} / {{ m.target }}</small><div class="mission-track"><i style="width: {{ (100*m.current/m.target)|round }}%"></i></div></div></div>{% endfor %}</div>
+
+  <h2 class="streak-cal-heading">Achievements</h2>
+  <div class="achievement-grid">{% for a in learner.achievements %}<article class="achievement-card {{ 'unlocked' if a.unlocked else 'locked' }}"><span class="achievement-icon">{{ a.icon }}</span><div><strong>{{ a.title }}</strong><p>{{ a.description }}</p></div></article>{% endfor %}</div>
+
+  {% if learner.mock_history %}<h2 class="streak-cal-heading">Recent JLPT mocks</h2><div class="mock-history">{% for m in learner.mock_history|reverse %}<div><span class="jlpt-badge jlpt-badge-{{ m.level }}">{{ m.level }}</span><strong>{{ m.percent }}%</strong><small>{{ m.score }}/{{ m.total }}</small></div>{% endfor %}</div>{% endif %}
+
+  <div class="dashboard-actions"><a class="btn-primary" href="{{ url_for('smart_review_page') }}">Start Daily Review</a><a class="btn-ghost" href="{{ url_for('japan_explorer_page') }}">Open Japan Explorer</a><a class="btn-ghost" href="{{ url_for('placement_page') }}">Retake placement test</a><a class="btn-ghost" href="{{ url_for('backup_page') }}">Backup progress</a></div>
+
+  <h2 class="streak-cal-heading">Your progress</h2>
+  <p class="progress-overall">
+    <strong>{{ progress.known }}</strong> / {{ progress.total }} cards known
+    across every deck ({{ progress.pct }}%)
+  </p>
+  <div class="progress-meter">
+    {% for d in progress.decks %}
+    <div class="progress-row">
+      <div class="progress-row-head">
+        <span class="progress-row-label">{{ d.label }}</span>
+        <span class="progress-row-count">{{ d.known }} / {{ d.total }}</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: {{ d.pct }}%"></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="progress-note">
+    Marked automatically whenever you tap "Knew it" on a
+    <a href="{{ url_for('flashcards') }}">flashcards</a> deck.
+  </p>
+
+  {% if current_user %}
+  <p class="streak-account-note">Signed in as <strong>{{ current_user.username }}</strong> — this streak is saved to your account.</p>
+  {% else %}
+  <p class="streak-account-note">
+    Not signed in — this streak is tied to this device only.
+    <a href="{{ url_for('signup') }}">Create an account</a> to save it to a username instead.
+  </p>
+  {% endif %}
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/streak.js') }}"></script>
+{% endblock %}

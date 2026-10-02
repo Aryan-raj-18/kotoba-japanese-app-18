@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}{{ level }} Exam Q&A Practice — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">試験練習 — {{ level }}</p>
+  <h1>{{ level }} Exam Q&amp;A Practice</h1>
+  <p class="hero-lede">Practice with {{ question_count }} questions taken from the {{ level }} exam-prep EPUB you provided. Choose an answer, check it immediately, then review your score at the end.</p>
+  <p class="practice-note">This is separate from the kanji-meaning quiz. The wording and answer choices stay grounded in the uploaded study material.</p>
+  <a href="{{ url_for('jlpt_level', level=level) }}" class="back-link">← {{ level }} study page</a>
+</section>
+
+<section class="practice-stage exam-practice-stage" id="exam-stage" data-level="{{ level }}">
+  <div class="stage-panel exam-stage-panel" id="exam-panel-intro">
+    <div class="level-picker">
+      <h3>Question type</h3>
+      <div class="level-options exam-category-options" id="exam-category-options">
+        <button type="button" class="level-btn active" data-category="all">All</button>
+        {% for category in categories %}
+        <button type="button" class="level-btn" data-category="{{ category }}">{{ category }}</button>
+        {% endfor %}
+      </div>
+      <h3>Practice length</h3>
+      <div class="count-options" id="exam-count-options">
+        <button type="button" class="count-btn" data-count="5">5 questions</button>
+        <button type="button" class="count-btn active" data-count="10">10 questions</button>
+        <button type="button" class="count-btn" data-count="20">20 questions</button>
+        <button type="button" class="count-btn" data-count="30">30 questions</button>
+      </div>
+    </div>
+    <p id="exam-intro-status">Answers are shown after each question, with a source-backed sentence and furigana for kanji where available.</p>
+    <button type="button" class="btn-primary" id="exam-start-btn">Start practice</button>
+  </div>
+
+  <div class="stage-panel exam-stage-panel" id="exam-panel-quiz" hidden>
+    <div class="exam-progress-row">
+      <p class="stage-label">Question <span id="exam-progress"></span></p>
+      <span class="exam-category-chip" id="exam-category-chip"></span>
+    </div>
+    <div class="quiz-card exam-quiz-card">
+      <div class="exam-passage" id="exam-passage" hidden></div>
+      <p class="exam-question" id="exam-question"></p><button type="button" class="line-speak" id="exam-listen">🔊 Listen</button>
+      <div class="mcq-options exam-options" id="exam-options"></div>
+      <div class="exam-feedback" id="exam-feedback" hidden>
+        <p class="exam-feedback-title" id="exam-feedback-title"></p>
+        <p class="exam-feedback-answer" id="exam-feedback-answer"></p><button type="button" class="line-speak" id="exam-feedback-listen">🔊 Hear correct sentence</button>
+        <div class="exam-feedback-note exam-furigana" id="exam-feedback-note" hidden>
+          <p class="exam-feedback-label">Sentence &amp; reading</p>
+          <div id="exam-feedback-explanation"></div>
+        </div>
+        <button type="button" class="btn-primary" id="exam-next-btn">Next question</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="stage-panel exam-stage-panel" id="exam-panel-results" hidden>
+    <p class="stage-label">Practice complete</p>
+    <p class="done-score" id="exam-score"></p>
+    <p class="practice-note" id="exam-score-note"></p>
+    <div class="exam-review" id="exam-review"></div>
+    <button type="button" class="btn-primary" id="exam-restart-btn">Practice again</button>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/jlpt_exam_practice.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Placement Test — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head"><p class="hero-eyebrow">実力診断 — placement</p><h1>Find your starting point</h1><p class="hero-lede">A short adaptive-style check across kana, vocabulary, kanji, and grammar. It does not lock content; it only changes what Kotoba recommends first.</p></section>
+<section class="practice-stage" id="placement-stage">
+<div class="stage-panel" id="placement-intro"><h2>About 5 minutes</h2><p>Answer without looking things up. You can retake this whenever you want.</p><button class="btn-primary" id="placement-start" type="button">Start placement test</button></div>
+<div class="stage-panel" id="placement-quiz" hidden><div class="review-topline"><span id="placement-progress"></span><span class="exam-category-chip" id="placement-type"></span></div><div class="quiz-card"><p class="exam-question" id="placement-prompt"></p><p class="fc-select-sub" id="placement-sub"></p><div class="mcq-options" id="placement-options"></div></div></div>
+<div class="stage-panel" id="placement-done" hidden><div class="rm-complete-burst">道</div><h2>Your recommended start</h2><p class="placement-score" id="placement-score"></p><h3 id="placement-recommendation"></h3><p id="placement-note"></p><a class="btn-primary" id="placement-go" href="{{ url_for('roadmap_page') }}">Start here</a></div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/placement.js') }}"></script>{% endblock %}

@@ -1,0 +1,4131 @@
+{
+  "version": 1,
+  "places": [
+    {
+      "id": "hokkaido",
+      "code": 1,
+      "prefecture_jp": "北海道",
+      "prefecture_en": "Hokkaido",
+      "city_jp": "札幌",
+      "city_en": "Sapporo",
+      "reading": "さっぽろ",
+      "region": "Hokkaido",
+      "lat": 43.0642,
+      "lon": 141.3469,
+      "tagline": "Snow, seafood, wide landscapes",
+      "description": "Japan’s northernmost prefecture is known for cool summers, snowy winters, broad natural scenery, and abundant seafood.",
+      "famous": [
+        "Odori Park",
+        "Sapporo Snow Festival",
+        "Otaru & wide northern landscapes"
+      ],
+      "foods": [
+        "味噌ラーメン",
+        "海鮮丼"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "雪まつり",
+            "reading": "ゆきまつり",
+            "en": "snow festival"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "海鮮",
+            "reading": "かいせん",
+            "en": "seafood"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "大自然",
+            "reading": "だいしぜん",
+            "en": "vast nature"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "札幌へ行きたいです。",
+          "reading": "さっぽろへ いきたいです。",
+          "en": "I want to go to Sapporo."
+        },
+        "intermediate": {
+          "jp": "札幌では、海鮮が有名です。",
+          "reading": "さっぽろでは、かいせんが ゆうめいです。",
+          "en": "Seafood is well known in Sapporo."
+        },
+        "advanced": {
+          "jp": "大自然について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "だいしぜんについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about vast nature reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "snow",
+          "title": "Odori Park",
+          "caption": "A visual memory card for Hokkaido."
+        },
+        {
+          "kind": "food",
+          "title": "味噌ラーメン",
+          "caption": "A local taste associated with Hokkaido."
+        },
+        {
+          "kind": "nature",
+          "title": "Otaru & wide northern landscapes",
+          "caption": "Culture and scenery to remember in Hokkaido."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "aomori",
+      "code": 2,
+      "prefecture_jp": "青森県",
+      "prefecture_en": "Aomori",
+      "city_jp": "青森",
+      "city_en": "Aomori",
+      "reading": "あおもり",
+      "region": "Tohoku",
+      "lat": 40.8244,
+      "lon": 140.74,
+      "tagline": "Apples and giant illuminated floats",
+      "description": "Aomori sits at the northern end of Honshu and is especially associated with apples, dramatic summer festivals, and the culture of the Tsugaru area.",
+      "famous": [
+        "Nebuta Festival",
+        "Apple orchards",
+        "Tsugaru culture"
+      ],
+      "foods": [
+        "りんご",
+        "せんべい汁"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "りんご",
+            "reading": "りんご",
+            "en": "apple"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "ねぶた",
+            "reading": "ねぶた",
+            "en": "Nebuta festival float"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "津軽",
+            "reading": "つがる",
+            "en": "Tsugaru region/culture"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "青森へ行きたいです。",
+          "reading": "あおもりへ いきたいです。",
+          "en": "I want to go to Aomori."
+        },
+        "intermediate": {
+          "jp": "青森では、ねぶたが有名です。",
+          "reading": "あおもりでは、ねぶたが ゆうめいです。",
+          "en": "Nebuta festival float is well known in Aomori."
+        },
+        "advanced": {
+          "jp": "津軽について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "つがるについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Tsugaru region/culture reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "festival",
+          "title": "Nebuta Festival",
+          "caption": "A visual memory card for Aomori."
+        },
+        {
+          "kind": "food",
+          "title": "りんご",
+          "caption": "A local taste associated with Aomori."
+        },
+        {
+          "kind": "culture",
+          "title": "Tsugaru culture",
+          "caption": "Culture and scenery to remember in Aomori."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "iwate",
+      "code": 3,
+      "prefecture_jp": "岩手県",
+      "prefecture_en": "Iwate",
+      "city_jp": "盛岡",
+      "city_en": "Morioka",
+      "reading": "もりおか",
+      "region": "Tohoku",
+      "lat": 39.7036,
+      "lon": 141.1527,
+      "tagline": "Noodles, craftwork, and historic Hiraizumi",
+      "description": "Iwate is one of Japan’s largest prefectures by area, with rugged coastlines, mountain scenery, traditional ironware, and important historic sites.",
+      "famous": [
+        "Morioka food culture",
+        "Hiraizumi",
+        "Sanriku coast"
+      ],
+      "foods": [
+        "わんこそば",
+        "冷麺"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "わんこそば",
+            "reading": "わんこそば",
+            "en": "small-bowl soba"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "平泉",
+            "reading": "ひらいずみ",
+            "en": "Hiraizumi historic area"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "南部鉄器",
+            "reading": "なんぶてっき",
+            "en": "Nambu ironware"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "盛岡へ行きたいです。",
+          "reading": "もりおかへ いきたいです。",
+          "en": "I want to go to Morioka."
+        },
+        "intermediate": {
+          "jp": "盛岡では、平泉が有名です。",
+          "reading": "もりおかでは、ひらいずみが ゆうめいです。",
+          "en": "Hiraizumi historic area is well known in Morioka."
+        },
+        "advanced": {
+          "jp": "南部鉄器について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "なんぶてっきについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Nambu ironware reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "food",
+          "title": "Morioka food culture",
+          "caption": "A visual memory card for Iwate."
+        },
+        {
+          "kind": "history",
+          "title": "わんこそば",
+          "caption": "A local taste associated with Iwate."
+        },
+        {
+          "kind": "craft",
+          "title": "Sanriku coast",
+          "caption": "Culture and scenery to remember in Iwate."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "miyagi",
+      "code": 4,
+      "prefecture_jp": "宮城県",
+      "prefecture_en": "Miyagi",
+      "city_jp": "仙台",
+      "city_en": "Sendai",
+      "reading": "せんだい",
+      "region": "Tohoku",
+      "lat": 38.2688,
+      "lon": 140.8721,
+      "tagline": "Tanabata, gyutan, and the City of Trees",
+      "description": "Miyagi’s capital Sendai is the largest city in Tohoku. The prefecture combines urban life, a scenic Pacific coast, and strong Date-clan history.",
+      "famous": [
+        "Sendai Tanabata",
+        "Matsushima Bay",
+        "Zuihoden & Date history"
+      ],
+      "foods": [
+        "牛たん",
+        "ずんだ"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "牛たん",
+            "reading": "ぎゅうたん",
+            "en": "grilled beef tongue"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "七夕",
+            "reading": "たなばた",
+            "en": "Tanabata festival"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "伊達文化",
+            "reading": "だてぶんか",
+            "en": "Date-clan culture"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "仙台へ行きたいです。",
+          "reading": "せんだいへ いきたいです。",
+          "en": "I want to go to Sendai."
+        },
+        "intermediate": {
+          "jp": "仙台では、七夕が有名です。",
+          "reading": "せんだいでは、たなばたが ゆうめいです。",
+          "en": "Tanabata festival is well known in Sendai."
+        },
+        "advanced": {
+          "jp": "伊達文化について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "だてぶんかについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Date-clan culture reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "festival",
+          "title": "Sendai Tanabata",
+          "caption": "A visual memory card for Miyagi."
+        },
+        {
+          "kind": "coast",
+          "title": "牛たん",
+          "caption": "A local taste associated with Miyagi."
+        },
+        {
+          "kind": "history",
+          "title": "Zuihoden & Date history",
+          "caption": "Culture and scenery to remember in Miyagi."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "akita",
+      "code": 5,
+      "prefecture_jp": "秋田県",
+      "prefecture_en": "Akita",
+      "city_jp": "秋田",
+      "city_en": "Akita",
+      "reading": "あきた",
+      "region": "Tohoku",
+      "lat": 39.7186,
+      "lon": 140.1024,
+      "tagline": "Rice country, lantern festivals, and Akita dogs",
+      "description": "Akita faces the Sea of Japan and is known for snowy winters, rice, hot springs, festivals, and distinctive regional traditions.",
+      "famous": [
+        "Kanto Festival",
+        "Nyuto hot springs",
+        "Akita dog culture"
+      ],
+      "foods": [
+        "きりたんぽ",
+        "稲庭うどん"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "きりたんぽ",
+            "reading": "きりたんぽ",
+            "en": "pounded-rice hot-pot food"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "竿燈",
+            "reading": "かんとう",
+            "en": "Kanto lantern festival"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "秋田犬",
+            "reading": "あきたいぬ",
+            "en": "Akita dog"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "秋田へ行きたいです。",
+          "reading": "あきたへ いきたいです。",
+          "en": "I want to go to Akita."
+        },
+        "intermediate": {
+          "jp": "秋田では、竿燈が有名です。",
+          "reading": "あきたでは、かんとうが ゆうめいです。",
+          "en": "Kanto lantern festival is well known in Akita."
+        },
+        "advanced": {
+          "jp": "秋田犬について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "あきたいぬについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Akita dog reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "festival",
+          "title": "Kanto Festival",
+          "caption": "A visual memory card for Akita."
+        },
+        {
+          "kind": "onsen",
+          "title": "きりたんぽ",
+          "caption": "A local taste associated with Akita."
+        },
+        {
+          "kind": "culture",
+          "title": "Akita dog culture",
+          "caption": "Culture and scenery to remember in Akita."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "yamagata",
+      "code": 6,
+      "prefecture_jp": "山形県",
+      "prefecture_en": "Yamagata",
+      "city_jp": "山形",
+      "city_en": "Yamagata",
+      "reading": "やまがた",
+      "region": "Tohoku",
+      "lat": 38.2404,
+      "lon": 140.3633,
+      "tagline": "Cherries, mountain temples, and hot springs",
+      "description": "Yamagata is a mountainous prefecture known for fruit, hot springs, winter snow, and temples set into dramatic scenery.",
+      "famous": [
+        "Yamadera",
+        "Zao hot springs",
+        "Hanagasa Festival"
+      ],
+      "foods": [
+        "さくらんぼ",
+        "芋煮"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "さくらんぼ",
+            "reading": "さくらんぼ",
+            "en": "cherry"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "山寺",
+            "reading": "やまでら",
+            "en": "Yamadera mountain temple"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "花笠",
+            "reading": "はながさ",
+            "en": "Hanagasa dance/festival"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "山形へ行きたいです。",
+          "reading": "やまがたへ いきたいです。",
+          "en": "I want to go to Yamagata."
+        },
+        "intermediate": {
+          "jp": "山形では、山寺が有名です。",
+          "reading": "やまがたでは、やまでらが ゆうめいです。",
+          "en": "Yamadera mountain temple is well known in Yamagata."
+        },
+        "advanced": {
+          "jp": "花笠について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "はながさについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Hanagasa dance/festival reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "mountain",
+          "title": "Yamadera",
+          "caption": "A visual memory card for Yamagata."
+        },
+        {
+          "kind": "festival",
+          "title": "さくらんぼ",
+          "caption": "A local taste associated with Yamagata."
+        },
+        {
+          "kind": "food",
+          "title": "Hanagasa Festival",
+          "caption": "Culture and scenery to remember in Yamagata."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukushima",
+      "code": 7,
+      "prefecture_jp": "福島県",
+      "prefecture_en": "Fukushima",
+      "city_jp": "福島",
+      "city_en": "Fukushima",
+      "reading": "ふくしま",
+      "region": "Tohoku",
+      "lat": 37.75,
+      "lon": 140.4678,
+      "tagline": "Peaches, samurai history, and varied landscapes",
+      "description": "Fukushima stretches from mountains to the Pacific and includes the historic Aizu area, fruit-growing regions, lakes, and hot-spring towns.",
+      "famous": [
+        "Aizu-Wakamatsu",
+        "Bandai & Inawashiro",
+        "Fruit country"
+      ],
+      "foods": [
+        "桃",
+        "喜多方ラーメン"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "桃",
+            "reading": "もも",
+            "en": "peach"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "会津",
+            "reading": "あいづ",
+            "en": "Aizu region"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "赤べこ",
+            "reading": "あかべこ",
+            "en": "red cow folk toy"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "福島へ行きたいです。",
+          "reading": "ふくしまへ いきたいです。",
+          "en": "I want to go to Fukushima."
+        },
+        "intermediate": {
+          "jp": "福島では、会津が有名です。",
+          "reading": "ふくしまでは、あいづが ゆうめいです。",
+          "en": "Aizu region is well known in Fukushima."
+        },
+        "advanced": {
+          "jp": "赤べこについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "あかべこについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about red cow folk toy reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "history",
+          "title": "Aizu-Wakamatsu",
+          "caption": "A visual memory card for Fukushima."
+        },
+        {
+          "kind": "nature",
+          "title": "桃",
+          "caption": "A local taste associated with Fukushima."
+        },
+        {
+          "kind": "craft",
+          "title": "Fruit country",
+          "caption": "Culture and scenery to remember in Fukushima."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ibaraki",
+      "code": 8,
+      "prefecture_jp": "茨城県",
+      "prefecture_en": "Ibaraki",
+      "city_jp": "水戸",
+      "city_en": "Mito",
+      "reading": "みと",
+      "region": "Kanto",
+      "lat": 36.3418,
+      "lon": 140.4467,
+      "tagline": "Gardens, natto, and science",
+      "description": "Ibaraki is north-east of Tokyo and mixes agriculture, coastal scenery, major research centers, and one of Japan’s celebrated landscape gardens.",
+      "famous": [
+        "Kairakuen",
+        "Tsukuba science city",
+        "Pacific coast"
+      ],
+      "foods": [
+        "納豆",
+        "あんこう鍋"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "納豆",
+            "reading": "なっとう",
+            "en": "fermented soybeans"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "偕楽園",
+            "reading": "かいらくえん",
+            "en": "Kairakuen garden"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "梅",
+            "reading": "うめ",
+            "en": "plum blossom"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "水戸へ行きたいです。",
+          "reading": "みとへ いきたいです。",
+          "en": "I want to go to Mito."
+        },
+        "intermediate": {
+          "jp": "水戸では、偕楽園が有名です。",
+          "reading": "みとでは、かいらくえんが ゆうめいです。",
+          "en": "Kairakuen garden is well known in Mito."
+        },
+        "advanced": {
+          "jp": "梅について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "うめについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about plum blossom reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "garden",
+          "title": "Kairakuen",
+          "caption": "A visual memory card for Ibaraki."
+        },
+        {
+          "kind": "science",
+          "title": "納豆",
+          "caption": "A local taste associated with Ibaraki."
+        },
+        {
+          "kind": "food",
+          "title": "Pacific coast",
+          "caption": "Culture and scenery to remember in Ibaraki."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "tochigi",
+      "code": 9,
+      "prefecture_jp": "栃木県",
+      "prefecture_en": "Tochigi",
+      "city_jp": "宇都宮",
+      "city_en": "Utsunomiya",
+      "reading": "うつのみや",
+      "region": "Kanto",
+      "lat": 36.5657,
+      "lon": 139.8836,
+      "tagline": "Gyoza, shrines, and mountain scenery",
+      "description": "Tochigi is easily reached from Tokyo and is known for Utsunomiya gyoza and the richly decorated shrines and temples of Nikko.",
+      "famous": [
+        "Nikko",
+        "Utsunomiya gyoza",
+        "Nasu highlands"
+      ],
+      "foods": [
+        "餃子",
+        "いちご"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "餃子",
+            "reading": "ぎょうざ",
+            "en": "dumplings"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "日光",
+            "reading": "にっこう",
+            "en": "Nikko"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "いちご",
+            "reading": "いちご",
+            "en": "strawberry"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "宇都宮へ行きたいです。",
+          "reading": "うつのみやへ いきたいです。",
+          "en": "I want to go to Utsunomiya."
+        },
+        "intermediate": {
+          "jp": "宇都宮では、日光が有名です。",
+          "reading": "うつのみやでは、にっこうが ゆうめいです。",
+          "en": "Nikko is well known in Utsunomiya."
+        },
+        "advanced": {
+          "jp": "いちごについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "いちごについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about strawberry reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "shrine",
+          "title": "Nikko",
+          "caption": "A visual memory card for Tochigi."
+        },
+        {
+          "kind": "food",
+          "title": "餃子",
+          "caption": "A local taste associated with Tochigi."
+        },
+        {
+          "kind": "nature",
+          "title": "Nasu highlands",
+          "caption": "Culture and scenery to remember in Tochigi."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "gunma",
+      "code": 10,
+      "prefecture_jp": "群馬県",
+      "prefecture_en": "Gunma",
+      "city_jp": "前橋",
+      "city_en": "Maebashi",
+      "reading": "まえばし",
+      "region": "Kanto",
+      "lat": 36.3911,
+      "lon": 139.0608,
+      "tagline": "Hot springs, mountains, and daruma",
+      "description": "Landlocked Gunma is known for mountain scenery and famous hot-spring resorts such as Kusatsu, as well as traditional daruma dolls.",
+      "famous": [
+        "Kusatsu Onsen",
+        "Mountains & hiking",
+        "Takasaki daruma"
+      ],
+      "foods": [
+        "こんにゃく",
+        "焼きまんじゅう"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "こんにゃく",
+            "reading": "こんにゃく",
+            "en": "konjac"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "草津温泉",
+            "reading": "くさつおんせん",
+            "en": "Kusatsu hot spring"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "だるま",
+            "reading": "だるま",
+            "en": "daruma doll"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "前橋へ行きたいです。",
+          "reading": "まえばしへ いきたいです。",
+          "en": "I want to go to Maebashi."
+        },
+        "intermediate": {
+          "jp": "前橋では、草津温泉が有名です。",
+          "reading": "まえばしでは、くさつおんせんが ゆうめいです。",
+          "en": "Kusatsu hot spring is well known in Maebashi."
+        },
+        "advanced": {
+          "jp": "だるまについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "だるまについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about daruma doll reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "onsen",
+          "title": "Kusatsu Onsen",
+          "caption": "A visual memory card for Gunma."
+        },
+        {
+          "kind": "mountain",
+          "title": "こんにゃく",
+          "caption": "A local taste associated with Gunma."
+        },
+        {
+          "kind": "craft",
+          "title": "Takasaki daruma",
+          "caption": "Culture and scenery to remember in Gunma."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "saitama",
+      "code": 11,
+      "prefecture_jp": "埼玉県",
+      "prefecture_en": "Saitama",
+      "city_jp": "さいたま",
+      "city_en": "Saitama",
+      "reading": "さいたま",
+      "region": "Kanto",
+      "lat": 35.8569,
+      "lon": 139.6489,
+      "tagline": "Railways, bonsai, and old-town streets",
+      "description": "Saitama lies directly north of Tokyo. It is known for railway history, bonsai culture, and preserved streets in Kawagoe.",
+      "famous": [
+        "Omiya Bonsai Village",
+        "Railway Museum",
+        "Kawagoe"
+      ],
+      "foods": [
+        "草加せんべい",
+        "うどん"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "盆栽",
+            "reading": "ぼんさい",
+            "en": "bonsai"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "鉄道博物館",
+            "reading": "てつどうはくぶつかん",
+            "en": "Railway Museum"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "川越",
+            "reading": "かわごえ",
+            "en": "Kawagoe historic town"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "さいたまへ行きたいです。",
+          "reading": "さいたまへ いきたいです。",
+          "en": "I want to go to Saitama."
+        },
+        "intermediate": {
+          "jp": "さいたまでは、鉄道博物館が有名です。",
+          "reading": "さいたまでは、てつどうはくぶつかんが ゆうめいです。",
+          "en": "Railway Museum is well known in Saitama."
+        },
+        "advanced": {
+          "jp": "川越について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "かわごえについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Kawagoe historic town reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "railway",
+          "title": "Omiya Bonsai Village",
+          "caption": "A visual memory card for Saitama."
+        },
+        {
+          "kind": "craft",
+          "title": "草加せんべい",
+          "caption": "A local taste associated with Saitama."
+        },
+        {
+          "kind": "history",
+          "title": "Kawagoe",
+          "caption": "Culture and scenery to remember in Saitama."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "chiba",
+      "code": 12,
+      "prefecture_jp": "千葉県",
+      "prefecture_en": "Chiba",
+      "city_jp": "千葉",
+      "city_en": "Chiba",
+      "reading": "ちば",
+      "region": "Kanto",
+      "lat": 35.6073,
+      "lon": 140.1063,
+      "tagline": "Coastlines, Narita, and family attractions",
+      "description": "Chiba forms the Boso Peninsula east of Tokyo. It includes long coastlines, Narita’s temple district, farms, and large leisure destinations.",
+      "famous": [
+        "Naritasan",
+        "Boso coast",
+        "Urayasu attractions"
+      ],
+      "foods": [
+        "落花生",
+        "なめろう"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "落花生",
+            "reading": "らっかせい",
+            "en": "peanut"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "成田山",
+            "reading": "なりたさん",
+            "en": "Naritasan temple"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "房総",
+            "reading": "ぼうそう",
+            "en": "Boso Peninsula"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "千葉へ行きたいです。",
+          "reading": "ちばへ いきたいです。",
+          "en": "I want to go to Chiba."
+        },
+        "intermediate": {
+          "jp": "千葉では、成田山が有名です。",
+          "reading": "ちばでは、なりたさんが ゆうめいです。",
+          "en": "Naritasan temple is well known in Chiba."
+        },
+        "advanced": {
+          "jp": "房総について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "ぼうそうについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Boso Peninsula reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "coast",
+          "title": "Naritasan",
+          "caption": "A visual memory card for Chiba."
+        },
+        {
+          "kind": "temple",
+          "title": "落花生",
+          "caption": "A local taste associated with Chiba."
+        },
+        {
+          "kind": "food",
+          "title": "Urayasu attractions",
+          "caption": "Culture and scenery to remember in Chiba."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "tokyo",
+      "code": 13,
+      "prefecture_jp": "東京都",
+      "prefecture_en": "Tokyo",
+      "city_jp": "東京",
+      "city_en": "Tokyo",
+      "reading": "とうきょう",
+      "region": "Kanto",
+      "lat": 35.6895,
+      "lon": 139.6917,
+      "tagline": "Capital city: old neighborhoods and futuristic districts",
+      "description": "Tokyo is Japan’s capital and largest urban center, combining historic temple districts, dense rail networks, pop culture, food, design, and technology.",
+      "famous": [
+        "Shibuya & Shinjuku",
+        "Asakusa & Sensoji",
+        "Museums, food & pop culture"
+      ],
+      "foods": [
+        "寿司",
+        "もんじゃ焼き"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "渋谷",
+            "reading": "しぶや",
+            "en": "Shibuya"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "浅草",
+            "reading": "あさくさ",
+            "en": "Asakusa"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "首都",
+            "reading": "しゅと",
+            "en": "capital city"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "東京へ行きたいです。",
+          "reading": "とうきょうへ いきたいです。",
+          "en": "I want to go to Tokyo."
+        },
+        "intermediate": {
+          "jp": "東京では、浅草が有名です。",
+          "reading": "とうきょうでは、あさくさが ゆうめいです。",
+          "en": "Asakusa is well known in Tokyo."
+        },
+        "advanced": {
+          "jp": "首都について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "しゅとについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about capital city reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "city",
+          "title": "Shibuya & Shinjuku",
+          "caption": "A visual memory card for Tokyo."
+        },
+        {
+          "kind": "temple",
+          "title": "寿司",
+          "caption": "A local taste associated with Tokyo."
+        },
+        {
+          "kind": "modern",
+          "title": "Museums, food & pop culture",
+          "caption": "Culture and scenery to remember in Tokyo."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "kanagawa",
+      "code": 14,
+      "prefecture_jp": "神奈川県",
+      "prefecture_en": "Kanagawa",
+      "city_jp": "横浜",
+      "city_en": "Yokohama",
+      "reading": "よこはま",
+      "region": "Kanto",
+      "lat": 35.4478,
+      "lon": 139.6425,
+      "tagline": "Port-city views, Chinatown, and Kamakura",
+      "description": "Kanagawa borders Tokyo and includes the port city of Yokohama, historic Kamakura, and the hot-spring area of Hakone.",
+      "famous": [
+        "Yokohama waterfront",
+        "Kamakura temples",
+        "Hakone"
+      ],
+      "foods": [
+        "シューマイ",
+        "サンマーメン"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "中華街",
+            "reading": "ちゅうかがい",
+            "en": "Chinatown"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "みなとみらい",
+            "reading": "みなとみらい",
+            "en": "Minato Mirai"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "鎌倉",
+            "reading": "かまくら",
+            "en": "Kamakura"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "横浜へ行きたいです。",
+          "reading": "よこはまへ いきたいです。",
+          "en": "I want to go to Yokohama."
+        },
+        "intermediate": {
+          "jp": "横浜では、みなとみらいが有名です。",
+          "reading": "よこはまでは、みなとみらいが ゆうめいです。",
+          "en": "Minato Mirai is well known in Yokohama."
+        },
+        "advanced": {
+          "jp": "鎌倉について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "かまくらについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Kamakura reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "port",
+          "title": "Yokohama waterfront",
+          "caption": "A visual memory card for Kanagawa."
+        },
+        {
+          "kind": "history",
+          "title": "シューマイ",
+          "caption": "A local taste associated with Kanagawa."
+        },
+        {
+          "kind": "onsen",
+          "title": "Hakone",
+          "caption": "Culture and scenery to remember in Kanagawa."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "niigata",
+      "code": 15,
+      "prefecture_jp": "新潟県",
+      "prefecture_en": "Niigata",
+      "city_jp": "新潟",
+      "city_en": "Niigata",
+      "reading": "にいがた",
+      "region": "Chubu",
+      "lat": 37.9022,
+      "lon": 139.0236,
+      "tagline": "Rice, sake, snow, and the Sea of Japan",
+      "description": "Niigata is a major rice-growing prefecture with heavy winter snow in the mountains, a long Sea of Japan coast, and a strong sake culture.",
+      "famous": [
+        "Rice fields",
+        "Sake breweries",
+        "Snow resorts"
+      ],
+      "foods": [
+        "へぎそば",
+        "笹団子"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "米",
+            "reading": "こめ",
+            "en": "rice"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "日本酒",
+            "reading": "にほんしゅ",
+            "en": "sake"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "雪国",
+            "reading": "ゆきぐに",
+            "en": "snow country"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "新潟へ行きたいです。",
+          "reading": "にいがたへ いきたいです。",
+          "en": "I want to go to Niigata."
+        },
+        "intermediate": {
+          "jp": "新潟では、日本酒が有名です。",
+          "reading": "にいがたでは、にほんしゅが ゆうめいです。",
+          "en": "Sake is well known in Niigata."
+        },
+        "advanced": {
+          "jp": "雪国について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "ゆきぐにについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about snow country reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "food",
+          "title": "Rice fields",
+          "caption": "A visual memory card for Niigata."
+        },
+        {
+          "kind": "snow",
+          "title": "へぎそば",
+          "caption": "A local taste associated with Niigata."
+        },
+        {
+          "kind": "coast",
+          "title": "Snow resorts",
+          "caption": "Culture and scenery to remember in Niigata."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "toyama",
+      "code": 16,
+      "prefecture_jp": "富山県",
+      "prefecture_en": "Toyama",
+      "city_jp": "富山",
+      "city_en": "Toyama",
+      "reading": "とやま",
+      "region": "Chubu",
+      "lat": 36.6953,
+      "lon": 137.2114,
+      "tagline": "Alpine routes and fresh seafood",
+      "description": "Toyama sits between the Sea of Japan and the Northern Alps, known for dramatic mountain transport routes, deep bays, and fresh seafood.",
+      "famous": [
+        "Tateyama Kurobe Alpine Route",
+        "Toyama Bay",
+        "Mountain scenery"
+      ],
+      "foods": [
+        "ます寿司",
+        "白えび"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "白えび",
+            "reading": "しろえび",
+            "en": "white shrimp"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "立山",
+            "reading": "たてやま",
+            "en": "Tateyama"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "黒部",
+            "reading": "くろべ",
+            "en": "Kurobe gorge/dam area"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "富山へ行きたいです。",
+          "reading": "とやまへ いきたいです。",
+          "en": "I want to go to Toyama."
+        },
+        "intermediate": {
+          "jp": "富山では、立山が有名です。",
+          "reading": "とやまでは、たてやまが ゆうめいです。",
+          "en": "Tateyama is well known in Toyama."
+        },
+        "advanced": {
+          "jp": "黒部について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "くろべについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Kurobe gorge/dam area reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "mountain",
+          "title": "Tateyama Kurobe Alpine Route",
+          "caption": "A visual memory card for Toyama."
+        },
+        {
+          "kind": "seafood",
+          "title": "ます寿司",
+          "caption": "A local taste associated with Toyama."
+        },
+        {
+          "kind": "nature",
+          "title": "Mountain scenery",
+          "caption": "Culture and scenery to remember in Toyama."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ishikawa",
+      "code": 17,
+      "prefecture_jp": "石川県",
+      "prefecture_en": "Ishikawa",
+      "city_jp": "金沢",
+      "city_en": "Kanazawa",
+      "reading": "かなざわ",
+      "region": "Chubu",
+      "lat": 36.5945,
+      "lon": 136.6256,
+      "tagline": "Gardens, gold leaf, and refined craft culture",
+      "description": "Ishikawa is known for Kanazawa’s historic districts, one of Japan’s most famous gardens, traditional crafts, seafood, and Kaga culture.",
+      "famous": [
+        "Kenrokuen",
+        "Higashi Chaya district",
+        "Traditional crafts"
+      ],
+      "foods": [
+        "治部煮",
+        "海鮮丼"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "金箔",
+            "reading": "きんぱく",
+            "en": "gold leaf"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "兼六園",
+            "reading": "けんろくえん",
+            "en": "Kenrokuen garden"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "加賀文化",
+            "reading": "かがぶんか",
+            "en": "Kaga culture"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "金沢へ行きたいです。",
+          "reading": "かなざわへ いきたいです。",
+          "en": "I want to go to Kanazawa."
+        },
+        "intermediate": {
+          "jp": "金沢では、兼六園が有名です。",
+          "reading": "かなざわでは、けんろくえんが ゆうめいです。",
+          "en": "Kenrokuen garden is well known in Kanazawa."
+        },
+        "advanced": {
+          "jp": "加賀文化について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "かがぶんかについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Kaga culture reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "garden",
+          "title": "Kenrokuen",
+          "caption": "A visual memory card for Ishikawa."
+        },
+        {
+          "kind": "craft",
+          "title": "治部煮",
+          "caption": "A local taste associated with Ishikawa."
+        },
+        {
+          "kind": "history",
+          "title": "Traditional crafts",
+          "caption": "Culture and scenery to remember in Ishikawa."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukui",
+      "code": 18,
+      "prefecture_jp": "福井県",
+      "prefecture_en": "Fukui",
+      "city_jp": "福井",
+      "city_en": "Fukui",
+      "reading": "ふくい",
+      "region": "Chubu",
+      "lat": 36.0641,
+      "lon": 136.2196,
+      "tagline": "Dinosaurs, Zen, and the Echizen coast",
+      "description": "Fukui is strongly associated with dinosaur research, the Soto Zen temple Eiheiji, craft traditions, and seafood from the Sea of Japan.",
+      "famous": [
+        "Dinosaur Museum",
+        "Eiheiji",
+        "Echizen coast"
+      ],
+      "foods": [
+        "越前そば",
+        "越前がに"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "恐竜",
+            "reading": "きょうりゅう",
+            "en": "dinosaur"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "越前がに",
+            "reading": "えちぜんがに",
+            "en": "Echizen crab"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "永平寺",
+            "reading": "えいへいじ",
+            "en": "Eiheiji temple"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "福井へ行きたいです。",
+          "reading": "ふくいへ いきたいです。",
+          "en": "I want to go to Fukui."
+        },
+        "intermediate": {
+          "jp": "福井では、越前がにが有名です。",
+          "reading": "ふくいでは、えちぜんがにが ゆうめいです。",
+          "en": "Echizen crab is well known in Fukui."
+        },
+        "advanced": {
+          "jp": "永平寺について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "えいへいじについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Eiheiji temple reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "museum",
+          "title": "Dinosaur Museum",
+          "caption": "A visual memory card for Fukui."
+        },
+        {
+          "kind": "temple",
+          "title": "越前そば",
+          "caption": "A local taste associated with Fukui."
+        },
+        {
+          "kind": "coast",
+          "title": "Echizen coast",
+          "caption": "Culture and scenery to remember in Fukui."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "yamanashi",
+      "code": 19,
+      "prefecture_jp": "山梨県",
+      "prefecture_en": "Yamanashi",
+      "city_jp": "甲府",
+      "city_en": "Kofu",
+      "reading": "こうふ",
+      "region": "Chubu",
+      "lat": 35.6641,
+      "lon": 138.5684,
+      "tagline": "Mount Fuji, grapes, and lakes",
+      "description": "Yamanashi lies north of Mount Fuji and is known for vineyards, fruit, the Fuji Five Lakes, hiking, and hot springs.",
+      "famous": [
+        "Mount Fuji views",
+        "Fuji Five Lakes",
+        "Vineyards"
+      ],
+      "foods": [
+        "ほうとう",
+        "ぶどう"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "ぶどう",
+            "reading": "ぶどう",
+            "en": "grape"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "富士五湖",
+            "reading": "ふじごこ",
+            "en": "Fuji Five Lakes"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "ワイン",
+            "reading": "わいん",
+            "en": "wine"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "甲府へ行きたいです。",
+          "reading": "こうふへ いきたいです。",
+          "en": "I want to go to Kofu."
+        },
+        "intermediate": {
+          "jp": "甲府では、富士五湖が有名です。",
+          "reading": "こうふでは、ふじごこが ゆうめいです。",
+          "en": "Fuji Five Lakes is well known in Kofu."
+        },
+        "advanced": {
+          "jp": "ワインについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "わいんについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about wine reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "mountain",
+          "title": "Mount Fuji views",
+          "caption": "A visual memory card for Yamanashi."
+        },
+        {
+          "kind": "fruit",
+          "title": "ほうとう",
+          "caption": "A local taste associated with Yamanashi."
+        },
+        {
+          "kind": "lake",
+          "title": "Vineyards",
+          "caption": "Culture and scenery to remember in Yamanashi."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "nagano",
+      "code": 20,
+      "prefecture_jp": "長野県",
+      "prefecture_en": "Nagano",
+      "city_jp": "長野",
+      "city_en": "Nagano",
+      "reading": "ながの",
+      "region": "Chubu",
+      "lat": 36.6513,
+      "lon": 138.1811,
+      "tagline": "Alps, soba, temples, and snow",
+      "description": "Mountainous Nagano is home to alpine scenery, ski areas, historic post towns, Zenkoji temple, and famous soba.",
+      "famous": [
+        "Zenkoji",
+        "Japanese Alps",
+        "Snow monkeys & ski towns"
+      ],
+      "foods": [
+        "そば",
+        "おやき"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "そば",
+            "reading": "そば",
+            "en": "soba noodles"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "善光寺",
+            "reading": "ぜんこうじ",
+            "en": "Zenkoji temple"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "日本アルプス",
+            "reading": "にほんあるぷす",
+            "en": "Japanese Alps"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "長野へ行きたいです。",
+          "reading": "ながのへ いきたいです。",
+          "en": "I want to go to Nagano."
+        },
+        "intermediate": {
+          "jp": "長野では、善光寺が有名です。",
+          "reading": "ながのでは、ぜんこうじが ゆうめいです。",
+          "en": "Zenkoji temple is well known in Nagano."
+        },
+        "advanced": {
+          "jp": "日本アルプスについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "にほんあるぷすについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Japanese Alps reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "mountain",
+          "title": "Zenkoji",
+          "caption": "A visual memory card for Nagano."
+        },
+        {
+          "kind": "temple",
+          "title": "そば",
+          "caption": "A local taste associated with Nagano."
+        },
+        {
+          "kind": "snow",
+          "title": "Snow monkeys & ski towns",
+          "caption": "Culture and scenery to remember in Nagano."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "gifu",
+      "code": 21,
+      "prefecture_jp": "岐阜県",
+      "prefecture_en": "Gifu",
+      "city_jp": "岐阜",
+      "city_en": "Gifu",
+      "reading": "ぎふ",
+      "region": "Chubu",
+      "lat": 35.3911,
+      "lon": 136.722,
+      "tagline": "Traditional villages, rivers, and Hida culture",
+      "description": "Gifu stretches from the historic Hida mountains to the Nagara River, with thatched villages, castle towns, and traditional river fishing.",
+      "famous": [
+        "Shirakawa-go",
+        "Takayama",
+        "Nagara River cormorant fishing"
+      ],
+      "foods": [
+        "飛騨牛",
+        "朴葉味噌"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "飛騨牛",
+            "reading": "ひだぎゅう",
+            "en": "Hida beef"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "白川郷",
+            "reading": "しらかわごう",
+            "en": "Shirakawa-go"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "鵜飼",
+            "reading": "うかい",
+            "en": "cormorant fishing"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "岐阜へ行きたいです。",
+          "reading": "ぎふへ いきたいです。",
+          "en": "I want to go to Gifu."
+        },
+        "intermediate": {
+          "jp": "岐阜では、白川郷が有名です。",
+          "reading": "ぎふでは、しらかわごうが ゆうめいです。",
+          "en": "Shirakawa-go is well known in Gifu."
+        },
+        "advanced": {
+          "jp": "鵜飼について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "うかいについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about cormorant fishing reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "village",
+          "title": "Shirakawa-go",
+          "caption": "A visual memory card for Gifu."
+        },
+        {
+          "kind": "river",
+          "title": "飛騨牛",
+          "caption": "A local taste associated with Gifu."
+        },
+        {
+          "kind": "history",
+          "title": "Nagara River cormorant fishing",
+          "caption": "Culture and scenery to remember in Gifu."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "shizuoka",
+      "code": 22,
+      "prefecture_jp": "静岡県",
+      "prefecture_en": "Shizuoka",
+      "city_jp": "静岡",
+      "city_en": "Shizuoka",
+      "reading": "しずおか",
+      "region": "Chubu",
+      "lat": 34.9769,
+      "lon": 138.3831,
+      "tagline": "Tea fields, Mount Fuji, and Pacific coast",
+      "description": "Shizuoka faces the Pacific beneath Mount Fuji and is one of Japan’s best-known tea-growing areas, with beaches, ports, and hot springs.",
+      "famous": [
+        "Mount Fuji",
+        "Tea fields",
+        "Izu Peninsula"
+      ],
+      "foods": [
+        "うなぎ",
+        "静岡おでん"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "お茶",
+            "reading": "おちゃ",
+            "en": "tea"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "富士山",
+            "reading": "ふじさん",
+            "en": "Mount Fuji"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "うなぎ",
+            "reading": "うなぎ",
+            "en": "eel"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "静岡へ行きたいです。",
+          "reading": "しずおかへ いきたいです。",
+          "en": "I want to go to Shizuoka."
+        },
+        "intermediate": {
+          "jp": "静岡では、富士山が有名です。",
+          "reading": "しずおかでは、ふじさんが ゆうめいです。",
+          "en": "Mount Fuji is well known in Shizuoka."
+        },
+        "advanced": {
+          "jp": "うなぎについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "うなぎについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about eel reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "tea",
+          "title": "Mount Fuji",
+          "caption": "A visual memory card for Shizuoka."
+        },
+        {
+          "kind": "mountain",
+          "title": "うなぎ",
+          "caption": "A local taste associated with Shizuoka."
+        },
+        {
+          "kind": "coast",
+          "title": "Izu Peninsula",
+          "caption": "Culture and scenery to remember in Shizuoka."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "aichi",
+      "code": 23,
+      "prefecture_jp": "愛知県",
+      "prefecture_en": "Aichi",
+      "city_jp": "名古屋",
+      "city_en": "Nagoya",
+      "reading": "なごや",
+      "region": "Chubu",
+      "lat": 35.1802,
+      "lon": 136.9066,
+      "tagline": "Castle history, manufacturing, and bold local food",
+      "description": "Aichi is a major manufacturing center with Nagoya at its core, plus castle history and a distinctive food culture based on rich miso flavors.",
+      "famous": [
+        "Nagoya Castle",
+        "Industrial museums",
+        "Atsuta Shrine"
+      ],
+      "foods": [
+        "味噌カツ",
+        "ひつまぶし"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "味噌カツ",
+            "reading": "みそかつ",
+            "en": "miso pork cutlet"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "名古屋城",
+            "reading": "なごやじょう",
+            "en": "Nagoya Castle"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "ものづくり",
+            "reading": "ものづくり",
+            "en": "manufacturing/craftsmanship"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "名古屋へ行きたいです。",
+          "reading": "なごやへ いきたいです。",
+          "en": "I want to go to Nagoya."
+        },
+        "intermediate": {
+          "jp": "名古屋では、名古屋城が有名です。",
+          "reading": "なごやでは、なごやじょうが ゆうめいです。",
+          "en": "Nagoya Castle is well known in Nagoya."
+        },
+        "advanced": {
+          "jp": "ものづくりについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "ものづくりについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about manufacturing/craftsmanship reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "castle",
+          "title": "Nagoya Castle",
+          "caption": "A visual memory card for Aichi."
+        },
+        {
+          "kind": "industry",
+          "title": "味噌カツ",
+          "caption": "A local taste associated with Aichi."
+        },
+        {
+          "kind": "food",
+          "title": "Atsuta Shrine",
+          "caption": "Culture and scenery to remember in Aichi."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "mie",
+      "code": 24,
+      "prefecture_jp": "三重県",
+      "prefecture_en": "Mie",
+      "city_jp": "津",
+      "city_en": "Tsu",
+      "reading": "つ",
+      "region": "Kansai",
+      "lat": 34.7303,
+      "lon": 136.5086,
+      "tagline": "Ise pilgrimage, pearls, and coastlines",
+      "description": "Mie is home to Ise Jingu, long pilgrimage routes, coastal scenery, pearl cultivation, and seafood-rich communities.",
+      "famous": [
+        "Ise Jingu",
+        "Toba & pearls",
+        "Kumano area"
+      ],
+      "foods": [
+        "伊勢うどん",
+        "てこね寿司"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "伊勢うどん",
+            "reading": "いせうどん",
+            "en": "Ise udon"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "伊勢神宮",
+            "reading": "いせじんぐう",
+            "en": "Ise Jingu"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "真珠",
+            "reading": "しんじゅ",
+            "en": "pearl"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "津へ行きたいです。",
+          "reading": "つへ いきたいです。",
+          "en": "I want to go to Tsu."
+        },
+        "intermediate": {
+          "jp": "津では、伊勢神宮が有名です。",
+          "reading": "つでは、いせじんぐうが ゆうめいです。",
+          "en": "Ise Jingu is well known in Tsu."
+        },
+        "advanced": {
+          "jp": "真珠について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "しんじゅについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about pearl reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "shrine",
+          "title": "Ise Jingu",
+          "caption": "A visual memory card for Mie."
+        },
+        {
+          "kind": "coast",
+          "title": "伊勢うどん",
+          "caption": "A local taste associated with Mie."
+        },
+        {
+          "kind": "craft",
+          "title": "Kumano area",
+          "caption": "Culture and scenery to remember in Mie."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "shiga",
+      "code": 25,
+      "prefecture_jp": "滋賀県",
+      "prefecture_en": "Shiga",
+      "city_jp": "大津",
+      "city_en": "Otsu",
+      "reading": "おおつ",
+      "region": "Kansai",
+      "lat": 35.0045,
+      "lon": 135.8686,
+      "tagline": "Lake Biwa and historic routes",
+      "description": "Shiga wraps around Lake Biwa, Japan’s largest lake, and has castle towns, lakeside cycling, temples, and old routes connecting Kyoto with eastern Japan.",
+      "famous": [
+        "Lake Biwa",
+        "Hikone Castle",
+        "Lakeside towns"
+      ],
+      "foods": [
+        "近江牛",
+        "鮒ずし"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "鮒ずし",
+            "reading": "ふなずし",
+            "en": "fermented funazushi"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "琵琶湖",
+            "reading": "びわこ",
+            "en": "Lake Biwa"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "近江",
+            "reading": "おうみ",
+            "en": "historic Omi region"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "大津へ行きたいです。",
+          "reading": "おおつへ いきたいです。",
+          "en": "I want to go to Otsu."
+        },
+        "intermediate": {
+          "jp": "大津では、琵琶湖が有名です。",
+          "reading": "おおつでは、びわこが ゆうめいです。",
+          "en": "Lake Biwa is well known in Otsu."
+        },
+        "advanced": {
+          "jp": "近江について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "おうみについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about historic Omi region reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "lake",
+          "title": "Lake Biwa",
+          "caption": "A visual memory card for Shiga."
+        },
+        {
+          "kind": "castle",
+          "title": "近江牛",
+          "caption": "A local taste associated with Shiga."
+        },
+        {
+          "kind": "history",
+          "title": "Lakeside towns",
+          "caption": "Culture and scenery to remember in Shiga."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "kyoto",
+      "code": 26,
+      "prefecture_jp": "京都府",
+      "prefecture_en": "Kyoto",
+      "city_jp": "京都",
+      "city_en": "Kyoto",
+      "reading": "きょうと",
+      "region": "Kansai",
+      "lat": 35.0116,
+      "lon": 135.7681,
+      "tagline": "Temples, gardens, crafts, and old capital culture",
+      "description": "Kyoto was Japan’s imperial capital for more than a thousand years and is famous for temples, shrines, gardens, traditional neighborhoods, cuisine, and seasonal scenery.",
+      "famous": [
+        "Kiyomizu-dera",
+        "Fushimi Inari",
+        "Gion & traditional streets"
+      ],
+      "foods": [
+        "湯豆腐",
+        "八つ橋"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "抹茶",
+            "reading": "まっちゃ",
+            "en": "matcha"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "清水寺",
+            "reading": "きよみずでら",
+            "en": "Kiyomizu-dera"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "京町家",
+            "reading": "きょうまちや",
+            "en": "traditional Kyoto townhouse"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "京都へ行きたいです。",
+          "reading": "きょうとへ いきたいです。",
+          "en": "I want to go to Kyoto."
+        },
+        "intermediate": {
+          "jp": "京都では、清水寺が有名です。",
+          "reading": "きょうとでは、きよみずでらが ゆうめいです。",
+          "en": "Kiyomizu-dera is well known in Kyoto."
+        },
+        "advanced": {
+          "jp": "京町家について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "きょうまちやについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about traditional Kyoto townhouse reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "temple",
+          "title": "Kiyomizu-dera",
+          "caption": "A visual memory card for Kyoto."
+        },
+        {
+          "kind": "tradition",
+          "title": "湯豆腐",
+          "caption": "A local taste associated with Kyoto."
+        },
+        {
+          "kind": "food",
+          "title": "Gion & traditional streets",
+          "caption": "Culture and scenery to remember in Kyoto."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "osaka",
+      "code": 27,
+      "prefecture_jp": "大阪府",
+      "prefecture_en": "Osaka",
+      "city_jp": "大阪",
+      "city_en": "Osaka",
+      "reading": "おおさか",
+      "region": "Kansai",
+      "lat": 34.6937,
+      "lon": 135.5023,
+      "tagline": "Street food, comedy, commerce, and nightlife",
+      "description": "Osaka is a major commercial city with an energetic food culture, busy entertainment districts, a famous castle, and a long history as a center of trade.",
+      "famous": [
+        "Dotonbori",
+        "Osaka Castle",
+        "Kuromon Market"
+      ],
+      "foods": [
+        "たこ焼き",
+        "お好み焼き"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "たこ焼き",
+            "reading": "たこやき",
+            "en": "takoyaki"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "道頓堀",
+            "reading": "どうとんぼり",
+            "en": "Dotonbori"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "商人文化",
+            "reading": "しょうにんぶんか",
+            "en": "merchant culture"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "大阪へ行きたいです。",
+          "reading": "おおさかへ いきたいです。",
+          "en": "I want to go to Osaka."
+        },
+        "intermediate": {
+          "jp": "大阪では、道頓堀が有名です。",
+          "reading": "おおさかでは、どうとんぼりが ゆうめいです。",
+          "en": "Dotonbori is well known in Osaka."
+        },
+        "advanced": {
+          "jp": "商人文化について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "しょうにんぶんかについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about merchant culture reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "food",
+          "title": "Dotonbori",
+          "caption": "A visual memory card for Osaka."
+        },
+        {
+          "kind": "castle",
+          "title": "たこ焼き",
+          "caption": "A local taste associated with Osaka."
+        },
+        {
+          "kind": "nightlife",
+          "title": "Kuromon Market",
+          "caption": "Culture and scenery to remember in Osaka."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "hyogo",
+      "code": 28,
+      "prefecture_jp": "兵庫県",
+      "prefecture_en": "Hyogo",
+      "city_jp": "神戸",
+      "city_en": "Kobe",
+      "reading": "こうべ",
+      "region": "Kansai",
+      "lat": 34.6913,
+      "lon": 135.183,
+      "tagline": "Kobe port, Himeji Castle, and mountain-sea views",
+      "description": "Hyogo stretches from the Seto Inland Sea to the Sea of Japan. Kobe is a cosmopolitan port city, while Himeji is home to Japan’s best-known white castle.",
+      "famous": [
+        "Kobe waterfront",
+        "Himeji Castle",
+        "Arima Onsen"
+      ],
+      "foods": [
+        "神戸牛",
+        "明石焼き"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "神戸牛",
+            "reading": "こうべぎゅう",
+            "en": "Kobe beef"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "姫路城",
+            "reading": "ひめじじょう",
+            "en": "Himeji Castle"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "港町",
+            "reading": "みなとまち",
+            "en": "port town"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "神戸へ行きたいです。",
+          "reading": "こうべへ いきたいです。",
+          "en": "I want to go to Kobe."
+        },
+        "intermediate": {
+          "jp": "神戸では、姫路城が有名です。",
+          "reading": "こうべでは、ひめじじょうが ゆうめいです。",
+          "en": "Himeji Castle is well known in Kobe."
+        },
+        "advanced": {
+          "jp": "港町について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "みなとまちについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about port town reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "port",
+          "title": "Kobe waterfront",
+          "caption": "A visual memory card for Hyogo."
+        },
+        {
+          "kind": "castle",
+          "title": "神戸牛",
+          "caption": "A local taste associated with Hyogo."
+        },
+        {
+          "kind": "onsen",
+          "title": "Arima Onsen",
+          "caption": "Culture and scenery to remember in Hyogo."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "nara",
+      "code": 29,
+      "prefecture_jp": "奈良県",
+      "prefecture_en": "Nara",
+      "city_jp": "奈良",
+      "city_en": "Nara",
+      "reading": "なら",
+      "region": "Kansai",
+      "lat": 34.6851,
+      "lon": 135.8048,
+      "tagline": "Ancient temples and freely roaming deer",
+      "description": "Nara was an early capital of Japan and preserves monumental Buddhist temples, old pilgrimage routes, forested sacred areas, and the famous deer of Nara Park.",
+      "famous": [
+        "Nara Park",
+        "Todaiji",
+        "Kasuga Taisha"
+      ],
+      "foods": [
+        "柿の葉寿司",
+        "三輪そうめん"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "柿の葉寿司",
+            "reading": "かきのはずし",
+            "en": "persimmon-leaf sushi"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "奈良公園",
+            "reading": "ならこうえん",
+            "en": "Nara Park"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "大仏",
+            "reading": "だいぶつ",
+            "en": "Great Buddha"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "奈良へ行きたいです。",
+          "reading": "ならへ いきたいです。",
+          "en": "I want to go to Nara."
+        },
+        "intermediate": {
+          "jp": "奈良では、奈良公園が有名です。",
+          "reading": "ならでは、ならこうえんが ゆうめいです。",
+          "en": "Nara Park is well known in Nara."
+        },
+        "advanced": {
+          "jp": "大仏について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "だいぶつについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Great Buddha reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "deer",
+          "title": "Nara Park",
+          "caption": "A visual memory card for Nara."
+        },
+        {
+          "kind": "temple",
+          "title": "柿の葉寿司",
+          "caption": "A local taste associated with Nara."
+        },
+        {
+          "kind": "history",
+          "title": "Kasuga Taisha",
+          "caption": "Culture and scenery to remember in Nara."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "wakayama",
+      "code": 30,
+      "prefecture_jp": "和歌山県",
+      "prefecture_en": "Wakayama",
+      "city_jp": "和歌山",
+      "city_en": "Wakayama",
+      "reading": "わかやま",
+      "region": "Kansai",
+      "lat": 34.226,
+      "lon": 135.1675,
+      "tagline": "Sacred mountain routes and citrus country",
+      "description": "Wakayama combines the sacred Kii Mountains, pilgrimage trails, temple stays, rugged coastlines, and major citrus and plum-growing areas.",
+      "famous": [
+        "Koyasan",
+        "Kumano Kodo",
+        "Kii coast"
+      ],
+      "foods": [
+        "梅干し",
+        "和歌山ラーメン"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "梅干し",
+            "reading": "うめぼし",
+            "en": "pickled plum"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "高野山",
+            "reading": "こうやさん",
+            "en": "Mount Koya"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "熊野古道",
+            "reading": "くまのこどう",
+            "en": "Kumano Kodo pilgrimage routes"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "和歌山へ行きたいです。",
+          "reading": "わかやまへ いきたいです。",
+          "en": "I want to go to Wakayama."
+        },
+        "intermediate": {
+          "jp": "和歌山では、高野山が有名です。",
+          "reading": "わかやまでは、こうやさんが ゆうめいです。",
+          "en": "Mount Koya is well known in Wakayama."
+        },
+        "advanced": {
+          "jp": "熊野古道について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "くまのこどうについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Kumano Kodo pilgrimage routes reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "pilgrimage",
+          "title": "Koyasan",
+          "caption": "A visual memory card for Wakayama."
+        },
+        {
+          "kind": "mountain",
+          "title": "梅干し",
+          "caption": "A local taste associated with Wakayama."
+        },
+        {
+          "kind": "food",
+          "title": "Kii coast",
+          "caption": "Culture and scenery to remember in Wakayama."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "tottori",
+      "code": 31,
+      "prefecture_jp": "鳥取県",
+      "prefecture_en": "Tottori",
+      "city_jp": "鳥取",
+      "city_en": "Tottori",
+      "reading": "とっとり",
+      "region": "Chugoku",
+      "lat": 35.5036,
+      "lon": 134.2383,
+      "tagline": "Sand dunes, pears, and the Sanin coast",
+      "description": "Tottori is Japan’s least-populous prefecture and is best known for its huge coastal sand dunes, pear orchards, seafood, and quiet Sanin landscapes.",
+      "famous": [
+        "Tottori Sand Dunes",
+        "Mt. Daisen",
+        "Sanin coast"
+      ],
+      "foods": [
+        "梨",
+        "かに"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "梨",
+            "reading": "なし",
+            "en": "pear"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "鳥取砂丘",
+            "reading": "とっとりさきゅう",
+            "en": "Tottori Sand Dunes"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "山陰",
+            "reading": "さんいん",
+            "en": "Sanin region"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "鳥取へ行きたいです。",
+          "reading": "とっとりへ いきたいです。",
+          "en": "I want to go to Tottori."
+        },
+        "intermediate": {
+          "jp": "鳥取では、鳥取砂丘が有名です。",
+          "reading": "とっとりでは、とっとりさきゅうが ゆうめいです。",
+          "en": "Tottori Sand Dunes is well known in Tottori."
+        },
+        "advanced": {
+          "jp": "山陰について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "さんいんについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Sanin region reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "dunes",
+          "title": "Tottori Sand Dunes",
+          "caption": "A visual memory card for Tottori."
+        },
+        {
+          "kind": "coast",
+          "title": "梨",
+          "caption": "A local taste associated with Tottori."
+        },
+        {
+          "kind": "fruit",
+          "title": "Sanin coast",
+          "caption": "Culture and scenery to remember in Tottori."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "shimane",
+      "code": 32,
+      "prefecture_jp": "島根県",
+      "prefecture_en": "Shimane",
+      "city_jp": "松江",
+      "city_en": "Matsue",
+      "reading": "まつえ",
+      "region": "Chugoku",
+      "lat": 35.4723,
+      "lon": 133.0505,
+      "tagline": "Mythology, shrines, castles, and kagura",
+      "description": "Shimane is closely associated with early Japanese mythology, Izumo Taisha, Matsue Castle, traditional kagura performance, and the Sea of Japan coast.",
+      "famous": [
+        "Izumo Taisha",
+        "Matsue Castle",
+        "Iwami Kagura"
+      ],
+      "foods": [
+        "出雲そば",
+        "しじみ汁"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "出雲そば",
+            "reading": "いずもそば",
+            "en": "Izumo soba"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "出雲大社",
+            "reading": "いずもたいしゃ",
+            "en": "Izumo Taisha"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "石見神楽",
+            "reading": "いわみかぐら",
+            "en": "Iwami Kagura"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "松江へ行きたいです。",
+          "reading": "まつえへ いきたいです。",
+          "en": "I want to go to Matsue."
+        },
+        "intermediate": {
+          "jp": "松江では、出雲大社が有名です。",
+          "reading": "まつえでは、いずもたいしゃが ゆうめいです。",
+          "en": "Izumo Taisha is well known in Matsue."
+        },
+        "advanced": {
+          "jp": "石見神楽について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "いわみかぐらについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Iwami Kagura reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "shrine",
+          "title": "Izumo Taisha",
+          "caption": "A visual memory card for Shimane."
+        },
+        {
+          "kind": "myth",
+          "title": "出雲そば",
+          "caption": "A local taste associated with Shimane."
+        },
+        {
+          "kind": "performance",
+          "title": "Iwami Kagura",
+          "caption": "Culture and scenery to remember in Shimane."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "okayama",
+      "code": 33,
+      "prefecture_jp": "岡山県",
+      "prefecture_en": "Okayama",
+      "city_jp": "岡山",
+      "city_en": "Okayama",
+      "reading": "おかやま",
+      "region": "Chugoku",
+      "lat": 34.6618,
+      "lon": 133.9343,
+      "tagline": "Gardens, peaches, and Momotaro",
+      "description": "Okayama is known for sunny weather, Korakuen garden, fruit, Bizen pottery, and the folk tale of Momotaro.",
+      "famous": [
+        "Korakuen",
+        "Okayama Castle",
+        "Kurashiki"
+      ],
+      "foods": [
+        "きびだんご",
+        "白桃"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "きびだんご",
+            "reading": "きびだんご",
+            "en": "millet dumpling"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "後楽園",
+            "reading": "こうらくえん",
+            "en": "Korakuen garden"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "桃太郎",
+            "reading": "ももたろう",
+            "en": "Momotaro"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "岡山へ行きたいです。",
+          "reading": "おかやまへ いきたいです。",
+          "en": "I want to go to Okayama."
+        },
+        "intermediate": {
+          "jp": "岡山では、後楽園が有名です。",
+          "reading": "おかやまでは、こうらくえんが ゆうめいです。",
+          "en": "Korakuen garden is well known in Okayama."
+        },
+        "advanced": {
+          "jp": "桃太郎について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "ももたろうについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Momotaro reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "garden",
+          "title": "Korakuen",
+          "caption": "A visual memory card for Okayama."
+        },
+        {
+          "kind": "folktale",
+          "title": "きびだんご",
+          "caption": "A local taste associated with Okayama."
+        },
+        {
+          "kind": "townscape",
+          "title": "Kurashiki",
+          "caption": "Culture and scenery to remember in Okayama."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "hiroshima",
+      "code": 34,
+      "prefecture_jp": "広島県",
+      "prefecture_en": "Hiroshima",
+      "city_jp": "広島",
+      "city_en": "Hiroshima",
+      "reading": "ひろしま",
+      "region": "Chugoku",
+      "lat": 34.3853,
+      "lon": 132.4553,
+      "tagline": "Peace history, islands, and okonomiyaki",
+      "description": "Hiroshima is internationally associated with peace and remembrance, and also with Itsukushima Shrine, island scenery, oysters, and a distinctive style of okonomiyaki.",
+      "famous": [
+        "Peace Memorial Park",
+        "Miyajima",
+        "Hiroshima food culture"
+      ],
+      "foods": [
+        "お好み焼き",
+        "牡蠣"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "お好み焼き",
+            "reading": "おこのみやき",
+            "en": "Hiroshima-style savory pancake"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "原爆ドーム",
+            "reading": "げんばくどーむ",
+            "en": "Atomic Bomb Dome"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "厳島神社",
+            "reading": "いつくしまじんじゃ",
+            "en": "Itsukushima Shrine"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "広島へ行きたいです。",
+          "reading": "ひろしまへ いきたいです。",
+          "en": "I want to go to Hiroshima."
+        },
+        "intermediate": {
+          "jp": "広島では、原爆ドームが有名です。",
+          "reading": "ひろしまでは、げんばくどーむが ゆうめいです。",
+          "en": "Atomic Bomb Dome is well known in Hiroshima."
+        },
+        "advanced": {
+          "jp": "厳島神社について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "いつくしまじんじゃについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Itsukushima Shrine reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "peace",
+          "title": "Peace Memorial Park",
+          "caption": "A visual memory card for Hiroshima."
+        },
+        {
+          "kind": "island",
+          "title": "お好み焼き",
+          "caption": "A local taste associated with Hiroshima."
+        },
+        {
+          "kind": "food",
+          "title": "Hiroshima food culture",
+          "caption": "Culture and scenery to remember in Hiroshima."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "yamaguchi",
+      "code": 35,
+      "prefecture_jp": "山口県",
+      "prefecture_en": "Yamaguchi",
+      "city_jp": "山口",
+      "city_en": "Yamaguchi",
+      "reading": "やまぐち",
+      "region": "Chugoku",
+      "lat": 34.1859,
+      "lon": 131.4706,
+      "tagline": "Fugu, limestone plateaus, and historic gateways",
+      "description": "Yamaguchi forms the western tip of Honshu, with important samurai-era history, karst landscapes, coastal towns, and famous seafood.",
+      "famous": [
+        "Akiyoshidai",
+        "Kintai Bridge",
+        "Shimonoseki"
+      ],
+      "foods": [
+        "ふぐ",
+        "瓦そば"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "ふぐ",
+            "reading": "ふぐ",
+            "en": "pufferfish"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "錦帯橋",
+            "reading": "きんたいきょう",
+            "en": "Kintai Bridge"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "秋吉台",
+            "reading": "あきよしだい",
+            "en": "Akiyoshidai karst plateau"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "山口へ行きたいです。",
+          "reading": "やまぐちへ いきたいです。",
+          "en": "I want to go to Yamaguchi."
+        },
+        "intermediate": {
+          "jp": "山口では、錦帯橋が有名です。",
+          "reading": "やまぐちでは、きんたいきょうが ゆうめいです。",
+          "en": "Kintai Bridge is well known in Yamaguchi."
+        },
+        "advanced": {
+          "jp": "秋吉台について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "あきよしだいについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Akiyoshidai karst plateau reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "coast",
+          "title": "Akiyoshidai",
+          "caption": "A visual memory card for Yamaguchi."
+        },
+        {
+          "kind": "history",
+          "title": "ふぐ",
+          "caption": "A local taste associated with Yamaguchi."
+        },
+        {
+          "kind": "nature",
+          "title": "Shimonoseki",
+          "caption": "Culture and scenery to remember in Yamaguchi."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "tokushima",
+      "code": 36,
+      "prefecture_jp": "徳島県",
+      "prefecture_en": "Tokushima",
+      "city_jp": "徳島",
+      "city_en": "Tokushima",
+      "reading": "とくしま",
+      "region": "Shikoku",
+      "lat": 34.0658,
+      "lon": 134.5593,
+      "tagline": "Awa Odori and Naruto whirlpools",
+      "description": "Tokushima is a gateway to Shikoku, famous for the energetic Awa Odori dance festival, citrus, mountain valleys, and powerful Naruto whirlpools.",
+      "famous": [
+        "Awa Odori",
+        "Naruto whirlpools",
+        "Iya Valley"
+      ],
+      "foods": [
+        "徳島ラーメン",
+        "すだち"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "すだち",
+            "reading": "すだち",
+            "en": "sudachi citrus"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "阿波踊り",
+            "reading": "あわおどり",
+            "en": "Awa Odori dance"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "渦潮",
+            "reading": "うずしお",
+            "en": "whirlpool"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "徳島へ行きたいです。",
+          "reading": "とくしまへ いきたいです。",
+          "en": "I want to go to Tokushima."
+        },
+        "intermediate": {
+          "jp": "徳島では、阿波踊りが有名です。",
+          "reading": "とくしまでは、あわおどりが ゆうめいです。",
+          "en": "Awa Odori dance is well known in Tokushima."
+        },
+        "advanced": {
+          "jp": "渦潮について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "うずしおについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about whirlpool reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "festival",
+          "title": "Awa Odori",
+          "caption": "A visual memory card for Tokushima."
+        },
+        {
+          "kind": "sea",
+          "title": "徳島ラーメン",
+          "caption": "A local taste associated with Tokushima."
+        },
+        {
+          "kind": "mountain",
+          "title": "Iya Valley",
+          "caption": "Culture and scenery to remember in Tokushima."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "kagawa",
+      "code": 37,
+      "prefecture_jp": "香川県",
+      "prefecture_en": "Kagawa",
+      "city_jp": "高松",
+      "city_en": "Takamatsu",
+      "reading": "たかまつ",
+      "region": "Shikoku",
+      "lat": 34.3401,
+      "lon": 134.0434,
+      "tagline": "Udon and art islands in the Seto Inland Sea",
+      "description": "Japan’s smallest prefecture by area is famous for Sanuki udon, Ritsurin garden, and easy access to art islands in the Seto Inland Sea.",
+      "famous": [
+        "Ritsurin Garden",
+        "Naoshima access",
+        "Udon culture"
+      ],
+      "foods": [
+        "讃岐うどん",
+        "骨付鳥"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "讃岐うどん",
+            "reading": "さぬきうどん",
+            "en": "Sanuki udon"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "栗林公園",
+            "reading": "りつりんこうえん",
+            "en": "Ritsurin Garden"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "瀬戸内",
+            "reading": "せとうち",
+            "en": "Seto Inland Sea"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "高松へ行きたいです。",
+          "reading": "たかまつへ いきたいです。",
+          "en": "I want to go to Takamatsu."
+        },
+        "intermediate": {
+          "jp": "高松では、栗林公園が有名です。",
+          "reading": "たかまつでは、りつりんこうえんが ゆうめいです。",
+          "en": "Ritsurin Garden is well known in Takamatsu."
+        },
+        "advanced": {
+          "jp": "瀬戸内について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "せとうちについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Seto Inland Sea reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "food",
+          "title": "Ritsurin Garden",
+          "caption": "A visual memory card for Kagawa."
+        },
+        {
+          "kind": "garden",
+          "title": "讃岐うどん",
+          "caption": "A local taste associated with Kagawa."
+        },
+        {
+          "kind": "island",
+          "title": "Udon culture",
+          "caption": "Culture and scenery to remember in Kagawa."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ehime",
+      "code": 38,
+      "prefecture_jp": "愛媛県",
+      "prefecture_en": "Ehime",
+      "city_jp": "松山",
+      "city_en": "Matsuyama",
+      "reading": "まつやま",
+      "region": "Shikoku",
+      "lat": 33.8417,
+      "lon": 132.7661,
+      "tagline": "Historic hot springs and citrus",
+      "description": "Ehime faces the Seto Inland Sea and is known for Dogo Onsen, Matsuyama Castle, citrus orchards, cycling routes, and literary connections.",
+      "famous": [
+        "Dogo Onsen",
+        "Matsuyama Castle",
+        "Shimanami Kaido"
+      ],
+      "foods": [
+        "鯛めし",
+        "みかん"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "みかん",
+            "reading": "みかん",
+            "en": "mandarin orange"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "道後温泉",
+            "reading": "どうごおんせん",
+            "en": "Dogo Onsen"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "坊っちゃん",
+            "reading": "ぼっちゃん",
+            "en": "Botchan literary reference"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "松山へ行きたいです。",
+          "reading": "まつやまへ いきたいです。",
+          "en": "I want to go to Matsuyama."
+        },
+        "intermediate": {
+          "jp": "松山では、道後温泉が有名です。",
+          "reading": "まつやまでは、どうごおんせんが ゆうめいです。",
+          "en": "Dogo Onsen is well known in Matsuyama."
+        },
+        "advanced": {
+          "jp": "坊っちゃんについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "ぼっちゃんについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Botchan literary reference reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "onsen",
+          "title": "Dogo Onsen",
+          "caption": "A visual memory card for Ehime."
+        },
+        {
+          "kind": "literature",
+          "title": "鯛めし",
+          "caption": "A local taste associated with Ehime."
+        },
+        {
+          "kind": "cycling",
+          "title": "Shimanami Kaido",
+          "caption": "Culture and scenery to remember in Ehime."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "kochi",
+      "code": 39,
+      "prefecture_jp": "高知県",
+      "prefecture_en": "Kochi",
+      "city_jp": "高知",
+      "city_en": "Kochi",
+      "reading": "こうち",
+      "region": "Shikoku",
+      "lat": 33.5597,
+      "lon": 133.5311,
+      "tagline": "Katsuo, Yosakoi, and Pacific coast",
+      "description": "Kochi faces the open Pacific and is known for rivers, rugged coastline, the Yosakoi festival, markets, and seared bonito.",
+      "famous": [
+        "Kochi Castle",
+        "Hirome Market",
+        "Shimanto River & coast"
+      ],
+      "foods": [
+        "かつおのたたき",
+        "ゆず"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "かつお",
+            "reading": "かつお",
+            "en": "bonito"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "よさこい",
+            "reading": "よさこい",
+            "en": "Yosakoi festival"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "桂浜",
+            "reading": "かつらはま",
+            "en": "Katsurahama beach"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "高知へ行きたいです。",
+          "reading": "こうちへ いきたいです。",
+          "en": "I want to go to Kochi."
+        },
+        "intermediate": {
+          "jp": "高知では、よさこいが有名です。",
+          "reading": "こうちでは、よさこいが ゆうめいです。",
+          "en": "Yosakoi festival is well known in Kochi."
+        },
+        "advanced": {
+          "jp": "桂浜について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "かつらはまについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Katsurahama beach reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "coast",
+          "title": "Kochi Castle",
+          "caption": "A visual memory card for Kochi."
+        },
+        {
+          "kind": "festival",
+          "title": "かつおのたたき",
+          "caption": "A local taste associated with Kochi."
+        },
+        {
+          "kind": "river",
+          "title": "Shimanto River & coast",
+          "caption": "Culture and scenery to remember in Kochi."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukuoka",
+      "code": 40,
+      "prefecture_jp": "福岡県",
+      "prefecture_en": "Fukuoka",
+      "city_jp": "福岡",
+      "city_en": "Fukuoka",
+      "reading": "ふくおか",
+      "region": "Kyushu",
+      "lat": 33.6064,
+      "lon": 130.4181,
+      "tagline": "Hakata ramen, yatai, and a lively gateway city",
+      "description": "Fukuoka is Kyushu’s largest urban center and a major gateway to Asia, known for food stalls, ramen, shopping, festivals, and seaside districts.",
+      "famous": [
+        "Canal City & Tenjin",
+        "Yatai food stalls",
+        "Dazaifu"
+      ],
+      "foods": [
+        "とんこつラーメン",
+        "明太子"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "とんこつラーメン",
+            "reading": "とんこつらーめん",
+            "en": "tonkotsu ramen"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "屋台",
+            "reading": "やたい",
+            "en": "street-food stall"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "博多祇園山笠",
+            "reading": "はかたぎおんやまかさ",
+            "en": "Hakata Gion Yamakasa"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "福岡へ行きたいです。",
+          "reading": "ふくおかへ いきたいです。",
+          "en": "I want to go to Fukuoka."
+        },
+        "intermediate": {
+          "jp": "福岡では、屋台が有名です。",
+          "reading": "ふくおかでは、やたいが ゆうめいです。",
+          "en": "Street-food stall is well known in Fukuoka."
+        },
+        "advanced": {
+          "jp": "博多祇園山笠について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "はかたぎおんやまかさについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Hakata Gion Yamakasa reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "food",
+          "title": "Canal City & Tenjin",
+          "caption": "A visual memory card for Fukuoka."
+        },
+        {
+          "kind": "festival",
+          "title": "とんこつラーメン",
+          "caption": "A local taste associated with Fukuoka."
+        },
+        {
+          "kind": "city",
+          "title": "Dazaifu",
+          "caption": "Culture and scenery to remember in Fukuoka."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "saga",
+      "code": 41,
+      "prefecture_jp": "佐賀県",
+      "prefecture_en": "Saga",
+      "city_jp": "佐賀",
+      "city_en": "Saga",
+      "reading": "さが",
+      "region": "Kyushu",
+      "lat": 33.2494,
+      "lon": 130.2989,
+      "tagline": "Ceramics, balloons, and coastal food",
+      "description": "Saga is known for centuries-old ceramics, an internationally known balloon festival, hot springs, rice fields, and seafood from the Ariake Sea.",
+      "famous": [
+        "Arita & Imari ceramics",
+        "Balloon Fiesta",
+        "Yoshinogari"
+      ],
+      "foods": [
+        "呼子いか",
+        "佐賀牛"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "呼子いか",
+            "reading": "よぶこいか",
+            "en": "Yobuko squid"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "有田焼",
+            "reading": "ありたやき",
+            "en": "Arita ware"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "バルーンフェスタ",
+            "reading": "ばるーんふぇすた",
+            "en": "balloon festival"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "佐賀へ行きたいです。",
+          "reading": "さがへ いきたいです。",
+          "en": "I want to go to Saga."
+        },
+        "intermediate": {
+          "jp": "佐賀では、有田焼が有名です。",
+          "reading": "さがでは、ありたやきが ゆうめいです。",
+          "en": "Arita ware is well known in Saga."
+        },
+        "advanced": {
+          "jp": "バルーンフェスタについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "ばるーんふぇすたについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about balloon festival reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "craft",
+          "title": "Arita & Imari ceramics",
+          "caption": "A visual memory card for Saga."
+        },
+        {
+          "kind": "festival",
+          "title": "呼子いか",
+          "caption": "A local taste associated with Saga."
+        },
+        {
+          "kind": "history",
+          "title": "Yoshinogari",
+          "caption": "Culture and scenery to remember in Saga."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "nagasaki",
+      "code": 42,
+      "prefecture_jp": "長崎県",
+      "prefecture_en": "Nagasaki",
+      "city_jp": "長崎",
+      "city_en": "Nagasaki",
+      "reading": "ながさき",
+      "region": "Kyushu",
+      "lat": 32.7448,
+      "lon": 129.8737,
+      "tagline": "International port history and hillside views",
+      "description": "Nagasaki developed through centuries of overseas contact and is known for its harbor, peace memorials, historic foreign settlements, islands, and distinctive food culture.",
+      "famous": [
+        "Peace Park",
+        "Glover Garden",
+        "Dejima & harbor"
+      ],
+      "foods": [
+        "ちゃんぽん",
+        "カステラ"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "ちゃんぽん",
+            "reading": "ちゃんぽん",
+            "en": "Nagasaki champon"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "グラバー園",
+            "reading": "ぐらばーえん",
+            "en": "Glover Garden"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "出島",
+            "reading": "でじま",
+            "en": "Dejima"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "長崎へ行きたいです。",
+          "reading": "ながさきへ いきたいです。",
+          "en": "I want to go to Nagasaki."
+        },
+        "intermediate": {
+          "jp": "長崎では、グラバー園が有名です。",
+          "reading": "ながさきでは、ぐらばーえんが ゆうめいです。",
+          "en": "Glover Garden is well known in Nagasaki."
+        },
+        "advanced": {
+          "jp": "出島について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "でじまについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Dejima reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "port",
+          "title": "Peace Park",
+          "caption": "A visual memory card for Nagasaki."
+        },
+        {
+          "kind": "history",
+          "title": "ちゃんぽん",
+          "caption": "A local taste associated with Nagasaki."
+        },
+        {
+          "kind": "peace",
+          "title": "Dejima & harbor",
+          "caption": "Culture and scenery to remember in Nagasaki."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "kumamoto",
+      "code": 43,
+      "prefecture_jp": "熊本県",
+      "prefecture_en": "Kumamoto",
+      "city_jp": "熊本",
+      "city_en": "Kumamoto",
+      "reading": "くまもと",
+      "region": "Kyushu",
+      "lat": 32.7898,
+      "lon": 130.7417,
+      "tagline": "A grand castle and volcanic Aso",
+      "description": "Kumamoto is known for its imposing castle, the huge Aso volcanic caldera, hot springs, fertile countryside, and strong regional food traditions.",
+      "famous": [
+        "Kumamoto Castle",
+        "Mount Aso",
+        "Kurokawa Onsen"
+      ],
+      "foods": [
+        "馬刺し",
+        "からし蓮根"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "馬刺し",
+            "reading": "ばさし",
+            "en": "horse-meat sashimi"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "熊本城",
+            "reading": "くまもとじょう",
+            "en": "Kumamoto Castle"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "阿蘇",
+            "reading": "あそ",
+            "en": "Aso volcanic area"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "熊本へ行きたいです。",
+          "reading": "くまもとへ いきたいです。",
+          "en": "I want to go to Kumamoto."
+        },
+        "intermediate": {
+          "jp": "熊本では、熊本城が有名です。",
+          "reading": "くまもとでは、くまもとじょうが ゆうめいです。",
+          "en": "Kumamoto Castle is well known in Kumamoto."
+        },
+        "advanced": {
+          "jp": "阿蘇について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "あそについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Aso volcanic area reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "castle",
+          "title": "Kumamoto Castle",
+          "caption": "A visual memory card for Kumamoto."
+        },
+        {
+          "kind": "volcano",
+          "title": "馬刺し",
+          "caption": "A local taste associated with Kumamoto."
+        },
+        {
+          "kind": "onsen",
+          "title": "Kurokawa Onsen",
+          "caption": "Culture and scenery to remember in Kumamoto."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "oita",
+      "code": 44,
+      "prefecture_jp": "大分県",
+      "prefecture_en": "Oita",
+      "city_jp": "大分",
+      "city_en": "Oita",
+      "reading": "おおいた",
+      "region": "Kyushu",
+      "lat": 33.2382,
+      "lon": 131.6125,
+      "tagline": "Hot-spring steam and mountain valleys",
+      "description": "Oita is one of Japan’s best-known hot-spring prefectures, especially Beppu and Yufuin, with geothermal scenery and mountainous inland landscapes.",
+      "famous": [
+        "Beppu",
+        "Yufuin",
+        "Kunisaki Peninsula"
+      ],
+      "foods": [
+        "とり天",
+        "だんご汁"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "とり天",
+            "reading": "とりてん",
+            "en": "chicken tempura"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "別府温泉",
+            "reading": "べっぷおんせん",
+            "en": "Beppu hot springs"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "地獄めぐり",
+            "reading": "じごくめぐり",
+            "en": "Beppu “hells” tour"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "大分へ行きたいです。",
+          "reading": "おおいたへ いきたいです。",
+          "en": "I want to go to Oita."
+        },
+        "intermediate": {
+          "jp": "大分では、別府温泉が有名です。",
+          "reading": "おおいたでは、べっぷおんせんが ゆうめいです。",
+          "en": "Beppu hot springs is well known in Oita."
+        },
+        "advanced": {
+          "jp": "地獄めぐりについて詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "じごくめぐりについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Beppu “hells” tour reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "onsen",
+          "title": "Beppu",
+          "caption": "A visual memory card for Oita."
+        },
+        {
+          "kind": "nature",
+          "title": "とり天",
+          "caption": "A local taste associated with Oita."
+        },
+        {
+          "kind": "food",
+          "title": "Kunisaki Peninsula",
+          "caption": "Culture and scenery to remember in Oita."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "miyazaki",
+      "code": 45,
+      "prefecture_jp": "宮崎県",
+      "prefecture_en": "Miyazaki",
+      "city_jp": "宮崎",
+      "city_en": "Miyazaki",
+      "reading": "みやざき",
+      "region": "Kyushu",
+      "lat": 31.9077,
+      "lon": 131.4202,
+      "tagline": "Pacific coast, mythology, and warm climate",
+      "description": "Miyazaki is associated with a warm Pacific climate, dramatic coastal drives, ancient mythology, Takachiho gorge, and relaxed southern scenery.",
+      "famous": [
+        "Takachiho Gorge",
+        "Nichinan coast",
+        "Aoshima"
+      ],
+      "foods": [
+        "チキン南蛮",
+        "マンゴー"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "チキン南蛮",
+            "reading": "ちきんなんばん",
+            "en": "chicken nanban"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "高千穂",
+            "reading": "たかちほ",
+            "en": "Takachiho"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "日向",
+            "reading": "ひゅうが",
+            "en": "Hyuga / eastern Miyazaki"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "宮崎へ行きたいです。",
+          "reading": "みやざきへ いきたいです。",
+          "en": "I want to go to Miyazaki."
+        },
+        "intermediate": {
+          "jp": "宮崎では、高千穂が有名です。",
+          "reading": "みやざきでは、たかちほが ゆうめいです。",
+          "en": "Takachiho is well known in Miyazaki."
+        },
+        "advanced": {
+          "jp": "日向について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "ひゅうがについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Hyuga / eastern Miyazaki reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "coast",
+          "title": "Takachiho Gorge",
+          "caption": "A visual memory card for Miyazaki."
+        },
+        {
+          "kind": "myth",
+          "title": "チキン南蛮",
+          "caption": "A local taste associated with Miyazaki."
+        },
+        {
+          "kind": "nature",
+          "title": "Aoshima",
+          "caption": "Culture and scenery to remember in Miyazaki."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "kagoshima",
+      "code": 46,
+      "prefecture_jp": "鹿児島県",
+      "prefecture_en": "Kagoshima",
+      "city_jp": "鹿児島",
+      "city_en": "Kagoshima",
+      "reading": "かごしま",
+      "region": "Kyushu",
+      "lat": 31.5602,
+      "lon": 130.5581,
+      "tagline": "Sakurajima, Satsuma culture, and island routes",
+      "description": "Kagoshima faces the active Sakurajima volcano and is known for Satsuma history, hot springs, black pork, and routes to southern islands.",
+      "famous": [
+        "Sakurajima",
+        "Sengan-en",
+        "Island gateways"
+      ],
+      "foods": [
+        "黒豚",
+        "さつま揚げ"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "黒豚",
+            "reading": "くろぶた",
+            "en": "Kagoshima black pork"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "桜島",
+            "reading": "さくらじま",
+            "en": "Sakurajima"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "薩摩",
+            "reading": "さつま",
+            "en": "Satsuma region/culture"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "鹿児島へ行きたいです。",
+          "reading": "かごしまへ いきたいです。",
+          "en": "I want to go to Kagoshima."
+        },
+        "intermediate": {
+          "jp": "鹿児島では、桜島が有名です。",
+          "reading": "かごしまでは、さくらじまが ゆうめいです。",
+          "en": "Sakurajima is well known in Kagoshima."
+        },
+        "advanced": {
+          "jp": "薩摩について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "さつまについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Satsuma region/culture reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "volcano",
+          "title": "Sakurajima",
+          "caption": "A visual memory card for Kagoshima."
+        },
+        {
+          "kind": "history",
+          "title": "黒豚",
+          "caption": "A local taste associated with Kagoshima."
+        },
+        {
+          "kind": "island",
+          "title": "Island gateways",
+          "caption": "Culture and scenery to remember in Kagoshima."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "okinawa",
+      "code": 47,
+      "prefecture_jp": "沖縄県",
+      "prefecture_en": "Okinawa",
+      "city_jp": "那覇",
+      "city_en": "Naha",
+      "reading": "なは",
+      "region": "Okinawa",
+      "lat": 26.2124,
+      "lon": 127.6809,
+      "tagline": "Ryukyu culture, subtropical islands, and clear seas",
+      "description": "Okinawa has a distinct Ryukyu heritage, subtropical climate, coral seas, castle ruins, music, food, and a vocabulary shaped by island history.",
+      "famous": [
+        "Shuri Castle area",
+        "Kerama & island seas",
+        "Markets and Ryukyu culture"
+      ],
+      "foods": [
+        "沖縄そば",
+        "ゴーヤーチャンプルー"
+      ],
+      "level_words": {
+        "beginner": [
+          {
+            "jp": "沖縄そば",
+            "reading": "おきなわそば",
+            "en": "Okinawa soba"
+          }
+        ],
+        "intermediate": [
+          {
+            "jp": "首里城",
+            "reading": "しゅりじょう",
+            "en": "Shuri Castle"
+          }
+        ],
+        "advanced": [
+          {
+            "jp": "琉球文化",
+            "reading": "りゅうきゅうぶんか",
+            "en": "Ryukyu culture"
+          }
+        ]
+      },
+      "phrases": {
+        "beginner": {
+          "jp": "那覇へ行きたいです。",
+          "reading": "なはへ いきたいです。",
+          "en": "I want to go to Naha."
+        },
+        "intermediate": {
+          "jp": "那覇では、首里城が有名です。",
+          "reading": "なはでは、しゅりじょうが ゆうめいです。",
+          "en": "Shuri Castle is well known in Naha."
+        },
+        "advanced": {
+          "jp": "琉球文化について詳しく知ると、この地域の文化がもっと見えてきます。",
+          "reading": "りゅうきゅうぶんかについて くわしく しると、この ちいきの ぶんかが もっと みえてきます。",
+          "en": "Learning more about Ryukyu culture reveals more of the region’s culture."
+        }
+      },
+      "visuals": [
+        {
+          "kind": "island",
+          "title": "Shuri Castle area",
+          "caption": "A visual memory card for Okinawa."
+        },
+        {
+          "kind": "culture",
+          "title": "沖縄そば",
+          "caption": "A local taste associated with Okinawa."
+        },
+        {
+          "kind": "sea",
+          "title": "Markets and Ryukyu culture",
+          "caption": "Culture and scenery to remember in Okinawa."
+        }
+      ],
+      "featured": true
+    }
+  ],
+  "common_words": {
+    "beginner": [
+      {
+        "jp": "駅",
+        "reading": "えき",
+        "en": "station"
+      },
+      {
+        "jp": "電車",
+        "reading": "でんしゃ",
+        "en": "train"
+      },
+      {
+        "jp": "バス",
+        "reading": "ばす",
+        "en": "bus"
+      },
+      {
+        "jp": "道",
+        "reading": "みち",
+        "en": "road / way"
+      },
+      {
+        "jp": "山",
+        "reading": "やま",
+        "en": "mountain"
+      },
+      {
+        "jp": "海",
+        "reading": "うみ",
+        "en": "sea"
+      },
+      {
+        "jp": "川",
+        "reading": "かわ",
+        "en": "river"
+      },
+      {
+        "jp": "公園",
+        "reading": "こうえん",
+        "en": "park"
+      },
+      {
+        "jp": "店",
+        "reading": "みせ",
+        "en": "shop"
+      },
+      {
+        "jp": "写真",
+        "reading": "しゃしん",
+        "en": "photo"
+      },
+      {
+        "jp": "天気",
+        "reading": "てんき",
+        "en": "weather"
+      },
+      {
+        "jp": "切符",
+        "reading": "きっぷ",
+        "en": "ticket"
+      },
+      {
+        "jp": "入口",
+        "reading": "いりぐち",
+        "en": "entrance"
+      },
+      {
+        "jp": "出口",
+        "reading": "でぐち",
+        "en": "exit"
+      },
+      {
+        "jp": "右",
+        "reading": "みぎ",
+        "en": "right"
+      },
+      {
+        "jp": "左",
+        "reading": "ひだり",
+        "en": "left"
+      },
+      {
+        "jp": "近い",
+        "reading": "ちかい",
+        "en": "near"
+      },
+      {
+        "jp": "遠い",
+        "reading": "とおい",
+        "en": "far"
+      },
+      {
+        "jp": "食べる",
+        "reading": "たべる",
+        "en": "to eat"
+      },
+      {
+        "jp": "飲む",
+        "reading": "のむ",
+        "en": "to drink"
+      }
+    ],
+    "intermediate": [
+      {
+        "jp": "名物",
+        "reading": "めいぶつ",
+        "en": "local specialty"
+      },
+      {
+        "jp": "観光",
+        "reading": "かんこう",
+        "en": "sightseeing"
+      },
+      {
+        "jp": "神社",
+        "reading": "じんじゃ",
+        "en": "Shinto shrine"
+      },
+      {
+        "jp": "寺",
+        "reading": "てら",
+        "en": "Buddhist temple"
+      },
+      {
+        "jp": "城",
+        "reading": "しろ",
+        "en": "castle"
+      },
+      {
+        "jp": "温泉",
+        "reading": "おんせん",
+        "en": "hot spring"
+      },
+      {
+        "jp": "市場",
+        "reading": "いちば",
+        "en": "market"
+      },
+      {
+        "jp": "港",
+        "reading": "みなと",
+        "en": "port"
+      },
+      {
+        "jp": "祭り",
+        "reading": "まつり",
+        "en": "festival"
+      },
+      {
+        "jp": "景色",
+        "reading": "けしき",
+        "en": "scenery"
+      },
+      {
+        "jp": "文化",
+        "reading": "ぶんか",
+        "en": "culture"
+      },
+      {
+        "jp": "歴史",
+        "reading": "れきし",
+        "en": "history"
+      },
+      {
+        "jp": "伝統",
+        "reading": "でんとう",
+        "en": "tradition"
+      },
+      {
+        "jp": "旅行",
+        "reading": "りょこう",
+        "en": "travel"
+      },
+      {
+        "jp": "地図",
+        "reading": "ちず",
+        "en": "map"
+      },
+      {
+        "jp": "予約",
+        "reading": "よやく",
+        "en": "reservation"
+      },
+      {
+        "jp": "乗り換え",
+        "reading": "のりかえ",
+        "en": "transfer"
+      },
+      {
+        "jp": "お土産",
+        "reading": "おみやげ",
+        "en": "souvenir"
+      },
+      {
+        "jp": "地元",
+        "reading": "じもと",
+        "en": "local area"
+      },
+      {
+        "jp": "季節",
+        "reading": "きせつ",
+        "en": "season"
+      }
+    ],
+    "advanced": [
+      {
+        "jp": "世界遺産",
+        "reading": "せかいいさん",
+        "en": "World Heritage site"
+      },
+      {
+        "jp": "郷土料理",
+        "reading": "きょうどりょうり",
+        "en": "regional cuisine"
+      },
+      {
+        "jp": "伝統工芸",
+        "reading": "でんとうこうげい",
+        "en": "traditional craft"
+      },
+      {
+        "jp": "文化財",
+        "reading": "ぶんかざい",
+        "en": "cultural property"
+      },
+      {
+        "jp": "城下町",
+        "reading": "じょうかまち",
+        "en": "castle town"
+      },
+      {
+        "jp": "街並み",
+        "reading": "まちなみ",
+        "en": "streetscape"
+      },
+      {
+        "jp": "自然景観",
+        "reading": "しぜんけいかん",
+        "en": "natural landscape"
+      },
+      {
+        "jp": "歴史地区",
+        "reading": "れきしちく",
+        "en": "historic district"
+      },
+      {
+        "jp": "参拝",
+        "reading": "さんぱい",
+        "en": "shrine/temple visit"
+      },
+      {
+        "jp": "風情",
+        "reading": "ふぜい",
+        "en": "distinctive atmosphere"
+      },
+      {
+        "jp": "由来",
+        "reading": "ゆらい",
+        "en": "origin / derivation"
+      },
+      {
+        "jp": "発祥",
+        "reading": "はっしょう",
+        "en": "place of origin"
+      },
+      {
+        "jp": "名勝",
+        "reading": "めいしょう",
+        "en": "place of scenic beauty"
+      },
+      {
+        "jp": "国立公園",
+        "reading": "こくりつこうえん",
+        "en": "national park"
+      },
+      {
+        "jp": "島しょ",
+        "reading": "とうしょ",
+        "en": "islands / archipelago"
+      },
+      {
+        "jp": "火山",
+        "reading": "かざん",
+        "en": "volcano"
+      },
+      {
+        "jp": "湾岸",
+        "reading": "わんがん",
+        "en": "waterfront / bay area"
+      },
+      {
+        "jp": "盆地",
+        "reading": "ぼんち",
+        "en": "basin"
+      },
+      {
+        "jp": "方言",
+        "reading": "ほうげん",
+        "en": "dialect"
+      },
+      {
+        "jp": "民俗",
+        "reading": "みんぞく",
+        "en": "folk customs"
+      }
+    ]
+  },
+  "regions": [
+    "Hokkaido",
+    "Tohoku",
+    "Kanto",
+    "Chubu",
+    "Kansai",
+    "Chugoku",
+    "Shikoku",
+    "Kyushu",
+    "Okinawa"
+  ]
+}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}My Lists — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">保存 — hozon, save</p><h1>Favorites &amp; My Lists</h1>
+  <p class="hero-lede">Save words, kanji, grammar patterns, and useful sentences. Create focused lists such as “Work Japanese” or “Words I forget”.</p>
+</section>
+<section class="list-create"><input id="new-list-name" class="filter-input" placeholder="New list name"><button class="btn-primary" id="create-list" type="button">Create list</button></section>
+{% for name, items in lists.items() %}
+<section class="favorite-list-block"><div class="home-section-head"><div><p class="hero-eyebrow">List</p><h2>{{ name }}</h2></div><div class="favorite-list-head-actions"><span>{{ items|length }} saved</span>{% if items %}<a class="btn-ghost" href="{{ url_for('smart_review_page', list=name) }}">Study this list</a>{% endif %}</div></div>
+<div class="favorite-grid">
+{% for item in items %}
+<article class="favorite-card" data-favorite-key="{{ item.key }}" data-source-list="{{ name }}"><div><span class="exam-category-chip">{{ item.kind }}</span><h3>{{ item.front }}</h3>{% if item.reading %}<p class="vocab-reading">{{ item.reading }}</p>{% endif %}<p>{{ item.meaning }}</p></div><div class="favorite-card-actions">{% if item.url %}<a class="btn-ghost" href="{{ item.url }}">Open</a>{% endif %}{% if lists|length > 1 %}<select class="favorite-copy-target" aria-label="Copy to list"><option value="">Copy to…</option>{% for target in lists if target != name %}<option value="{{ target }}">{{ target }}</option>{% endfor %}</select><button class="btn-ghost favorite-copy" type="button">Copy</button>{% endif %}<button class="btn-ghost favorite-remove" type="button">Remove</button></div></article>
+{% else %}<p class="empty-note">Nothing saved in this list yet.</p>{% endfor %}
+</div></section>
+{% endfor %}
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/favorites.js') }}"></script>{% endblock %}

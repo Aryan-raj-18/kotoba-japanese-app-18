@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Explore — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head explore-head">
+  <p class="hero-eyebrow">探す — explore</p>
+  <h1>Your Japanese toolkit</h1>
+  <p class="hero-lede">Use the roadmap when you want guidance. Use Explore when you want to focus on one skill, topic, or exam level.</p>
+</section>
+
+<section class="explore-group">
+  <div class="home-section-head"><div><p class="hero-eyebrow">Core scripts</p><h2>Read &amp; write</h2></div></div>
+  <div class="path-grid">
+    <a class="path-card" href="{{ url_for('hiragana') }}"><span class="path-kanji">あ</span><h2>Hiragana</h2><p>The 46 base sounds plus voiced and combination forms.</p></a>
+    <a class="path-card" href="{{ url_for('katakana') }}"><span class="path-kanji">ア</span><h2>Katakana</h2><p>The script used for loanwords, names, emphasis, and more.</p></a>
+    <a class="path-card" href="{{ url_for('kanji_list') }}"><span class="path-kanji">漢</span><h2>Kanji</h2><p>{{ kanji_count }} detailed characters with readings, vocabulary, and radicals.</p></a>
+    <a class="path-card" href="{{ url_for('radicals_page') }}"><span class="path-kanji">部</span><h2>Radicals</h2><p>Understand how kanji are built and remember them more easily.</p></a>
+    <a class="path-card" href="{{ url_for('write_page') }}"><span class="path-kanji">書</span><h2>Writing Practice</h2><p>Trace kana and kanji, then practise producing them yourself.</p></a>
+  </div>
+</section>
+
+<section class="explore-group">
+  <div class="home-section-head"><div><p class="hero-eyebrow">Use Japanese</p><h2>Vocabulary &amp; communication</h2></div></div>
+  <div class="path-grid">
+    <a class="path-card" href="{{ url_for('everyday_words') }}"><span class="path-kanji">毎</span><h2>Everyday Life</h2><p>{{ everyday_count }}+ useful words and phrases grouped by real-life topic.</p></a>
+    <a class="path-card" href="{{ url_for('verbs_list') }}"><span class="path-kanji">動</span><h2>Verbs</h2><p>{{ verbs_count }} common verbs with major conjugated forms.</p></a>
+    <a class="path-card" href="{{ url_for('conversations_list') }}"><span class="path-kanji">話</span><h2>Conversations</h2><p>{{ conversation_count }} full dialogues for practical situations.</p></a>
+    <a class="path-card" href="{{ url_for('stories_list') }}"><span class="path-kanji">読</span><h2>Short Stories</h2><p>{{ story_count }} graded stories with reading help and comprehension.</p></a>
+    <a class="path-card" href="{{ url_for('grammar_page') }}"><span class="path-kanji">文</span><h2>Grammar N5–N1</h2><p>{{ grammar_count }} grammar patterns with examples and exam-linked advanced forms.</p></a>
+    <a class="path-card path-card-accent" href="{{ url_for('speaking_page') }}"><span class="path-kanji">声</span><h2>Speaking &amp; Shadowing</h2><p>Listen, repeat, record yourself, and get recognition feedback where supported.</p></a>
+    <a class="path-card japan-path-card" href="{{ url_for('japan_explorer_page') }}"><span class="path-kanji">地</span><h2>Japan Explorer</h2><p>Explore all 47 prefectures through an interactive map, local culture, vocabulary, audio, and mini quizzes.</p></a>
+  </div>
+</section>
+
+<section class="explore-group">
+  <div class="home-section-head"><div><p class="hero-eyebrow">Practice &amp; exams</p><h2>Train what you know</h2></div></div>
+  <div class="path-grid">
+    <a class="path-card path-card-accent" href="{{ url_for('roadmap_page') }}"><span class="path-kanji">道</span><h2>Guided Roadmap</h2><p>Your recommended beginner-to-intermediate learning sequence.</p></a>
+    <a class="path-card" href="{{ url_for('jlpt_index') }}"><span class="path-kanji">級</span><h2>JLPT N5–N1</h2><p>{{ jlpt_count }} kanji across all five exam levels, with practice.</p></a>
+    <a class="path-card path-card-accent" href="{{ url_for('smart_review_page') }}"><span class="path-kanji">復</span><h2>Daily Review</h2><p>Spaced repetition prioritizes weak and overdue material automatically.</p></a>
+    <a class="path-card" href="{{ url_for('flashcards') }}"><span class="path-kanji">札</span><h2>Review Cards</h2><p>Recognition and recall practice across multiple decks.</p></a>
+    <a class="path-card" href="{{ url_for('mistakes_page') }}"><span class="path-kanji">誤</span><h2>Mistake Notebook</h2><p>Everything you miss, with recovery tracking.</p></a>
+    <a class="path-card" href="{{ url_for('games_page') }}"><span class="path-kanji">遊</span><h2>Learning Games</h2><p>Match, audio, kana, verbs, and sentence challenges.</p></a>
+    <a class="path-card path-card-accent" href="{{ url_for('practice_start') }}"><span class="path-kanji">練</span><h2>Mixed Practice</h2><p>Sentence-based practice with explanations after every answer.</p></a>
+    <a class="path-card" href="{{ url_for('streak_page') }}"><span class="path-kanji">進</span><h2>Progress</h2><p>See your streak, completion, and mastered-item totals.</p></a>
+  </div>
+</section>
+{% endblock %}

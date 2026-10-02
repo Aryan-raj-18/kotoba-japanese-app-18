@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Roadmap — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head roadmap-head">
+  <p class="hero-eyebrow">道 — michi, the path</p>
+  <h1>Your Roadmap</h1>
+  <p class="hero-lede">
+    Follow the highlighted lesson for the smoothest route, or jump to any open topic whenever you want.
+    The current guided course builds from the foundations through intermediate Japanese, with JLPT N2–N1 tools available separately in Explore.
+  </p>
+  <div class="rm-overall" aria-label="Overall progress">
+    <div class="rm-overall-bar"><span style="width: {{ roadmap.pct }}%"></span></div>
+    <span class="rm-overall-text">{{ roadmap.done }} / {{ roadmap.total }} chapters</span>
+  </div>
+  {% if roadmap.next_id %}
+  <p class="rm-next-hint"><span>Next up</span> Follow the pulsing node below. You can still choose any other chapter.</p>
+  {% endif %}
+</section>
+
+<div class="rm-path" id="rm-path">
+  {% set ns = namespace(n=0) %}
+  {% for sec in roadmap.sections %}
+  <div class="rm-section-banner">
+    <div class="rm-section-topline">
+      <p class="rm-section-num">Section {{ loop.index }}</p>
+      <span class="rm-stage-badge">{{ sec.stage }}</span>
+    </div>
+    <div>
+      <h2>{{ sec.title }}</h2>
+      <p class="rm-section-blurb">{{ sec.blurb }}</p>
+      <p class="rm-stage-note">{{ sec.stage_note }}</p>
+    </div>
+  </div>
+
+  <ol class="rm-nodes">
+    {% for ch in sec.chapters %}
+    {% set ns.n = ns.n + 1 %}
+    {% set offset = [0, 1, 2, 1, 0, -1, -2, -1][ns.n % 8] %}
+    <li class="rm-node-wrap{{ ' rm-current' if ch.is_next else '' }}" style="--rm-offset: {{ offset }}">
+      {% if ch.status == 'locked' or (ch.kind == 'placeholder') %}
+      <button type="button" class="rm-node rm-locked" data-title="{{ ch.title }}"
+              data-soon="{{ 'yes' if ch.kind == 'placeholder' else 'no' }}"
+              aria-label="{{ ch.title }} — {{ 'coming soon' if ch.kind == 'placeholder' else 'locked' }}">
+        <span class="rm-icon">🔒</span>
+      </button>
+      {% else %}
+      <a class="rm-node rm-{{ ch.status }}" href="{{ url_for('roadmap_chapter', chapter_id=ch.id) }}"
+         aria-label="{{ ch.title }}{{ ' — recommended next lesson' if ch.is_next else '' }}">
+        <span class="rm-icon">{% if ch.status == 'completed' %}✓{% else %}{{ ch.icon }}{% endif %}</span>
+      </a>
+      {% endif %}
+      {% if ch.is_next %}<span class="rm-next-pill">NEXT</span>{% endif %}
+      <span class="rm-node-label">{{ ch.title }}{% if ch.kind == 'placeholder' %} <em>· soon</em>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endfor %}
+</div>
+
+<p class="rm-toast" id="rm-toast" role="status" hidden></p>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/roadmap.js') }}"></script>
+{% endblock %}

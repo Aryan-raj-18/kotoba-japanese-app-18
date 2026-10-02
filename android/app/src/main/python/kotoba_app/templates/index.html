@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block title %}Kotoba — Your Japanese Learning Path{% endblock %}
+
+{% block content %}
+<section class="home-hero">
+  <div class="home-hero-copy">
+    <p class="hero-eyebrow">今日の一歩 — today's next step</p>
+    <h1>Learn Japanese with a clear path.</h1>
+    <p class="home-lede">One guided lesson at a time, with your full Kotoba library still available whenever you want to explore.</p>
+    <p class="home-goal-pill" id="home-goal-pill">Daily goal · 10 min</p>
+
+    <article class="continue-card" aria-label="Recommended next lesson">
+      <div class="continue-icon" aria-hidden="true">{{ next_lesson.icon }}</div>
+      <div class="continue-copy">
+        <div class="continue-meta">
+          <span>{{ next_lesson.stage }}</span>
+          <span>·</span>
+          <span>{{ next_lesson.minutes }} min</span>
+        </div>
+        <h2>{{ next_lesson.title }}</h2>
+        <p>{{ next_lesson.section }} · Lesson {{ next_lesson.position }} of {{ next_lesson.total }}</p>
+        <div class="continue-progress" aria-label="Roadmap progress">
+          <span style="width: {{ roadmap.pct }}%"></span>
+        </div>
+      </div>
+      <a class="btn-primary continue-btn" href="{{ next_lesson.url }}">Continue</a>
+    </article>
+
+    <div class="home-quick-actions">
+      <a href="{{ url_for('smart_review_page') }}"><span>↻</span><strong>Daily Review</strong><small>{{ learner.due }} due · smart SRS</small></a>
+      <a href="{{ url_for('practice_start') }}"><span>練</span><strong>Practice</strong><small>Mixed sentence drills</small></a>
+      <a href="{{ url_for('write_page') }}"><span>書</span><strong>Writing</strong><small>Trace kana &amp; kanji</small></a>
+    </div>
+  </div>
+
+  <div class="koto-home" aria-label="Koto, your learning companion">
+    <div class="koto-orbit koto-orbit-one">あ</div>
+    <div class="koto-orbit koto-orbit-two">日</div>
+    <div class="koto-mascot koto-wave" aria-hidden="true">
+      <span class="koto-ear koto-ear-left"></span>
+      <span class="koto-ear koto-ear-right"></span>
+      <span class="koto-eye koto-eye-left"></span>
+      <span class="koto-eye koto-eye-right"></span>
+      <span class="koto-mouth"></span>
+      <span class="koto-mark">言</span>
+      <span class="koto-arm koto-arm-left"></span>
+      <span class="koto-arm koto-arm-right"></span>
+    </div>
+    <div class="koto-speech"><strong>いこう！</strong><br>Let's keep going.</div>
+  </div>
+</section>
+
+<section class="home-stats" aria-label="Learning progress">
+  <a href="{{ url_for('streak_page') }}" class="home-stat">
+    <span class="home-stat-icon">🔥</span>
+    <strong>{{ streak.current }}</strong>
+    <small>day streak</small>
+  </a>
+  <a href="{{ url_for('roadmap_page') }}" class="home-stat">
+    <span class="home-stat-icon">道</span>
+    <strong>{{ roadmap.pct }}%</strong>
+    <small>roadmap complete</small>
+  </a>
+  <a href="{{ url_for('smart_review_page') }}" class="home-stat">
+    <span class="home-stat-icon">✓</span>
+    <strong>{{ learner.mastery.Mastered }}</strong>
+    <small>SRS mastered</small>
+  </a>
+  <a href="{{ url_for('streak_page') }}" class="home-stat">
+    <span class="home-stat-icon">XP</span>
+    <strong>Lv {{ learner.level }}</strong>
+    <small>{{ learner.xp }} XP</small>
+  </a>
+</section>
+
+<section class="home-section-head">
+  <div>
+    <p class="hero-eyebrow">学ぶ — learn</p>
+    <h2>Choose your focus</h2>
+  </div>
+  <a href="{{ url_for('explore_page') }}">Explore everything →</a>
+</section>
+
+<section class="focus-grid">
+  <a class="focus-card" href="{{ url_for('roadmap_page') }}">
+    <span class="focus-icon">道</span><div><h3>Guided Roadmap</h3><p>Foundation → beginner → intermediate, in a recommended order.</p></div>
+  </a>
+  <a class="focus-card" href="{{ url_for('jlpt_index') }}">
+    <span class="focus-icon">級</span><div><h3>JLPT N5–N1</h3><p>{{ jlpt_count }} kanji organized across all five JLPT levels.</p></div>
+  </a>
+  <a class="focus-card" href="{{ url_for('stories_list') }}">
+    <span class="focus-icon">読</span><div><h3>Reading</h3><p>{{ story_count }} graded stories with reading support and comprehension.</p></div>
+  </a>
+  <a class="focus-card" href="{{ url_for('conversations_list') }}">
+    <span class="focus-icon">話</span><div><h3>Conversation</h3><p>{{ conversation_count }} dialogues for practical, real-life situations.</p></div>
+  </a>
+  <a class="focus-card" href="{{ url_for('grammar_page') }}">
+    <span class="focus-icon">文</span><div><h3>Grammar N5–N1</h3><p>Browse patterns, examples, and advanced exam-linked forms.</p></div>
+  </a>
+  <a class="focus-card" href="{{ url_for('speaking_page') }}">
+    <span class="focus-icon">声</span><div><h3>Speaking</h3><p>Listen, shadow, record, and compare your Japanese.</p></div>
+  </a>
+  <a class="focus-card" href="{{ url_for('japan_explorer_page') }}">
+    <span class="focus-icon">地</span><div><h3>Japan Explorer</h3><p>Travel across 47 prefectures while learning local words, culture, food, and useful Japanese.</p></div>
+  </a>
+</section>
+
+<section class="advanced-callout">
+  <div>
+    <p class="hero-eyebrow">もっと先へ — go further</p>
+    <h2>The roadmap now continues into N3, N2, and N1 grammar.</h2>
+    <p>After the intermediate core, continue into Upper Intermediate, Advanced Grammar, and N1 Mastery, while Daily Review adapts to the items you personally miss.</p>
+  </div>
+  <div class="advanced-actions">
+    <a class="btn-primary" href="{{ url_for('jlpt_index') }}">Open JLPT track</a>
+    <a class="btn-ghost" href="{{ url_for('explore_page') }}">Browse all tools</a>
+  </div>
+</section>
+
+<section class="home-section-head"><div><p class="hero-eyebrow">今日のミッション — daily missions</p><h2>Three small wins</h2></div><a href="{{ url_for('streak_page') }}">Full progress →</a></section>
+<section class="mission-grid">
+{% for m in learner.missions %}<a class="mission-card {{ 'done' if m.done else '' }}" href="{{ url_for('smart_review_page') if 'Review' in m.title or 'answers' in m.title else url_for('speaking_page') }}"><span>{{ '✓' if m.done else '○' }}</span><div><strong>{{ m.title }}</strong><small>{{ m.current }} / {{ m.target }}</small><div class="mission-track"><i style="width: {{ (100 * m.current / m.target)|round }}%"></i></div></div></a>{% endfor %}
+</section>
+
+<section class="home-search-card">
+  <div><p class="hero-eyebrow">辞書 — quick search</p><h2>Look up a word or kanji</h2></div>
+  <form class="hero-search" action="{{ url_for('search_page') }}" method="get">
+    <input type="text" name="q" placeholder="Try mountain, 川, or kawa..." autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+</section>
+
+{% if show_onboarding %}
+<div class="onboarding-overlay" id="onboarding-overlay" hidden>
+  <section class="onboarding-card" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
+    <button class="onboarding-skip" id="onboarding-skip" type="button" aria-label="Skip setup">×</button>
+    <div class="onboarding-koto">
+      <div class="koto-mascot koto-wave" aria-hidden="true"><span class="koto-ear koto-ear-left"></span><span class="koto-ear koto-ear-right"></span><span class="koto-eye koto-eye-left"></span><span class="koto-eye koto-eye-right"></span><span class="koto-mouth"></span><span class="koto-mark">言</span><span class="koto-arm koto-arm-left"></span><span class="koto-arm koto-arm-right"></span></div>
+    </div>
+    <p class="hero-eyebrow">はじめまして！</p>
+    <h2 id="onboarding-title">Where should Kotoba start you?</h2>
+    <p class="onboarding-lede">You can jump anywhere later. This only chooses your recommended starting point.</p>
+    <div class="onboarding-levels">
+      <button type="button" data-start="/roadmap/hiragana-1"><strong>I'm brand new</strong><span>Start with hiragana and the basics</span></button>
+      <button type="button" data-start="/roadmap/greetings-intro"><strong>I know kana</strong><span>Start with useful beginner Japanese</span></button>
+      <button type="button" data-start="/roadmap/particles-wa-ga-o"><strong>I know the basics</strong><span>Start with grammar foundations</span></button>
+      <a class="onboarding-placement" href="{{ url_for('placement_page') }}"><strong>Test my Japanese</strong><span>Take a ~5 minute placement test</span></a>
+      <button type="button" data-start="/jlpt" data-roadmap-start="n5-kanji-checkpoint"><strong>I'm studying for JLPT</strong><span>Jump to N5–N1 study tools</span></button>
+    </div>
+    <div class="onboarding-goal">
+      <span>Daily goal</span>
+      <div class="goal-chips" id="goal-chips">
+        <button type="button" data-goal="5">5 min</button>
+        <button type="button" data-goal="10" class="active">10 min</button>
+        <button type="button" data-goal="15">15 min</button>
+        <button type="button" data-goal="20">20 min</button>
+      </div>
+    </div>
+  </section>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/home.js') }}"></script>
+{% endblock %}

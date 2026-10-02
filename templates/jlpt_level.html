@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}JLPT {{ level }} Kanji — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">日本語能力試験</p>
+  <div class="jlpt-level-tabs">
+    {% for l in levels %}
+    <a href="{{ url_for('jlpt_level', level=l) }}" class="jlpt-tab {{ 'active' if l == level else '' }}">{{ l }}</a>
+    {% endfor %}
+  </div>
+  <h1>{{ label }}</h1>
+  <p class="hero-lede">{{ entries|length }} kanji at this level, with meaning and on/kun readings pulled from the same reference-style entries as the main Kanji section.</p>
+  <div class="practice-cta-row">
+    <a href="{{ url_for('jlpt_practice', level=level) }}" class="btn-primary kanji-practice-cta">Practice {{ level }} kanji →</a>
+    {% if exam_count %}
+    <a href="{{ url_for('jlpt_exam_practice', level=level) }}" class="btn-primary jlpt-exam-cta">Exam Q&amp;A — {{ exam_count }} questions →</a>
+    <a href="{{ url_for('jlpt_mock', level=level) }}" class="btn-ghost jlpt-exam-cta">Timed mock exam →</a>
+    {% endif %}
+  </div>
+  {% if not exam_count %}<p class="practice-note">Exam Q&amp;A has not been added for {{ level }} because no {{ level }} EPUB source was provided.</p>{% endif %}
+  <input type="text" id="kanji-filter" class="filter-input" placeholder="Filter this list by meaning or reading...">
+</section>
+
+<section class="kanji-grid" id="kanji-grid">
+  {% for e in entries %}
+  <button type="button" class="kanji-card jlpt-entry-card"
+       data-search="{{ (e.meaning ~ ' ' ~ e.on_yomi ~ ' ' ~ e.kun_yomi)|lower }}"
+       data-kanji="{{ e.kanji }}" data-on="{{ e.on_yomi }}" data-kun="{{ e.kun_yomi }}"
+       data-meaning="{{ e.meaning }}" data-level="{{ e.level }}" data-difficulty="{{ e.difficulty }}">
+    <span class="jlpt-badge jlpt-badge-{{ e.difficulty }} kanji-card-jlpt">{{ e.difficulty }}</span>
+    <span class="kanji-card-char">{{ e.kanji }}</span>
+    <span class="kanji-card-meaning">{{ e.meaning }}</span>
+    <span class="jlpt-entry-readings">
+      <span title="On-yomi">音 {{ e.on_yomi }}</span>
+      <span title="Kun-yomi">訓 {{ e.kun_yomi }}</span>
+    </span>
+  </button>
+  {% endfor %}
+</section>
+
+<div class="modal-overlay" id="kanji-modal" hidden>
+  <div class="modal-card">
+    <button type="button" class="modal-close" id="kanji-modal-close" aria-label="Close">×</button>
+    <p class="modal-word jlpt-modal-char" id="modal-kanji-char"></p>
+    <p class="modal-reading" id="modal-kanji-on"></p>
+    <p class="modal-reading" id="modal-kanji-kun"></p>
+    <p class="modal-meaning" id="modal-kanji-meaning"></p>
+    <div class="modal-actions"><button type="button" class="speak-btn" id="jlpt-kanji-speak">🔊 Listen</button><button type="button" class="favorite-btn" id="jlpt-kanji-favorite">☆ Save</button></div>
+    <div class="jlpt-modal-badges">
+      <span class="jlpt-badge" id="modal-kanji-level-badge"></span>
+      <span class="jlpt-badge" id="modal-kanji-diff-badge"></span>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/kanji_list.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jlpt_level.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Grammar N5–N1 — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head"><p class="hero-eyebrow">文法 — bunpō, grammar</p><h1>Grammar Dictionary</h1><p class="hero-lede">Browse {{ grammar|length }} particles, auxiliaries, conjunctions, and grammar patterns. Core entries use the supplied frequency vocabulary source; advanced entries connect to your JLPT exam-prep material. General-frequency level tags are study guidance rather than official JLPT classifications; exam-linked entries are marked from the uploaded practice sources.</p>
+<input id="grammar-filter" class="filter-input" placeholder="Search a pattern, meaning, or example…"><div class="level-options" id="grammar-levels"><button class="level-btn active" data-level="all">All</button>{% for l in levels %}<button class="level-btn" data-level="{{ l }}">{{ l }} · {{ counts[l] }}</button>{% endfor %}</div></section>
+<section class="grammar-grid" id="grammar-grid">
+{% for g in grammar %}<a class="grammar-card" href="{{ url_for('grammar_detail', grammar_id=g.id) }}" data-level="{{ g.level }}" data-search="{{ (g.pattern ~ ' ' ~ g.meaning ~ ' ' ~ g.example_ja)|lower }}"><div class="grammar-card-top"><span class="jlpt-badge jlpt-badge-{{ g.level }}">{{ g.level }}</span><span>{{ g.type }}</span></div><h2>{{ g.pattern }}</h2>{% if g.reading and g.reading != g.pattern %}<p class="vocab-reading">{{ g.reading }}</p>{% endif %}<p>{{ g.meaning }}</p>{% if g.example_ja %}<p class="grammar-example">{{ g.example_ja }}</p>{% endif %}</a>{% endfor %}
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/grammar.js') }}"></script>{% endblock %}

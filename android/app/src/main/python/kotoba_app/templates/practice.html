@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}Practice — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">練習 — renshū</p>
+  <h1>Practice</h1>
+  <p class="hero-lede">Learn 10 words, then complete a real sentence with each one. Get it right, and see the full breakdown — on-yomi, kun-yomi, and where it's actually used.</p>
+</section>
+
+<section class="practice-stage" id="practice-stage">
+
+  <div class="stage-panel" id="panel-intro">
+    <div class="level-picker">
+      <h3>What do you want to practice?</h3>
+      <div class="level-options" id="mode-options">
+        <button type="button" class="mode-sel active" data-mode="kanji">Kanji practice</button>
+        <button type="button" class="mode-sel" data-mode="sentence">Sentences</button>
+        <button type="button" class="mode-sel" data-mode="mixed">Mixed</button>
+      </div>
+      <h3>Difficulty</h3>
+      <div class="level-options" id="level-options">
+        <button type="button" class="level-btn active" data-level="mixed">Mixed</button>
+        <button type="button" class="level-btn" data-level="easy">Easy</button>
+        <button type="button" class="level-btn" data-level="medium">Medium</button>
+        <button type="button" class="level-btn" data-level="hard">Hard</button>
+      </div>
+      <h3>Round length</h3>
+      <div class="count-options" id="count-options">
+        <button type="button" class="count-btn active" data-count="10">10 words</button>
+        <button type="button" class="count-btn" data-count="20">20 words</button>
+        <button type="button" class="count-btn" data-count="30">30 words</button>
+      </div>
+    </div>
+    <p>Ready?</p>
+    <button type="button" class="btn-primary" id="start-btn">Start practice</button>
+  </div>
+
+  <div class="stage-panel" id="panel-learn" hidden>
+    <p class="stage-label">Step 1 · Learn — <span id="learn-progress"></span></p>
+    <div class="learn-card" id="learn-card">
+      <span class="learn-kanji" id="learn-kanji"></span>
+      <span class="learn-reading" id="learn-reading"></span>
+      <span class="learn-meaning" id="learn-meaning"></span>
+      <div class="learn-yomi">
+        <span><strong>On-yomi:</strong> <span id="learn-on"></span></span>
+        <span><strong>Kun-yomi:</strong> <span id="learn-kun"></span></span>
+      </div>
+    </div>
+    <div class="stage-controls">
+      <button type="button" class="btn-ghost" id="learn-prev">← Back</button>
+      <button type="button" class="btn-primary" id="learn-next">Next →</button>
+    </div>
+  </div>
+
+  <div class="stage-panel" id="panel-quiz" hidden>
+    <p class="stage-label">Step 2 · Complete the sentence — <span id="quiz-progress"></span></p>
+    <div class="quiz-card">
+      <p class="quiz-question" id="quiz-question"></p>
+      <p class="quiz-sentence" id="quiz-sentence"></p>
+      <p class="quiz-translation" id="quiz-translation"></p>
+      <div class="quiz-options" id="quiz-options"></div>
+      <p class="quiz-feedback" id="quiz-feedback" hidden></p>
+    </div>
+  </div>
+
+  <div class="stage-panel" id="panel-explain" hidden>
+    <div class="explain-card">
+      <span class="result-banner" id="result-banner"></span>
+      <div class="explain-head">
+        <span class="explain-kanji" id="explain-kanji"></span>
+        <div>
+          <h2 id="explain-word"></h2>
+          <p id="explain-meaning"></p>
+        </div>
+      </div>
+      <dl class="reading-list">
+        <div><dt>On-yomi</dt><dd id="explain-on"></dd></div>
+        <div><dt>Kun-yomi</dt><dd id="explain-kun"></dd></div>
+        <div><dt>Strokes</dt><dd id="explain-strokes"></dd></div>
+      </dl>
+      <div class="sentence-card">
+        <p class="sentence-kanji" id="explain-sentence-kanji"></p>
+        <p class="sentence-hiragana" id="explain-sentence-hiragana"></p>
+        <p class="sentence-romaji" id="explain-sentence-romaji"></p>
+        <p class="sentence-en" id="explain-sentence-en"></p>
+        <p class="sentence-usage"><strong>Commonly used:</strong> <span id="explain-usage"></span></p>
+      </div>
+      <button type="button" class="btn-primary" id="continue-btn">Continue →</button>
+    </div>
+  </div>
+
+  <div class="stage-panel" id="panel-done" hidden>
+    <p class="stage-label">Round complete</p>
+    <p class="done-score" id="done-score"></p>
+    <button type="button" class="btn-primary" id="restart-btn">Start another round</button>
+  </div>
+
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/practice.js') }}"></script>
+{% endblock %}

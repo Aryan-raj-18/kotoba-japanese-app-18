@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Conversations — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">会話 — kaiwa, conversation</p>
+  <h1>Conversations</h1>
+  <p class="hero-lede">
+    {{ conversations|length }} full conversations for everyday situations —
+    ordering food, asking directions, a job interview, calling in sick,
+    and more. Click one to read it line by line with hiragana, romaji,
+    and English on tap.
+  </p>
+</section>
+
+<section class="story-grid">
+  {% for c in conversations %}
+  <a class="story-card" href="{{ url_for('conversation_detail', conv_id=c.id) }}">
+    <span class="story-level level-{{ c.level }}">{{ c.level }}</span>
+    <h2>{{ c.title_jp }}</h2>
+    <p class="story-title-en">{{ c.title_en }}</p>
+    <p class="story-summary">{{ c.setting }}</p>
+    <p class="story-meta">{{ c.lines|length }} lines · {{ c.vocab|length }} vocab</p>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

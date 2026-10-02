@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}{{ entry.kanji }} — {{ entry.meaning }} — Kotoba{% endblock %}
+
+{% block content %}
+<section class="detail-head">
+  <a class="back-link" href="{{ url_for('kanji_list') }}">← All kanji</a>
+  <div class="detail-top">
+    <div class="detail-char">{{ entry.kanji }}</div>
+    <div class="detail-info">
+      <div class="detail-actions"><button type="button" class="speak-btn" data-speak="{{ entry.kanji }}">🔊 Listen</button><button type="button" class="favorite-btn" data-favorite-kind="kanji" data-favorite-id="{{ entry.kanji }}" data-favorite-front="{{ entry.kanji }}" data-favorite-reading="{{ entry.kun_yomi or entry.on_yomi }}" data-favorite-meaning="{{ entry.meaning }}">☆ Save</button></div>
+      <h1>{{ entry.meaning }}</h1>
+      {% if entry.jlpt_level %}
+      <a href="{{ url_for('jlpt_level', level=entry.jlpt_level) }}" class="jlpt-badge jlpt-badge-{{ entry.jlpt_level }}">JLPT {{ entry.jlpt_level }}</a>
+      {% endif %}
+      <dl class="reading-list">
+        <div>
+          <dt>On-yomi <span>(Chinese reading)</span></dt>
+          <dd>{{ entry.on_yomi if entry.on_yomi else "—" }}</dd>
+        </div>
+        <div>
+          <dt>Kun-yomi <span>(Japanese reading)</span></dt>
+          <dd>{{ entry.kun_yomi if entry.kun_yomi else "—" }}</dd>
+        </div>
+        <div>
+          <dt>Stroke count</dt>
+          <dd>{{ entry.strokes }}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+{% if radical %}
+<section class="rad-section rad-panel">
+  <h2>Radical &amp; how this kanji is built</h2>
+  <div class="rad-panel-row">
+    <a class="rad-panel-glyph" href="{{ url_for('radical_detail', rid=radical.id) }}">{{ radical.glyph }}</a>
+    <div class="rad-panel-body">
+      <p><strong>{{ radical.meaning|capitalize }}</strong> radical &middot; called <strong>{{ radical.name }}</strong> ({{ radical.romaji }})</p>
+      <p class="rad-panel-pos">{{ radical.position }} — it {{ radical.position_note }}.</p>
+      {% if radical.forms %}<p class="rad-panel-pos">Also written: {{ radical.forms }}</p>{% endif %}
+      <p>{{ radical.origin }}</p>
+    </div>
+  </div>
+  {% if radical.parts %}
+  <div class="rad-build">
+    <p class="rad-build-parts">{{ entry.kanji }} = {{ radical.parts }}</p>
+    <p>{{ radical.story }}</p>
+  </div>
+  {% endif %}
+  <p class="rad-tip">Spot <strong>{{ radical.glyph }}</strong> first, think “{{ radical.meaning }}”, then use the readings below.</p>
+</section>
+{% endif %}
+
+<section class="rad-section">
+  <h2>How to read {{ entry.kanji }}</h2>
+  <ul class="rad-read-list">
+    {% if guide.kun %}<li><strong>Kun-yomi (Japanese reading): {{ guide.kun }}</strong> — used when the kanji stands alone or with hiragana endings.
+      {% for v in guide.alone %}<span class="rad-read-ex">{{ v.word }} <em>{{ v.reading }}</em> = {{ v.meaning }}</span>{% endfor %}</li>{% endif %}
+    {% if guide.on %}<li><strong>On-yomi (Chinese reading): {{ guide.on }}</strong> — used in compounds of two or more kanji.
+      {% for v in guide.compound %}<span class="rad-read-ex">{{ v.word }} <em>{{ v.reading }}</em> = {{ v.meaning }}</span>{% endfor %}</li>{% endif %}
+  </ul>
+</section>
+
+<section class="vocab-section">
+  <h2>Vocabulary</h2>
+  <div class="vocab-table">
+    {% for v in entry.vocab %}
+    <div class="vocab-row">
+      <span class="vocab-word">{{ v.word }}</span>
+      <span class="vocab-reading">{{ v.reading }}</span>
+      <span class="vocab-romaji">{{ v.romaji }}</span>
+      <span class="vocab-meaning">{{ v.meaning }}</span>
+    </div>
+    {% else %}
+    <p class="empty-note">No vocabulary recorded for this character yet.</p>
+    {% endfor %}
+  </div>
+</section>
+
+{% if explanation %}
+<section class="sentence-section">
+  <h2>In a sentence</h2>
+  <div class="sentence-card">
+    <p class="sentence-kanji">{{ explanation.sentence_kanji }}</p>
+    <p class="sentence-hiragana">{{ explanation.sentence_hiragana }}</p>
+    <p class="sentence-romaji">{{ explanation.sentence_romaji }}</p>
+    <p class="sentence-en">{{ explanation.sentence_en }}</p>
+    <p class="sentence-usage"><strong>Commonly used:</strong> {{ explanation.usage_note }}</p>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

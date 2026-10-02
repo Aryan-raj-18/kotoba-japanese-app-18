@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Daily Review — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">復習 — fukushū, review</p>
+  <h1>Daily Review</h1>
+  <p class="hero-lede">Kotoba now schedules what you need next. Weak and overdue items come first, then new material fills the session so you always have something useful to study.</p>
+</section>
+<section class="learner-summary-grid">
+  <div class="learner-stat"><span>Due now</span><strong>{{ learner.due }}</strong></div>
+  <div class="learner-stat"><span>Weak</span><strong>{{ learner.mastery.Weak }}</strong></div>
+  <div class="learner-stat"><span>Mastered</span><strong>{{ learner.mastery.Mastered }}</strong></div>
+  <div class="learner-stat"><span>Accuracy</span><strong>{{ learner.accuracy }}%</strong></div>
+</section>
+<section class="practice-stage review-stage" id="smart-review">
+  <div class="stage-panel" id="review-intro">
+    <div class="review-hero-mark">↻</div>
+    <h2>Your next session</h2>
+    <p>Choose a short session. Reveal each answer, then rate how well you remembered it. That rating controls when it returns.</p>
+    <div class="count-options" id="review-count-options">
+      <button type="button" class="count-btn" data-count="10">10</button>
+      <button type="button" class="count-btn active" data-count="20">20</button>
+      <button type="button" class="count-btn" data-count="30">30</button>
+    </div>
+    <button type="button" class="btn-primary" id="review-start">Start Daily Review</button>
+  </div>
+  <div class="stage-panel" id="review-run" hidden>
+    <div class="review-topline"><span id="review-progress"></span><span class="mastery-chip" id="review-mastery"></span></div>
+    <div class="review-card" id="review-card">
+      <p class="review-front" id="review-front"></p>
+      <p class="review-reading" id="review-reading"></p>
+      <button type="button" class="speak-btn speak-btn-large" id="review-speak">🔊 Listen</button>
+      <div class="review-answer" id="review-answer" hidden></div>
+    </div>
+    <button type="button" class="btn-primary" id="review-reveal">Show answer</button>
+    <div class="review-rating" id="review-rating" hidden>
+      <button type="button" class="btn-ghost review-rate" data-quality="1">Again</button>
+      <button type="button" class="btn-ghost review-rate" data-quality="3">Hard</button>
+      <button type="button" class="btn-primary review-rate" data-quality="4">Good</button>
+      <button type="button" class="btn-primary review-rate" data-quality="5">Easy</button>
+    </div>
+  </div>
+  <div class="stage-panel" id="review-done" hidden>
+    <div class="rm-complete-burst">✦</div>
+    <h2>Review complete</h2>
+    <p class="done-score" id="review-score"></p>
+    <p id="review-next-note"></p>
+    <div class="rm-btn-row"><a class="btn-ghost" href="{{ url_for('mistakes_page') }}">Mistake Notebook</a><button class="btn-primary" type="button" id="review-again">Another session</button></div>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/smart_review.js') }}"></script>{% endblock %}

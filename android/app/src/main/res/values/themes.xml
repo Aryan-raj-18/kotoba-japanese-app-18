@@ -1,0 +1,10 @@
+<resources>
+    <!-- Light-mode window chrome. The page itself picks its own palette
+         (see theme.js); these only control the frame the WebView sits in
+         and the split second before the page paints. -->
+    <style name="Theme.Kotoba" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#EFE7D6</item>
+        <item name="android:windowBackground">#EFE7D6</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

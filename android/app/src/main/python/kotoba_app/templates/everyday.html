@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Everyday Life Words — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">毎日 — mainichi, every day</p>
+  <h1>Everyday Life Words</h1>
+  <p class="hero-lede">
+    {{ total }} unique words and phrases for daily life, grouped by category.
+    Use Easy, Medium, or Hard to match your level; overlapping entries from
+    different app sources are merged so the same written word is not listed twice.
+    Click any word to see a short conversation in kanji, hiragana, romaji, and English.
+  </p>
+  <input type="text" id="everyday-filter" class="filter-input" placeholder="Filter by word, reading, or meaning...">
+  <div class="level-options everyday-level-options" id="everyday-level-options" aria-label="Vocabulary difficulty">
+    <button type="button" class="level-btn everyday-level-btn active" data-difficulty="all">All levels</button>
+    <button type="button" class="level-btn everyday-level-btn" data-difficulty="easy">Easy</button>
+    <button type="button" class="level-btn everyday-level-btn" data-difficulty="medium">Medium</button>
+    <button type="button" class="level-btn everyday-level-btn" data-difficulty="hard">Hard</button>
+  </div>
+  <div class="category-tabs" id="category-tabs">
+    <button type="button" class="cat-tab active" data-cat="all">All</button>
+    {% for c in categories %}
+    <button type="button" class="cat-tab" data-cat="{{ c }}">{{ c }}</button>
+    {% endfor %}
+  </div>
+</section>
+
+{% for cat, words_in_cat in grouped %}
+<section class="category-block" data-cat="{{ cat }}">
+  <h2 class="category-heading">{{ cat }} <span>({{ words_in_cat|length }})</span></h2>
+  <div class="everyday-table">
+    {% for w in words_in_cat %}
+    <button type="button" class="everyday-row" data-idx="{{ w.idx }}" data-difficulty="{{ w.difficulty }}"
+         data-search="{{ (w.word ~ ' ' ~ w.reading ~ ' ' ~ w.romaji ~ ' ' ~ w.meaning)|lower }}">
+      <span class="everyday-emoji">{{ w.emoji }}</span>
+      <span class="everyday-word">{{ w.word }}</span>
+      <span class="everyday-reading">{{ w.reading }}</span>
+      <span class="everyday-romaji">{{ w.romaji }}</span>
+      <span class="everyday-meaning">{{ w.meaning }}</span>
+    </button>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<div class="modal-overlay" id="word-modal" hidden>
+  <div class="modal-card" id="word-modal-card">
+    <button type="button" class="modal-close" id="modal-close" aria-label="Close">×</button>
+    <div class="modal-emoji" id="modal-emoji"></div>
+    <h2 class="modal-word" id="modal-word"></h2>
+    <p class="modal-reading" id="modal-reading"></p>
+    <p class="modal-meaning" id="modal-meaning"></p>
+    <span class="modal-category-badge" id="modal-category"></span>
+    <div class="modal-actions"><button type="button" class="speak-btn" id="modal-speak">🔊 Listen</button><button type="button" class="favorite-btn" id="modal-favorite">☆ Save</button></div>
+
+    <h3 class="modal-subhead">In conversation</h3>
+    <div class="convo" id="modal-convo"></div>
+
+    <p class="sentence-usage"><strong>Commonly used:</strong> <span id="modal-usage"></span></p>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/everyday.js') }}"></script>
+{% endblock %}

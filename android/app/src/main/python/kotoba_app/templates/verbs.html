@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Verbs — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">動詞 — dōshi, verbs</p>
+  <h1>Verbs</h1>
+  <p class="hero-lede">
+    {{ total }} common verbs sorted by conjugation group. Click any verb
+    to see all eight of its forms in kanji and kana.
+  </p>
+  <input type="text" id="verb-filter" class="filter-input" placeholder="Filter by verb, reading, or meaning...">
+</section>
+
+{% for group, verbs in grouped %}
+<section class="category-block">
+  <h2 class="category-heading">{{ verbs[0].group_label if verbs else group }} <span>({{ verbs|length }})</span></h2>
+  <div class="everyday-table">
+    {% for v in verbs %}
+    <button type="button" class="everyday-row verb-row" data-idx="{{ v.idx }}"
+            data-search="{{ (v.word ~ ' ' ~ v.reading ~ ' ' ~ v.meaning)|lower }}">
+      <span class="everyday-word">{{ v.word }}</span>
+      <span class="everyday-reading">{{ v.reading }}</span>
+      <span class="everyday-meaning">{{ v.meaning }}</span>
+      <span class="everyday-category">{{ v.forms.masu.kanji }}</span>
+    </button>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<div class="modal-overlay" id="verb-modal" hidden>
+  <div class="modal-card">
+    <button type="button" class="modal-close" id="verb-modal-close" aria-label="Close">×</button>
+    <h2 class="modal-word" id="verb-word"></h2>
+    <p class="modal-reading" id="verb-reading"></p>
+    <p class="modal-meaning" id="verb-meaning"></p>
+    <span class="modal-category-badge" id="verb-group"></span>
+    <div class="modal-actions"><button type="button" class="speak-btn" id="verb-speak">🔊 Listen</button><button type="button" class="favorite-btn" id="verb-favorite">☆ Save</button></div>
+    <table class="conj-table" id="verb-forms"></table>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/verbs.js') }}"></script>
+{% endblock %}

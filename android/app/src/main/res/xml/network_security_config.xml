@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The app talks to Flask over plain http://127.0.0.1:5000, since it's
+  a loopback connection to a server this same app just started - never
+  leaves the device. Android 9+ blocks cleartext (non-HTTPS) traffic
+  by default, so this file carves out an explicit exception for just
+  the loopback address rather than allowing cleartext everywhere.
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">127.0.0.1</domain>
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+</network-security-config>

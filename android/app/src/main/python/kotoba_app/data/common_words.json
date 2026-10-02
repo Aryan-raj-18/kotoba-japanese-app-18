@@ -1,0 +1,828 @@
+[
+ {
+  "word": "りんご",
+  "reading": "りんご",
+  "romaji": "ringo",
+  "meaning": "apple",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "バナナ",
+  "reading": "バナナ",
+  "romaji": "banana",
+  "meaning": "banana",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "オレンジ",
+  "reading": "オレンジ",
+  "romaji": "orenji",
+  "meaning": "orange",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "いちご",
+  "reading": "いちご",
+  "romaji": "ichigo",
+  "meaning": "strawberry",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ぶどう",
+  "reading": "ぶどう",
+  "romaji": "budō",
+  "meaning": "grape",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "もも",
+  "reading": "もも",
+  "romaji": "momo",
+  "meaning": "peach",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "メロン",
+  "reading": "メロン",
+  "romaji": "meron",
+  "meaning": "melon",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "レモン",
+  "reading": "レモン",
+  "romaji": "remon",
+  "meaning": "lemon",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "すいか",
+  "reading": "すいか",
+  "romaji": "suika",
+  "meaning": "watermelon",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "なし",
+  "reading": "なし",
+  "romaji": "nashi",
+  "meaning": "pear",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "マンゴー",
+  "reading": "マンゴー",
+  "romaji": "mangō",
+  "meaning": "mango",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "パイナップル",
+  "reading": "パイナップル",
+  "romaji": "painappuru",
+  "meaning": "pineapple",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "キウイ",
+  "reading": "キウイ",
+  "romaji": "kiui",
+  "meaning": "kiwi fruit",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "さくらんぼ",
+  "reading": "さくらんぼ",
+  "romaji": "sakuranbo",
+  "meaning": "cherry",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "トマト",
+  "reading": "トマト",
+  "romaji": "tomato",
+  "meaning": "tomato",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "じゃがいも",
+  "reading": "じゃがいも",
+  "romaji": "jagaimo",
+  "meaning": "potato",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "にんじん",
+  "reading": "にんじん",
+  "romaji": "ninjin",
+  "meaning": "carrot",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "たまねぎ",
+  "reading": "たまねぎ",
+  "romaji": "tamanegi",
+  "meaning": "onion",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "きゃべつ",
+  "reading": "きゃべつ",
+  "romaji": "kyabetsu",
+  "meaning": "cabbage",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "きゅうり",
+  "reading": "きゅうり",
+  "romaji": "kyūri",
+  "meaning": "cucumber",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "なす",
+  "reading": "なす",
+  "romaji": "nasu",
+  "meaning": "eggplant",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ピーマン",
+  "reading": "ピーマン",
+  "romaji": "pīman",
+  "meaning": "green pepper",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "とうもろこし",
+  "reading": "とうもろこし",
+  "romaji": "tōmorokoshi",
+  "meaning": "corn",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "だいこん",
+  "reading": "だいこん",
+  "romaji": "daikon",
+  "meaning": "daikon radish",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ほうれんそう",
+  "reading": "ほうれんそう",
+  "romaji": "hōrensō",
+  "meaning": "spinach",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "にんにく",
+  "reading": "にんにく",
+  "romaji": "ninniku",
+  "meaning": "garlic",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "パン",
+  "reading": "パン",
+  "romaji": "pan",
+  "meaning": "bread",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "たまご",
+  "reading": "たまご",
+  "romaji": "tamago",
+  "meaning": "egg",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "チーズ",
+  "reading": "チーズ",
+  "romaji": "chīzu",
+  "meaning": "cheese",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ラーメン",
+  "reading": "ラーメン",
+  "romaji": "rāmen",
+  "meaning": "ramen",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "すし",
+  "reading": "すし",
+  "romaji": "sushi",
+  "meaning": "sushi",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "てんぷら",
+  "reading": "てんぷら",
+  "romaji": "tempura",
+  "meaning": "tempura",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "カレー",
+  "reading": "カレー",
+  "romaji": "karē",
+  "meaning": "curry",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ピザ",
+  "reading": "ピザ",
+  "romaji": "piza",
+  "meaning": "pizza",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ハンバーガー",
+  "reading": "ハンバーガー",
+  "romaji": "hanbāgā",
+  "meaning": "hamburger",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "スパゲッティ",
+  "reading": "スパゲッティ",
+  "romaji": "supagetti",
+  "meaning": "spaghetti",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "コーヒー",
+  "reading": "コーヒー",
+  "romaji": "kōhī",
+  "meaning": "coffee",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ジュース",
+  "reading": "ジュース",
+  "romaji": "jūsu",
+  "meaning": "juice",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ミルク",
+  "reading": "ミルク",
+  "romaji": "miruku",
+  "meaning": "milk",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ビール",
+  "reading": "ビール",
+  "romaji": "bīru",
+  "meaning": "beer",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ワイン",
+  "reading": "ワイン",
+  "romaji": "wain",
+  "meaning": "wine",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "アイスクリーム",
+  "reading": "アイスクリーム",
+  "romaji": "aisukurīmu",
+  "meaning": "ice cream",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ケーキ",
+  "reading": "ケーキ",
+  "romaji": "kēki",
+  "meaning": "cake",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "チョコレート",
+  "reading": "チョコレート",
+  "romaji": "chokorēto",
+  "meaning": "chocolate",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "バター",
+  "reading": "バター",
+  "romaji": "batā",
+  "meaning": "butter",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "さとう",
+  "reading": "さとう",
+  "romaji": "satō",
+  "meaning": "sugar",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "しお",
+  "reading": "しお",
+  "romaji": "shio",
+  "meaning": "salt",
+  "category": "Food & Drink"
+ },
+ {
+  "word": "ぞう",
+  "reading": "ぞう",
+  "romaji": "zō",
+  "meaning": "elephant",
+  "category": "Animals"
+ },
+ {
+  "word": "ライオン",
+  "reading": "ライオン",
+  "romaji": "raion",
+  "meaning": "lion",
+  "category": "Animals"
+ },
+ {
+  "word": "とら",
+  "reading": "とら",
+  "romaji": "tora",
+  "meaning": "tiger",
+  "category": "Animals"
+ },
+ {
+  "word": "うさぎ",
+  "reading": "うさぎ",
+  "romaji": "usagi",
+  "meaning": "rabbit",
+  "category": "Animals"
+ },
+ {
+  "word": "くま",
+  "reading": "くま",
+  "romaji": "kuma",
+  "meaning": "bear",
+  "category": "Animals"
+ },
+ {
+  "word": "さる",
+  "reading": "さる",
+  "romaji": "saru",
+  "meaning": "monkey",
+  "category": "Animals"
+ },
+ {
+  "word": "パンダ",
+  "reading": "パンダ",
+  "romaji": "panda",
+  "meaning": "panda",
+  "category": "Animals"
+ },
+ {
+  "word": "きりん",
+  "reading": "きりん",
+  "romaji": "kirin",
+  "meaning": "giraffe",
+  "category": "Animals"
+ },
+ {
+  "word": "ペンギン",
+  "reading": "ペンギン",
+  "romaji": "pengin",
+  "meaning": "penguin",
+  "category": "Animals"
+ },
+ {
+  "word": "くじら",
+  "reading": "くじら",
+  "romaji": "kujira",
+  "meaning": "whale",
+  "category": "Animals"
+ },
+ {
+  "word": "いるか",
+  "reading": "いるか",
+  "romaji": "iruka",
+  "meaning": "dolphin",
+  "category": "Animals"
+ },
+ {
+  "word": "ねずみ",
+  "reading": "ねずみ",
+  "romaji": "nezumi",
+  "meaning": "mouse",
+  "category": "Animals"
+ },
+ {
+  "word": "かえる",
+  "reading": "かえる",
+  "romaji": "kaeru",
+  "meaning": "frog",
+  "category": "Animals"
+ },
+ {
+  "word": "へび",
+  "reading": "へび",
+  "romaji": "hebi",
+  "meaning": "snake",
+  "category": "Animals"
+ },
+ {
+  "word": "かめ",
+  "reading": "かめ",
+  "romaji": "kame",
+  "meaning": "turtle",
+  "category": "Animals"
+ },
+ {
+  "word": "きつね",
+  "reading": "きつね",
+  "romaji": "kitsune",
+  "meaning": "fox",
+  "category": "Animals"
+ },
+ {
+  "word": "しか",
+  "reading": "しか",
+  "romaji": "shika",
+  "meaning": "deer",
+  "category": "Animals"
+ },
+ {
+  "word": "こあら",
+  "reading": "こあら",
+  "romaji": "koara",
+  "meaning": "koala",
+  "category": "Animals"
+ },
+ {
+  "word": "パソコン",
+  "reading": "パソコン",
+  "romaji": "pasokon",
+  "meaning": "computer",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "でんわ",
+  "reading": "でんわ",
+  "romaji": "denwa",
+  "meaning": "telephone",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "スマートフォン",
+  "reading": "スマートフォン",
+  "romaji": "sumātofon",
+  "meaning": "smartphone",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "カメラ",
+  "reading": "カメラ",
+  "romaji": "kamera",
+  "meaning": "camera",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "テレビ",
+  "reading": "テレビ",
+  "romaji": "terebi",
+  "meaning": "television",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "インターネット",
+  "reading": "インターネット",
+  "romaji": "intānetto",
+  "meaning": "internet",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "じてんしゃ",
+  "reading": "じてんしゃ",
+  "romaji": "jitensha",
+  "meaning": "bicycle",
+  "category": "Out & About"
+ },
+ {
+  "word": "ひこうき",
+  "reading": "ひこうき",
+  "romaji": "hikōki",
+  "meaning": "airplane",
+  "category": "Out & About"
+ },
+ {
+  "word": "タクシー",
+  "reading": "タクシー",
+  "romaji": "takushī",
+  "meaning": "taxi",
+  "category": "Out & About"
+ },
+ {
+  "word": "ふね",
+  "reading": "ふね",
+  "romaji": "fune",
+  "meaning": "ship, boat",
+  "category": "Out & About"
+ },
+ {
+  "word": "かさ",
+  "reading": "かさ",
+  "romaji": "kasa",
+  "meaning": "umbrella",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "とけい",
+  "reading": "とけい",
+  "romaji": "tokei",
+  "meaning": "clock, watch",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "かばん",
+  "reading": "かばん",
+  "romaji": "kaban",
+  "meaning": "bag",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "めがね",
+  "reading": "めがね",
+  "romaji": "megane",
+  "meaning": "glasses",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "いす",
+  "reading": "いす",
+  "romaji": "isu",
+  "meaning": "chair",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "つくえ",
+  "reading": "つくえ",
+  "romaji": "tsukue",
+  "meaning": "desk",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "ノート",
+  "reading": "ノート",
+  "romaji": "nōto",
+  "meaning": "notebook",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "ペン",
+  "reading": "ペン",
+  "romaji": "pen",
+  "meaning": "pen",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "かぎ",
+  "reading": "かぎ",
+  "romaji": "kagi",
+  "meaning": "key",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "シャツ",
+  "reading": "シャツ",
+  "romaji": "shatsu",
+  "meaning": "shirt",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "ズボン",
+  "reading": "ズボン",
+  "romaji": "zubon",
+  "meaning": "pants",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "くつ",
+  "reading": "くつ",
+  "romaji": "kutsu",
+  "meaning": "shoes",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "ぼうし",
+  "reading": "ぼうし",
+  "romaji": "bōshi",
+  "meaning": "hat",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "スカート",
+  "reading": "スカート",
+  "romaji": "sukāto",
+  "meaning": "skirt",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "くつした",
+  "reading": "くつした",
+  "romaji": "kutsushita",
+  "meaning": "socks",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "コート",
+  "reading": "コート",
+  "romaji": "kōto",
+  "meaning": "coat",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "てぶくろ",
+  "reading": "てぶくろ",
+  "romaji": "tebukuro",
+  "meaning": "gloves",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "はれ",
+  "reading": "はれ",
+  "romaji": "hare",
+  "meaning": "sunny",
+  "category": "Nature & Weather"
+ },
+ {
+  "word": "くもり",
+  "reading": "くもり",
+  "romaji": "kumori",
+  "meaning": "cloudy",
+  "category": "Nature & Weather"
+ },
+ {
+  "word": "たいふう",
+  "reading": "たいふう",
+  "romaji": "taifū",
+  "meaning": "typhoon",
+  "category": "Nature & Weather"
+ },
+ {
+  "word": "かみなり",
+  "reading": "かみなり",
+  "romaji": "kaminari",
+  "meaning": "thunder",
+  "category": "Nature & Weather"
+ },
+ {
+  "word": "にじ",
+  "reading": "にじ",
+  "romaji": "niji",
+  "meaning": "rainbow",
+  "category": "Nature & Weather"
+ },
+ {
+  "word": "サッカー",
+  "reading": "サッカー",
+  "romaji": "sakkā",
+  "meaning": "soccer",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "やきゅう",
+  "reading": "やきゅう",
+  "romaji": "yakyū",
+  "meaning": "baseball",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "テニス",
+  "reading": "テニス",
+  "romaji": "tenisu",
+  "meaning": "tennis",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "バスケットボール",
+  "reading": "バスケットボール",
+  "romaji": "basukettobōru",
+  "meaning": "basketball",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "すいえい",
+  "reading": "すいえい",
+  "romaji": "suiei",
+  "meaning": "swimming",
+  "category": "Everyday Objects & Ideas"
+ },
+ {
+  "word": "レストラン",
+  "reading": "レストラン",
+  "romaji": "resutoran",
+  "meaning": "restaurant",
+  "category": "Places & Buildings"
+ },
+ {
+  "word": "ホテル",
+  "reading": "ホテル",
+  "romaji": "hoteru",
+  "meaning": "hotel",
+  "category": "Places & Buildings"
+ },
+ {
+  "word": "くうこう",
+  "reading": "くうこう",
+  "romaji": "kūkō",
+  "meaning": "airport",
+  "category": "Places & Buildings"
+ },
+ {
+  "word": "ぎんこう",
+  "reading": "ぎんこう",
+  "romaji": "ginkō",
+  "meaning": "bank",
+  "category": "Places & Buildings"
+ },
+ {
+  "word": "びょういん",
+  "reading": "びょういん",
+  "romaji": "byōin",
+  "meaning": "hospital",
+  "category": "Places & Buildings"
+ },
+ {
+  "word": "こうばん",
+  "reading": "こうばん",
+  "romaji": "kōban",
+  "meaning": "police box",
+  "category": "Places & Buildings"
+ },
+ {
+  "word": "びじゅつかん",
+  "reading": "びじゅつかん",
+  "romaji": "bijutsukan",
+  "meaning": "art museum",
+  "category": "Places & Buildings"
+ },
+ {
+  "word": "そふ",
+  "reading": "そふ",
+  "romaji": "sofu",
+  "meaning": "grandfather",
+  "category": "Family & People"
+ },
+ {
+  "word": "そぼ",
+  "reading": "そぼ",
+  "romaji": "sobo",
+  "meaning": "grandmother",
+  "category": "Family & People"
+ },
+ {
+  "word": "おじ",
+  "reading": "おじ",
+  "romaji": "oji",
+  "meaning": "uncle",
+  "category": "Family & People"
+ },
+ {
+  "word": "おば",
+  "reading": "おば",
+  "romaji": "oba",
+  "meaning": "aunt",
+  "category": "Family & People"
+ },
+ {
+  "word": "ピンク",
+  "reading": "ピンク",
+  "romaji": "pinku",
+  "meaning": "pink",
+  "category": "Colors"
+ },
+ {
+  "word": "むらさき",
+  "reading": "むらさき",
+  "romaji": "murasaki",
+  "meaning": "purple",
+  "category": "Colors"
+ },
+ {
+  "word": "オレンジいろ",
+  "reading": "オレンジいろ",
+  "romaji": "orenji-iro",
+  "meaning": "orange (color)",
+  "category": "Colors"
+ },
+ {
+  "word": "ちゃいろ",
+  "reading": "ちゃいろ",
+  "romaji": "chairo",
+  "meaning": "brown",
+  "category": "Colors"
+ },
+ {
+  "word": "はいいろ",
+  "reading": "はいいろ",
+  "romaji": "haiiro",
+  "meaning": "gray",
+  "category": "Colors"
+ }
+]

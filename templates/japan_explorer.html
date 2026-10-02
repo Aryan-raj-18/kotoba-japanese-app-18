@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Japan Explorer — Kotoba{% endblock %}
+
+{% block content %}
+<section class="japan-hero">
+  <div class="japan-hero-copy">
+    <p class="hero-eyebrow">日本を旅する — explore Japan</p>
+    <h1>Learn Japanese through places.</h1>
+    <p class="home-lede">Tap any prefectural-capital pin to discover local culture, famous sights, food, and a small level-matched Japanese lesson.</p>
+    <div class="japan-hero-actions">
+      <button class="btn-primary" id="japan-surprise" type="button">✈ Surprise me</button>
+      <button class="btn-ghost" id="japan-show-unvisited" type="button">Show unvisited</button>
+    </div>
+  </div>
+  <article class="japan-passport-card" aria-label="Japan Explorer passport progress">
+    <div class="passport-top"><span>ことば</span><strong>JAPAN PASSPORT</strong></div>
+    <div class="passport-sun">日</div>
+    <div class="passport-progress"><strong id="japan-visited-count">{{ visited_count }}</strong><span>/ 47 places explored</span></div>
+    <div class="passport-track"><i id="japan-passport-progress" style="width:{{ (visited_count / 47 * 100)|round }}%"></i></div>
+    <small>Open a new place to earn a passport stamp and XP.</small>
+  </article>
+</section>
+
+<section class="japan-toolbar" aria-label="Japan map controls">
+  <label class="japan-search-wrap">
+    <span>Search</span>
+    <input id="japan-search" class="filter-input" type="search" placeholder="Tokyo, 京都, Hokkaido..." autocomplete="off">
+  </label>
+  <div class="japan-level-control" aria-label="Learning difficulty">
+    <span>Learning level</span>
+    <div class="level-segment" id="japan-level-switch">
+      <button type="button" data-level="beginner">Beginner</button>
+      <button type="button" data-level="intermediate">Intermediate</button>
+      <button type="button" data-level="advanced">Advanced</button>
+    </div>
+  </div>
+  <div class="japan-region-wrap">
+    <span>Region</span>
+    <div class="japan-region-chips" id="japan-region-chips"><button class="active" type="button" data-region="All">All Japan</button></div>
+  </div>
+</section>
+
+<section class="japan-explorer-layout">
+  <article class="japan-map-card">
+    <div class="japan-map-head">
+      <div><p class="hero-eyebrow">47都道府県</p><h2>Interactive Japan map</h2></div>
+      <div class="japan-map-key"><span><i class="key-dot"></i> Unvisited</span><span><i class="key-dot visited"></i> Explored</span></div>
+    </div>
+    <div class="japan-map-wrap" id="japan-map-wrap">
+      <svg id="japan-map" viewBox="0 0 760 920" role="img" aria-label="Stylized map of Japan with 47 clickable prefectural-capital locations">
+        <defs>
+          <linearGradient id="jp-ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dff6ff"/><stop offset="1" stop-color="#9edcf0"/></linearGradient>
+          <linearGradient id="jp-land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dfe9c7"/><stop offset=".55" stop-color="#a9c88f"/><stop offset="1" stop-color="#6fae7c"/></linearGradient>
+          <filter id="jp-shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-opacity=".18"/></filter>
+        </defs>
+        <rect width="760" height="920" rx="28" fill="url(#jp-ocean)"/>
+        <g id="japan-islands" filter="url(#jp-shadow)"></g>
+        <g id="japan-pin-layer"></g>
+        <g id="japan-label-layer"></g>
+        <g id="japan-plane" class="japan-plane" aria-hidden="true"><text x="0" y="0">✈</text></g>
+      </svg>
+      <div class="japan-map-hint">Tap a dot · pinch/scroll your page normally · use region filters to focus</div>
+    </div>
+    <p class="japan-map-note">The coastline is intentionally stylized for learning. Pins use prefectural-capital locations; Okinawa is shown in its geographic position.</p>
+  </article>
+
+  <aside class="japan-list-panel" aria-label="Japan locations">
+    <div class="japan-list-head"><div><p class="hero-eyebrow">Places</p><h2 id="japan-list-title">All 47</h2></div><span id="japan-result-count">47</span></div>
+    <div class="japan-place-list" id="japan-place-list"></div>
+  </aside>
+</section>
+
+<section class="japan-how">
+  <div><span>1</span><h3>Pick a place</h3><p>Use the map, search, or region chips.</p></div>
+  <div><span>2</span><h3>Learn five words</h3><p>Kotoba mixes local words with level-appropriate travel Japanese and avoids immediate repeats.</p></div>
+  <div><span>3</span><h3>Take the mini quiz</h3><p>Answers feed your Smart Review and Mistake Notebook.</p></div>
+  <div><span>4</span><h3>Fill your passport</h3><p>Explore all 47 locations and unlock progress achievements.</p></div>
+</section>
+
+<div class="japan-drawer-backdrop" id="japan-drawer-backdrop" hidden></div>
+<aside class="japan-drawer" id="japan-drawer" aria-hidden="true" aria-label="Location details">
+  <button class="japan-drawer-close" id="japan-drawer-close" type="button" aria-label="Close location details">×</button>
+  <div id="japan-drawer-content"></div>
+</aside>
+
+<div class="passport-stamp-pop" id="passport-stamp-pop" hidden aria-live="polite">
+  <div class="passport-stamp-ring"><strong>旅</strong><span>NEW STAMP</span></div>
+  <p id="passport-stamp-name">Explored!</p>
+</div>
+
+<script>
+window.JAPAN_EXPLORER_DATA = {{ japan_data|tojson }};
+window.JAPAN_VISITED = {{ visited_ids|tojson }};
+window.JAPAN_DEFAULT_LEVEL = {{ default_level|tojson }};
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/japan_explorer.js') }}"></script>
+{% endblock %}

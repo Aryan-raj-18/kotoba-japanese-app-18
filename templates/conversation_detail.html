@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}{{ conv.title_jp }} — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <a class="back-link" href="{{ url_for('conversations_list') }}">← All conversations</a>
+  <span class="story-level level-{{ conv.level }}">{{ conv.level }}</span>
+  <h1>{{ conv.title_jp }}</h1>
+  <p class="hero-lede">{{ conv.title_en }} — {{ conv.setting }}</p>
+  <div class="reading-toggles">
+    <button type="button" class="toggle-btn active" data-target="hiragana">Hiragana</button>
+    <button type="button" class="toggle-btn active" data-target="romaji">Romaji</button>
+    <button type="button" class="toggle-btn active" data-target="english">English</button>
+  </div>
+  <div class="convo-learning-controls"><button type="button" class="btn-primary" id="convo-play-all">🔊 Play dialogue</button><button type="button" class="btn-ghost" id="convo-play-slow">🐢 Slow</button><span class="shadow-label">Shadow as:</span><button type="button" class="btn-ghost" data-shadow="a">A</button><button type="button" class="btn-ghost" data-shadow="b">B</button><button type="button" class="btn-ghost active" data-shadow="off">Off</button><a class="btn-ghost" href="{{ url_for('speaking_page') }}">🎙 Speaking practice</a></div>
+</section>
+
+<div class="convo convo-standalone">
+  {% for line in conv.lines %}
+  <div class="convo-line convo-{{ line.side|lower }}">
+    <span class="convo-speaker" title="{{ line.role }}">{{ line.role[:1] }}</span>
+    <div class="convo-body">
+      <p class="convo-role">{{ line.role }}</p>
+      <div class="convo-jp-row"><p class="convo-kanji">{{ line.kanji }}</p><button type="button" class="line-speak" data-speak="{{ line.kanji }}" aria-label="Listen">🔊</button></div>
+      <p class="convo-hiragana line-hiragana">{{ line.hiragana }}</p>
+      <p class="convo-romaji line-romaji">{{ line.romaji }}</p>
+      <p class="convo-english line-english">{{ line.english }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if conv.phrases %}
+<section class="vocab-section">
+  <h2>Useful phrases</h2>
+  <div class="vocab-table">
+    {% for ph in conv.phrases %}
+    <div class="vocab-row phrase-row">
+      <span class="vocab-word">{{ ph.jp }}</span>
+      <span class="vocab-romaji">{{ ph.romaji }}</span>
+      <span class="vocab-meaning">{{ ph.en }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="vocab-section">
+  <h2>Vocabulary</h2>
+  <div class="vocab-table">
+    {% for v in conv.vocab %}
+    <div class="vocab-row">
+      <span class="vocab-word">{{ v.word }}</span>
+      <span class="vocab-reading">{{ v.reading }}</span>
+      <span class="vocab-romaji">{{ v.romaji }}</span>
+      <span class="vocab-meaning">{{ v.meaning }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/conversation_practice.js') }}"></script>
+<script src="{{ url_for('static', filename='js/story.js') }}"></script>
+{% endblock %}

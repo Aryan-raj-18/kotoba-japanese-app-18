@@ -1,0 +1,4986 @@
+[
+ {
+  "id": "self-introduction",
+  "title_jp": "自己紹介",
+  "title_en": "Introducing Yourself",
+  "level": "easy",
+  "setting": "Two people meeting for the first time at a party.",
+  "lines": [
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "はじめまして。田中です。",
+    "hiragana": "はじめまして。たなかです。",
+    "romaji": "Hajimemashite. Tanaka desu.",
+    "english": "Nice to meet you. I'm Tanaka."
+   },
+   {
+    "role": "Mike",
+    "side": "B",
+    "kanji": "はじめまして。私はマイクです。",
+    "hiragana": "はじめまして。わたしはまいくです。",
+    "romaji": "Hajimemashite. Watashi wa Maiku desu.",
+    "english": "Nice to meet you. I'm Mike."
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "どちらから来ましたか。",
+    "hiragana": "どちらからきましたか。",
+    "romaji": "Dochira kara kimashita ka.",
+    "english": "Where are you from?"
+   },
+   {
+    "role": "Mike",
+    "side": "B",
+    "kanji": "アメリカから来ました。",
+    "hiragana": "あめりかからきました。",
+    "romaji": "Amerika kara kimashita.",
+    "english": "I'm from America."
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "お仕事は何ですか。",
+    "hiragana": "おしごとはなんですか。",
+    "romaji": "Oshigoto wa nan desu ka.",
+    "english": "What do you do for work?"
+   },
+   {
+    "role": "Mike",
+    "side": "B",
+    "kanji": "私は教師です。田中さんは？",
+    "hiragana": "わたしはきょうしです。たなかさんは？",
+    "romaji": "Watashi wa kyōshi desu. Tanaka-san wa?",
+    "english": "I'm a teacher. What about you, Tanaka?"
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "私は会社員です。",
+    "hiragana": "わたしはかいしゃいんです。",
+    "romaji": "Watashi wa kaishain desu.",
+    "english": "I'm an office worker."
+   },
+   {
+    "role": "Mike",
+    "side": "B",
+    "kanji": "よろしくお願いします。",
+    "hiragana": "よろしくおねがいします。",
+    "romaji": "Yoroshiku onegaishimasu.",
+    "english": "Pleased to meet you."
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "よろしくお願いします。",
+    "hiragana": "よろしくおねがいします。",
+    "romaji": "Yoroshiku onegaishimasu.",
+    "english": "Pleased to meet you too."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "はじめまして",
+    "reading": "はじめまして",
+    "romaji": "hajimemashite",
+    "meaning": "nice to meet you"
+   },
+   {
+    "word": "会社員",
+    "reading": "かいしゃいん",
+    "romaji": "kaishain",
+    "meaning": "office worker"
+   },
+   {
+    "word": "教師",
+    "reading": "きょうし",
+    "romaji": "kyōshi",
+    "meaning": "teacher"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "どちらから来ましたか。",
+    "romaji": "Dochira kara kimashita ka.",
+    "en": "Where are you from?"
+   },
+   {
+    "jp": "お仕事は何ですか。",
+    "romaji": "Oshigoto wa nan desu ka.",
+    "en": "What's your job?"
+   }
+  ]
+ },
+ {
+  "id": "at-a-cafe",
+  "title_jp": "カフェで",
+  "title_en": "At a Café",
+  "level": "easy",
+  "setting": "Ordering a drink at a coffee shop counter.",
+  "lines": [
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "いらっしゃいませ。ご注文は？",
+    "hiragana": "いらっしゃいませ。ごちゅうもんは？",
+    "romaji": "Irasshaimase. Gochūmon wa?",
+    "english": "Welcome! What can I get you?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "コーヒーをお願いします。",
+    "hiragana": "こーひーをおねがいします。",
+    "romaji": "Kōhī o onegaishimasu.",
+    "english": "A coffee, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "サイズはどうしますか。",
+    "hiragana": "さいずはどうしますか。",
+    "romaji": "Saizu wa dō shimasu ka.",
+    "english": "What size would you like?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "Mサイズでお願いします。",
+    "hiragana": "えむさいずでおねがいします。",
+    "romaji": "Emu saizu de onegaishimasu.",
+    "english": "Medium, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "こちらで召し上がりますか。お持ち帰りですか。",
+    "hiragana": "こちらでめしあがりますか。おもちかえりですか。",
+    "romaji": "Kochira de meshiagarimasu ka. Omochikaeri desu ka.",
+    "english": "For here, or to go?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "こちらで飲みます。",
+    "hiragana": "こちらでのみます。",
+    "romaji": "Kochira de nomimasu.",
+    "english": "I'll drink it here."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "少々お待ちください。500円です。",
+    "hiragana": "しょうしょうおまちください。ごひゃくえんです。",
+    "romaji": "Shōshō omachi kudasai. Gohyaku en desu.",
+    "english": "One moment please. That's 500 yen."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、どうぞ。",
+    "hiragana": "はい、どうぞ。",
+    "romaji": "Hai, dōzo.",
+    "english": "Here you go."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "注文",
+    "reading": "ちゅうもん",
+    "romaji": "chūmon",
+    "meaning": "order"
+   },
+   {
+    "word": "お持ち帰り",
+    "reading": "おもちかえり",
+    "romaji": "omochikaeri",
+    "meaning": "to go, takeout"
+   },
+   {
+    "word": "少々お待ちください",
+    "reading": "しょうしょうおまちください",
+    "romaji": "shōshō omachi kudasai",
+    "meaning": "one moment please"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "こちらで召し上がりますか。お持ち帰りですか。",
+    "romaji": "Kochira de meshiagarimasu ka. Omochikaeri desu ka.",
+    "en": "For here or to go?"
+   }
+  ]
+ },
+ {
+  "id": "at-a-restaurant",
+  "title_jp": "レストランで",
+  "title_en": "At a Restaurant",
+  "level": "medium",
+  "setting": "A couple is seated and orders their meal.",
+  "lines": [
+   {
+    "role": "Waiter",
+    "side": "A",
+    "kanji": "いらっしゃいませ。何名様ですか。",
+    "hiragana": "いらっしゃいませ。なんめいさまですか。",
+    "romaji": "Irasshaimase. Nanmeisama desu ka.",
+    "english": "Welcome! How many people?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "二人です。",
+    "hiragana": "ふたりです。",
+    "romaji": "Futari desu.",
+    "english": "Two, please."
+   },
+   {
+    "role": "Waiter",
+    "side": "A",
+    "kanji": "こちらへどうぞ。ご注文はお決まりですか。",
+    "hiragana": "こちらへどうぞ。ごちゅうもんはおきまりですか。",
+    "romaji": "Kochira e dōzo. Gochūmon wa okimari desu ka.",
+    "english": "This way please. Have you decided on your order?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "すみません、まだです。少し時間をください。",
+    "hiragana": "すみません、まだです。すこしじかんをください。",
+    "romaji": "Sumimasen, mada desu. Sukoshi jikan o kudasai.",
+    "english": "Sorry, not yet. Give us a little time."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "すみません、注文をお願いします。",
+    "hiragana": "すみません、ちゅうもんをおねがいします。",
+    "romaji": "Sumimasen, chūmon o onegaishimasu.",
+    "english": "Excuse me, we're ready to order."
+   },
+   {
+    "role": "Waiter",
+    "side": "A",
+    "kanji": "はい、どうぞ。",
+    "hiragana": "はい、どうぞ。",
+    "romaji": "Hai, dōzo.",
+    "english": "Yes, go ahead."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "寿司とみそ汁をお願いします。",
+    "hiragana": "すしとみそしるをおねがいします。",
+    "romaji": "Sushi to misoshiru o onegaishimasu.",
+    "english": "Sushi and miso soup, please."
+   },
+   {
+    "role": "Waiter",
+    "side": "A",
+    "kanji": "お飲み物はいかがですか。",
+    "hiragana": "おのみものはいかがですか。",
+    "romaji": "Onomimono wa ikaga desu ka.",
+    "english": "And something to drink?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "お茶をお願いします。",
+    "hiragana": "おちゃをおねがいします。",
+    "romaji": "Ocha o onegaishimasu.",
+    "english": "Tea, please."
+   },
+   {
+    "role": "Waiter",
+    "side": "A",
+    "kanji": "少々お待ちください。",
+    "hiragana": "しょうしょうおまちください。",
+    "romaji": "Shōshō omachi kudasai.",
+    "english": "One moment, please."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "何名様",
+    "reading": "なんめいさま",
+    "romaji": "nanmeisama",
+    "meaning": "how many people (polite)"
+   },
+   {
+    "word": "ご注文",
+    "reading": "ごちゅうもん",
+    "romaji": "gochūmon",
+    "meaning": "order (polite)"
+   },
+   {
+    "word": "決まる",
+    "reading": "きまる",
+    "romaji": "kimaru",
+    "meaning": "to be decided"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "ご注文はお決まりですか。",
+    "romaji": "Gochūmon wa okimari desu ka.",
+    "en": "Have you decided on your order?"
+   },
+   {
+    "jp": "お飲み物はいかがですか。",
+    "romaji": "Onomimono wa ikaga desu ka.",
+    "en": "Something to drink?"
+   }
+  ]
+ },
+ {
+  "id": "asking-directions",
+  "title_jp": "道を尋ねる",
+  "title_en": "Asking for Directions",
+  "level": "medium",
+  "setting": "A tourist stops a local to ask how to get to the station.",
+  "lines": [
+   {
+    "role": "Tourist",
+    "side": "A",
+    "kanji": "すみません、駅はどこですか。",
+    "hiragana": "すみません、えきはどこですか。",
+    "romaji": "Sumimasen, eki wa doko desu ka.",
+    "english": "Excuse me, where's the station?"
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "駅ですか。この道をまっすぐ行ってください。",
+    "hiragana": "えきですか。このみちをまっすぐいってください。",
+    "romaji": "Eki desu ka. Kono michi o massugu itte kudasai.",
+    "english": "The station? Go straight down this street."
+   },
+   {
+    "role": "Tourist",
+    "side": "A",
+    "kanji": "まっすぐ行って、それから？",
+    "hiragana": "まっすぐいって、それから？",
+    "romaji": "Massugu itte, sorekara?",
+    "english": "Go straight, and then?"
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "二つ目の信号を右に曲がってください。",
+    "hiragana": "ふたつめのしんごうをみぎにまがってください。",
+    "romaji": "Futatsume no shingō o migi ni magatte kudasai.",
+    "english": "Turn right at the second traffic light."
+   },
+   {
+    "role": "Tourist",
+    "side": "A",
+    "kanji": "右に曲がって、それから？",
+    "hiragana": "みぎにまがって、それから？",
+    "romaji": "Migi ni magatte, sorekara?",
+    "english": "Turn right, and then?"
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "駅が左側に見えます。",
+    "hiragana": "えきがひだりがわにみえます。",
+    "romaji": "Eki ga hidarigawa ni miemasu.",
+    "english": "You'll see the station on your left."
+   },
+   {
+    "role": "Tourist",
+    "side": "A",
+    "kanji": "どのくらいかかりますか。",
+    "hiragana": "どのくらいかかりますか。",
+    "romaji": "Dono kurai kakarimasu ka.",
+    "english": "How long does it take?"
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "歩いて十分くらいです。",
+    "hiragana": "あるいてじゅっぷんくらいです。",
+    "romaji": "Aruite juppun kurai desu.",
+    "english": "About ten minutes on foot."
+   },
+   {
+    "role": "Tourist",
+    "side": "A",
+    "kanji": "わかりました。ありがとうございます。",
+    "hiragana": "わかりました。ありがとうございます。",
+    "romaji": "Wakarimashita. Arigatō gozaimasu.",
+    "english": "Got it. Thank you very much."
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "いえいえ、気をつけて。",
+    "hiragana": "いえいえ、きをつけて。",
+    "romaji": "Ie ie, ki o tsukete.",
+    "english": "No problem, take care."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "まっすぐ",
+    "reading": "まっすぐ",
+    "romaji": "massugu",
+    "meaning": "straight ahead"
+   },
+   {
+    "word": "信号",
+    "reading": "しんごう",
+    "romaji": "shingō",
+    "meaning": "traffic light"
+   },
+   {
+    "word": "曲がる",
+    "reading": "まがる",
+    "romaji": "magaru",
+    "meaning": "to turn"
+   },
+   {
+    "word": "左側",
+    "reading": "ひだりがわ",
+    "romaji": "hidarigawa",
+    "meaning": "left side"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "二つ目の信号を右に曲がってください。",
+    "romaji": "Futatsume no shingō o migi ni magatte kudasai.",
+    "en": "Turn right at the second traffic light."
+   },
+   {
+    "jp": "どのくらいかかりますか。",
+    "romaji": "Dono kurai kakarimasu ka.",
+    "en": "How long does it take?"
+   }
+  ]
+ },
+ {
+  "id": "work-meeting",
+  "title_jp": "会議で",
+  "title_en": "In a Meeting",
+  "level": "hard",
+  "setting": "A team kicks off a project meeting at the office.",
+  "lines": [
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "会議を始めましょう。",
+    "hiragana": "かいぎをはじめましょう。",
+    "romaji": "Kaigi o hajimemashō.",
+    "english": "Let's start the meeting."
+   },
+   {
+    "role": "Suzuki",
+    "side": "B",
+    "kanji": "はい、資料を配ります。",
+    "hiragana": "はい、しりょうをくばります。",
+    "romaji": "Hai, shiryō o kubarimasu.",
+    "english": "Sure, I'll hand out the materials."
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "今日の議題は新しいプロジェクトです。",
+    "hiragana": "きょうのぎだいはあたらしいぷろじぇくとです。",
+    "romaji": "Kyō no gidai wa atarashii purojekuto desu.",
+    "english": "Today's topic is the new project."
+   },
+   {
+    "role": "Suzuki",
+    "side": "B",
+    "kanji": "いつまでに終わらせますか。",
+    "hiragana": "いつまでにおわらせますか。",
+    "romaji": "Itsu made ni owarasemasu ka.",
+    "english": "By when do we need to finish it?"
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "来月の十五日までにお願いします。",
+    "hiragana": "らいげつのじゅうごにちまでにおねがいします。",
+    "romaji": "Raigetsu no jūgo-nichi made ni onegaishimasu.",
+    "english": "By the 15th of next month, please."
+   },
+   {
+    "role": "Suzuki",
+    "side": "B",
+    "kanji": "分かりました。田中さんは何を担当しますか。",
+    "hiragana": "わかりました。たなかさんはなにをたんとうしますか。",
+    "romaji": "Wakarimashita. Tanaka-san wa nani o tantō shimasu ka.",
+    "english": "Understood. What will you be in charge of, Tanaka?"
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "私はスケジュールを管理します。",
+    "hiragana": "わたしはすけじゅーるをかんりします。",
+    "romaji": "Watashi wa sukejūru o kanri shimasu.",
+    "english": "I'll manage the schedule."
+   },
+   {
+    "role": "Suzuki",
+    "side": "B",
+    "kanji": "では、私はレポートを書きます。",
+    "hiragana": "では、わたしはれぽーとをかきます。",
+    "romaji": "Dewa, watashi wa repōto o kakimasu.",
+    "english": "Then I'll write the report."
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "よろしくお願いします。何か質問はありますか。",
+    "hiragana": "よろしくおねがいします。なにかしつもんはありますか。",
+    "romaji": "Yoroshiku onegaishimasu. Nanika shitsumon wa arimasu ka.",
+    "english": "Thanks. Any questions?"
+   },
+   {
+    "role": "Suzuki",
+    "side": "B",
+    "kanji": "今のところありません。",
+    "hiragana": "いまのところありません。",
+    "romaji": "Ima no tokoro arimasen.",
+    "english": "None at the moment."
+   },
+   {
+    "role": "Tanaka",
+    "side": "A",
+    "kanji": "では、今日の会議はこれで終わります。",
+    "hiragana": "では、きょうのかいぎはこれでおわります。",
+    "romaji": "Dewa, kyō no kaigi wa kore de owarimasu.",
+    "english": "Alright, that's the end of today's meeting."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "議題",
+    "reading": "ぎだい",
+    "romaji": "gidai",
+    "meaning": "agenda topic"
+   },
+   {
+    "word": "担当する",
+    "reading": "たんとうする",
+    "romaji": "tantō suru",
+    "meaning": "to be in charge of"
+   },
+   {
+    "word": "資料",
+    "reading": "しりょう",
+    "romaji": "shiryō",
+    "meaning": "materials, documents"
+   },
+   {
+    "word": "管理する",
+    "reading": "かんりする",
+    "romaji": "kanri suru",
+    "meaning": "to manage"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "田中さんは何を担当しますか。",
+    "romaji": "Tanaka-san wa nani o tantō shimasu ka.",
+    "en": "What are you in charge of, Tanaka?"
+   },
+   {
+    "jp": "今のところありません。",
+    "romaji": "Ima no tokoro arimasen.",
+    "en": "None at the moment."
+   }
+  ]
+ },
+ {
+  "id": "calling-in-sick",
+  "title_jp": "病気で休む",
+  "title_en": "Calling In Sick",
+  "level": "medium",
+  "setting": "An employee calls their manager to say they can't come to work.",
+  "lines": [
+   {
+    "role": "Suzuki",
+    "side": "A",
+    "kanji": "おはようございます、鈴木です。",
+    "hiragana": "おはようございます、すずきです。",
+    "romaji": "Ohayō gozaimasu, Suzuki desu.",
+    "english": "Good morning, this is Suzuki."
+   },
+   {
+    "role": "Tanaka",
+    "side": "B",
+    "kanji": "おはようございます、田中です。",
+    "hiragana": "おはようございます、たなかです。",
+    "romaji": "Ohayō gozaimasu, Tanaka desu.",
+    "english": "Good morning, this is Tanaka."
+   },
+   {
+    "role": "Tanaka",
+    "side": "B",
+    "kanji": "すみません、今日は体調が悪いです。",
+    "hiragana": "すみません、きょうはたいちょうがわるいです。",
+    "romaji": "Sumimasen, kyō wa taichō ga warui desu.",
+    "english": "Sorry, I'm not feeling well today."
+   },
+   {
+    "role": "Suzuki",
+    "side": "A",
+    "kanji": "どうしましたか。",
+    "hiragana": "どうしましたか。",
+    "romaji": "Dō shimashita ka.",
+    "english": "What's wrong?"
+   },
+   {
+    "role": "Tanaka",
+    "side": "B",
+    "kanji": "熱があります。頭も痛いです。",
+    "hiragana": "ねつがあります。あたまもいたいです。",
+    "romaji": "Netsu ga arimasu. Atama mo itai desu.",
+    "english": "I have a fever. My head hurts too."
+   },
+   {
+    "role": "Suzuki",
+    "side": "A",
+    "kanji": "それは大変ですね。今日は休んでください。",
+    "hiragana": "それはたいへんですね。きょうはやすんでください。",
+    "romaji": "Sore wa taihen desu ne. Kyō wa yasunde kudasai.",
+    "english": "That sounds tough. Please rest today."
+   },
+   {
+    "role": "Tanaka",
+    "side": "B",
+    "kanji": "すみません、ご迷惑をかけます。",
+    "hiragana": "すみません、ごめいわくをかけます。",
+    "romaji": "Sumimasen, gomeiwaku o kakemasu.",
+    "english": "I'm sorry for the trouble."
+   },
+   {
+    "role": "Suzuki",
+    "side": "A",
+    "kanji": "いいえ、お大事に。病院に行きましたか。",
+    "hiragana": "いいえ、おだいじに。びょういんにいきましたか。",
+    "romaji": "Iie, odaiji ni. Byōin ni ikimashita ka.",
+    "english": "Not at all, take care. Have you been to the hospital?"
+   },
+   {
+    "role": "Tanaka",
+    "side": "B",
+    "kanji": "これから行きます。",
+    "hiragana": "これからいきます。",
+    "romaji": "Kore kara ikimasu.",
+    "english": "I'm about to go now."
+   },
+   {
+    "role": "Suzuki",
+    "side": "A",
+    "kanji": "わかりました。お休みください。",
+    "hiragana": "わかりました。おやすみください。",
+    "romaji": "Wakarimashita. Oyasumi kudasai.",
+    "english": "Understood. Please rest well."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "体調",
+    "reading": "たいちょう",
+    "romaji": "taichō",
+    "meaning": "physical condition"
+   },
+   {
+    "word": "熱",
+    "reading": "ねつ",
+    "romaji": "netsu",
+    "meaning": "fever"
+   },
+   {
+    "word": "ご迷惑をかける",
+    "reading": "ごめいわくをかける",
+    "romaji": "gomeiwaku o kakeru",
+    "meaning": "to cause trouble (for someone)"
+   },
+   {
+    "word": "お大事に",
+    "reading": "おだいじに",
+    "romaji": "odaiji ni",
+    "meaning": "take care (of yourself)"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "今日は体調が悪いです。",
+    "romaji": "Kyō wa taichō ga warui desu.",
+    "en": "I'm not feeling well today."
+   },
+   {
+    "jp": "今日は休んでください。",
+    "romaji": "Kyō wa yasunde kudasai.",
+    "en": "Please rest today."
+   }
+  ]
+ },
+ {
+  "id": "weekend-plans",
+  "title_jp": "週末の予定",
+  "title_en": "Weekend Plans",
+  "level": "easy",
+  "setting": "Two coworkers chat about their weekend plans.",
+  "lines": [
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "週末、何をしますか。",
+    "hiragana": "しゅうまつ、なにをしますか。",
+    "romaji": "Shūmatsu, nani o shimasu ka.",
+    "english": "What are you doing this weekend?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "特に予定はありません。田中さんは？",
+    "hiragana": "とくによていはありません。たなかさんは？",
+    "romaji": "Toku ni yotei wa arimasen. Tanaka-san wa?",
+    "english": "No particular plans. What about you?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "映画を見に行きます。一緒に行きませんか。",
+    "hiragana": "えいがをみにいきます。いっしょにいきませんか。",
+    "romaji": "Eiga o mi ni ikimasu. Issho ni ikimasen ka.",
+    "english": "I'm going to see a movie. Want to come along?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "いいですね。何の映画ですか。",
+    "hiragana": "いいですね。なんのえいがですか。",
+    "romaji": "Ii desu ne. Nan no eiga desu ka.",
+    "english": "Sounds good. What movie?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "新しいアニメ映画です。",
+    "hiragana": "あたらしいあにめえいがです。",
+    "romaji": "Atarashii anime eiga desu.",
+    "english": "A new animated movie."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "何時に会いましょうか。",
+    "hiragana": "なんじにあいましょうか。",
+    "romaji": "Nanji ni aimashō ka.",
+    "english": "What time should we meet?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "土曜日の三時はどうですか。",
+    "hiragana": "どようびのさんじはどうですか。",
+    "romaji": "Doyōbi no sanji wa dō desu ka.",
+    "english": "How about 3pm on Saturday?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "いいですよ。どこで会いますか。",
+    "hiragana": "いいですよ。どこであいますか。",
+    "romaji": "Ii desu yo. Doko de aimasu ka.",
+    "english": "Sounds good. Where should we meet?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "駅の前で会いましょう。",
+    "hiragana": "えきのまえであいましょう。",
+    "romaji": "Eki no mae de aimashō.",
+    "english": "Let's meet in front of the station."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "わかりました。楽しみです。",
+    "hiragana": "わかりました。たのしみです。",
+    "romaji": "Wakarimashita. Tanoshimi desu.",
+    "english": "Got it. Looking forward to it."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "予定",
+    "reading": "よてい",
+    "romaji": "yotei",
+    "meaning": "plans, schedule"
+   },
+   {
+    "word": "特に",
+    "reading": "とくに",
+    "romaji": "tokuni",
+    "meaning": "particularly, especially"
+   },
+   {
+    "word": "楽しみ",
+    "reading": "たのしみ",
+    "romaji": "tanoshimi",
+    "meaning": "looking forward to"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "一緒に行きませんか。",
+    "romaji": "Issho ni ikimasen ka.",
+    "en": "Want to come along?"
+   },
+   {
+    "jp": "何時に会いましょうか。",
+    "romaji": "Nanji ni aimashō ka.",
+    "en": "What time should we meet?"
+   }
+  ]
+ },
+ {
+  "id": "shopping-for-clothes",
+  "title_jp": "洋服を買う",
+  "title_en": "Shopping for Clothes",
+  "level": "medium",
+  "setting": "A customer tries on a shirt at a clothing store.",
+  "lines": [
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "いらっしゃいませ。何かお探しですか。",
+    "hiragana": "いらっしゃいませ。なにかおさがしですか。",
+    "romaji": "Irasshaimase. Nanika osagashi desu ka.",
+    "english": "Welcome! Are you looking for something?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "シャツを探しています。",
+    "hiragana": "しゃつをさがしています。",
+    "romaji": "Shatsu o sagashite imasu.",
+    "english": "I'm looking for a shirt."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "こちらはいかがですか。",
+    "hiragana": "こちらはいかがですか。",
+    "romaji": "Kochira wa ikaga desu ka.",
+    "english": "How about this one?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "いいですね。試着できますか。",
+    "hiragana": "いいですね。しちゃくできますか。",
+    "romaji": "Ii desu ne. Shichaku dekimasu ka.",
+    "english": "I like it. Can I try it on?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "もちろんです。試着室はこちらです。",
+    "hiragana": "もちろんです。しちゃくしつはこちらです。",
+    "romaji": "Mochiron desu. Shichakushitsu wa kochira desu.",
+    "english": "Of course. The fitting room is this way."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "サイズが少し小さいです。もっと大きいサイズはありますか。",
+    "hiragana": "さいずがすこしちいさいです。もっとおおきいさいずはありますか。",
+    "romaji": "Saizu ga sukoshi chiisai desu. Motto ōkii saizu wa arimasu ka.",
+    "english": "The size is a bit small. Do you have a bigger size?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "はい、少々お待ちください。",
+    "hiragana": "はい、しょうしょうおまちください。",
+    "romaji": "Hai, shōshō omachi kudasai.",
+    "english": "Yes, one moment please."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "これはいくらですか。",
+    "hiragana": "これはいくらですか。",
+    "romaji": "Kore wa ikura desu ka.",
+    "english": "How much is this?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "三千円です。",
+    "hiragana": "さんぜんえんです。",
+    "romaji": "Sanzen en desu.",
+    "english": "It's 3,000 yen."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "これをください。",
+    "hiragana": "これをください。",
+    "romaji": "Kore o kudasai.",
+    "english": "I'll take this one."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "探す",
+    "reading": "さがす",
+    "romaji": "sagasu",
+    "meaning": "to look for"
+   },
+   {
+    "word": "試着",
+    "reading": "しちゃく",
+    "romaji": "shichaku",
+    "meaning": "trying on clothes"
+   },
+   {
+    "word": "試着室",
+    "reading": "しちゃくしつ",
+    "romaji": "shichakushitsu",
+    "meaning": "fitting room"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "試着できますか。",
+    "romaji": "Shichaku dekimasu ka.",
+    "en": "Can I try it on?"
+   },
+   {
+    "jp": "もっと大きいサイズはありますか。",
+    "romaji": "Motto ōkii saizu wa arimasu ka.",
+    "en": "Do you have a bigger size?"
+   }
+  ]
+ },
+ {
+  "id": "at-the-doctor",
+  "title_jp": "病院で",
+  "title_en": "At the Doctor",
+  "level": "hard",
+  "setting": "A patient describes their symptoms to a doctor.",
+  "lines": [
+   {
+    "role": "Doctor",
+    "side": "A",
+    "kanji": "どうしましたか。",
+    "hiragana": "どうしましたか。",
+    "romaji": "Dō shimashita ka.",
+    "english": "What's the matter?"
+   },
+   {
+    "role": "Patient",
+    "side": "B",
+    "kanji": "三日前から熱があります。",
+    "hiragana": "みっかまえからねつがあります。",
+    "romaji": "Mikka mae kara netsu ga arimasu.",
+    "english": "I've had a fever since three days ago."
+   },
+   {
+    "role": "Doctor",
+    "side": "A",
+    "kanji": "咳は出ますか。",
+    "hiragana": "せきはでますか。",
+    "romaji": "Seki wa demasu ka.",
+    "english": "Do you have a cough?"
+   },
+   {
+    "role": "Patient",
+    "side": "B",
+    "kanji": "はい、咳も出ます。",
+    "hiragana": "はい、せきもでます。",
+    "romaji": "Hai, seki mo demasu.",
+    "english": "Yes, I have a cough too."
+   },
+   {
+    "role": "Doctor",
+    "side": "A",
+    "kanji": "のどを見せてください。",
+    "hiragana": "のどをみせてください。",
+    "romaji": "Nodo o misete kudasai.",
+    "english": "Let me see your throat."
+   },
+   {
+    "role": "Patient",
+    "side": "B",
+    "kanji": "はい。",
+    "hiragana": "はい。",
+    "romaji": "Hai.",
+    "english": "Okay."
+   },
+   {
+    "role": "Doctor",
+    "side": "A",
+    "kanji": "少し赤いですね。風邪でしょう。",
+    "hiragana": "すこしあかいですね。かぜでしょう。",
+    "romaji": "Sukoshi akai desu ne. Kaze deshō.",
+    "english": "It's a bit red. It's probably a cold."
+   },
+   {
+    "role": "Patient",
+    "side": "B",
+    "kanji": "薬をもらえますか。",
+    "hiragana": "くすりをもらえますか。",
+    "romaji": "Kusuri o moraemasu ka.",
+    "english": "Can I get some medicine?"
+   },
+   {
+    "role": "Doctor",
+    "side": "A",
+    "kanji": "はい、三日分出します。一日三回飲んでください。",
+    "hiragana": "はい、みっかぶんだします。いちにちさんかいのんでください。",
+    "romaji": "Hai, mikka-bun dashimasu. Ichinichi sankai nonde kudasai.",
+    "english": "Yes, I'll give you three days' worth. Take it three times a day."
+   },
+   {
+    "role": "Patient",
+    "side": "B",
+    "kanji": "わかりました。ありがとうございます。",
+    "hiragana": "わかりました。ありがとうございます。",
+    "romaji": "Wakarimashita. Arigatō gozaimasu.",
+    "english": "Understood. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "咳が出る",
+    "reading": "せきがでる",
+    "romaji": "seki ga deru",
+    "meaning": "to have a cough"
+   },
+   {
+    "word": "のど",
+    "reading": "のど",
+    "romaji": "nodo",
+    "meaning": "throat"
+   },
+   {
+    "word": "風邪",
+    "reading": "かぜ",
+    "romaji": "kaze",
+    "meaning": "a cold (illness)"
+   },
+   {
+    "word": "一日三回",
+    "reading": "いちにちさんかい",
+    "romaji": "ichinichi sankai",
+    "meaning": "three times a day"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "どうしましたか。",
+    "romaji": "Dō shimashita ka.",
+    "en": "What's the matter?"
+   },
+   {
+    "jp": "一日三回飲んでください。",
+    "romaji": "Ichinichi sankai nonde kudasai.",
+    "en": "Take it three times a day."
+   }
+  ]
+ },
+ {
+  "id": "hotel-checkin",
+  "title_jp": "ホテルで",
+  "title_en": "Checking Into a Hotel",
+  "level": "medium",
+  "setting": "A guest checks in at a hotel front desk.",
+  "lines": [
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "いらっしゃいませ。ご予約はありますか。",
+    "hiragana": "いらっしゃいませ。ごよやくはありますか。",
+    "romaji": "Irasshaimase. Goyoyaku wa arimasu ka.",
+    "english": "Welcome! Do you have a reservation?"
+   },
+   {
+    "role": "Guest",
+    "side": "B",
+    "kanji": "はい、田中で予約しました。",
+    "hiragana": "はい、たなかでよやくしました。",
+    "romaji": "Hai, Tanaka de yoyaku shimashita.",
+    "english": "Yes, I booked under the name Tanaka."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "少々お待ちください。田中様、二泊のご予約ですね。",
+    "hiragana": "しょうしょうおまちください。たなかさま、にはくのごよやくですね。",
+    "romaji": "Shōshō omachi kudasai. Tanaka-sama, nihaku no goyoyaku desu ne.",
+    "english": "One moment. Mr. Tanaka, a two-night reservation, correct?"
+   },
+   {
+    "role": "Guest",
+    "side": "B",
+    "kanji": "はい、そうです。",
+    "hiragana": "はい、そうです。",
+    "romaji": "Hai, sō desu.",
+    "english": "Yes, that's right."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "パスポートを見せてもらえますか。",
+    "hiragana": "ぱすぽーとをみせてもらえますか。",
+    "romaji": "Pasupōto o misete moraemasu ka.",
+    "english": "Could I see your passport?"
+   },
+   {
+    "role": "Guest",
+    "side": "B",
+    "kanji": "はい、どうぞ。",
+    "hiragana": "はい、どうぞ。",
+    "romaji": "Hai, dōzo.",
+    "english": "Yes, here you go."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "ありがとうございます。お部屋は五階の501号室です。",
+    "hiragana": "ありがとうございます。おへやはごかいのごーまるいちごうしつです。",
+    "romaji": "Arigatō gozaimasu. Oheya wa gokai no gomaruichi gōshitsu desu.",
+    "english": "Thank you. Your room is 501, on the 5th floor."
+   },
+   {
+    "role": "Guest",
+    "side": "B",
+    "kanji": "チェックアウトは何時ですか。",
+    "hiragana": "ちぇっくあうとはなんじですか。",
+    "romaji": "Chekkuauto wa nanji desu ka.",
+    "english": "What time is checkout?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "十一時です。",
+    "hiragana": "じゅういちじです。",
+    "romaji": "Jūichiji desu.",
+    "english": "It's 11 o'clock."
+   },
+   {
+    "role": "Guest",
+    "side": "B",
+    "kanji": "わかりました。ありがとうございます。",
+    "hiragana": "わかりました。ありがとうございます。",
+    "romaji": "Wakarimashita. Arigatō gozaimasu.",
+    "english": "Got it. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "予約",
+    "reading": "よやく",
+    "romaji": "yoyaku",
+    "meaning": "reservation"
+   },
+   {
+    "word": "二泊",
+    "reading": "にはく",
+    "romaji": "nihaku",
+    "meaning": "two nights (stay)"
+   },
+   {
+    "word": "チェックアウト",
+    "reading": "ちぇっくあうと",
+    "romaji": "chekkuauto",
+    "meaning": "checkout"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "ご予約はありますか。",
+    "romaji": "Goyoyaku wa arimasu ka.",
+    "en": "Do you have a reservation?"
+   },
+   {
+    "jp": "チェックアウトは何時ですか。",
+    "romaji": "Chekkuauto wa nanji desu ka.",
+    "en": "What time is checkout?"
+   }
+  ]
+ },
+ {
+  "id": "at-the-station",
+  "title_jp": "駅で",
+  "title_en": "At the Train Station",
+  "level": "easy",
+  "setting": "A traveler buys a ticket at the station counter.",
+  "lines": [
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "すみません、新宿までの切符をお願いします。",
+    "hiragana": "すみません、しんじゅくまでのきっぷをおねがいします。",
+    "romaji": "Sumimasen, Shinjuku made no kippu o onegaishimasu.",
+    "english": "Excuse me, a ticket to Shinjuku, please."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "片道ですか、往復ですか。",
+    "hiragana": "かたみちですか、おうふくですか。",
+    "romaji": "Katamichi desu ka, ōfuku desu ka.",
+    "english": "One way or round trip?"
+   },
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "往復でお願いします。",
+    "hiragana": "おうふくでおねがいします。",
+    "romaji": "Ōfuku de onegaishimasu.",
+    "english": "Round trip, please."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "480円です。",
+    "hiragana": "よんひゃくはちじゅうえんです。",
+    "romaji": "Yonhyaku hachijū en desu.",
+    "english": "That's 480 yen."
+   },
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "どのホームですか。",
+    "hiragana": "どのほーむですか。",
+    "romaji": "Dono hōmu desu ka.",
+    "english": "Which platform?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "三番ホームです。",
+    "hiragana": "さんばんほーむです。",
+    "romaji": "Sanban hōmu desu.",
+    "english": "Platform 3."
+   },
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "何時に出発しますか。",
+    "hiragana": "なんじにしゅっぱつしますか。",
+    "romaji": "Nanji ni shuppatsu shimasu ka.",
+    "english": "What time does it depart?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "十分後に出発します。",
+    "hiragana": "じゅっぷんごにしゅっぱつします。",
+    "romaji": "Juppun-go ni shuppatsu shimasu.",
+    "english": "It departs in ten minutes."
+   },
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "ありがとうございます。",
+    "hiragana": "ありがとうございます。",
+    "romaji": "Arigatō gozaimasu.",
+    "english": "Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "切符",
+    "reading": "きっぷ",
+    "romaji": "kippu",
+    "meaning": "ticket"
+   },
+   {
+    "word": "片道",
+    "reading": "かたみち",
+    "romaji": "katamichi",
+    "meaning": "one way"
+   },
+   {
+    "word": "往復",
+    "reading": "おうふく",
+    "romaji": "ōfuku",
+    "meaning": "round trip"
+   },
+   {
+    "word": "ホーム",
+    "reading": "ほーむ",
+    "romaji": "hōmu",
+    "meaning": "platform"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "片道ですか、往復ですか。",
+    "romaji": "Katamichi desu ka, ōfuku desu ka.",
+    "en": "One way or round trip?"
+   },
+   {
+    "jp": "どのホームですか。",
+    "romaji": "Dono hōmu desu ka.",
+    "en": "Which platform?"
+   }
+  ]
+ },
+ {
+  "id": "talking-about-hobbies",
+  "title_jp": "趣味について",
+  "title_en": "Talking About Hobbies",
+  "level": "easy",
+  "setting": "Two new friends talk about what they like to do.",
+  "lines": [
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "趣味は何ですか。",
+    "hiragana": "しゅみはなんですか。",
+    "romaji": "Shumi wa nan desu ka.",
+    "english": "What's your hobby?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "写真を撮ることです。田中さんは？",
+    "hiragana": "しゃしんをとることです。たなかさんは？",
+    "romaji": "Shashin o toru koto desu. Tanaka-san wa?",
+    "english": "Taking photos. What about you?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "私は本を読むことです。",
+    "hiragana": "わたしはほんをよむことです。",
+    "romaji": "Watashi wa hon o yomu koto desu.",
+    "english": "Mine is reading books."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "どんな本が好きですか。",
+    "hiragana": "どんなほんがすきですか。",
+    "romaji": "Donna hon ga suki desu ka.",
+    "english": "What kind of books do you like?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "歴史の本が好きです。",
+    "hiragana": "れきしのほんがすきです。",
+    "romaji": "Rekishi no hon ga suki desu.",
+    "english": "I like history books."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "私も好きです。よく写真を撮りに旅行します。",
+    "hiragana": "わたしもすきです。よくしゃしんをとりにりょこうします。",
+    "romaji": "Watashi mo suki desu. Yoku shashin o tori ni ryokō shimasu.",
+    "english": "I like that too. I often travel to take photos."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "いいですね。どこへ行きましたか。",
+    "hiragana": "いいですね。どこへいきましたか。",
+    "romaji": "Ii desu ne. Doko e ikimashita ka.",
+    "english": "Nice. Where have you been?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "去年、京都へ行きました。",
+    "hiragana": "きょねん、きょうとへいきました。",
+    "romaji": "Kyonen, Kyōto e ikimashita.",
+    "english": "Last year, I went to Kyoto."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "楽しそうですね。",
+    "hiragana": "たのしそうですね。",
+    "romaji": "Tanoshisō desu ne.",
+    "english": "That sounds fun."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "趣味",
+    "reading": "しゅみ",
+    "romaji": "shumi",
+    "meaning": "hobby"
+   },
+   {
+    "word": "歴史",
+    "reading": "れきし",
+    "romaji": "rekishi",
+    "meaning": "history"
+   },
+   {
+    "word": "写真を撮る",
+    "reading": "しゃしんをとる",
+    "romaji": "shashin o toru",
+    "meaning": "to take a photo"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "趣味は何ですか。",
+    "romaji": "Shumi wa nan desu ka.",
+    "en": "What's your hobby?"
+   },
+   {
+    "jp": "どんな本が好きですか。",
+    "romaji": "Donna hon ga suki desu ka.",
+    "en": "What kind of books do you like?"
+   }
+  ]
+ },
+ {
+  "id": "job-interview",
+  "title_jp": "面接",
+  "title_en": "A Job Interview",
+  "level": "hard",
+  "setting": "A candidate is interviewed for a new job.",
+  "lines": [
+   {
+    "role": "Interviewer",
+    "side": "A",
+    "kanji": "どうぞお座りください。",
+    "hiragana": "どうぞおすわりください。",
+    "romaji": "Dōzo osuwari kudasai.",
+    "english": "Please, have a seat."
+   },
+   {
+    "role": "Candidate",
+    "side": "B",
+    "kanji": "ありがとうございます。",
+    "hiragana": "ありがとうございます。",
+    "romaji": "Arigatō gozaimasu.",
+    "english": "Thank you."
+   },
+   {
+    "role": "Interviewer",
+    "side": "A",
+    "kanji": "自己紹介をお願いします。",
+    "hiragana": "じこしょうかいをおねがいします。",
+    "romaji": "Jikoshōkai o onegaishimasu.",
+    "english": "Please introduce yourself."
+   },
+   {
+    "role": "Candidate",
+    "side": "B",
+    "kanji": "田中と申します。大学で経済学を勉強しました。",
+    "hiragana": "たなかともうします。だいがくでけいざいがくをべんきょうしました。",
+    "romaji": "Tanaka to mōshimasu. Daigaku de keizaigaku o benkyō shimashita.",
+    "english": "My name is Tanaka. I studied economics at university."
+   },
+   {
+    "role": "Interviewer",
+    "side": "A",
+    "kanji": "どうしてこの会社に興味がありますか。",
+    "hiragana": "どうしてこのかいしゃにきょうみがありますか。",
+    "romaji": "Dōshite kono kaisha ni kyōmi ga arimasu ka.",
+    "english": "Why are you interested in this company?"
+   },
+   {
+    "role": "Candidate",
+    "side": "B",
+    "kanji": "この会社の製品が好きだからです。",
+    "hiragana": "このかいしゃのせいひんがすきだからです。",
+    "romaji": "Kono kaisha no seihin ga suki dakara desu.",
+    "english": "Because I like this company's products."
+   },
+   {
+    "role": "Interviewer",
+    "side": "A",
+    "kanji": "前の仕事で何をしていましたか。",
+    "hiragana": "まえのしごとでなにをしていましたか。",
+    "romaji": "Mae no shigoto de nani o shite imashita ka.",
+    "english": "What did you do at your previous job?"
+   },
+   {
+    "role": "Candidate",
+    "side": "B",
+    "kanji": "マーケティングを担当していました。",
+    "hiragana": "まーけてぃんぐをたんとうしていました。",
+    "romaji": "Māketingu o tantō shite imashita.",
+    "english": "I was in charge of marketing."
+   },
+   {
+    "role": "Interviewer",
+    "side": "A",
+    "kanji": "いつから働けますか。",
+    "hiragana": "いつからはたらけますか。",
+    "romaji": "Itsu kara hatarakemasu ka.",
+    "english": "When can you start working?"
+   },
+   {
+    "role": "Candidate",
+    "side": "B",
+    "kanji": "来月から働けます。",
+    "hiragana": "らいげつからはたらけます。",
+    "romaji": "Raigetsu kara hatarakemasu.",
+    "english": "I can start from next month."
+   },
+   {
+    "role": "Interviewer",
+    "side": "A",
+    "kanji": "ありがとうございます。結果は一週間後にお知らせします。",
+    "hiragana": "ありがとうございます。けっかはいっしゅうかんごにおしらせします。",
+    "romaji": "Arigatō gozaimasu. Kekka wa isshūkan-go ni oshirase shimasu.",
+    "english": "Thank you. We'll let you know the result in a week."
+   },
+   {
+    "role": "Candidate",
+    "side": "B",
+    "kanji": "よろしくお願いします。",
+    "hiragana": "よろしくおねがいします。",
+    "romaji": "Yoroshiku onegaishimasu.",
+    "english": "Thank you, I appreciate it."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "自己紹介",
+    "reading": "じこしょうかい",
+    "romaji": "jikoshōkai",
+    "meaning": "self-introduction"
+   },
+   {
+    "word": "興味",
+    "reading": "きょうみ",
+    "romaji": "kyōmi",
+    "meaning": "interest"
+   },
+   {
+    "word": "製品",
+    "reading": "せいひん",
+    "romaji": "seihin",
+    "meaning": "product"
+   },
+   {
+    "word": "結果",
+    "reading": "けっか",
+    "romaji": "kekka",
+    "meaning": "result"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "どうしてこの会社に興味がありますか。",
+    "romaji": "Dōshite kono kaisha ni kyōmi ga arimasu ka.",
+    "en": "Why are you interested in this company?"
+   },
+   {
+    "jp": "いつから働けますか。",
+    "romaji": "Itsu kara hatarakemasu ka.",
+    "en": "When can you start?"
+   }
+  ]
+ },
+ {
+  "id": "apartment-hunting",
+  "title_jp": "アパートを探す",
+  "title_en": "Apartment Hunting",
+  "level": "hard",
+  "setting": "A person visits a real estate agent to look for an apartment.",
+  "lines": [
+   {
+    "role": "Agent",
+    "side": "A",
+    "kanji": "どんなアパートをお探しですか。",
+    "hiragana": "どんなあぱーとをおさがしですか。",
+    "romaji": "Donna apāto o osagashi desu ka.",
+    "english": "What kind of apartment are you looking for?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "駅から近いアパートを探しています。",
+    "hiragana": "えきからちかいあぱーとをさがしています。",
+    "romaji": "Eki kara chikai apāto o sagashite imasu.",
+    "english": "I'm looking for an apartment close to the station."
+   },
+   {
+    "role": "Agent",
+    "side": "A",
+    "kanji": "家賃はどのくらいをお考えですか。",
+    "hiragana": "やちんはどのくらいをおかんがえですか。",
+    "romaji": "Yachin wa dono kurai o okangae desu ka.",
+    "english": "About how much rent are you thinking of?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "八万円くらいです。",
+    "hiragana": "はちまんえんくらいです。",
+    "romaji": "Hachiman en kurai desu.",
+    "english": "Around 80,000 yen."
+   },
+   {
+    "role": "Agent",
+    "side": "A",
+    "kanji": "こちらはどうですか。駅から五分です。",
+    "hiragana": "こちらはどうですか。えきからごふんです。",
+    "romaji": "Kochira wa dō desu ka. Eki kara gofun desu.",
+    "english": "How about this one? It's five minutes from the station."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "いいですね。何階ですか。",
+    "hiragana": "いいですね。なんかいですか。",
+    "romaji": "Ii desu ne. Nankai desu ka.",
+    "english": "Nice. What floor is it on?"
+   },
+   {
+    "role": "Agent",
+    "side": "A",
+    "kanji": "三階です。エレベーターもあります。",
+    "hiragana": "さんかいです。えれべーたーもあります。",
+    "romaji": "Sankai desu. Erebētā mo arimasu.",
+    "english": "The third floor. There's also an elevator."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "見学できますか。",
+    "hiragana": "けんがくできますか。",
+    "romaji": "Kengaku dekimasu ka.",
+    "english": "Can I take a look at it?"
+   },
+   {
+    "role": "Agent",
+    "side": "A",
+    "kanji": "もちろんです。明日はどうですか。",
+    "hiragana": "もちろんです。あしたはどうですか。",
+    "romaji": "Mochiron desu. Ashita wa dō desu ka.",
+    "english": "Of course. How about tomorrow?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、大丈夫です。",
+    "hiragana": "はい、だいじょうぶです。",
+    "romaji": "Hai, daijōbu desu.",
+    "english": "Yes, that works."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "家賃",
+    "reading": "やちん",
+    "romaji": "yachin",
+    "meaning": "rent"
+   },
+   {
+    "word": "見学",
+    "reading": "けんがく",
+    "romaji": "kengaku",
+    "meaning": "viewing, tour"
+   },
+   {
+    "word": "エレベーター",
+    "reading": "えれべーたー",
+    "romaji": "erebētā",
+    "meaning": "elevator"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "家賃はどのくらいをお考えですか。",
+    "romaji": "Yachin wa dono kurai o okangae desu ka.",
+    "en": "About how much rent are you thinking?"
+   },
+   {
+    "jp": "見学できますか。",
+    "romaji": "Kengaku dekimasu ka.",
+    "en": "Can I take a look at it?"
+   }
+  ]
+ },
+ {
+  "id": "at-the-supermarket",
+  "title_jp": "スーパーで",
+  "title_en": "At the Supermarket",
+  "level": "easy",
+  "setting": "A shopper asks where to find something and checks out.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "すみません、卵はどこにありますか。",
+    "hiragana": "すみません、たまごはどこにありますか。",
+    "romaji": "Sumimasen, tamago wa doko ni arimasu ka.",
+    "english": "Excuse me, where are the eggs?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "あちらの冷蔵庫にあります。",
+    "hiragana": "あちらのれいぞうこにあります。",
+    "romaji": "Achira no reizōko ni arimasu.",
+    "english": "They're in the refrigerator over there."
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "ありがとうございます。牛乳もありますか。",
+    "hiragana": "ありがとうございます。ぎゅうにゅうもありますか。",
+    "romaji": "Arigatō gozaimasu. Gyūnyū mo arimasu ka.",
+    "english": "Thanks. Is there milk too?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "はい、同じところにあります。",
+    "hiragana": "はい、おなじところにあります。",
+    "romaji": "Hai, onaji tokoro ni arimasu.",
+    "english": "Yes, it's in the same place."
+   },
+   {
+    "role": "Cashier",
+    "side": "B",
+    "kanji": "袋は要りますか。",
+    "hiragana": "ふくろはいりますか。",
+    "romaji": "Fukuro wa irimasu ka.",
+    "english": "Do you need a bag?"
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "いいえ、大丈夫です。マイバッグがあります。",
+    "hiragana": "いいえ、だいじょうぶです。まいばっぐがあります。",
+    "romaji": "Iie, daijōbu desu. Mai baggu ga arimasu.",
+    "english": "No, I'm fine. I have my own bag."
+   },
+   {
+    "role": "Cashier",
+    "side": "B",
+    "kanji": "合計で千二百円です。",
+    "hiragana": "ごうけいでせんにひゃくえんです。",
+    "romaji": "Gōkei de sen ni hyaku en desu.",
+    "english": "That's 1,200 yen in total."
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "カードで払えますか。",
+    "hiragana": "かーどではらえますか。",
+    "romaji": "Kādo de haraemasu ka.",
+    "english": "Can I pay by card?"
+   },
+   {
+    "role": "Cashier",
+    "side": "B",
+    "kanji": "はい、大丈夫です。",
+    "hiragana": "はい、だいじょうぶです。",
+    "romaji": "Hai, daijōbu desu.",
+    "english": "Yes, that's fine."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "冷蔵庫",
+    "reading": "れいぞうこ",
+    "romaji": "reizōko",
+    "meaning": "refrigerator"
+   },
+   {
+    "word": "袋",
+    "reading": "ふくろ",
+    "romaji": "fukuro",
+    "meaning": "bag"
+   },
+   {
+    "word": "合計",
+    "reading": "ごうけい",
+    "romaji": "gōkei",
+    "meaning": "total"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "袋は要りますか。",
+    "romaji": "Fukuro wa irimasu ka.",
+    "en": "Do you need a bag?"
+   },
+   {
+    "jp": "カードで払えますか。",
+    "romaji": "Kādo de haraemasu ka.",
+    "en": "Can I pay by card?"
+   }
+  ]
+ },
+ {
+  "id": "weather-smalltalk",
+  "title_jp": "天気について",
+  "title_en": "Small Talk About the Weather",
+  "level": "easy",
+  "setting": "Two neighbors chat briefly about the cold weather.",
+  "lines": [
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "今日は寒いですね。",
+    "hiragana": "きょうはさむいですね。",
+    "romaji": "Kyō wa samui desu ne.",
+    "english": "It's cold today, isn't it."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "そうですね。明日はもっと寒くなるそうです。",
+    "hiragana": "そうですね。あしたはもっとさむくなるそうです。",
+    "romaji": "Sō desu ne. Ashita wa motto samuku naru sō desu.",
+    "english": "It sure is. I heard it'll get even colder tomorrow."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "雪が降りますか。",
+    "hiragana": "ゆきがふりますか。",
+    "romaji": "Yuki ga furimasu ka.",
+    "english": "Will it snow?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "天気予報では降るかもしれません。",
+    "hiragana": "てんきよほうではふるかもしれません。",
+    "romaji": "Tenki yohō de wa furu kamoshiremasen.",
+    "english": "The weather forecast says it might."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "傘を持って行った方がいいですか。",
+    "hiragana": "かさをもっていったほうがいいですか。",
+    "romaji": "Kasa o motte itta hō ga ii desu ka.",
+    "english": "Should I bring an umbrella?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "いいえ、傘より暖かい服がいいですよ。",
+    "hiragana": "いいえ、かさよりあたたかいふくがいいですよ。",
+    "romaji": "Iie, kasa yori atatakai fuku ga ii desu yo.",
+    "english": "No, warm clothes are better than an umbrella."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "そうですね。ありがとうございます。",
+    "hiragana": "そうですね。ありがとうございます。",
+    "romaji": "Sō desu ne. Arigatō gozaimasu.",
+    "english": "You're right. Thanks."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "天気予報",
+    "reading": "てんきよほう",
+    "romaji": "tenki yohō",
+    "meaning": "weather forecast"
+   },
+   {
+    "word": "かもしれません",
+    "reading": "かもしれません",
+    "romaji": "kamoshiremasen",
+    "meaning": "might, perhaps"
+   },
+   {
+    "word": "暖かい",
+    "reading": "あたたかい",
+    "romaji": "atatakai",
+    "meaning": "warm"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "傘を持って行った方がいいですか。",
+    "romaji": "Kasa o motte itta hō ga ii desu ka.",
+    "en": "Should I bring an umbrella?"
+   }
+  ]
+ },
+ {
+  "id": "talking-about-family",
+  "title_jp": "家族について",
+  "title_en": "Talking About Family",
+  "level": "easy",
+  "setting": "Two friends talk about their siblings and parents.",
+  "lines": [
+   {
+    "role": "Ken",
+    "side": "A",
+    "kanji": "兄弟はいますか。",
+    "hiragana": "きょうだいはいますか。",
+    "romaji": "Kyōdai wa imasu ka.",
+    "english": "Do you have any siblings?"
+   },
+   {
+    "role": "Yumi",
+    "side": "B",
+    "kanji": "はい、姉が一人います。田中さんは？",
+    "hiragana": "はい、あねがひとりいます。たなかさんは？",
+    "romaji": "Hai, ane ga hitori imasu. Tanaka-san wa?",
+    "english": "Yes, I have one older sister. What about you?"
+   },
+   {
+    "role": "Ken",
+    "side": "A",
+    "kanji": "私は一人っ子です。",
+    "hiragana": "わたしはひとりっこです。",
+    "romaji": "Watashi wa hitorikko desu.",
+    "english": "I'm an only child."
+   },
+   {
+    "role": "Yumi",
+    "side": "B",
+    "kanji": "そうですか。ご両親はどこに住んでいますか。",
+    "hiragana": "そうですか。ごりょうしんはどこにすんでいますか。",
+    "romaji": "Sō desu ka. Goryōshin wa doko ni sunde imasu ka.",
+    "english": "I see. Where do your parents live?"
+   },
+   {
+    "role": "Ken",
+    "side": "A",
+    "kanji": "大阪に住んでいます。",
+    "hiragana": "おおさかにすんでいます。",
+    "romaji": "Ōsaka ni sunde imasu.",
+    "english": "They live in Osaka."
+   },
+   {
+    "role": "Yumi",
+    "side": "B",
+    "kanji": "私の両親も大阪です！",
+    "hiragana": "わたしのりょうしんもおおさかです！",
+    "romaji": "Watashi no ryōshin mo Ōsaka desu!",
+    "english": "My parents are in Osaka too!"
+   },
+   {
+    "role": "Ken",
+    "side": "A",
+    "kanji": "本当ですか。近いですね。",
+    "hiragana": "ほんとうですか。ちかいですね。",
+    "romaji": "Hontō desu ka. Chikai desu ne.",
+    "english": "Really? What a small world."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "一人っ子",
+    "reading": "ひとりっこ",
+    "romaji": "hitorikko",
+    "meaning": "only child"
+   },
+   {
+    "word": "ご両親",
+    "reading": "ごりょうしん",
+    "romaji": "goryōshin",
+    "meaning": "parents (polite)"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "兄弟はいますか。",
+    "romaji": "Kyōdai wa imasu ka.",
+    "en": "Do you have any siblings?"
+   }
+  ]
+ },
+ {
+  "id": "travel-planning",
+  "title_jp": "旅行の計画",
+  "title_en": "Planning a Trip",
+  "level": "medium",
+  "setting": "Two friends discuss summer vacation travel plans.",
+  "lines": [
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "夏休みにどこか行きますか。",
+    "hiragana": "なつやすみにどこかいきますか。",
+    "romaji": "Natsuyasumi ni dokoka ikimasu ka.",
+    "english": "Are you going anywhere this summer vacation?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "沖縄に行きたいです。",
+    "hiragana": "おきなわにいきたいです。",
+    "romaji": "Okinawa ni ikitai desu.",
+    "english": "I want to go to Okinawa."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "いいですね。飛行機で行きますか。",
+    "hiragana": "いいですね。ひこうきでいきますか。",
+    "romaji": "Ii desu ne. Hikōki de ikimasu ka.",
+    "english": "Nice. Are you going by plane?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "はい、飛行機を予約しました。",
+    "hiragana": "はい、ひこうきをよやくしました。",
+    "romaji": "Hai, hikōki o yoyaku shimashita.",
+    "english": "Yes, I booked a flight."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "ホテルは決めましたか。",
+    "hiragana": "ほてるはきめましたか。",
+    "romaji": "Hoteru wa kimemashita ka.",
+    "english": "Have you decided on a hotel?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "まだです。おすすめはありますか。",
+    "hiragana": "まだです。おすすめはありますか。",
+    "romaji": "Mada desu. Osusume wa arimasu ka.",
+    "english": "Not yet. Any recommendations?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "海の近いホテルがいいですよ。",
+    "hiragana": "うみのちかいほてるがいいですよ。",
+    "romaji": "Umi no chikai hoteru ga ii desu yo.",
+    "english": "A hotel near the ocean is good."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "そうします。ありがとうございます。",
+    "hiragana": "そうします。ありがとうございます。",
+    "romaji": "Sō shimasu. Arigatō gozaimasu.",
+    "english": "I'll do that. Thanks."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "予約する",
+    "reading": "よやくする",
+    "romaji": "yoyaku suru",
+    "meaning": "to book, reserve"
+   },
+   {
+    "word": "おすすめ",
+    "reading": "おすすめ",
+    "romaji": "osusume",
+    "meaning": "recommendation"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "ホテルは決めましたか。",
+    "romaji": "Hoteru wa kimemashita ka.",
+    "en": "Have you decided on a hotel?"
+   }
+  ]
+ },
+ {
+  "id": "asking-for-help",
+  "title_jp": "手伝いをお願いする",
+  "title_en": "Asking for Help",
+  "level": "easy",
+  "setting": "Someone asks a coworker to help carry something heavy.",
+  "lines": [
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "すみません、ちょっと手伝ってもらえますか。",
+    "hiragana": "すみません、ちょっとてつだってもらえますか。",
+    "romaji": "Sumimasen, chotto tetsudatte moraemasu ka.",
+    "english": "Excuse me, could you help me for a moment?"
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "もちろんです。何ですか。",
+    "hiragana": "もちろんです。なんですか。",
+    "romaji": "Mochiron desu. Nan desu ka.",
+    "english": "Of course. What is it?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "この箱を運んでもらえますか。重いです。",
+    "hiragana": "このはこをはこんでもらえますか。おもいです。",
+    "romaji": "Kono hako o hakonde moraemasu ka. Omoi desu.",
+    "english": "Could you carry this box? It's heavy."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "いいですよ。どこに運びますか。",
+    "hiragana": "いいですよ。どこにはこびますか。",
+    "romaji": "Ii desu yo. Doko ni hakobimasu ka.",
+    "english": "Sure. Where should I take it?"
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "あちらの部屋までお願いします。",
+    "hiragana": "あちらのへやまでおねがいします。",
+    "romaji": "Achira no heya made onegaishimasu.",
+    "english": "To that room over there, please."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "わかりました。",
+    "hiragana": "わかりました。",
+    "romaji": "Wakarimashita.",
+    "english": "Got it."
+   },
+   {
+    "role": "Yumi",
+    "side": "A",
+    "kanji": "本当にありがとうございます。",
+    "hiragana": "ほんとうにありがとうございます。",
+    "romaji": "Hontō ni arigatō gozaimasu.",
+    "english": "Thank you so much."
+   },
+   {
+    "role": "Ken",
+    "side": "B",
+    "kanji": "いえいえ、大丈夫です。",
+    "hiragana": "いえいえ、だいじょうぶです。",
+    "romaji": "Ie ie, daijōbu desu.",
+    "english": "No problem at all."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "手伝う",
+    "reading": "てつだう",
+    "romaji": "tetsudau",
+    "meaning": "to help"
+   },
+   {
+    "word": "運ぶ",
+    "reading": "はこぶ",
+    "romaji": "hakobu",
+    "meaning": "to carry"
+   },
+   {
+    "word": "重い",
+    "reading": "おもい",
+    "romaji": "omoi",
+    "meaning": "heavy"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "ちょっと手伝ってもらえますか。",
+    "romaji": "Chotto tetsudatte moraemasu ka.",
+    "en": "Could you help me for a moment?"
+   }
+  ]
+ },
+ {
+  "id": "reporting-a-problem",
+  "title_jp": "故障の相談",
+  "title_en": "Reporting a Problem",
+  "level": "medium",
+  "setting": "A hotel guest reports that the air conditioner is broken.",
+  "lines": [
+   {
+    "role": "Guest",
+    "side": "A",
+    "kanji": "すみません、エアコンが壊れています。",
+    "hiragana": "すみません、えあこんがこわれています。",
+    "romaji": "Sumimasen, eakon ga kowarete imasu.",
+    "english": "Excuse me, the air conditioner is broken."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "申し訳ございません。すぐに確認します。",
+    "hiragana": "もうしわけございません。すぐにかくにんします。",
+    "romaji": "Mōshiwake gozaimasen. Sugu ni kakunin shimasu.",
+    "english": "I'm very sorry. I'll check right away."
+   },
+   {
+    "role": "Guest",
+    "side": "A",
+    "kanji": "部屋がとても暑いです。",
+    "hiragana": "へやがとてもあついです。",
+    "romaji": "Heya ga totemo atsui desu.",
+    "english": "The room is very hot."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "別の部屋をご用意できます。",
+    "hiragana": "べつのへやをごよういできます。",
+    "romaji": "Betsu no heya o goyōi dekimasu.",
+    "english": "We can prepare a different room for you."
+   },
+   {
+    "role": "Guest",
+    "side": "A",
+    "kanji": "それはありがたいです。",
+    "hiragana": "それはありがたいです。",
+    "romaji": "Sore wa arigatai desu.",
+    "english": "That would be great."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "少々お待ちください。荷物はそのままで大丈夫です。",
+    "hiragana": "しょうしょうおまちください。にもつはそのままでだいじょうぶです。",
+    "romaji": "Shōshō omachi kudasai. Nimotsu wa sono mama de daijōbu desu.",
+    "english": "One moment please. You can leave your luggage as it is."
+   },
+   {
+    "role": "Guest",
+    "side": "A",
+    "kanji": "わかりました。よろしくお願いします。",
+    "hiragana": "わかりました。よろしくおねがいします。",
+    "romaji": "Wakarimashita. Yoroshiku onegaishimasu.",
+    "english": "Understood. Thank you for taking care of it."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "壊れる",
+    "reading": "こわれる",
+    "romaji": "kowareru",
+    "meaning": "to break, be broken"
+   },
+   {
+    "word": "確認する",
+    "reading": "かくにんする",
+    "romaji": "kakunin suru",
+    "meaning": "to check, confirm"
+   },
+   {
+    "word": "用意する",
+    "reading": "よういする",
+    "romaji": "yōi suru",
+    "meaning": "to prepare"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "エアコンが壊れています。",
+    "romaji": "Eakon ga kowarete imasu.",
+    "en": "The air conditioner is broken."
+   },
+   {
+    "jp": "申し訳ございません。",
+    "romaji": "Mōshiwake gozaimasen.",
+    "en": "I'm very sorry (formal apology)."
+   }
+  ]
+ },
+ {
+  "id": "ticket-machine",
+  "title_jp": "券売機で",
+  "title_en": "Buying a Ticket from a Machine",
+  "level": "easy",
+  "setting": "A traveler asks a station staff member for help using the ticket machine.",
+  "lines": [
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "すみません、切符の買い方がわかりません。",
+    "hiragana": "すみません、きっぷのかいかたがわかりません。",
+    "romaji": "Sumimasen, kippu no kaikata ga wakarimasen.",
+    "english": "Excuse me, I don't know how to buy a ticket."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "大丈夫です。どこまで行きますか。",
+    "hiragana": "だいじょうぶです。どこまでいきますか。",
+    "romaji": "Daijōbu desu. Doko made ikimasu ka.",
+    "english": "No problem. Where are you going?"
+   },
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "新宿駅までです。",
+    "hiragana": "しんじゅくえきまでです。",
+    "romaji": "Shinjuku-eki made desu.",
+    "english": "To Shinjuku Station."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "この画面で駅を選んでください。",
+    "hiragana": "このがめんでえきをえらんでください。",
+    "romaji": "Kono gamen de eki o erande kudasai.",
+    "english": "Please choose the station on this screen."
+   },
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "このボタンですか。",
+    "hiragana": "このぼたんですか。",
+    "romaji": "Kono botan desu ka.",
+    "english": "Is it this button?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "はい、そうです。次にお金を入れてください。",
+    "hiragana": "はい、そうです。つぎにおかねをいれてください。",
+    "romaji": "Hai, sō desu. Tsugi ni okane o irete kudasai.",
+    "english": "Yes, that's right. Next, please insert your money."
+   },
+   {
+    "role": "Traveler",
+    "side": "A",
+    "kanji": "わかりました。ありがとうございます。",
+    "hiragana": "わかりました。ありがとうございます。",
+    "romaji": "Wakarimashita. Arigatō gozaimasu.",
+    "english": "Got it. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "切符",
+    "reading": "きっぷ",
+    "romaji": "kippu",
+    "meaning": "ticket"
+   },
+   {
+    "word": "画面",
+    "reading": "がめん",
+    "romaji": "gamen",
+    "meaning": "screen"
+   },
+   {
+    "word": "選ぶ",
+    "reading": "えらぶ",
+    "romaji": "erabu",
+    "meaning": "to choose"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "切符の買い方がわかりません。",
+    "romaji": "Kippu no kaikata ga wakarimasen.",
+    "en": "I don't know how to buy a ticket."
+   }
+  ]
+ },
+ {
+  "id": "post-office",
+  "title_jp": "郵便局で",
+  "title_en": "At the Post Office",
+  "level": "medium",
+  "setting": "A customer sends an international package at the post office.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "この荷物を送りたいです。",
+    "hiragana": "このにもつをおくりたいです。",
+    "romaji": "Kono nimotsu o okuritai desu.",
+    "english": "I'd like to send this package."
+   },
+   {
+    "role": "Clerk",
+    "side": "A",
+    "kanji": "どちらまでですか。",
+    "hiragana": "どちらまでですか。",
+    "romaji": "Dochira made desu ka.",
+    "english": "To where?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "アメリカまでお願いします。",
+    "hiragana": "あめりかまでおねがいします。",
+    "romaji": "Amerika made onegaishimasu.",
+    "english": "To America, please."
+   },
+   {
+    "role": "Clerk",
+    "side": "A",
+    "kanji": "中身は何ですか。",
+    "hiragana": "なかみはなんですか。",
+    "romaji": "Nakami wa nan desu ka.",
+    "english": "What's inside?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "本と写真です。",
+    "hiragana": "ほんとしゃしんです。",
+    "romaji": "Hon to shashin desu.",
+    "english": "Books and photos."
+   },
+   {
+    "role": "Clerk",
+    "side": "A",
+    "kanji": "船便と航空便、どちらにしますか。",
+    "hiragana": "ふなびんとこうくうびん、どちらにしますか。",
+    "romaji": "Funabin to kōkūbin, dochira ni shimasu ka.",
+    "english": "Which would you like, sea mail or air mail?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "航空便でお願いします。早く着きますか。",
+    "hiragana": "こうくうびんでおねがいします。はやくつきますか。",
+    "romaji": "Kōkūbin de onegaishimasu. Hayaku tsukimasu ka.",
+    "english": "Air mail, please. Will it arrive quickly?"
+   },
+   {
+    "role": "Clerk",
+    "side": "A",
+    "kanji": "一週間ぐらいかかります。",
+    "hiragana": "いっしゅうかんぐらいかかります。",
+    "romaji": "Isshūkan gurai kakarimasu.",
+    "english": "It will take about a week."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "荷物",
+    "reading": "にもつ",
+    "romaji": "nimotsu",
+    "meaning": "package, luggage"
+   },
+   {
+    "word": "中身",
+    "reading": "なかみ",
+    "romaji": "nakami",
+    "meaning": "contents"
+   },
+   {
+    "word": "航空便",
+    "reading": "こうくうびん",
+    "romaji": "kōkūbin",
+    "meaning": "air mail"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "この荷物を送りたいです。",
+    "romaji": "Kono nimotsu o okuritai desu.",
+    "en": "I'd like to send this package."
+   },
+   {
+    "jp": "一週間ぐらいかかります。",
+    "romaji": "Isshūkan gurai kakarimasu.",
+    "en": "It will take about a week."
+   }
+  ]
+ },
+ {
+  "id": "phone-reservation",
+  "title_jp": "電話で予約する",
+  "title_en": "Making a Reservation by Phone",
+  "level": "medium",
+  "setting": "A customer calls a restaurant to book a table for the evening.",
+  "lines": [
+   {
+    "role": "Caller",
+    "side": "B",
+    "kanji": "もしもし、今晩の予約をしたいのですが。",
+    "hiragana": "もしもし、こんばんのよやくをしたいのですが。",
+    "romaji": "Moshi moshi, konban no yoyaku o shitai no desu ga.",
+    "english": "Hello, I'd like to make a reservation for tonight."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "ありがとうございます。何名様ですか。",
+    "hiragana": "ありがとうございます。なんめいさまですか。",
+    "romaji": "Arigatō gozaimasu. Nanmei-sama desu ka.",
+    "english": "Thank you. How many people?"
+   },
+   {
+    "role": "Caller",
+    "side": "B",
+    "kanji": "四人です。",
+    "hiragana": "よにんです。",
+    "romaji": "Yonin desu.",
+    "english": "Four people."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "何時にいらっしゃいますか。",
+    "hiragana": "なんじにいらっしゃいますか。",
+    "romaji": "Nanji ni irasshaimasu ka.",
+    "english": "What time will you arrive?"
+   },
+   {
+    "role": "Caller",
+    "side": "B",
+    "kanji": "七時にお願いします。",
+    "hiragana": "しちじにおねがいします。",
+    "romaji": "Shichiji ni onegaishimasu.",
+    "english": "At 7 o'clock, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "お名前を教えてください。",
+    "hiragana": "おなまえをおしえてください。",
+    "romaji": "Onamae o oshiete kudasai.",
+    "english": "Could you tell me your name?"
+   },
+   {
+    "role": "Caller",
+    "side": "B",
+    "kanji": "田中です。よろしくお願いします。",
+    "hiragana": "たなかです。よろしくおねがいします。",
+    "romaji": "Tanaka desu. Yoroshiku onegaishimasu.",
+    "english": "It's Tanaka. Thank you."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "田中様、七時に四名様でご予約承りました。",
+    "hiragana": "たなかさま、しちじによんめいさまでごよやくうけたまわりました。",
+    "romaji": "Tanaka-sama, shichiji ni yonmei-sama de goyoyaku uketamawarimashita.",
+    "english": "Mr. Tanaka, we've confirmed your reservation for four at 7 o'clock."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "予約",
+    "reading": "よやく",
+    "romaji": "yoyaku",
+    "meaning": "reservation"
+   },
+   {
+    "word": "何名様",
+    "reading": "なんめいさま",
+    "romaji": "nanmei-sama",
+    "meaning": "how many people (polite)"
+   },
+   {
+    "word": "承る",
+    "reading": "うけたまわる",
+    "romaji": "uketamawaru",
+    "meaning": "to receive/accept (humble)"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "今晩の予約をしたいのですが。",
+    "romaji": "Konban no yoyaku o shitai no desu ga.",
+    "en": "I'd like to make a reservation for tonight."
+   }
+  ]
+ },
+ {
+  "id": "fast-food",
+  "title_jp": "ファストフード店で",
+  "title_en": "At a Fast Food Restaurant",
+  "level": "easy",
+  "setting": "Ordering a combo meal at the counter of a fast food restaurant.",
+  "lines": [
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "いらっしゃいませ。ご注文をどうぞ。",
+    "hiragana": "いらっしゃいませ。ごちゅうもんをどうぞ。",
+    "romaji": "Irasshaimase. Gochūmon o dōzo.",
+    "english": "Welcome. Please go ahead with your order."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "ハンバーガーセットをください。",
+    "hiragana": "はんばーがーせっとをください。",
+    "romaji": "Hanbāgā setto o kudasai.",
+    "english": "A hamburger set, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "飲み物は何になさいますか。",
+    "hiragana": "のみものはなにになさいますか。",
+    "romaji": "Nomimono wa nani ni nasaimasu ka.",
+    "english": "What would you like to drink?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "コーラをお願いします。",
+    "hiragana": "こーらをおねがいします。",
+    "romaji": "Kōra o onegaishimasu.",
+    "english": "A cola, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "サイズはいかがなさいますか。",
+    "hiragana": "さいずはいかがなさいますか。",
+    "romaji": "Saizu wa ikaga nasaimasu ka.",
+    "english": "What size would you like?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "Mサイズでお願いします。",
+    "hiragana": "えむさいずでおねがいします。",
+    "romaji": "Emu saizu de onegaishimasu.",
+    "english": "Medium size, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "店内でお召し上がりですか。",
+    "hiragana": "てんないでおめしあがりですか。",
+    "romaji": "Tennai de omeshiagari desu ka.",
+    "english": "Will you eat here?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、ここで食べます。",
+    "hiragana": "はい、ここでたべます。",
+    "romaji": "Hai, koko de tabemasu.",
+    "english": "Yes, I'll eat here."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "注文",
+    "reading": "ちゅうもん",
+    "romaji": "chūmon",
+    "meaning": "order"
+   },
+   {
+    "word": "飲み物",
+    "reading": "のみもの",
+    "romaji": "nomimono",
+    "meaning": "drink"
+   },
+   {
+    "word": "店内",
+    "reading": "てんない",
+    "romaji": "tennai",
+    "meaning": "inside the store"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "店内でお召し上がりですか。",
+    "romaji": "Tennai de omeshiagari desu ka.",
+    "en": "Will you eat here (in the store)?"
+   }
+  ]
+ },
+ {
+  "id": "asking-the-time",
+  "title_jp": "時間を聞く",
+  "title_en": "Asking for the Time",
+  "level": "easy",
+  "setting": "A stranger asks another person for the current time near a train station.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "すみません、今何時ですか。",
+    "hiragana": "すみません、いまなんじですか。",
+    "romaji": "Sumimasen, ima nanji desu ka.",
+    "english": "Excuse me, what time is it now?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "ええと、三時半です。",
+    "hiragana": "ええと、さんじはんです。",
+    "romaji": "Eeto, sanji han desu.",
+    "english": "Um, it's 3:30."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "ありがとうございます。次の電車は何時ですか。",
+    "hiragana": "ありがとうございます。つぎのでんしゃはなんじですか。",
+    "romaji": "Arigatō gozaimasu. Tsugi no densha wa nanji desu ka.",
+    "english": "Thank you. What time is the next train?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "すみません、それはわかりません。",
+    "hiragana": "すみません、それはわかりません。",
+    "romaji": "Sumimasen, sore wa wakarimasen.",
+    "english": "Sorry, I don't know that."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "大丈夫です。ありがとうございました。",
+    "hiragana": "だいじょうぶです。ありがとうございました。",
+    "romaji": "Daijōbu desu. Arigatō gozaimashita.",
+    "english": "That's okay. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "今",
+    "reading": "いま",
+    "romaji": "ima",
+    "meaning": "now"
+   },
+   {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "romaji": "densha",
+    "meaning": "train"
+   },
+   {
+    "word": "次",
+    "reading": "つぎ",
+    "romaji": "tsugi",
+    "meaning": "next"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "今何時ですか。",
+    "romaji": "Ima nanji desu ka.",
+    "en": "What time is it now?"
+   }
+  ]
+ },
+ {
+  "id": "pharmacy",
+  "title_jp": "薬局で",
+  "title_en": "At the Pharmacy",
+  "level": "medium",
+  "setting": "A customer asks a pharmacist for medicine for a headache.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "すみません、頭が痛いです。何かいい薬はありますか。",
+    "hiragana": "すみません、あたまがいたいです。なにかいいくすりはありますか。",
+    "romaji": "Sumimasen, atama ga itai desu. Nanika ii kusuri wa arimasu ka.",
+    "english": "Excuse me, I have a headache. Is there a good medicine?"
+   },
+   {
+    "role": "Pharmacist",
+    "side": "A",
+    "kanji": "この薬がよく効きますよ。",
+    "hiragana": "このくすりがよくききますよ。",
+    "romaji": "Kono kusuri ga yoku kikimasu yo.",
+    "english": "This medicine works well."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "一日に何回飲みますか。",
+    "hiragana": "いちにちになんかいのみますか。",
+    "romaji": "Ichinichi ni nankai nomimasu ka.",
+    "english": "How many times a day should I take it?"
+   },
+   {
+    "role": "Pharmacist",
+    "side": "A",
+    "kanji": "一日三回、食後に飲んでください。",
+    "hiragana": "いちにちさんかい、しょくごにのんでください。",
+    "romaji": "Ichinichi sankai, shokugo ni nonde kudasai.",
+    "english": "Take it three times a day, after meals."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "わかりました。副作用はありますか。",
+    "hiragana": "わかりました。ふくさようはありますか。",
+    "romaji": "Wakarimashita. Fukusayō wa arimasu ka.",
+    "english": "Got it. Are there any side effects?"
+   },
+   {
+    "role": "Pharmacist",
+    "side": "A",
+    "kanji": "少し眠くなるかもしれません。",
+    "hiragana": "すこしねむくなるかもしれません。",
+    "romaji": "Sukoshi nemuku naru kamoshiremasen.",
+    "english": "You might feel a little sleepy."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "気をつけます。ありがとうございます。",
+    "hiragana": "きをつけます。ありがとうございます。",
+    "romaji": "Ki o tsukemasu. Arigatō gozaimasu.",
+    "english": "I'll be careful. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "頭が痛い",
+    "reading": "あたまがいたい",
+    "romaji": "atama ga itai",
+    "meaning": "to have a headache"
+   },
+   {
+    "word": "効く",
+    "reading": "きく",
+    "romaji": "kiku",
+    "meaning": "to be effective"
+   },
+   {
+    "word": "副作用",
+    "reading": "ふくさよう",
+    "romaji": "fukusayō",
+    "meaning": "side effect"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "一日三回、食後に飲んでください。",
+    "romaji": "Ichinichi sankai, shokugo ni nonde kudasai.",
+    "en": "Take it three times a day, after meals."
+   }
+  ]
+ },
+ {
+  "id": "talking-about-pets",
+  "title_jp": "ペットについて",
+  "title_en": "Talking About Pets",
+  "level": "easy",
+  "setting": "Two friends chat about the pets they have at home.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "何かペットを飼っていますか。",
+    "hiragana": "なにかぺっとをかっていますか。",
+    "romaji": "Nanika petto o katte imasu ka.",
+    "english": "Do you have any pets?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "はい、犬を一匹飼っています。",
+    "hiragana": "はい、いぬをいっぴきかっています。",
+    "romaji": "Hai, inu o ippiki katte imasu.",
+    "english": "Yes, I have one dog."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "かわいいですね。名前は何ですか。",
+    "hiragana": "かわいいですね。なまえはなんですか。",
+    "romaji": "Kawaii desu ne. Namae wa nan desu ka.",
+    "english": "How cute. What's its name?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "ももです。三歳です。",
+    "hiragana": "ももです。さんさいです。",
+    "romaji": "Momo desu. Sansai desu.",
+    "english": "It's Momo. Three years old."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "毎日散歩しますか。",
+    "hiragana": "まいにちさんぽしますか。",
+    "romaji": "Mainichi sanpo shimasu ka.",
+    "english": "Do you walk it every day?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "はい、朝と夜に散歩します。",
+    "hiragana": "はい、あさとよるにさんぽします。",
+    "romaji": "Hai, asa to yoru ni sanpo shimasu.",
+    "english": "Yes, I walk it in the morning and at night."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "いいですね。私は猫を飼いたいです。",
+    "hiragana": "いいですね。わたしはねこをかいたいです。",
+    "romaji": "Ii desu ne. Watashi wa neko o kaitai desu.",
+    "english": "That's nice. I want to have a cat."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "飼う",
+    "reading": "かう",
+    "romaji": "kau",
+    "meaning": "to keep (a pet)"
+   },
+   {
+    "word": "散歩する",
+    "reading": "さんぽする",
+    "romaji": "sanpo suru",
+    "meaning": "to take a walk"
+   },
+   {
+    "word": "匹",
+    "reading": "ひき",
+    "romaji": "hiki",
+    "meaning": "counter for small animals"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "何かペットを飼っていますか。",
+    "romaji": "Nanika petto o katte imasu ka.",
+    "en": "Do you have any pets?"
+   }
+  ]
+ },
+ {
+  "id": "at-the-bank",
+  "title_jp": "銀行で",
+  "title_en": "At the Bank",
+  "level": "medium",
+  "setting": "A customer opens a new bank account.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "口座を開きたいのですが。",
+    "hiragana": "こうざをひらきたいのですが。",
+    "romaji": "Kōza o hirakitai no desu ga.",
+    "english": "I'd like to open an account."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "かしこまりました。身分証明書はお持ちですか。",
+    "hiragana": "かしこまりました。みぶんしょうめいしょはおもちですか。",
+    "romaji": "Kashikomarimashita. Mibunshōmeisho wa omochi desu ka.",
+    "english": "Certainly. Do you have identification?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、パスポートを持っています。",
+    "hiragana": "はい、ぱすぽーとをもっています。",
+    "romaji": "Hai, pasupōto o motte imasu.",
+    "english": "Yes, I have my passport."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "こちらの用紙にご記入ください。",
+    "hiragana": "こちらのようしにごきにゅうください。",
+    "romaji": "Kochira no yōshi ni gokinyū kudasai.",
+    "english": "Please fill out this form."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい。ここに住所を書けばいいですか。",
+    "hiragana": "はい。ここにじゅうしょをかけばいいですか。",
+    "romaji": "Hai. Koko ni jūsho o kakeba ii desu ka.",
+    "english": "Yes. Should I write my address here?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "はい、そうです。印鑑かサインが必要です。",
+    "hiragana": "はい、そうです。いんかんかさいんがひつようです。",
+    "romaji": "Hai, sō desu. Inkan ka sain ga hitsuyō desu.",
+    "english": "Yes, that's right. You'll need a seal or a signature."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "サインでもいいですか。",
+    "hiragana": "さいんでもいいですか。",
+    "romaji": "Sain demo ii desu ka.",
+    "english": "Is a signature okay too?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "はい、問題ありません。",
+    "hiragana": "はい、もんだいありません。",
+    "romaji": "Hai, mondai arimasen.",
+    "english": "Yes, that's no problem."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "口座",
+    "reading": "こうざ",
+    "romaji": "kōza",
+    "meaning": "(bank) account"
+   },
+   {
+    "word": "身分証明書",
+    "reading": "みぶんしょうめいしょ",
+    "romaji": "mibunshōmeisho",
+    "meaning": "ID document"
+   },
+   {
+    "word": "記入する",
+    "reading": "きにゅうする",
+    "romaji": "kinyū suru",
+    "meaning": "to fill in"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "口座を開きたいのですが。",
+    "romaji": "Kōza o hirakitai no desu ga.",
+    "en": "I'd like to open an account."
+   }
+  ]
+ },
+ {
+  "id": "renting-a-bicycle",
+  "title_jp": "自転車を借りる",
+  "title_en": "Renting a Bicycle",
+  "level": "easy",
+  "setting": "A tourist rents a bicycle for the day from a rental shop.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "自転車を借りたいです。一日いくらですか。",
+    "hiragana": "じてんしゃをかりたいです。いちにちいくらですか。",
+    "romaji": "Jitensha o karitai desu. Ichinichi ikura desu ka.",
+    "english": "I'd like to rent a bicycle. How much for one day?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "一日千円です。",
+    "hiragana": "いちにちせんえんです。",
+    "romaji": "Ichinichi sen'en desu.",
+    "english": "It's 1000 yen a day."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "ヘルメットもありますか。",
+    "hiragana": "へるめっともありますか。",
+    "romaji": "Herumetto mo arimasu ka.",
+    "english": "Do you have helmets too?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "はい、無料でお貸しします。",
+    "hiragana": "はい、むりょうでおかしします。",
+    "romaji": "Hai, muryō de okashi shimasu.",
+    "english": "Yes, we lend them for free."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "何時までに返せばいいですか。",
+    "hiragana": "なんじまでにかえせばいいですか。",
+    "romaji": "Nanji made ni kaeseba ii desu ka.",
+    "english": "By what time should I return it?"
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "午後六時までにお願いします。",
+    "hiragana": "ごごろくじまでにおねがいします。",
+    "romaji": "Gogo rokuji made ni onegaishimasu.",
+    "english": "Please return it by 6 PM."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "わかりました。お願いします。",
+    "hiragana": "わかりました。おねがいします。",
+    "romaji": "Wakarimashita. Onegaishimasu.",
+    "english": "Got it. I'll take it."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "借りる",
+    "reading": "かりる",
+    "romaji": "kariru",
+    "meaning": "to borrow/rent"
+   },
+   {
+    "word": "返す",
+    "reading": "かえす",
+    "romaji": "kaesu",
+    "meaning": "to return (something)"
+   },
+   {
+    "word": "無料",
+    "reading": "むりょう",
+    "romaji": "muryō",
+    "meaning": "free of charge"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "一日いくらですか。",
+    "romaji": "Ichinichi ikura desu ka.",
+    "en": "How much is it for one day?"
+   }
+  ]
+ },
+ {
+  "id": "morning-routine",
+  "title_jp": "朝の習慣",
+  "title_en": "Morning Routine",
+  "level": "easy",
+  "setting": "Two friends compare what their mornings usually look like.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "毎朝何時に起きますか。",
+    "hiragana": "まいあさなんじにおきますか。",
+    "romaji": "Maiasa nanji ni okimasu ka.",
+    "english": "What time do you get up every morning?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "六時に起きます。",
+    "hiragana": "ろくじにおきます。",
+    "romaji": "Rokuji ni okimasu.",
+    "english": "I get up at 6."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "早いですね。朝ご飯は食べますか。",
+    "hiragana": "はやいですね。あさごはんはたべますか。",
+    "romaji": "Hayai desu ne. Asagohan wa tabemasu ka.",
+    "english": "That's early. Do you eat breakfast?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "はい、パンとコーヒーを食べます。",
+    "hiragana": "はい、ぱんとこーひーをたべます。",
+    "romaji": "Hai, pan to kōhī o tabemasu.",
+    "english": "Yes, I have bread and coffee."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "仕事は何時に始まりますか。",
+    "hiragana": "しごとはなんじにはじまりますか。",
+    "romaji": "Shigoto wa nanji ni hajimarimasu ka.",
+    "english": "What time does work start?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "九時に始まります。",
+    "hiragana": "くじにはじまります。",
+    "romaji": "Kuji ni hajimarimasu.",
+    "english": "It starts at 9."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "私も早く起きたいです。",
+    "hiragana": "わたしもはやくおきたいです。",
+    "romaji": "Watashi mo hayaku okitai desu.",
+    "english": "I also want to get up early."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "起きる",
+    "reading": "おきる",
+    "romaji": "okiru",
+    "meaning": "to get up"
+   },
+   {
+    "word": "朝ご飯",
+    "reading": "あさごはん",
+    "romaji": "asagohan",
+    "meaning": "breakfast"
+   },
+   {
+    "word": "始まる",
+    "reading": "はじまる",
+    "romaji": "hajimaru",
+    "meaning": "to begin"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "毎朝何時に起きますか。",
+    "romaji": "Maiasa nanji ni okimasu ka.",
+    "en": "What time do you get up every morning?"
+   }
+  ]
+ },
+ {
+  "id": "noise-complaint",
+  "title_jp": "隣人に苦情を言う",
+  "title_en": "Complaining About Noise",
+  "level": "medium",
+  "setting": "A resident politely asks a neighbor to keep the noise down at night.",
+  "lines": [
+   {
+    "role": "Neighbor1",
+    "side": "A",
+    "kanji": "すみません、少しお話ししてもいいですか。",
+    "hiragana": "すみません、すこしおはなししてもいいですか。",
+    "romaji": "Sumimasen, sukoshi ohanashi shite mo ii desu ka.",
+    "english": "Excuse me, could I talk to you for a moment?"
+   },
+   {
+    "role": "Neighbor2",
+    "side": "B",
+    "kanji": "はい、何でしょうか。",
+    "hiragana": "はい、なんでしょうか。",
+    "romaji": "Hai, nan deshō ka.",
+    "english": "Yes, what is it?"
+   },
+   {
+    "role": "Neighbor1",
+    "side": "A",
+    "kanji": "夜、音楽の音が少し大きいです。",
+    "hiragana": "よる、おんがくのおとがすこしおおきいです。",
+    "romaji": "Yoru, ongaku no oto ga sukoshi ōkii desu.",
+    "english": "At night, the music is a bit loud."
+   },
+   {
+    "role": "Neighbor2",
+    "side": "B",
+    "kanji": "あ、すみませんでした。気づきませんでした。",
+    "hiragana": "あ、すみませんでした。きづきませんでした。",
+    "romaji": "A, sumimasen deshita. Kizukimasen deshita.",
+    "english": "Oh, I'm sorry. I didn't notice."
+   },
+   {
+    "role": "Neighbor1",
+    "side": "A",
+    "kanji": "十一時ごろから静かにしていただけますか。",
+    "hiragana": "じゅういちじごろからしずかにしていただけますか。",
+    "romaji": "Jūichiji goro kara shizuka ni shite itadakemasu ka.",
+    "english": "Could you keep it quiet from around 11?"
+   },
+   {
+    "role": "Neighbor2",
+    "side": "B",
+    "kanji": "もちろんです。気をつけます。",
+    "hiragana": "もちろんです。きをつけます。",
+    "romaji": "Mochiron desu. Ki o tsukemasu.",
+    "english": "Of course. I'll be careful."
+   },
+   {
+    "role": "Neighbor1",
+    "side": "A",
+    "kanji": "ありがとうございます。助かります。",
+    "hiragana": "ありがとうございます。たすかります。",
+    "romaji": "Arigatō gozaimasu. Tasukarimasu.",
+    "english": "Thank you. That helps a lot."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "苦情",
+    "reading": "くじょう",
+    "romaji": "kujō",
+    "meaning": "complaint"
+   },
+   {
+    "word": "気づく",
+    "reading": "きづく",
+    "romaji": "kizuku",
+    "meaning": "to notice"
+   },
+   {
+    "word": "静か",
+    "reading": "しずか",
+    "romaji": "shizuka",
+    "meaning": "quiet"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "少し音が大きいです。",
+    "romaji": "Sukoshi oto ga ōkii desu.",
+    "en": "The sound is a bit loud."
+   }
+  ]
+ },
+ {
+  "id": "returning-an-item",
+  "title_jp": "返品する",
+  "title_en": "Returning an Item",
+  "level": "medium",
+  "setting": "A customer returns clothing that didn't fit and asks for an exchange.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "すみません、これを返品したいです。",
+    "hiragana": "すみません、これをへんぴんしたいです。",
+    "romaji": "Sumimasen, kore o henpin shitai desu.",
+    "english": "Excuse me, I'd like to return this."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "どうされましたか。",
+    "hiragana": "どうされましたか。",
+    "romaji": "Dō saremashita ka.",
+    "english": "What happened?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "サイズが合いませんでした。",
+    "hiragana": "さいずがあいませんでした。",
+    "romaji": "Saizu ga aimasen deshita.",
+    "english": "The size didn't fit."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "レシートはお持ちですか。",
+    "hiragana": "れしーとはおもちですか。",
+    "romaji": "Reshīto wa omochi desu ka.",
+    "english": "Do you have the receipt?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、こちらです。",
+    "hiragana": "はい、こちらです。",
+    "romaji": "Hai, kochira desu.",
+    "english": "Yes, here it is."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "返金と交換、どちらになさいますか。",
+    "hiragana": "へんきんとこうかん、どちらになさいますか。",
+    "romaji": "Henkin to kōkan, dochira ni nasaimasu ka.",
+    "english": "Would you like a refund or an exchange?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "大きいサイズと交換したいです。",
+    "hiragana": "おおきいさいずとこうかんしたいです。",
+    "romaji": "Ōkii saizu to kōkan shitai desu.",
+    "english": "I'd like to exchange it for a bigger size."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "かしこまりました。少々お待ちください。",
+    "hiragana": "かしこまりました。しょうしょうおまちください。",
+    "romaji": "Kashikomarimashita. Shōshō omachi kudasai.",
+    "english": "Certainly. One moment, please."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "返品する",
+    "reading": "へんぴんする",
+    "romaji": "henpin suru",
+    "meaning": "to return an item"
+   },
+   {
+    "word": "交換する",
+    "reading": "こうかんする",
+    "romaji": "kōkan suru",
+    "meaning": "to exchange"
+   },
+   {
+    "word": "返金",
+    "reading": "へんきん",
+    "romaji": "henkin",
+    "meaning": "refund"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "これを返品したいです。",
+    "romaji": "Kore o henpin shitai desu.",
+    "en": "I'd like to return this."
+   }
+  ]
+ },
+ {
+  "id": "inviting-for-coffee",
+  "title_jp": "コーヒーに誘う",
+  "title_en": "Inviting Someone for Coffee",
+  "level": "easy",
+  "setting": "A coworker invites another to get coffee over the weekend.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "今度、コーヒーでも飲みませんか。",
+    "hiragana": "こんど、こーひーでものみませんか。",
+    "romaji": "Kondo, kōhī demo nomimasen ka.",
+    "english": "Would you like to grab coffee sometime?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "いいですね。いつがいいですか。",
+    "hiragana": "いいですね。いつがいいですか。",
+    "romaji": "Ii desu ne. Itsu ga ii desu ka.",
+    "english": "Sounds good. When works?"
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "今週の土曜日はどうですか。",
+    "hiragana": "こんしゅうのどようびはどうですか。",
+    "romaji": "Konshū no doyōbi wa dō desu ka.",
+    "english": "How about this Saturday?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "大丈夫です。何時に会いましょうか。",
+    "hiragana": "だいじょうぶです。なんじにあいましょうか。",
+    "romaji": "Daijōbu desu. Nanji ni aimashō ka.",
+    "english": "That works. What time should we meet?"
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "午後三時はどうですか。",
+    "hiragana": "ごごさんじはどうですか。",
+    "romaji": "Gogo sanji wa dō desu ka.",
+    "english": "How about 3 in the afternoon?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "いいですよ。楽しみです。",
+    "hiragana": "いいですよ。たのしみです。",
+    "romaji": "Ii desu yo. Tanoshimi desu.",
+    "english": "Sounds good. I'm looking forward to it."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "誘う",
+    "reading": "さそう",
+    "romaji": "sasou",
+    "meaning": "to invite"
+   },
+   {
+    "word": "今度",
+    "reading": "こんど",
+    "romaji": "kondo",
+    "meaning": "sometime, next time"
+   },
+   {
+    "word": "楽しみ",
+    "reading": "たのしみ",
+    "romaji": "tanoshimi",
+    "meaning": "looking forward to"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "今度、コーヒーでも飲みませんか。",
+    "romaji": "Kondo, kōhī demo nomimasen ka.",
+    "en": "Would you like to grab coffee sometime?"
+   }
+  ]
+ },
+ {
+  "id": "favorite-movies",
+  "title_jp": "好きな映画について",
+  "title_en": "Talking About Favorite Movies",
+  "level": "easy",
+  "setting": "Two friends chat about the movies they've watched recently.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "どんな映画が好きですか。",
+    "hiragana": "どんなえいががすきですか。",
+    "romaji": "Donna eiga ga suki desu ka.",
+    "english": "What kind of movies do you like?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "アニメ映画が好きです。",
+    "hiragana": "あにめえいががすきです。",
+    "romaji": "Anime eiga ga suki desu.",
+    "english": "I like anime movies."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "最近見た映画はありますか。",
+    "hiragana": "さいきんみたえいがはありますか。",
+    "romaji": "Saikin mita eiga wa arimasu ka.",
+    "english": "Have you seen any movies recently?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "はい、先週新しい映画を見ました。",
+    "hiragana": "はい、せんしゅうあたらしいえいがをみました。",
+    "romaji": "Hai, senshū atarashii eiga o mimashita.",
+    "english": "Yes, I watched a new movie last week."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "どうでしたか。",
+    "hiragana": "どうでしたか。",
+    "romaji": "Dō deshita ka.",
+    "english": "How was it?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "とても面白かったです。",
+    "hiragana": "とてもおもしろかったです。",
+    "romaji": "Totemo omoshirokatta desu.",
+    "english": "It was very interesting."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "私も見てみたいです。",
+    "hiragana": "わたしもみてみたいです。",
+    "romaji": "Watashi mo mite mitai desu.",
+    "english": "I want to try watching it too."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "映画",
+    "reading": "えいが",
+    "romaji": "eiga",
+    "meaning": "movie"
+   },
+   {
+    "word": "最近",
+    "reading": "さいきん",
+    "romaji": "saikin",
+    "meaning": "recently"
+   },
+   {
+    "word": "面白い",
+    "reading": "おもしろい",
+    "romaji": "omoshiroi",
+    "meaning": "interesting, fun"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "どんな映画が好きですか。",
+    "romaji": "Donna eiga ga suki desu ka.",
+    "en": "What kind of movies do you like?"
+   }
+  ]
+ },
+ {
+  "id": "hair-salon",
+  "title_jp": "美容院で",
+  "title_en": "At the Hair Salon",
+  "level": "medium",
+  "setting": "A customer asks for a haircut at a hair salon.",
+  "lines": [
+   {
+    "role": "Stylist",
+    "side": "A",
+    "kanji": "今日はどのようにしますか。",
+    "hiragana": "きょうはどのようにしますか。",
+    "romaji": "Kyō wa dono yō ni shimasu ka.",
+    "english": "What would you like to do today?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "少し短く切ってください。",
+    "hiragana": "すこしみじかくきってください。",
+    "romaji": "Sukoshi mijikaku kitte kudasai.",
+    "english": "Please cut it a bit shorter."
+   },
+   {
+    "role": "Stylist",
+    "side": "A",
+    "kanji": "どのぐらい切りますか。",
+    "hiragana": "どのぐらいきりますか。",
+    "romaji": "Dono gurai kirimasu ka.",
+    "english": "How much should I cut?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "五センチぐらいお願いします。",
+    "hiragana": "ごせんちぐらいおねがいします。",
+    "romaji": "Go senchi gurai onegaishimasu.",
+    "english": "About 5 centimeters, please."
+   },
+   {
+    "role": "Stylist",
+    "side": "A",
+    "kanji": "前髪はどうしますか。",
+    "hiragana": "まえがみはどうしますか。",
+    "romaji": "Maegami wa dō shimasu ka.",
+    "english": "What about your bangs?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "前髪はそのままでいいです。",
+    "hiragana": "まえがみはそのままでいいです。",
+    "romaji": "Maegami wa sono mama de ii desu.",
+    "english": "The bangs are fine as they are."
+   },
+   {
+    "role": "Stylist",
+    "side": "A",
+    "kanji": "わかりました。それでは始めますね。",
+    "hiragana": "わかりました。それでははじめますね。",
+    "romaji": "Wakarimashita. Sore de wa hajimemasu ne.",
+    "english": "Understood. Let's get started then."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "切る",
+    "reading": "きる",
+    "romaji": "kiru",
+    "meaning": "to cut"
+   },
+   {
+    "word": "前髪",
+    "reading": "まえがみ",
+    "romaji": "maegami",
+    "meaning": "bangs"
+   },
+   {
+    "word": "そのまま",
+    "reading": "そのまま",
+    "romaji": "sono mama",
+    "meaning": "as it is"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "少し短く切ってください。",
+    "romaji": "Sukoshi mijikaku kitte kudasai.",
+    "en": "Please cut it a bit shorter."
+   }
+  ]
+ },
+ {
+  "id": "lost-and-found",
+  "title_jp": "忘れ物センターで",
+  "title_en": "At the Lost and Found",
+  "level": "medium",
+  "setting": "A passenger reports an umbrella left behind on the train.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "電車に傘を忘れてしまいました。",
+    "hiragana": "でんしゃにかさをわすれてしまいました。",
+    "romaji": "Densha ni kasa o wasurete shimaimashita.",
+    "english": "I left my umbrella on the train."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "何時ごろの電車ですか。",
+    "hiragana": "なんじごろのでんしゃですか。",
+    "romaji": "Nanji goro no densha desu ka.",
+    "english": "About what time was the train?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "午後二時ごろだと思います。",
+    "hiragana": "ごごにじごろだとおもいます。",
+    "romaji": "Gogo niji goro da to omoimasu.",
+    "english": "I think it was around 2 PM."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "傘の色や形を教えてください。",
+    "hiragana": "かさのいろやかたちをおしえてください。",
+    "romaji": "Kasa no iro ya katachi o oshiete kudasai.",
+    "english": "Please tell me the color and shape of the umbrella."
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "青くて、長い傘です。",
+    "hiragana": "あおくて、ながいかさです。",
+    "romaji": "Aokute, nagai kasa desu.",
+    "english": "It's blue and long."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "少々お待ちください。確認します。",
+    "hiragana": "しょうしょうおまちください。かくにんします。",
+    "romaji": "Shōshō omachi kudasai. Kakunin shimasu.",
+    "english": "One moment please. I'll check."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "ありました。こちらでよろしいですか。",
+    "hiragana": "ありました。こちらでよろしいですか。",
+    "romaji": "Arimashita. Kochira de yoroshii desu ka.",
+    "english": "We found it. Is this the one?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、それです！ありがとうございます。",
+    "hiragana": "はい、それです！ありがとうございます。",
+    "romaji": "Hai, sore desu! Arigatō gozaimasu.",
+    "english": "Yes, that's it! Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "忘れる",
+    "reading": "わすれる",
+    "romaji": "wasureru",
+    "meaning": "to forget, leave behind"
+   },
+   {
+    "word": "形",
+    "reading": "かたち",
+    "romaji": "katachi",
+    "meaning": "shape"
+   },
+   {
+    "word": "確認する",
+    "reading": "かくにんする",
+    "romaji": "kakunin suru",
+    "meaning": "to confirm, check"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "電車に傘を忘れてしまいました。",
+    "romaji": "Densha ni kasa o wasurete shimaimashita.",
+    "en": "I left my umbrella on the train."
+   }
+  ]
+ },
+ {
+  "id": "wifi-password",
+  "title_jp": "Wi-Fiのパスワードを聞く",
+  "title_en": "Asking for the Wi-Fi Password",
+  "level": "easy",
+  "setting": "A customer at a café asks staff for the Wi-Fi password.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "すみません、Wi-Fiは使えますか。",
+    "hiragana": "すみません、わいふぁいはつかえますか。",
+    "romaji": "Sumimasen, waifai wa tsukaemasu ka.",
+    "english": "Excuse me, can I use Wi-Fi?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "はい、無料で使えます。",
+    "hiragana": "はい、むりょうでつかえます。",
+    "romaji": "Hai, muryō de tsukaemasu.",
+    "english": "Yes, you can use it for free."
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "パスワードを教えてもらえますか。",
+    "hiragana": "ぱすわーどをおしえてもらえますか。",
+    "romaji": "Pasuwādo o oshiete moraemasu ka.",
+    "english": "Could you tell me the password?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "レシートに書いてあります。",
+    "hiragana": "れしーとにかいてあります。",
+    "romaji": "Reshīto ni kaite arimasu.",
+    "english": "It's written on the receipt."
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "あ、本当ですね。ありがとうございます。",
+    "hiragana": "あ、ほんとうですね。ありがとうございます。",
+    "romaji": "A, hontō desu ne. Arigatō gozaimasu.",
+    "english": "Oh, you're right. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "使う",
+    "reading": "つかう",
+    "romaji": "tsukau",
+    "meaning": "to use"
+   },
+   {
+    "word": "無料",
+    "reading": "むりょう",
+    "romaji": "muryō",
+    "meaning": "free"
+   },
+   {
+    "word": "書いてある",
+    "reading": "かいてある",
+    "romaji": "kaite aru",
+    "meaning": "is written"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "Wi-Fiは使えますか。",
+    "romaji": "Waifai wa tsukaemasu ka.",
+    "en": "Can I use Wi-Fi?"
+   }
+  ]
+ },
+ {
+  "id": "new-year-talk",
+  "title_jp": "お正月について",
+  "title_en": "Talking About New Year",
+  "level": "easy",
+  "setting": "Two friends catch up on how they spent the New Year's holiday.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "お正月に何をしましたか。",
+    "hiragana": "おしょうがつになにをしましたか。",
+    "romaji": "Oshōgatsu ni nani o shimashita ka.",
+    "english": "What did you do for New Year's?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "家族と神社に行きました。",
+    "hiragana": "かぞくとじんじゃにいきました。",
+    "romaji": "Kazoku to jinja ni ikimashita.",
+    "english": "I went to a shrine with my family."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "いいですね。おせち料理は食べましたか。",
+    "hiragana": "いいですね。おせちりょうりはたべましたか。",
+    "romaji": "Ii desu ne. Osechi ryōri wa tabemashita ka.",
+    "english": "Nice. Did you eat osechi food?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "はい、たくさん食べました。",
+    "hiragana": "はい、たくさんたべました。",
+    "romaji": "Hai, takusan tabemashita.",
+    "english": "Yes, I ate a lot."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "お年玉はもらいましたか。",
+    "hiragana": "おとしだまはもらいましたか。",
+    "romaji": "Otoshidama wa moraimashita ka.",
+    "english": "Did you get New Year's money?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "いいえ、私はもう大人ですから。",
+    "hiragana": "いいえ、わたしはもうおとなですから。",
+    "romaji": "Iie, watashi wa mō otona desu kara.",
+    "english": "No, because I'm already an adult."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "神社",
+    "reading": "じんじゃ",
+    "romaji": "jinja",
+    "meaning": "shrine"
+   },
+   {
+    "word": "おせち料理",
+    "reading": "おせちりょうり",
+    "romaji": "osechi ryōri",
+    "meaning": "New Year's food"
+   },
+   {
+    "word": "お年玉",
+    "reading": "おとしだま",
+    "romaji": "otoshidama",
+    "meaning": "New Year's money gift"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "お正月に何をしましたか。",
+    "romaji": "Oshōgatsu ni nani o shimashita ka.",
+    "en": "What did you do for New Year's?"
+   }
+  ]
+ },
+ {
+  "id": "convenience-store",
+  "title_jp": "コンビニで",
+  "title_en": "At the Convenience Store",
+  "level": "easy",
+  "setting": "A customer checks out at a convenience store register.",
+  "lines": [
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "いらっしゃいませ。袋はご利用ですか。",
+    "hiragana": "いらっしゃいませ。ふくろはごりようですか。",
+    "romaji": "Irasshaimase. Fukuro wa goriyō desu ka.",
+    "english": "Welcome. Would you like a bag?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、お願いします。",
+    "hiragana": "はい、おねがいします。",
+    "romaji": "Hai, onegaishimasu.",
+    "english": "Yes, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "お箸はお付けしますか。",
+    "hiragana": "おはしはおつけしますか。",
+    "romaji": "Ohashi wa otsuke shimasu ka.",
+    "english": "Should I include chopsticks?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、一膳お願いします。",
+    "hiragana": "はい、いちぜんおねがいします。",
+    "romaji": "Hai, ichizen onegaishimasu.",
+    "english": "Yes, one pair please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "お弁当は温めますか。",
+    "hiragana": "おべんとうはあたためますか。",
+    "romaji": "Obentō wa atatamemasu ka.",
+    "english": "Should I heat up the bento?"
+   },
+   {
+    "role": "Customer",
+    "side": "B",
+    "kanji": "はい、お願いします。",
+    "hiragana": "はい、おねがいします。",
+    "romaji": "Hai, onegaishimasu.",
+    "english": "Yes, please."
+   },
+   {
+    "role": "Staff",
+    "side": "A",
+    "kanji": "合計で六百円です。",
+    "hiragana": "ごうけいでろっぴゃくえんです。",
+    "romaji": "Gōkei de roppyaku-en desu.",
+    "english": "That's 600 yen in total."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "袋",
+    "reading": "ふくろ",
+    "romaji": "fukuro",
+    "meaning": "bag"
+   },
+   {
+    "word": "温める",
+    "reading": "あたためる",
+    "romaji": "atatameru",
+    "meaning": "to heat up"
+   },
+   {
+    "word": "合計",
+    "reading": "ごうけい",
+    "romaji": "gōkei",
+    "meaning": "total"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "お弁当は温めますか。",
+    "romaji": "Obentō wa atatamemasu ka.",
+    "en": "Should I heat up the bento?"
+   }
+  ]
+ },
+ {
+  "id": "calling-a-taxi",
+  "title_jp": "タクシーを呼ぶ",
+  "title_en": "Calling a Taxi",
+  "level": "easy",
+  "setting": "A hotel guest calls a taxi company for a pickup.",
+  "lines": [
+   {
+    "role": "Caller",
+    "side": "A",
+    "kanji": "すみません、タクシーを一台お願いします。",
+    "hiragana": "すみません、たくしーをいちだいおねがいします。",
+    "romaji": "Sumimasen, takushī o ichidai onegaishimasu.",
+    "english": "Excuse me, I'd like one taxi please."
+   },
+   {
+    "role": "Operator",
+    "side": "B",
+    "kanji": "どちらまでお迎えに行きましょうか。",
+    "hiragana": "どちらまでおむかえにいきましょうか。",
+    "romaji": "Dochira made omukae ni ikimashō ka.",
+    "english": "Where should we pick you up?"
+   },
+   {
+    "role": "Caller",
+    "side": "A",
+    "kanji": "さくらホテルの前です。",
+    "hiragana": "さくらほてるのまえです。",
+    "romaji": "Sakura hoteru no mae desu.",
+    "english": "In front of Sakura Hotel."
+   },
+   {
+    "role": "Operator",
+    "side": "B",
+    "kanji": "かしこまりました。十分ほどでまいります。",
+    "hiragana": "かしこまりました。じゅっぷんほどでまいります。",
+    "romaji": "Kashikomarimashita. Juppun hodo de mairimasu.",
+    "english": "Certainly. It will arrive in about 10 minutes."
+   },
+   {
+    "role": "Caller",
+    "side": "A",
+    "kanji": "わかりました。待っています。",
+    "hiragana": "わかりました。まっています。",
+    "romaji": "Wakarimashita. Matte imasu.",
+    "english": "Got it. I'll be waiting."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "呼ぶ",
+    "reading": "よぶ",
+    "romaji": "yobu",
+    "meaning": "to call"
+   },
+   {
+    "word": "迎え",
+    "reading": "むかえ",
+    "romaji": "mukae",
+    "meaning": "pickup"
+   },
+   {
+    "word": "参る",
+    "reading": "まいる",
+    "romaji": "mairu",
+    "meaning": "to come/go (humble)"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "タクシーを一台お願いします。",
+    "romaji": "Takushī o ichidai onegaishimasu.",
+    "en": "I'd like one taxi, please."
+   }
+  ]
+ },
+ {
+  "id": "talking-about-exercise",
+  "title_jp": "運動について",
+  "title_en": "Talking About Exercise",
+  "level": "easy",
+  "setting": "Two friends talk about their exercise habits.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "何か運動をしていますか。",
+    "hiragana": "なにかうんどうをしていますか。",
+    "romaji": "Nanika undō o shite imasu ka.",
+    "english": "Do you do any exercise?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "はい、週に三回ジムに行きます。",
+    "hiragana": "はい、しゅうにさんかいじむにいきます。",
+    "romaji": "Hai, shū ni sankai jimu ni ikimasu.",
+    "english": "Yes, I go to the gym three times a week."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "すごいですね。どんな運動をしますか。",
+    "hiragana": "すごいですね。どんなうんどうをしますか。",
+    "romaji": "Sugoi desu ne. Donna undō o shimasu ka.",
+    "english": "That's amazing. What kind of exercise do you do?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "走ったり、泳いだりします。",
+    "hiragana": "はしったり、およいだりします。",
+    "romaji": "Hashittari, oyoidari shimasu.",
+    "english": "I run and swim."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "私は運動が苦手です。",
+    "hiragana": "わたしはうんどうがにがてです。",
+    "romaji": "Watashi wa undō ga nigate desu.",
+    "english": "I'm not good at exercise."
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "一緒に始めませんか。",
+    "hiragana": "いっしょにはじめませんか。",
+    "romaji": "Issho ni hajimemasen ka.",
+    "english": "Why don't we start together?"
+   }
+  ],
+  "vocab": [
+   {
+    "word": "運動",
+    "reading": "うんどう",
+    "romaji": "undō",
+    "meaning": "exercise"
+   },
+   {
+    "word": "走る",
+    "reading": "はしる",
+    "romaji": "hashiru",
+    "meaning": "to run"
+   },
+   {
+    "word": "苦手",
+    "reading": "にがて",
+    "romaji": "nigate",
+    "meaning": "weak point, not good at"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "何か運動をしていますか。",
+    "romaji": "Nanika undō o shite imasu ka.",
+    "en": "Do you do any exercise?"
+   }
+  ]
+ },
+ {
+  "id": "food-allergy",
+  "title_jp": "アレルギーを伝える",
+  "title_en": "Explaining a Food Allergy",
+  "level": "medium",
+  "setting": "A diner tells restaurant staff about an egg allergy before ordering.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "すみません、卵のアレルギーがあります。",
+    "hiragana": "すみません、たまごのあれるぎーがあります。",
+    "romaji": "Sumimasen, tamago no arerugī ga arimasu.",
+    "english": "Excuse me, I have an egg allergy."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "わかりました。この料理には卵が入っています。",
+    "hiragana": "わかりました。このりょうりにはたまごがはいっています。",
+    "romaji": "Wakarimashita. Kono ryōri ni wa tamago ga haitte imasu.",
+    "english": "I understand. This dish contains egg."
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "卵なしで作れますか。",
+    "hiragana": "たまごなしでつくれますか。",
+    "romaji": "Tamago nashi de tsukuremasu ka.",
+    "english": "Can you make it without egg?"
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "少々お待ちください。厨房に聞いてきます。",
+    "hiragana": "しょうしょうおまちください。ちゅうぼうにきいてきます。",
+    "romaji": "Shōshō omachi kudasai. Chūbō ni kiite kimasu.",
+    "english": "One moment please. I'll ask the kitchen."
+   },
+   {
+    "role": "Staff",
+    "side": "B",
+    "kanji": "お待たせしました。卵なしで作れます。",
+    "hiragana": "おまたせしました。たまごなしでつくれます。",
+    "romaji": "Omatase shimashita. Tamago nashi de tsukuremasu.",
+    "english": "Thank you for waiting. We can make it without egg."
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "ありがとうございます。安心しました。",
+    "hiragana": "ありがとうございます。あんしんしました。",
+    "romaji": "Arigatō gozaimasu. Anshin shimashita.",
+    "english": "Thank you. I feel relieved."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "アレルギー",
+    "reading": "あれるぎー",
+    "romaji": "arerugī",
+    "meaning": "allergy"
+   },
+   {
+    "word": "厨房",
+    "reading": "ちゅうぼう",
+    "romaji": "chūbō",
+    "meaning": "kitchen (professional)"
+   },
+   {
+    "word": "安心する",
+    "reading": "あんしんする",
+    "romaji": "anshin suru",
+    "meaning": "to feel relieved"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "卵のアレルギーがあります。",
+    "romaji": "Tamago no arerugī ga arimasu.",
+    "en": "I have an egg allergy."
+   }
+  ]
+ },
+ {
+  "id": "asking-for-a-discount",
+  "title_jp": "値引きをお願いする",
+  "title_en": "Asking for a Discount",
+  "level": "medium",
+  "setting": "A shopper tries to negotiate the price of an item at a flea market.",
+  "lines": [
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "これ、少し安くなりませんか。",
+    "hiragana": "これ、すこしやすくなりませんか。",
+    "romaji": "Kore, sukoshi yasuku narimasen ka.",
+    "english": "Could this be a bit cheaper?"
+   },
+   {
+    "role": "Shopkeeper",
+    "side": "B",
+    "kanji": "うーん、いくらぐらいをお考えですか。",
+    "hiragana": "うーん、いくらぐらいをおかんがえですか。",
+    "romaji": "Ūn, ikura gurai o okangae desu ka.",
+    "english": "Hmm, how much were you thinking?"
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "二千円でどうですか。",
+    "hiragana": "にせんえんでどうですか。",
+    "romaji": "Nisen'en de dō desu ka.",
+    "english": "How about 2000 yen?"
+   },
+   {
+    "role": "Shopkeeper",
+    "side": "B",
+    "kanji": "それは厳しいですね。二千三百円ならいいですよ。",
+    "hiragana": "それはきびしいですね。にせんさんびゃくえんならいいですよ。",
+    "romaji": "Sore wa kibishii desu ne. Nisen sanbyaku-en nara ii desu yo.",
+    "english": "That's tough. 2300 yen would be okay."
+   },
+   {
+    "role": "Customer",
+    "side": "A",
+    "kanji": "わかりました。それでお願いします。",
+    "hiragana": "わかりました。それでおねがいします。",
+    "romaji": "Wakarimashita. Sore de onegaishimasu.",
+    "english": "Okay. I'll take it at that price."
+   },
+   {
+    "role": "Shopkeeper",
+    "side": "B",
+    "kanji": "ありがとうございます！",
+    "hiragana": "ありがとうございます！",
+    "romaji": "Arigatō gozaimasu!",
+    "english": "Thank you!"
+   }
+  ],
+  "vocab": [
+   {
+    "word": "安い",
+    "reading": "やすい",
+    "romaji": "yasui",
+    "meaning": "cheap"
+   },
+   {
+    "word": "値引き",
+    "reading": "ねびき",
+    "romaji": "nebiki",
+    "meaning": "discount"
+   },
+   {
+    "word": "厳しい",
+    "reading": "きびしい",
+    "romaji": "kibishii",
+    "meaning": "tough, strict"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "少し安くなりませんか。",
+    "romaji": "Sukoshi yasuku narimasen ka.",
+    "en": "Could this be a bit cheaper?"
+   }
+  ]
+ },
+ {
+  "id": "introducing-your-city",
+  "title_jp": "自分の町を紹介する",
+  "title_en": "Introducing Your City",
+  "level": "medium",
+  "setting": "A visitor asks a local to tell them about their hometown.",
+  "lines": [
+   {
+    "role": "Visitor",
+    "side": "A",
+    "kanji": "あなたの町について教えてください。",
+    "hiragana": "あなたのまちについておしえてください。",
+    "romaji": "Anata no machi ni tsuite oshiete kudasai.",
+    "english": "Please tell me about your city."
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "私の町は海の近くにあります。",
+    "hiragana": "わたしのまちはうみのちかくにあります。",
+    "romaji": "Watashi no machi wa umi no chikaku ni arimasu.",
+    "english": "My city is near the sea."
+   },
+   {
+    "role": "Visitor",
+    "side": "A",
+    "kanji": "いいですね。有名な場所はありますか。",
+    "hiragana": "いいですね。ゆうめいなばしょはありますか。",
+    "romaji": "Ii desu ne. Yūmei na basho wa arimasu ka.",
+    "english": "Nice. Are there any famous places?"
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "古いお城が有名です。",
+    "hiragana": "ふるいおしろがゆうめいです。",
+    "romaji": "Furui oshiro ga yūmei desu.",
+    "english": "An old castle is famous."
+   },
+   {
+    "role": "Visitor",
+    "side": "A",
+    "kanji": "美味しい食べ物もありますか。",
+    "hiragana": "おいしいたべものもありますか。",
+    "romaji": "Oishii tabemono mo arimasu ka.",
+    "english": "Is there delicious food too?"
+   },
+   {
+    "role": "Local",
+    "side": "B",
+    "kanji": "はい、新鮮な魚料理が有名です。",
+    "hiragana": "はい、しんせんなさかなりょうりがゆうめいです。",
+    "romaji": "Hai, shinsen na sakana ryōri ga yūmei desu.",
+    "english": "Yes, fresh fish dishes are famous."
+   },
+   {
+    "role": "Visitor",
+    "side": "A",
+    "kanji": "いつか行ってみたいです。",
+    "hiragana": "いつかいってみたいです。",
+    "romaji": "Itsuka itte mitai desu.",
+    "english": "I want to visit someday."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "町",
+    "reading": "まち",
+    "romaji": "machi",
+    "meaning": "town, city"
+   },
+   {
+    "word": "城",
+    "reading": "しろ",
+    "romaji": "shiro",
+    "meaning": "castle"
+   },
+   {
+    "word": "新鮮",
+    "reading": "しんせん",
+    "romaji": "shinsen",
+    "meaning": "fresh"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "有名な場所はありますか。",
+    "romaji": "Yūmei na basho wa arimasu ka.",
+    "en": "Are there any famous places?"
+   }
+  ]
+ },
+ {
+  "id": "study-plans",
+  "title_jp": "勉強の計画について",
+  "title_en": "Talking About Study Plans",
+  "level": "easy",
+  "setting": "Two classmates discuss how they're preparing for an upcoming exam.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "今度の試験の勉強はどうしていますか。",
+    "hiragana": "こんどのしけんのべんきょうはどうしていますか。",
+    "romaji": "Kondo no shiken no benkyō wa dō shite imasu ka.",
+    "english": "How are you studying for the upcoming exam?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "毎日図書館で二時間勉強しています。",
+    "hiragana": "まいにちとしょかんでにじかんべんきょうしています。",
+    "romaji": "Mainichi toshokan de nijikan benkyō shite imasu.",
+    "english": "I study for two hours at the library every day."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "すごいですね。何を勉強していますか。",
+    "hiragana": "すごいですね。なにをべんきょうしていますか。",
+    "romaji": "Sugoi desu ne. Nani o benkyō shite imasu ka.",
+    "english": "That's impressive. What are you studying?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "主に文法と単語です。",
+    "hiragana": "おもにぶんぽうとたんごです。",
+    "romaji": "Omo ni bunpō to tango desu.",
+    "english": "Mainly grammar and vocabulary."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "一緒に勉強しませんか。",
+    "hiragana": "いっしょにべんきょうしませんか。",
+    "romaji": "Issho ni benkyō shimasen ka.",
+    "english": "Want to study together?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "いいですね。明日はどうですか。",
+    "hiragana": "いいですね。あしたはどうですか。",
+    "romaji": "Ii desu ne. Ashita wa dō desu ka.",
+    "english": "Sounds good. How about tomorrow?"
+   }
+  ],
+  "vocab": [
+   {
+    "word": "試験",
+    "reading": "しけん",
+    "romaji": "shiken",
+    "meaning": "exam"
+   },
+   {
+    "word": "文法",
+    "reading": "ぶんぽう",
+    "romaji": "bunpō",
+    "meaning": "grammar"
+   },
+   {
+    "word": "単語",
+    "reading": "たんご",
+    "romaji": "tango",
+    "meaning": "vocabulary word"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "一緒に勉強しませんか。",
+    "romaji": "Issho ni benkyō shimasen ka.",
+    "en": "Want to study together?"
+   }
+  ]
+ },
+ {
+  "id": "missed-the-last-train",
+  "title_jp": "終電を逃した",
+  "title_en": "Missing the Last Train",
+  "level": "medium",
+  "setting": "A friend explains they missed the last train home late at night.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "大変です！終電を逃してしまいました。",
+    "hiragana": "たいへんです！しゅうでんをのがしてしまいました。",
+    "romaji": "Taihen desu! Shūden o nogashite shimaimashita.",
+    "english": "This is bad! I missed the last train."
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "え、本当ですか。どうしますか。",
+    "hiragana": "え、ほんとうですか。どうしますか。",
+    "romaji": "E, hontō desu ka. Dō shimasu ka.",
+    "english": "Huh, really? What will you do?"
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "タクシーは高いし、困っています。",
+    "hiragana": "たくしーはたかいし、こまっています。",
+    "romaji": "Takushī wa takai shi, komatte imasu.",
+    "english": "Taxis are expensive, and I'm in trouble."
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "うちに泊まってもいいですよ。",
+    "hiragana": "うちにとまってもいいですよ。",
+    "romaji": "Uchi ni tomatte mo ii desu yo.",
+    "english": "You can stay at my place."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "本当ですか。助かります。",
+    "hiragana": "ほんとうですか。たすかります。",
+    "romaji": "Hontō desu ka. Tasukarimasu.",
+    "english": "Really? That's a big help."
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "気にしないでください。始発まで一緒に待ちましょう。",
+    "hiragana": "きにしないでください。しはつまでいっしょにまちましょう。",
+    "romaji": "Ki ni shinaide kudasai. Shihatsu made issho ni machimashō.",
+    "english": "Don't worry about it. Let's wait together until the first train."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "終電",
+    "reading": "しゅうでん",
+    "romaji": "shūden",
+    "meaning": "last train"
+   },
+   {
+    "word": "逃す",
+    "reading": "のがす",
+    "romaji": "nogasu",
+    "meaning": "to miss (a chance/train)"
+   },
+   {
+    "word": "始発",
+    "reading": "しはつ",
+    "romaji": "shihatsu",
+    "meaning": "first train"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "終電を逃してしまいました。",
+    "romaji": "Shūden o nogashite shimaimashita.",
+    "en": "I missed the last train."
+   }
+  ]
+ },
+ {
+  "id": "weekend-with-coworker",
+  "title_jp": "週末について同僚と話す",
+  "title_en": "Talking About the Weekend with a Coworker",
+  "level": "easy",
+  "setting": "Two coworkers make small talk on a Monday morning about their weekends.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "週末は何をしましたか。",
+    "hiragana": "しゅうまつはなにをしましたか。",
+    "romaji": "Shūmatsu wa nani o shimashita ka.",
+    "english": "What did you do this weekend?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "友達と映画を見に行きました。",
+    "hiragana": "ともだちとえいがをみにいきました。",
+    "romaji": "Tomodachi to eiga o mi ni ikimashita.",
+    "english": "I went to see a movie with a friend."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "いいですね。何を見ましたか。",
+    "hiragana": "いいですね。なにをみましたか。",
+    "romaji": "Ii desu ne. Nani o mimashita ka.",
+    "english": "Nice. What did you watch?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "アクション映画を見ました。とても面白かったです。",
+    "hiragana": "あくしょんえいがをみました。とてもおもしろかったです。",
+    "romaji": "Akushon eiga o mimashita. Totemo omoshirokatta desu.",
+    "english": "We watched an action movie. It was very interesting."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "私は家でゆっくりしました。",
+    "hiragana": "わたしはいえでゆっくりしました。",
+    "romaji": "Watashi wa ie de yukkuri shimashita.",
+    "english": "I relaxed at home."
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "それもいいですね。",
+    "hiragana": "それもいいですね。",
+    "romaji": "Sore mo ii desu ne.",
+    "english": "That's nice too."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "週末",
+    "reading": "しゅうまつ",
+    "romaji": "shūmatsu",
+    "meaning": "weekend"
+   },
+   {
+    "word": "ゆっくりする",
+    "reading": "ゆっくりする",
+    "romaji": "yukkuri suru",
+    "meaning": "to relax, take it easy"
+   },
+   {
+    "word": "面白い",
+    "reading": "おもしろい",
+    "romaji": "omoshiroi",
+    "meaning": "interesting"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "週末は何をしましたか。",
+    "romaji": "Shūmatsu wa nani o shimashita ka.",
+    "en": "What did you do this weekend?"
+   }
+  ]
+ },
+ {
+  "id": "at-the-library",
+  "title_jp": "図書館で",
+  "title_en": "At the Library",
+  "level": "easy",
+  "setting": "A first-time visitor borrows a book and signs up for a library card.",
+  "lines": [
+   {
+    "role": "Visitor",
+    "side": "B",
+    "kanji": "すみません、この本を借りたいです。",
+    "hiragana": "すみません、このほんをかりたいです。",
+    "romaji": "Sumimasen, kono hon o karitai desu.",
+    "english": "Excuse me, I'd like to borrow this book."
+   },
+   {
+    "role": "Librarian",
+    "side": "A",
+    "kanji": "図書館カードはお持ちですか。",
+    "hiragana": "としょかんかーどはおもちですか。",
+    "romaji": "Toshokan kādo wa omochi desu ka.",
+    "english": "Do you have a library card?"
+   },
+   {
+    "role": "Visitor",
+    "side": "B",
+    "kanji": "いいえ、まだ作っていません。",
+    "hiragana": "いいえ、まだつくっていません。",
+    "romaji": "Iie, mada tsukutte imasen.",
+    "english": "No, I haven't made one yet."
+   },
+   {
+    "role": "Librarian",
+    "side": "A",
+    "kanji": "では、こちらの用紙にご記入ください。",
+    "hiragana": "では、こちらのようしにごきにゅうください。",
+    "romaji": "Dewa, kochira no yōshi ni gokinyū kudasai.",
+    "english": "Then, please fill out this form."
+   },
+   {
+    "role": "Visitor",
+    "side": "B",
+    "kanji": "何日間借りられますか。",
+    "hiragana": "なんにちかんかりられますか。",
+    "romaji": "Nan nichikan kariraremasu ka.",
+    "english": "How many days can I borrow it for?"
+   },
+   {
+    "role": "Librarian",
+    "side": "A",
+    "kanji": "二週間借りられます。",
+    "hiragana": "にしゅうかんかりられます。",
+    "romaji": "Nishūkan kariraremasu.",
+    "english": "You can borrow it for two weeks."
+   },
+   {
+    "role": "Visitor",
+    "side": "B",
+    "kanji": "わかりました。ありがとうございます。",
+    "hiragana": "わかりました。ありがとうございます。",
+    "romaji": "Wakarimashita. Arigatō gozaimasu.",
+    "english": "Got it. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "借りる",
+    "reading": "かりる",
+    "romaji": "kariru",
+    "meaning": "to borrow"
+   },
+   {
+    "word": "用紙",
+    "reading": "ようし",
+    "romaji": "yōshi",
+    "meaning": "form"
+   },
+   {
+    "word": "記入する",
+    "reading": "きにゅうする",
+    "romaji": "kinyū suru",
+    "meaning": "to fill out"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "この本を借りたいです。",
+    "romaji": "Kono hon o karitai desu.",
+    "en": "I'd like to borrow this book."
+   }
+  ]
+ },
+ {
+  "id": "dentist-appointment",
+  "title_jp": "歯医者の予約",
+  "title_en": "Booking a Dentist Appointment",
+  "level": "medium",
+  "setting": "A patient calls a dental clinic to book an appointment for a toothache.",
+  "lines": [
+   {
+    "role": "Caller",
+    "side": "A",
+    "kanji": "もしもし、歯の予約をしたいのですが。",
+    "hiragana": "もしもし、はのよやくをしたいのですが。",
+    "romaji": "Moshi moshi, ha no yoyaku o shitai no desu ga.",
+    "english": "Hello, I'd like to make a dental appointment."
+   },
+   {
+    "role": "Receptionist",
+    "side": "B",
+    "kanji": "どうされましたか。",
+    "hiragana": "どうされましたか。",
+    "romaji": "Dō saremashita ka.",
+    "english": "What's the problem?"
+   },
+   {
+    "role": "Caller",
+    "side": "A",
+    "kanji": "奥歯が痛いです。",
+    "hiragana": "おくばがいたいです。",
+    "romaji": "Okuba ga itai desu.",
+    "english": "My back tooth hurts."
+   },
+   {
+    "role": "Receptionist",
+    "side": "B",
+    "kanji": "それは大変ですね。明日の午前中はいかがですか。",
+    "hiragana": "それはたいへんですね。あしたのごぜんちゅうはいかがですか。",
+    "romaji": "Sore wa taihen desu ne. Ashita no gozenchū wa ikaga desu ka.",
+    "english": "That sounds painful. How about tomorrow morning?"
+   },
+   {
+    "role": "Caller",
+    "side": "A",
+    "kanji": "何時に伺えばいいですか。",
+    "hiragana": "なんじにうかがえばいいですか。",
+    "romaji": "Nanji ni ukagaeba ii desu ka.",
+    "english": "What time should I come?"
+   },
+   {
+    "role": "Receptionist",
+    "side": "B",
+    "kanji": "十時にお越しください。",
+    "hiragana": "じゅうじにおこしください。",
+    "romaji": "Jūji ni okoshi kudasai.",
+    "english": "Please come at 10 o'clock."
+   },
+   {
+    "role": "Caller",
+    "side": "A",
+    "kanji": "わかりました。よろしくお願いします。",
+    "hiragana": "わかりました。よろしくおねがいします。",
+    "romaji": "Wakarimashita. Yoroshiku onegaishimasu.",
+    "english": "Understood. Thank you."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "歯",
+    "reading": "は",
+    "romaji": "ha",
+    "meaning": "tooth"
+   },
+   {
+    "word": "奥歯",
+    "reading": "おくば",
+    "romaji": "okuba",
+    "meaning": "back tooth, molar"
+   },
+   {
+    "word": "伺う",
+    "reading": "うかがう",
+    "romaji": "ukagau",
+    "meaning": "to visit (humble)"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "奥歯が痛いです。",
+    "romaji": "Okuba ga itai desu.",
+    "en": "My back tooth hurts."
+   }
+  ]
+ },
+ {
+  "id": "favorite-season",
+  "title_jp": "好きな季節について",
+  "title_en": "Talking About Favorite Seasons",
+  "level": "easy",
+  "setting": "Two friends discuss which season of the year they like best and why.",
+  "lines": [
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "一年の中でどの季節が好きですか。",
+    "hiragana": "いちねんのなかでどのきせつがすきですか。",
+    "romaji": "Ichinen no naka de dono kisetsu ga suki desu ka.",
+    "english": "Which season do you like best in the year?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "私は秋が好きです。",
+    "hiragana": "わたしはあきがすきです。",
+    "romaji": "Watashi wa aki ga suki desu.",
+    "english": "I like autumn."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "どうしてですか。",
+    "hiragana": "どうしてですか。",
+    "romaji": "Dōshite desu ka.",
+    "english": "Why is that?"
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "涼しくて、紅葉がきれいだからです。",
+    "hiragana": "すずしくて、こうようがきれいだからです。",
+    "romaji": "Suzushikute, kōyō ga kirei da kara desu.",
+    "english": "Because it's cool and the autumn leaves are beautiful."
+   },
+   {
+    "role": "A",
+    "side": "A",
+    "kanji": "私は夏が好きです。海に行けますから。",
+    "hiragana": "わたしはなつがすきです。うみにいけますから。",
+    "romaji": "Watashi wa natsu ga suki desu. Umi ni ikemasu kara.",
+    "english": "I like summer, because I can go to the beach."
+   },
+   {
+    "role": "B",
+    "side": "B",
+    "kanji": "それもいいですね。",
+    "hiragana": "それもいいですね。",
+    "romaji": "Sore mo ii desu ne.",
+    "english": "That's nice too."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "季節",
+    "reading": "きせつ",
+    "romaji": "kisetsu",
+    "meaning": "season"
+   },
+   {
+    "word": "紅葉",
+    "reading": "こうよう",
+    "romaji": "kōyō",
+    "meaning": "autumn leaves"
+   },
+   {
+    "word": "涼しい",
+    "reading": "すずしい",
+    "romaji": "suzushii",
+    "meaning": "cool (temperature)"
+   }
+  ],
+  "phrases": [
+   {
+    "jp": "どの季節が好きですか。",
+    "romaji": "Dono kisetsu ga suki desu ka.",
+    "en": "Which season do you like?"
+   }
+  ]
+ }
+]

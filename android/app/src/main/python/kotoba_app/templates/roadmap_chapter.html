@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}{{ chapter.title }} — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head rm-chapter-head">
+  <p class="hero-eyebrow"><a href="{{ url_for('roadmap_page') }}">← Roadmap</a></p>
+  <div class="rm-chapter-title-row">
+    <div>
+      <h1>{{ chapter.icon }} {{ chapter.title }}</h1>
+      {% if already_completed %}<p class="hero-lede">You've completed this chapter. Practising again will strengthen recall.</p>{% endif %}
+    </div>
+    <div class="koto-mini" aria-hidden="true">
+      <div class="koto-mascot koto-breathe"><span class="koto-ear koto-ear-left"></span><span class="koto-ear koto-ear-right"></span><span class="koto-eye koto-eye-left"></span><span class="koto-eye koto-eye-right"></span><span class="koto-mouth"></span><span class="koto-mark">言</span><span class="koto-arm koto-arm-left"></span><span class="koto-arm koto-arm-right"></span></div>
+    </div>
+  </div>
+  <div class="rm-lesson-progress" aria-label="Lesson progress"><span id="rm-lesson-progress-fill"></span></div>
+  <p class="rm-phase-label" id="rm-phase-label">Learn</p>
+</section>
+
+<!-- Step 1: meet the words -->
+<section class="rm-panel" id="rm-learn">
+  {% if summary %}
+  <div class="rm-summary">
+    <h2>{{ summary.title }}</h2>
+    <p class="rm-guide-intro">
+      {% if summary.kind == 'all' %}You have met <strong>{{ summary.words }}</strong> words, radicals and patterns across the roadmap. This review mixes meanings, readings, English-to-Japanese, fill-in-the-blank sentences and radical questions from every chapter.
+      {% else %}This section covered <strong>{{ summary.words }}</strong> words, radicals and patterns. The review below mixes all of them.{% endif %}
+      You get <strong>{{ quiz_count }} questions</strong>, and after every answer you see whether it was right <em>and why</em>.</p>
+    <ul class="rm-summary-list">
+      {% for row in summary.rows %}
+      <li><span>{{ row.title }}</span><span>{{ row.right }}</span></li>
+      {% endfor %}
+    </ul>
+    <div class="rm-btn-row"><button type="button" class="btn-primary" id="rm-start-review">Start the {{ quiz_count }}-question review</button></div>
+  </div>
+  {% endif %}
+  {% if chapter.guide %}
+  <details class="rm-guide" open>
+    <summary>Guidebook</summary>
+    <p class="rm-guide-intro">{{ chapter.guide.intro }}</p>
+    <ul class="rm-guide-points">
+      {% for pt in chapter.guide.points %}
+      <li>
+        <strong>{{ pt.pattern }}</strong> — {{ pt.note }}
+        {% if pt.jp %}<span class="rm-guide-ex">{{ pt.jp }}{% if pt.en %} <em>({{ pt.en }})</em>{% endif %}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+  <div class="rm-card-stage"{% if summary %} hidden{% endif %}>
+    <p class="rm-card-count" id="rm-card-count"></p>
+    <div class="rm-word-card" id="rm-word-card">
+      <p class="rm-word-jp" id="rm-word-jp"></p>
+      <p class="rm-word-reading" id="rm-word-reading"></p>
+      <p class="rm-word-romaji" id="rm-word-romaji"></p>
+      <p class="rm-word-meaning" id="rm-word-meaning"></p>
+      <button type="button" class="line-speak rm-word-speak" id="rm-word-speak">🔊 Listen</button>
+    </div>
+    <div class="rm-btn-row">
+      <button type="button" class="btn-ghost" id="rm-prev">Back</button>
+      <button type="button" class="btn-primary" id="rm-next">Next</button>
+    </div>
+  </div>
+</section>
+
+<!-- Step 2: quiz -->
+<section class="rm-panel" id="rm-quiz" hidden>
+  <div class="rm-quiz-topline"><p class="rm-card-count" id="rm-q-count"></p><p class="rm-combo" id="rm-combo" hidden>🔥 2× combo</p></div>
+  <p class="rm-q-type" id="rm-q-type"></p>
+  <p class="rm-q-prompt" id="rm-q-prompt"></p>
+  <p class="rm-q-sub" id="rm-q-sub"></p>
+  <div class="rm-options" id="rm-options"></div>
+  <p class="rm-feedback" id="rm-feedback" role="status"></p>
+  <button type="button" class="btn-primary" id="rm-continue" hidden>Continue</button>
+</section>
+
+<!-- Step 3: done -->
+<section class="rm-panel rm-done-panel" id="rm-done" hidden>
+  <div class="rm-complete-burst" aria-hidden="true">✦</div>
+  <h2>Chapter complete!</h2>
+  <p class="rm-done-score" id="rm-done-score"></p>
+  <p class="rm-done-note" id="rm-done-note">Nice work — this chapter is now part of your path.</p>
+  <div class="rm-btn-row">
+    <a class="btn-ghost" href="{{ url_for('roadmap_page') }}">Back to roadmap</a>
+    <a class="btn-primary" id="rm-next-chapter" href="{{ url_for('roadmap_page') }}">Continue</a>
+  </div>
+</section>
+
+<script id="rm-vocab-data" type="application/json">{{ chapter.vocab|tojson }}</script>
+<script id="rm-quiz-data" type="application/json">{{ quiz_json|safe }}</script>
+<script>window.RM_CHAPTER_ID = {{ chapter.id|tojson }};</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/roadmap_chapter.js') }}"></script>
+{% endblock %}

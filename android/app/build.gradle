@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.chaquo.python'
+}
+
+android {
+    namespace 'com.kotoba.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.kotoba.app"
+        minSdk 24
+        targetSdk 34
+        versionCode 6
+        versionName "4.1.1"
+
+        ndk {
+            // Chaquopy needs at least one ABI. These three cover
+            // essentially every real Android phone and the emulator.
+            abiFilters "arm64-v8a", "armeabi-v7a", "x86_64"
+        }
+
+        python {
+            pip {
+                install "flask==3.0.3"
+            }
+            // app.py uses Path(__file__).parent to find data/, templates/,
+            // and static/ as real files on disk (Flask's render_template
+            // and send-file style APIs need real paths, not zip entries).
+            // extractPackages forces the whole kotoba_app package to be
+            // extracted to disk at first run instead of imported straight
+            // from the compressed in-APK archive.
+            extractPackages "kotoba_app"
+        }
+    }
+
+    sourceSets {
+        main {
+            python.srcDirs = ["src/main/python"]
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    // registerForActivityResult(), used to launch the system photo/file
+    // picker for the wallpaper upload feature.
+    implementation 'androidx.activity:activity-ktx:1.9.3'
+}

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Search{% if query %}: {{ query }}{% endif %} — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">search</p>
+  <h1>{% if query %}Results for "{{ query }}"{% else %}Search the dictionary{% endif %}</h1>
+  <p class="hero-lede">Type in English (meaning) or Japanese (kanji, hiragana, katakana, or romaji). Search uses the same deduplicated vocabulary pool as the learning decks, including the frequency-ranked additions.</p>
+</section>
+
+<section class="search-results">
+  {% if query and not results %}
+  <p class="empty-note">No matches for "{{ query }}". Try a shorter word, or search by meaning instead.</p>
+  {% endif %}
+  {% for r in results %}
+  {% if r.kanji_id %}
+  <a class="result-row" href="{{ url_for('kanji_detail', kanji_id=r.kanji_id) }}">
+    <span class="result-word">{{ r.word }}</span>
+    <span class="result-reading">{{ r.reading }}</span>
+    <span class="result-romaji">{{ r.romaji }}</span>
+    <span class="result-meaning">{{ r.meaning }}</span>
+  </a>
+  {% elif r.radical_id %}
+  <a class="result-row" href="{{ url_for('radical_detail', rid=r.radical_id) }}">
+    <span class="result-word">{{ r.word }}</span>
+    <span class="result-reading">{{ r.reading }}</span>
+    <span class="result-romaji">{{ r.romaji }}</span>
+    <span class="result-meaning">{{ r.meaning }}</span>
+  </a>
+  {% elif r.roadmap_chapter %}
+  <a class="result-row" href="{{ url_for('roadmap_chapter', chapter_id=r.roadmap_chapter) }}">
+    <span class="result-word">{{ r.word }}</span>
+    <span class="result-reading">{{ r.reading }}</span>
+    <span class="result-romaji">{{ r.romaji }}</span>
+    <span class="result-meaning">{{ r.meaning }}</span>
+  </a>
+  {% elif r.japan_place %}
+  <a class="result-row" href="{{ url_for('japan_explorer_page') }}#{{ r.japan_place }}">
+    <span class="result-word">{{ r.word }}</span>
+    <span class="result-reading">{{ r.reading }}</span>
+    <span class="result-romaji">{{ r.romaji }}</span>
+    <span class="result-meaning">{{ r.meaning }}</span>
+  </a>
+  {% elif r.jlpt_level %}
+  <a class="result-row" href="{{ url_for('jlpt_level', level=r.jlpt_level) }}">
+    <span class="result-word">{{ r.word }}</span>
+    <span class="result-reading">{{ r.reading }}</span>
+    <span class="result-romaji"></span>
+    <span class="result-meaning">{{ r.meaning }}</span>
+  </a>
+  {% else %}
+  <div class="result-row result-row-plain">
+    <span class="result-word">{{ r.word }}</span>
+    <span class="result-reading">{{ r.reading }}</span>
+    <span class="result-romaji">{{ r.romaji }}</span>
+    <span class="result-meaning">{{ r.meaning }}</span>
+  </div>
+  {% endif %}
+  {% endfor %}
+</section>
+{% endblock %}

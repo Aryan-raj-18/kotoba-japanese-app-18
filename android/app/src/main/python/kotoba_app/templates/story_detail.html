@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}{{ story.title_jp }} — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <a class="back-link" href="{{ url_for('stories_list') }}">← All stories</a>
+  <span class="story-level level-{{ story.level }}">{{ story.level }}</span>
+  <h1>{{ story.title_jp }}</h1>
+  <p class="hero-lede">{{ story.title_en }} — {{ story.summary }}</p>
+  <div class="reading-toggles">
+    <button type="button" class="toggle-btn active" data-target="hiragana">Hiragana</button>
+    <button type="button" class="toggle-btn active" data-target="romaji">Romaji</button>
+    <button type="button" class="toggle-btn active" data-target="english">English</button>
+  </div>
+  <div class="convo-learning-controls"><button type="button" class="btn-primary" id="story-play-all">🔊 Read story</button><button type="button" class="btn-ghost" id="story-play-slow">🐢 Slow</button><a class="btn-ghost" href="{{ url_for('speaking_page') }}">🎙 Shadow sentences</a></div>
+</section>
+
+<section class="story-body">
+  {% for line in story.sentences %}
+  <div class="story-line">
+    <div class="story-jp-row"><p class="line-kanji">{{ line.kanji }}</p><button type="button" class="line-speak" data-speak="{{ line.kanji }}" aria-label="Listen">🔊</button></div>
+    <p class="line-hiragana">{{ line.hiragana }}</p>
+    <p class="line-romaji">{{ line.romaji }}</p>
+    <p class="line-english">{{ line.english }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="vocab-section">
+  <h2>Vocabulary</h2>
+  <div class="vocab-table">
+    {% for v in story.vocab %}
+    <div class="vocab-row">
+      <span class="vocab-word">{{ v.word }}</span>
+      <span class="vocab-reading">{{ v.reading }}</span>
+      <span class="vocab-romaji">{{ v.romaji }}</span>
+      <span class="vocab-meaning">{{ v.meaning }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="vocab-section">
+  <h2>Questions</h2>
+  <div class="story-quiz" id="story-quiz">
+    {% for q in story.questions %}
+    <div class="quiz-item" data-answer="{{ q.answer }}">
+      <p class="quiz-q">{{ loop.index }}. {{ q.q }}</p>
+      <p class="quiz-q-en">{{ q.q_en }}</p>
+      <div class="quiz-choices">
+        {% for opt in q.options %}
+        <button type="button" class="quiz-choice">{{ opt }}</button>
+        {% endfor %}
+      </div>
+      <p class="quiz-explain" hidden>{{ q.explanation }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="vocab-section">
+  <h2>Full explanation</h2>
+  <div class="explain-block">
+    <h3>What happens in the story</h3>
+    <p>{{ story.explanation.story }}</p>
+
+    <h3>Grammar in this story</h3>
+    <ul class="grammar-list">
+      {% for g in story.explanation.grammar %}
+      <li>{{ g }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>Background</h3>
+    <p>{{ story.explanation.culture }}</p>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/story_audio.js') }}"></script>
+<script src="{{ url_for('static', filename='js/story.js') }}"></script>
+{% endblock %}

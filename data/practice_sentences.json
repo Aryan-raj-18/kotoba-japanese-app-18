@@ -1,0 +1,452 @@
+[
+ {
+  "kanji_id": 1,
+  "word": "一つ",
+  "sentence_kanji": "机の上にりんごが一つあります。",
+  "sentence_hiragana": "つくえのうえにりんごがひとつあります。",
+  "sentence_romaji": "Tsukue no ue ni ringo ga hitotsu arimasu.",
+  "sentence_en": "There is one apple on the desk.",
+  "usage_note": "Used for counting small round objects, and everyday counting in general."
+ },
+ {
+  "kanji_id": 2,
+  "word": "二人",
+  "sentence_kanji": "友達と二人でご飯を食べました。",
+  "sentence_hiragana": "ともだちとふたりでごはんをたべました。",
+  "sentence_romaji": "Tomodachi to futari de gohan o tabemashita.",
+  "sentence_en": "I ate a meal with a friend, just the two of us.",
+  "usage_note": "Common when describing an activity done with exactly one other person."
+ },
+ {
+  "kanji_id": 3,
+  "word": "三時",
+  "sentence_kanji": "電車は三時に出発します。",
+  "sentence_hiragana": "でんしゃはさんじにしゅっぱつします。",
+  "sentence_romaji": "Densha wa sanji ni shuppatsu shimasu.",
+  "sentence_en": "The train departs at three o'clock.",
+  "usage_note": "Used constantly for telling time and schedules."
+ },
+ {
+  "kanji_id": 4,
+  "word": "四人",
+  "sentence_kanji": "家族は四人です。",
+  "sentence_hiragana": "かぞくはよにんです。",
+  "sentence_romaji": "Kazoku wa yonin desu.",
+  "sentence_en": "My family has four people.",
+  "usage_note": "Used when stating the number of people in a group."
+ },
+ {
+  "kanji_id": 5,
+  "word": "五月",
+  "sentence_kanji": "五月に日本へ行きます。",
+  "sentence_hiragana": "ごがつににほんへいきます。",
+  "sentence_romaji": "Gogatsu ni Nihon e ikimasu.",
+  "sentence_en": "I will go to Japan in May.",
+  "usage_note": "Used for naming months (month names are just number + 月)."
+ },
+ {
+  "kanji_id": 6,
+  "word": "六月",
+  "sentence_kanji": "六月は雨が多いです。",
+  "sentence_hiragana": "ろくがつはあめがおおいです。",
+  "sentence_romaji": "Rokugatsu wa ame ga ooi desu.",
+  "sentence_en": "June has a lot of rain.",
+  "usage_note": "Talking about the rainy season / weather by month."
+ },
+ {
+  "kanji_id": 7,
+  "word": "七日",
+  "sentence_kanji": "来月の七日に会いましょう。",
+  "sentence_hiragana": "らいげつのなのかにあいましょう。",
+  "sentence_romaji": "Raigetsu no nanoka ni aimashou.",
+  "sentence_en": "Let's meet on the 7th of next month.",
+  "usage_note": "Dates of the month have irregular readings worth memorizing (nanoka, not \"shichinichi\")."
+ },
+ {
+  "kanji_id": 8,
+  "word": "八百屋",
+  "sentence_kanji": "八百屋で野菜を買いました。",
+  "sentence_hiragana": "やおやでやさいをかいました。",
+  "sentence_romaji": "Yaoya de yasai o kaimashita.",
+  "sentence_en": "I bought vegetables at the vegetable stand.",
+  "usage_note": "八百屋 (yaoya) is a classic example of a kanji-compound whose reading you just memorize."
+ },
+ {
+  "kanji_id": 9,
+  "word": "九州",
+  "sentence_kanji": "夏休みに九州へ旅行します。",
+  "sentence_hiragana": "なつやすみにきゅうしゅうへりょこうします。",
+  "sentence_romaji": "Natsuyasumi ni Kyūshū e ryokō shimasu.",
+  "sentence_en": "I will travel to Kyushu during summer vacation.",
+  "usage_note": "Used as a place name (one of Japan's main islands)."
+ },
+ {
+  "kanji_id": 10,
+  "word": "十時",
+  "sentence_kanji": "十時に寝ます。",
+  "sentence_hiragana": "じゅうじにねます。",
+  "sentence_romaji": "Jūji ni nemasu.",
+  "sentence_en": "I go to sleep at ten o'clock.",
+  "usage_note": "Very common in daily routine sentences about time."
+ },
+ {
+  "kanji_id": 15,
+  "word": "日曜日",
+  "sentence_kanji": "日曜日に映画を見ます。",
+  "sentence_hiragana": "にちようびにえいがをみます。",
+  "sentence_romaji": "Nichiyōbi ni eiga o mimasu.",
+  "sentence_en": "I watch a movie on Sunday.",
+  "usage_note": "日 appears in every day-of-the-week word and in 日本 (Japan)."
+ },
+ {
+  "kanji_id": 16,
+  "word": "火曜日",
+  "sentence_kanji": "火曜日は忙しいです。",
+  "sentence_hiragana": "かようびはいそがしいです。",
+  "sentence_romaji": "Kayōbi wa isogashii desu.",
+  "sentence_en": "Tuesday is busy.",
+  "usage_note": "Used for weekdays and words about fire (火事 kaji = fire/blaze)."
+ },
+ {
+  "kanji_id": 17,
+  "word": "水",
+  "sentence_kanji": "水を飲みます。",
+  "sentence_hiragana": "みずをのみます。",
+  "sentence_romaji": "Mizu o nomimasu.",
+  "sentence_en": "I drink water.",
+  "usage_note": "One of the most common nouns in everyday conversation."
+ },
+ {
+  "kanji_id": 18,
+  "word": "木",
+  "sentence_kanji": "木の下で休みます。",
+  "sentence_hiragana": "きのしたでやすみます。",
+  "sentence_romaji": "Ki no shita de yasumimasu.",
+  "sentence_en": "I rest under the tree.",
+  "usage_note": "Used for trees, wood, and Thursday (木曜日)."
+ },
+ {
+  "kanji_id": 19,
+  "word": "土曜日",
+  "sentence_kanji": "土曜日に公園へ行きます。",
+  "sentence_hiragana": "どようびにこうえんへいきます。",
+  "sentence_romaji": "Doyōbi ni kōen e ikimasu.",
+  "sentence_en": "I go to the park on Saturday.",
+  "usage_note": "Common in weekend plans."
+ },
+ {
+  "kanji_id": 21,
+  "word": "山",
+  "sentence_kanji": "毎週末、山に登ります。",
+  "sentence_hiragana": "まいしゅうまつ、やまにのぼります。",
+  "sentence_romaji": "Maishūmatsu, yama ni noborimasu.",
+  "sentence_en": "I climb a mountain every weekend.",
+  "usage_note": "Also seen in place names like 富士山 (Mt. Fuji)."
+ },
+ {
+  "kanji_id": 22,
+  "word": "田んぼ",
+  "sentence_kanji": "田んぼでお米を作ります。",
+  "sentence_hiragana": "たんぼでおこめをつくります。",
+  "sentence_romaji": "Tanbo de okome o tsukurimasu.",
+  "sentence_en": "We grow rice in the rice paddy.",
+  "usage_note": "Very common in family names too (田中 Tanaka, 山田 Yamada)."
+ },
+ {
+  "kanji_id": 23,
+  "word": "川",
+  "sentence_kanji": "川で魚を釣ります。",
+  "sentence_hiragana": "かわでさかなをつります。",
+  "sentence_romaji": "Kawa de sakana o tsurimasu.",
+  "sentence_en": "I fish in the river.",
+  "usage_note": "A classic pictograph kanji — it literally looks like flowing water."
+ },
+ {
+  "kanji_id": 24,
+  "word": "人",
+  "sentence_kanji": "あの人は先生です。",
+  "sentence_hiragana": "あのひとはせんせいです。",
+  "sentence_romaji": "Ano hito wa sensei desu.",
+  "sentence_en": "That person is a teacher.",
+  "usage_note": "One of the most frequent kanji overall; appears in words like 日本人 (Japanese person)."
+ },
+ {
+  "kanji_id": 27,
+  "word": "父",
+  "sentence_kanji": "父は会社員です。",
+  "sentence_hiragana": "ちちはかいしゃいんです。",
+  "sentence_romaji": "Chichi wa kaishain desu.",
+  "sentence_en": "My father is an office worker.",
+  "usage_note": "Used for one's own father when talking to others (お父さん is used for someone else's father, or directly to your own)."
+ },
+ {
+  "kanji_id": 29,
+  "word": "母",
+  "sentence_kanji": "母は料理が上手です。",
+  "sentence_hiragana": "はははりょうりがじょうずです。",
+  "sentence_romaji": "Haha wa ryōri ga jōzu desu.",
+  "sentence_en": "My mother is good at cooking.",
+  "usage_note": "Used for one's own mother; お母さん for someone else's mother, or to address your own."
+ },
+ {
+  "kanji_id": 30,
+  "word": "子",
+  "sentence_kanji": "その子はとても元気です。",
+  "sentence_hiragana": "そのこはとてもげんきです。",
+  "sentence_romaji": "Sono ko wa totemo genki desu.",
+  "sentence_en": "That child is very energetic.",
+  "usage_note": "Appears in words like 女の子 (girl) and 男の子 (boy)."
+ },
+ {
+  "kanji_id": 36,
+  "word": "中",
+  "sentence_kanji": "箱の中に本があります。",
+  "sentence_hiragana": "はこのなかにほんがあります。",
+  "sentence_romaji": "Hako no naka ni hon ga arimasu.",
+  "sentence_en": "There is a book inside the box.",
+  "usage_note": "Also used in 中国 (China) and 中学校 (middle school)."
+ },
+ {
+  "kanji_id": 37,
+  "word": "大きい",
+  "sentence_kanji": "この家は大きいです。",
+  "sentence_hiragana": "このいえはおおきいです。",
+  "sentence_romaji": "Kono ie wa ookii desu.",
+  "sentence_en": "This house is big.",
+  "usage_note": "One of the first i-adjectives most learners memorize."
+ },
+ {
+  "kanji_id": 45,
+  "word": "左",
+  "sentence_kanji": "次の角を左に曲がってください。",
+  "sentence_hiragana": "つぎのかどをひだりにまがってください。",
+  "sentence_romaji": "Tsugi no kado o hidari ni magatte kudasai.",
+  "sentence_en": "Please turn left at the next corner.",
+  "usage_note": "Essential for giving and understanding directions."
+ },
+ {
+  "kanji_id": 46,
+  "word": "右",
+  "sentence_kanji": "右に銀行があります。",
+  "sentence_hiragana": "みぎにぎんこうがあります。",
+  "sentence_romaji": "Migi ni ginkō ga arimasu.",
+  "sentence_en": "There is a bank on the right.",
+  "usage_note": "Essential for giving and understanding directions."
+ },
+ {
+  "kanji_id": 55,
+  "word": "口",
+  "sentence_kanji": "口を開けてください。",
+  "sentence_hiragana": "くちをあけてください。",
+  "sentence_romaji": "Kuchi o akete kudasai.",
+  "sentence_en": "Please open your mouth.",
+  "usage_note": "Common in doctor's-office Japanese and also in 入口 (entrance) / 出口 (exit)."
+ },
+ {
+  "kanji_id": 56,
+  "word": "目",
+  "sentence_kanji": "目が痛いです。",
+  "sentence_hiragana": "めがいたいです。",
+  "sentence_romaji": "Me ga itai desu.",
+  "sentence_en": "My eyes hurt.",
+  "usage_note": "Also used as a counter suffix for ordinal numbers (三番目 = third)."
+ },
+ {
+  "kanji_id": 58,
+  "word": "手",
+  "sentence_kanji": "食事の前に手を洗ってください。",
+  "sentence_hiragana": "しょくじのまえにてをあらってください。",
+  "sentence_romaji": "Shokuji no mae ni te o aratte kudasai.",
+  "sentence_en": "Please wash your hands before the meal.",
+  "usage_note": "Appears in many compounds like 上手 (skilled) and 手紙 (letter)."
+ },
+ {
+  "kanji_id": 59,
+  "word": "心",
+  "sentence_kanji": "心から感謝します。",
+  "sentence_hiragana": "こころからかんしゃします。",
+  "sentence_romaji": "Kokoro kara kansha shimasu.",
+  "sentence_en": "I thank you from my heart.",
+  "usage_note": "Used in emotional/formal expressions of gratitude and feeling."
+ },
+ {
+  "kanji_id": 64,
+  "word": "今日",
+  "sentence_kanji": "今日はいい天気です。",
+  "sentence_hiragana": "きょうはいいてんきです。",
+  "sentence_romaji": "Kyō wa ii tenki desu.",
+  "sentence_en": "Today is nice weather.",
+  "usage_note": "Used constantly in small talk about the day and weather."
+ },
+ {
+  "kanji_id": 66,
+  "word": "今年",
+  "sentence_kanji": "今年は忙しいです。",
+  "sentence_hiragana": "ことしはいそがしいです。",
+  "sentence_romaji": "Kotoshi wa isogashii desu.",
+  "sentence_en": "This year is busy.",
+  "usage_note": "Used when talking about plans, goals, or events for the current year."
+ },
+ {
+  "kanji_id": 70,
+  "word": "見る",
+  "sentence_kanji": "毎晩テレビを見ます。",
+  "sentence_hiragana": "まいばんテレビをみます。",
+  "sentence_romaji": "Maiban terebi o mimasu.",
+  "sentence_en": "I watch TV every night.",
+  "usage_note": "One of the most common verbs; also in 花見 (flower viewing)."
+ },
+ {
+  "kanji_id": 72,
+  "word": "言う",
+  "sentence_kanji": "彼は「おはよう」と言いました。",
+  "sentence_hiragana": "かれは「おはよう」といいました。",
+  "sentence_romaji": "Kare wa \"ohayō\" to iimashita.",
+  "sentence_en": "He said \"good morning.\"",
+  "usage_note": "Used to report what someone said, with quoted speech before it."
+ },
+ {
+  "kanji_id": 76,
+  "word": "生まれる",
+  "sentence_kanji": "私は東京で生まれました。",
+  "sentence_hiragana": "わたしはとうきょうでうまれました。",
+  "sentence_romaji": "Watashi wa Tōkyō de umaremashita.",
+  "sentence_en": "I was born in Tokyo.",
+  "usage_note": "Used for self-introductions; also in 学生 (student, lit. \"life-learner\")."
+ },
+ {
+  "kanji_id": 80,
+  "word": "学生",
+  "sentence_kanji": "彼女は大学の学生です。",
+  "sentence_hiragana": "かのじょはだいがくのがくせいです。",
+  "sentence_romaji": "Kanojo wa daigaku no gakusei desu.",
+  "sentence_en": "She is a university student.",
+  "usage_note": "One of the first self-introduction words most learners memorize."
+ },
+ {
+  "kanji_id": 81,
+  "word": "学校",
+  "sentence_kanji": "毎朝八時に学校へ行きます。",
+  "sentence_hiragana": "まいあさはちじにがっこうへいきます。",
+  "sentence_romaji": "Maiasa hachiji ni gakkō e ikimasu.",
+  "sentence_en": "I go to school at eight every morning.",
+  "usage_note": "Extremely common noun in daily-routine sentences."
+ },
+ {
+  "kanji_id": 86,
+  "word": "書く",
+  "sentence_kanji": "手紙を書きます。",
+  "sentence_hiragana": "てがみをかきます。",
+  "sentence_romaji": "Tegami o kakimasu.",
+  "sentence_en": "I write a letter.",
+  "usage_note": "Also seen in 図書館 (library) and 辞書 (dictionary)."
+ },
+ {
+  "kanji_id": 90,
+  "word": "犬",
+  "sentence_kanji": "私の犬はとても大きいです。",
+  "sentence_hiragana": "わたしのいぬはとてもおおきいです。",
+  "sentence_romaji": "Watashi no inu wa totemo ookii desu.",
+  "sentence_en": "My dog is very big.",
+  "usage_note": "A common household-pet word, easy to spot by its four-legged shape."
+ },
+ {
+  "kanji_id": 94,
+  "word": "牛肉",
+  "sentence_kanji": "今晩は牛肉を食べます。",
+  "sentence_hiragana": "こんばんはぎゅうにくをたべます。",
+  "sentence_romaji": "Konban wa gyūniku o tabemasu.",
+  "sentence_en": "Tonight I'll eat beef.",
+  "usage_note": "Common on restaurant menus and in cooking conversations."
+ },
+ {
+  "kanji_id": 101,
+  "word": "待つ",
+  "sentence_kanji": "駅で友達を待ちます。",
+  "sentence_hiragana": "えきでともだちをまちます。",
+  "sentence_romaji": "Eki de tomodachi o machimasu.",
+  "sentence_en": "I wait for a friend at the station.",
+  "usage_note": "Common polite request: 待ってください (please wait)."
+ },
+ {
+  "kanji_id": 103,
+  "word": "帰る",
+  "sentence_kanji": "六時に家に帰ります。",
+  "sentence_hiragana": "ろくじにいえにかえります。",
+  "sentence_romaji": "Rokuji ni ie ni kaerimasu.",
+  "sentence_en": "I return home at six o'clock.",
+  "usage_note": "Used every day for \"going home\", distinct from 戻る (return to a place, not necessarily home)."
+ },
+ {
+  "kanji_id": 104,
+  "word": "白い",
+  "sentence_kanji": "白い猫が好きです。",
+  "sentence_hiragana": "しろいねこがすきです。",
+  "sentence_romaji": "Shiroi neko ga suki desu.",
+  "sentence_en": "I like white cats.",
+  "usage_note": "Also in 面白い (interesting) and 白鳥 (swan)."
+ },
+ {
+  "kanji_id": 106,
+  "word": "食べる",
+  "sentence_kanji": "朝ご飯を食べました。",
+  "sentence_hiragana": "あさごはんをたべました。",
+  "sentence_romaji": "Asagohan o tabemashita.",
+  "sentence_en": "I ate breakfast.",
+  "usage_note": "One of the most-used verbs in daily conversation."
+ },
+ {
+  "kanji_id": 109,
+  "word": "雪",
+  "sentence_kanji": "冬は雪がたくさん降ります。",
+  "sentence_hiragana": "ふゆはゆきがたくさんふります。",
+  "sentence_romaji": "Fuyu wa yuki ga takusan furimasu.",
+  "sentence_en": "A lot of snow falls in winter.",
+  "usage_note": "Used in weather talk and seasonal words like 初雪 (first snow)."
+ },
+ {
+  "kanji_id": 118,
+  "word": "花",
+  "sentence_kanji": "公園できれいな花を見ました。",
+  "sentence_hiragana": "こうえんできれいなはなをみました。",
+  "sentence_romaji": "Kōen de kirei na hana o mimashita.",
+  "sentence_en": "I saw pretty flowers in the park.",
+  "usage_note": "Also in 花見 (cherry-blossom viewing) and 花火 (fireworks)."
+ },
+ {
+  "kanji_id": 121,
+  "word": "旅行",
+  "sentence_kanji": "来月、家族で旅行します。",
+  "sentence_hiragana": "らいげつ、かぞくでりょこうします。",
+  "sentence_romaji": "Raigetsu, kazoku de ryokō shimasu.",
+  "sentence_en": "Next month, I'll travel with my family.",
+  "usage_note": "The standard word for a trip or vacation."
+ },
+ {
+  "kanji_id": 124,
+  "word": "道",
+  "sentence_kanji": "この道をまっすぐ行ってください。",
+  "sentence_hiragana": "このみちをまっすぐいってください。",
+  "sentence_romaji": "Kono michi o massugu itte kudasai.",
+  "sentence_en": "Please go straight along this road.",
+  "usage_note": "Common in directions; also in 柔道 (judo) and 書道 (calligraphy) as \"the way of...\"."
+ },
+ {
+  "kanji_id": 125,
+  "word": "駅",
+  "sentence_kanji": "駅まで歩いて十分です。",
+  "sentence_hiragana": "えきまであるいてじゅっぷんです。",
+  "sentence_romaji": "Eki made aruite juppun desu.",
+  "sentence_en": "It's ten minutes on foot to the station.",
+  "usage_note": "Essential vocabulary for giving and asking for directions."
+ },
+ {
+  "kanji_id": 130,
+  "word": "外国",
+  "sentence_kanji": "外国で働きたいです。",
+  "sentence_hiragana": "がいこくではたらきたいです。",
+  "sentence_romaji": "Gaikoku de hatarakitai desu.",
+  "sentence_en": "I want to work in a foreign country.",
+  "usage_note": "Common in talking about travel, study abroad, and work."
+ }
+]

@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block title %}Flashcards — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">カード — flashcards</p>
+  <h1>Flashcards</h1>
+  <p class="hero-lede">Pick a deck — any of the originals, or any JLPT level N5 through N1 — and a mode. The <strong>Vocabulary</strong> deck now uses the expanded frequency-ranked pool and Easy / Medium / Hard tiers; words you have already mastered are held back while unseen words are available at that level. Kanji cards also show the <strong>radical</strong> the character is built from. "Select answer" gives instant feedback; "Flip cards" is the classic front/back review.</p>
+</section>
+
+<section class="practice-stage">
+  <div class="stage-panel" id="fc-intro">
+    <div class="level-picker">
+      <h3>Mode</h3>
+      <div class="level-options" id="fc-mode-options">
+        <button type="button" class="mode-sel active" data-mode="select">Select answer (4 options)</button>
+        <button type="button" class="mode-sel" data-mode="flip">Flip cards</button>
+      </div>
+
+      <h3>Deck</h3>
+      <div class="level-options" id="deck-options">
+        <button type="button" class="mode-sel active" data-deck="kanji">Kanji</button>
+        <button type="button" class="mode-sel" data-deck="vocab">Vocabulary</button>
+        <button type="button" class="mode-sel" data-deck="verbs">Verbs</button>
+        <button type="button" class="mode-sel" data-deck="radicals">Radicals</button>
+        <button type="button" class="mode-sel" data-deck="hiragana">Hiragana</button>
+        <button type="button" class="mode-sel" data-deck="katakana">Katakana</button>
+        <button type="button" class="mode-sel" data-deck="N5">JLPT N5</button>
+        <button type="button" class="mode-sel" data-deck="N4">JLPT N4</button>
+        <button type="button" class="mode-sel" data-deck="N3">JLPT N3</button>
+        <button type="button" class="mode-sel" data-deck="N2">JLPT N2</button>
+        <button type="button" class="mode-sel" data-deck="N1">JLPT N1</button>
+      </div>
+
+      <h3 id="fc-difficulty-heading">Difficulty</h3>
+      <div class="level-options" id="fc-level-options">
+        <button type="button" class="level-btn active" data-level="all">All</button>
+        <button type="button" class="level-btn" data-level="easy">Easy</button>
+        <button type="button" class="level-btn" data-level="medium">Medium</button>
+        <button type="button" class="level-btn" data-level="hard">Hard</button>
+      </div>
+
+      <h3>Cards</h3>
+      <div class="count-options" id="fc-count-options">
+        <button type="button" class="count-btn active" data-count="20">20</button>
+        <button type="button" class="count-btn" data-count="40">40</button>
+        <button type="button" class="count-btn" data-count="60">60</button>
+      </div>
+    </div>
+    <button type="button" class="btn-primary" id="fc-start">Start</button>
+  </div>
+
+  <div class="stage-panel" id="fc-select-run" hidden>
+    <p class="stage-label">Question <span id="fc-select-progress"></span></p>
+    <div class="flashcard" id="fc-select-card">
+      <div class="flash-face" id="fc-select-face"></div>
+    </div>
+    <p class="fc-select-sub" id="fc-select-sub"></p><button type="button" class="line-speak" id="fc-select-speak">🔊 Listen</button>
+    <div class="fc-radical" id="fc-select-radical" hidden></div>
+    <div class="mcq-options" id="fc-select-options"></div>
+  </div>
+
+  <div class="stage-panel" id="fc-run" hidden>
+    <p class="stage-label" id="fc-progress"></p>
+    <div class="flashcard" id="fc-card">
+      <div class="flash-face" id="fc-face"></div>
+    </div>
+    <p class="flash-hint">Tap the card to flip it.</p><button type="button" class="line-speak" id="fc-speak">🔊 Listen</button>
+    <div class="fc-radical" id="fc-radical" hidden></div>
+    <div class="stage-controls">
+      <button type="button" class="btn-ghost" id="fc-again">Didn't know</button>
+      <button type="button" class="btn-primary" id="fc-knew">Knew it</button>
+    </div>
+  </div>
+
+  <div class="stage-panel" id="fc-done" hidden>
+    <p class="stage-label">Deck complete</p>
+    <p class="done-score" id="fc-score"></p>
+    <button type="button" class="btn-primary" id="fc-restart">Another deck</button>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/flashcards.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}About — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">紹介 — shōkai, an introduction</p>
+  <h1>About Us</h1>
+  <p class="hero-lede">
+    Kotoba (ことば — "language", "words") is a Japanese study app covering
+    hiragana, katakana, kanji (including a full N5–N1 JLPT breakdown),
+    vocabulary, verbs, stories, and daily practice with streaks. An
+    local profile is optional — creating one separates streaks, review history,
+    favorites and progress by username on this device. Everything still works
+    without signing in, and Backup &amp; Restore can move progress between installs.
+  </p>
+</section>
+
+<div class="about-card">
+  <div class="about-top">
+    <div class="about-seal" aria-hidden="true">言</div>
+    <div>
+      <h2 class="about-name">Aryan Raj</h2>
+      <p class="about-role">Software Engineer · builder of Kotoba</p>
+      <div class="about-contact">
+        <a href="mailto:Aryanrajr868@gmail.com">Aryanrajr868@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="category-heading">What's inside</h2>
+<div class="about-list">
+  <div class="about-item">
+    <h3>Three scripts</h3>
+    <p>Full hiragana and katakana charts, and kanji lessons with on-yomi, kun-yomi, stroke counts, and real vocabulary.</p>
+  </div>
+  <div class="about-item">
+    <h3>JLPT N5–N1</h3>
+    <p>{{ jlpt_total }} kanji organized by JLPT level, each with its own meaning/reading list and a 4-option practice quiz with easy/medium/hard tiers.</p>
+  </div>
+  <div class="about-item">
+    <h3>Kanji &amp; JLPT practice quizzes</h3>
+    <p>4-option multiple choice, no feedback until the round ends — then a full breakdown of every question and answer.</p>
+  </div>
+  <div class="about-item">
+    <h3>Writing Practice</h3>
+    <p>Trace any kana or kanji inside its practice square and get a read on how closely your strokes matched.</p>
+  </div>
+  <div class="about-item">
+    <h3>Everyday language</h3>
+    <p>Hundreds of daily-life words and phrases, {{ verb_total }} verbs with every conjugated form, and full dialogues.</p>
+  </div>
+  <div class="about-item">
+    <h3>Graded stories</h3>
+    <p>Short stories with hiragana, romaji and English on tap, comprehension questions, and a grammar breakdown.</p>
+  </div>
+  <div class="about-item">
+    <h3>Practice &amp; flashcards</h3>
+    <p>Easy, medium, hard or mixed rounds. Learn a set of words, then complete real sentences with them.</p>
+  </div>
+  <div class="about-item">
+    <h3>Adaptive review &amp; mistake notebook</h3>
+    <p>Daily Review schedules weak items sooner, tracks mastery from New to Mastered, and keeps a notebook of mistakes until you recover them.</p>
+  </div>
+  <div class="about-item">
+    <h3>Listening &amp; speaking</h3>
+    <p>Japanese playback, slow shadowing, dialogue role practice, and microphone-based speaking practice with recognition when the device supports it.</p>
+  </div>
+  <div class="about-item">
+    <h3>Grammar, placement &amp; JLPT mocks</h3>
+    <p>A searchable N5–N1 study grammar dictionary, a diagnostic placement test, advanced roadmap chapters, and source-backed timed JLPT mock sessions.</p>
+  </div>
+  <div class="about-item">
+    <h3>Japan Explorer</h3>
+    <p>An animated 47-prefecture map with prefectural-capital stops, offline illustrated postcards, local culture and food notes, level-aware Japanese words, audio, passport stamps, and mini quizzes that feed Smart Review.</p>
+  </div>
+  <div class="about-item">
+    <h3>Local profiles &amp; Dashboard</h3>
+    <p>Optionally create a local profile to separate streaks, XP, review history and progress by username. Export a portable backup when you want to move that state to another installation.</p>
+  </div>
+</div>
+
+<h2 class="category-heading" style="margin-top: 38px;">A note on the material</h2>
+<p class="hero-lede">
+  The vocabulary and kanji lessons are adapted from a beginner Japanese
+  textbook and hand-curated everyday phrases. They're here for learning,
+  not for redistribution.
+</p>
+
+<p style="margin-top: 26px;">
+  <a class="btn-primary" href="{{ url_for('feedback_page') }}"
+     style="display: inline-block; text-decoration: none;">Tell us what to improve →</a>
+</p>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Kanji — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">learn &amp; memorize</p>
+  <h1>Kanji</h1>
+  <p class="hero-lede">{{ entries|length }} characters, in the order a beginner textbook introduces them. Click any card for readings, stroke count, and vocabulary.</p>
+  <a href="{{ url_for('kanji_practice') }}" class="btn-primary kanji-practice-cta">Practice kanji — 4-option quiz →</a>
+  <a href="{{ url_for('radicals_page') }}" class="btn-ghost kanji-practice-cta">Radicals — the building blocks →</a>
+  <a href="{{ url_for('jlpt_index') }}" class="btn-ghost kanji-practice-cta">Browse by JLPT level (N5–N1) →</a>
+  <input type="text" id="kanji-filter" class="filter-input" placeholder="Filter this list by meaning or reading...">
+</section>
+
+<section class="kanji-grid" id="kanji-grid">
+  {% for e in entries %}
+  <a class="kanji-card" href="{{ url_for('kanji_detail', kanji_id=e.id) }}"
+     data-search="{{ (e.meaning ~ ' ' ~ e.on_yomi ~ ' ' ~ e.kun_yomi)|lower }}">
+    {% if e.jlpt_level %}<span class="jlpt-badge jlpt-badge-{{ e.jlpt_level }} kanji-card-jlpt">{{ e.jlpt_level }}</span>{% endif %}
+    <span class="kanji-card-char">{{ e.kanji }}</span>
+    <span class="kanji-card-meaning">{{ e.meaning }}</span>
+    <span class="kanji-card-strokes">{{ e.strokes }} strokes</span>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/kanji_list.js') }}"></script>
+{% endblock %}

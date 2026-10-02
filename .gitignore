@@ -1,0 +1,19 @@
+# Android / Gradle build output - generated fresh by CI every run,
+# never commit these.
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime data this app writes to itself
+data/streak.json
+android/app/src/main/python/kotoba_app/data/streak.json
+data/feedback.json
+android/app/src/main/python/kotoba_app/data/feedback.json

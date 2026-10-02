@@ -1,0 +1,6218 @@
+[
+ {
+  "word": "する",
+  "reading": "する",
+  "meaning": "to do",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "します",
+    "kana": "します"
+   },
+   "masu_neg": {
+    "kanji": "しません",
+    "kana": "しません"
+   },
+   "past": {
+    "kanji": "した",
+    "kana": "した"
+   },
+   "past_polite": {
+    "kanji": "しました",
+    "kana": "しました"
+   },
+   "te": {
+    "kanji": "して",
+    "kana": "して"
+   },
+   "nai": {
+    "kanji": "しない",
+    "kana": "しない"
+   },
+   "potential": {
+    "kanji": "できる",
+    "kana": "できる"
+   },
+   "volitional": {
+    "kanji": "しよう",
+    "kana": "しよう"
+   }
+  }
+ },
+ {
+  "word": "来る",
+  "reading": "くる",
+  "meaning": "to come",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "来ます",
+    "kana": "きます"
+   },
+   "masu_neg": {
+    "kanji": "来ません",
+    "kana": "きません"
+   },
+   "past": {
+    "kanji": "来た",
+    "kana": "きた"
+   },
+   "past_polite": {
+    "kanji": "来ました",
+    "kana": "きました"
+   },
+   "te": {
+    "kanji": "来て",
+    "kana": "きて"
+   },
+   "nai": {
+    "kanji": "来ない",
+    "kana": "こない"
+   },
+   "potential": {
+    "kanji": "来られる",
+    "kana": "こられる"
+   },
+   "volitional": {
+    "kanji": "来よう",
+    "kana": "こよう"
+   }
+  }
+ },
+ {
+  "word": "勉強する",
+  "reading": "べんきょうする",
+  "meaning": "to study",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "勉強します",
+    "kana": "べんきょうします"
+   },
+   "masu_neg": {
+    "kanji": "勉強しません",
+    "kana": "べんきょうしません"
+   },
+   "past": {
+    "kanji": "勉強した",
+    "kana": "べんきょうした"
+   },
+   "past_polite": {
+    "kanji": "勉強しました",
+    "kana": "べんきょうしました"
+   },
+   "te": {
+    "kanji": "勉強して",
+    "kana": "べんきょうして"
+   },
+   "nai": {
+    "kanji": "勉強しない",
+    "kana": "べんきょうしない"
+   },
+   "potential": {
+    "kanji": "勉強できる",
+    "kana": "べんきょうできる"
+   },
+   "volitional": {
+    "kanji": "勉強しよう",
+    "kana": "べんきょうしよう"
+   }
+  }
+ },
+ {
+  "word": "結婚する",
+  "reading": "けっこんする",
+  "meaning": "to marry",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "結婚します",
+    "kana": "けっこんします"
+   },
+   "masu_neg": {
+    "kanji": "結婚しません",
+    "kana": "けっこんしません"
+   },
+   "past": {
+    "kanji": "結婚した",
+    "kana": "けっこんした"
+   },
+   "past_polite": {
+    "kanji": "結婚しました",
+    "kana": "けっこんしました"
+   },
+   "te": {
+    "kanji": "結婚して",
+    "kana": "けっこんして"
+   },
+   "nai": {
+    "kanji": "結婚しない",
+    "kana": "けっこんしない"
+   },
+   "potential": {
+    "kanji": "結婚できる",
+    "kana": "けっこんできる"
+   },
+   "volitional": {
+    "kanji": "結婚しよう",
+    "kana": "けっこんしよう"
+   }
+  }
+ },
+ {
+  "word": "電話する",
+  "reading": "でんわする",
+  "meaning": "to phone",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "電話します",
+    "kana": "でんわします"
+   },
+   "masu_neg": {
+    "kanji": "電話しません",
+    "kana": "でんわしません"
+   },
+   "past": {
+    "kanji": "電話した",
+    "kana": "でんわした"
+   },
+   "past_polite": {
+    "kanji": "電話しました",
+    "kana": "でんわしました"
+   },
+   "te": {
+    "kanji": "電話して",
+    "kana": "でんわして"
+   },
+   "nai": {
+    "kanji": "電話しない",
+    "kana": "でんわしない"
+   },
+   "potential": {
+    "kanji": "電話できる",
+    "kana": "でんわできる"
+   },
+   "volitional": {
+    "kanji": "電話しよう",
+    "kana": "でんわしよう"
+   }
+  }
+ },
+ {
+  "word": "掃除する",
+  "reading": "そうじする",
+  "meaning": "to clean",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "掃除します",
+    "kana": "そうじします"
+   },
+   "masu_neg": {
+    "kanji": "掃除しません",
+    "kana": "そうじしません"
+   },
+   "past": {
+    "kanji": "掃除した",
+    "kana": "そうじした"
+   },
+   "past_polite": {
+    "kanji": "掃除しました",
+    "kana": "そうじしました"
+   },
+   "te": {
+    "kanji": "掃除して",
+    "kana": "そうじして"
+   },
+   "nai": {
+    "kanji": "掃除しない",
+    "kana": "そうじしない"
+   },
+   "potential": {
+    "kanji": "掃除できる",
+    "kana": "そうじできる"
+   },
+   "volitional": {
+    "kanji": "掃除しよう",
+    "kana": "そうじしよう"
+   }
+  }
+ },
+ {
+  "word": "洗濯する",
+  "reading": "せんたくする",
+  "meaning": "to do laundry",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "洗濯します",
+    "kana": "せんたくします"
+   },
+   "masu_neg": {
+    "kanji": "洗濯しません",
+    "kana": "せんたくしません"
+   },
+   "past": {
+    "kanji": "洗濯した",
+    "kana": "せんたくした"
+   },
+   "past_polite": {
+    "kanji": "洗濯しました",
+    "kana": "せんたくしました"
+   },
+   "te": {
+    "kanji": "洗濯して",
+    "kana": "せんたくして"
+   },
+   "nai": {
+    "kanji": "洗濯しない",
+    "kana": "せんたくしない"
+   },
+   "potential": {
+    "kanji": "洗濯できる",
+    "kana": "せんたくできる"
+   },
+   "volitional": {
+    "kanji": "洗濯しよう",
+    "kana": "せんたくしよう"
+   }
+  }
+ },
+ {
+  "word": "運転する",
+  "reading": "うんてんする",
+  "meaning": "to drive",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "運転します",
+    "kana": "うんてんします"
+   },
+   "masu_neg": {
+    "kanji": "運転しません",
+    "kana": "うんてんしません"
+   },
+   "past": {
+    "kanji": "運転した",
+    "kana": "うんてんした"
+   },
+   "past_polite": {
+    "kanji": "運転しました",
+    "kana": "うんてんしました"
+   },
+   "te": {
+    "kanji": "運転して",
+    "kana": "うんてんして"
+   },
+   "nai": {
+    "kanji": "運転しない",
+    "kana": "うんてんしない"
+   },
+   "potential": {
+    "kanji": "運転できる",
+    "kana": "うんてんできる"
+   },
+   "volitional": {
+    "kanji": "運転しよう",
+    "kana": "うんてんしよう"
+   }
+  }
+ },
+ {
+  "word": "旅行する",
+  "reading": "りょこうする",
+  "meaning": "to travel",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "旅行します",
+    "kana": "りょこうします"
+   },
+   "masu_neg": {
+    "kanji": "旅行しません",
+    "kana": "りょこうしません"
+   },
+   "past": {
+    "kanji": "旅行した",
+    "kana": "りょこうした"
+   },
+   "past_polite": {
+    "kanji": "旅行しました",
+    "kana": "りょこうしました"
+   },
+   "te": {
+    "kanji": "旅行して",
+    "kana": "りょこうして"
+   },
+   "nai": {
+    "kanji": "旅行しない",
+    "kana": "りょこうしない"
+   },
+   "potential": {
+    "kanji": "旅行できる",
+    "kana": "りょこうできる"
+   },
+   "volitional": {
+    "kanji": "旅行しよう",
+    "kana": "りょこうしよう"
+   }
+  }
+ },
+ {
+  "word": "説明する",
+  "reading": "せつめいする",
+  "meaning": "to explain",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "説明します",
+    "kana": "せつめいします"
+   },
+   "masu_neg": {
+    "kanji": "説明しません",
+    "kana": "せつめいしません"
+   },
+   "past": {
+    "kanji": "説明した",
+    "kana": "せつめいした"
+   },
+   "past_polite": {
+    "kanji": "説明しました",
+    "kana": "せつめいしました"
+   },
+   "te": {
+    "kanji": "説明して",
+    "kana": "せつめいして"
+   },
+   "nai": {
+    "kanji": "説明しない",
+    "kana": "せつめいしない"
+   },
+   "potential": {
+    "kanji": "説明できる",
+    "kana": "せつめいできる"
+   },
+   "volitional": {
+    "kanji": "説明しよう",
+    "kana": "せつめいしよう"
+   }
+  }
+ },
+ {
+  "word": "紹介する",
+  "reading": "しょうかいする",
+  "meaning": "to introduce",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "紹介します",
+    "kana": "しょうかいします"
+   },
+   "masu_neg": {
+    "kanji": "紹介しません",
+    "kana": "しょうかいしません"
+   },
+   "past": {
+    "kanji": "紹介した",
+    "kana": "しょうかいした"
+   },
+   "past_polite": {
+    "kanji": "紹介しました",
+    "kana": "しょうかいしました"
+   },
+   "te": {
+    "kanji": "紹介して",
+    "kana": "しょうかいして"
+   },
+   "nai": {
+    "kanji": "紹介しない",
+    "kana": "しょうかいしない"
+   },
+   "potential": {
+    "kanji": "紹介できる",
+    "kana": "しょうかいできる"
+   },
+   "volitional": {
+    "kanji": "紹介しよう",
+    "kana": "しょうかいしよう"
+   }
+  }
+ },
+ {
+  "word": "準備する",
+  "reading": "じゅんびする",
+  "meaning": "to prepare",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "準備します",
+    "kana": "じゅんびします"
+   },
+   "masu_neg": {
+    "kanji": "準備しません",
+    "kana": "じゅんびしません"
+   },
+   "past": {
+    "kanji": "準備した",
+    "kana": "じゅんびした"
+   },
+   "past_polite": {
+    "kanji": "準備しました",
+    "kana": "じゅんびしました"
+   },
+   "te": {
+    "kanji": "準備して",
+    "kana": "じゅんびして"
+   },
+   "nai": {
+    "kanji": "準備しない",
+    "kana": "じゅんびしない"
+   },
+   "potential": {
+    "kanji": "準備できる",
+    "kana": "じゅんびできる"
+   },
+   "volitional": {
+    "kanji": "準備しよう",
+    "kana": "じゅんびしよう"
+   }
+  }
+ },
+ {
+  "word": "心配する",
+  "reading": "しんぱいする",
+  "meaning": "to worry",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "心配します",
+    "kana": "しんぱいします"
+   },
+   "masu_neg": {
+    "kanji": "心配しません",
+    "kana": "しんぱいしません"
+   },
+   "past": {
+    "kanji": "心配した",
+    "kana": "しんぱいした"
+   },
+   "past_polite": {
+    "kanji": "心配しました",
+    "kana": "しんぱいしました"
+   },
+   "te": {
+    "kanji": "心配して",
+    "kana": "しんぱいして"
+   },
+   "nai": {
+    "kanji": "心配しない",
+    "kana": "しんぱいしない"
+   },
+   "potential": {
+    "kanji": "心配できる",
+    "kana": "しんぱいできる"
+   },
+   "volitional": {
+    "kanji": "心配しよう",
+    "kana": "しんぱいしよう"
+   }
+  }
+ },
+ {
+  "word": "約束する",
+  "reading": "やくそくする",
+  "meaning": "to promise",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "約束します",
+    "kana": "やくそくします"
+   },
+   "masu_neg": {
+    "kanji": "約束しません",
+    "kana": "やくそくしません"
+   },
+   "past": {
+    "kanji": "約束した",
+    "kana": "やくそくした"
+   },
+   "past_polite": {
+    "kanji": "約束しました",
+    "kana": "やくそくしました"
+   },
+   "te": {
+    "kanji": "約束して",
+    "kana": "やくそくして"
+   },
+   "nai": {
+    "kanji": "約束しない",
+    "kana": "やくそくしない"
+   },
+   "potential": {
+    "kanji": "約束できる",
+    "kana": "やくそくできる"
+   },
+   "volitional": {
+    "kanji": "約束しよう",
+    "kana": "やくそくしよう"
+   }
+  }
+ },
+ {
+  "word": "予約する",
+  "reading": "よやくする",
+  "meaning": "to reserve, to book",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "予約します",
+    "kana": "よやくします"
+   },
+   "masu_neg": {
+    "kanji": "予約しません",
+    "kana": "よやくしません"
+   },
+   "past": {
+    "kanji": "予約した",
+    "kana": "よやくした"
+   },
+   "past_polite": {
+    "kanji": "予約しました",
+    "kana": "よやくしました"
+   },
+   "te": {
+    "kanji": "予約して",
+    "kana": "よやくして"
+   },
+   "nai": {
+    "kanji": "予約しない",
+    "kana": "よやくしない"
+   },
+   "potential": {
+    "kanji": "予約できる",
+    "kana": "よやくできる"
+   },
+   "volitional": {
+    "kanji": "予約しよう",
+    "kana": "よやくしよう"
+   }
+  }
+ },
+ {
+  "word": "食べる",
+  "reading": "たべる",
+  "meaning": "to eat",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "食べます",
+    "kana": "たべます"
+   },
+   "masu_neg": {
+    "kanji": "食べません",
+    "kana": "たべません"
+   },
+   "past": {
+    "kanji": "食べた",
+    "kana": "たべた"
+   },
+   "past_polite": {
+    "kanji": "食べました",
+    "kana": "たべました"
+   },
+   "te": {
+    "kanji": "食べて",
+    "kana": "たべて"
+   },
+   "nai": {
+    "kanji": "食べない",
+    "kana": "たべない"
+   },
+   "potential": {
+    "kanji": "食べられる",
+    "kana": "たべられる"
+   },
+   "volitional": {
+    "kanji": "食べよう",
+    "kana": "たべよう"
+   }
+  }
+ },
+ {
+  "word": "見る",
+  "reading": "みる",
+  "meaning": "to see, to watch",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "見ます",
+    "kana": "みます"
+   },
+   "masu_neg": {
+    "kanji": "見ません",
+    "kana": "みません"
+   },
+   "past": {
+    "kanji": "見た",
+    "kana": "みた"
+   },
+   "past_polite": {
+    "kanji": "見ました",
+    "kana": "みました"
+   },
+   "te": {
+    "kanji": "見て",
+    "kana": "みて"
+   },
+   "nai": {
+    "kanji": "見ない",
+    "kana": "みない"
+   },
+   "potential": {
+    "kanji": "見られる",
+    "kana": "みられる"
+   },
+   "volitional": {
+    "kanji": "見よう",
+    "kana": "みよう"
+   }
+  }
+ },
+ {
+  "word": "寝る",
+  "reading": "ねる",
+  "meaning": "to sleep",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "寝ます",
+    "kana": "ねます"
+   },
+   "masu_neg": {
+    "kanji": "寝ません",
+    "kana": "ねません"
+   },
+   "past": {
+    "kanji": "寝た",
+    "kana": "ねた"
+   },
+   "past_polite": {
+    "kanji": "寝ました",
+    "kana": "ねました"
+   },
+   "te": {
+    "kanji": "寝て",
+    "kana": "ねて"
+   },
+   "nai": {
+    "kanji": "寝ない",
+    "kana": "ねない"
+   },
+   "potential": {
+    "kanji": "寝られる",
+    "kana": "ねられる"
+   },
+   "volitional": {
+    "kanji": "寝よう",
+    "kana": "ねよう"
+   }
+  }
+ },
+ {
+  "word": "起きる",
+  "reading": "おきる",
+  "meaning": "to get up",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "起きます",
+    "kana": "おきます"
+   },
+   "masu_neg": {
+    "kanji": "起きません",
+    "kana": "おきません"
+   },
+   "past": {
+    "kanji": "起きた",
+    "kana": "おきた"
+   },
+   "past_polite": {
+    "kanji": "起きました",
+    "kana": "おきました"
+   },
+   "te": {
+    "kanji": "起きて",
+    "kana": "おきて"
+   },
+   "nai": {
+    "kanji": "起きない",
+    "kana": "おきない"
+   },
+   "potential": {
+    "kanji": "起きられる",
+    "kana": "おきられる"
+   },
+   "volitional": {
+    "kanji": "起きよう",
+    "kana": "おきよう"
+   }
+  }
+ },
+ {
+  "word": "出る",
+  "reading": "でる",
+  "meaning": "to go out, to leave",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "出ます",
+    "kana": "でます"
+   },
+   "masu_neg": {
+    "kanji": "出ません",
+    "kana": "でません"
+   },
+   "past": {
+    "kanji": "出た",
+    "kana": "でた"
+   },
+   "past_polite": {
+    "kanji": "出ました",
+    "kana": "でました"
+   },
+   "te": {
+    "kanji": "出て",
+    "kana": "でて"
+   },
+   "nai": {
+    "kanji": "出ない",
+    "kana": "でない"
+   },
+   "potential": {
+    "kanji": "出られる",
+    "kana": "でられる"
+   },
+   "volitional": {
+    "kanji": "出よう",
+    "kana": "でよう"
+   }
+  }
+ },
+ {
+  "word": "いる",
+  "reading": "いる",
+  "meaning": "to exist (animate)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "います",
+    "kana": "います"
+   },
+   "masu_neg": {
+    "kanji": "いません",
+    "kana": "いません"
+   },
+   "past": {
+    "kanji": "いた",
+    "kana": "いた"
+   },
+   "past_polite": {
+    "kanji": "いました",
+    "kana": "いました"
+   },
+   "te": {
+    "kanji": "いて",
+    "kana": "いて"
+   },
+   "nai": {
+    "kanji": "いない",
+    "kana": "いない"
+   },
+   "potential": {
+    "kanji": "いられる",
+    "kana": "いられる"
+   },
+   "volitional": {
+    "kanji": "いよう",
+    "kana": "いよう"
+   }
+  }
+ },
+ {
+  "word": "開ける",
+  "reading": "あける",
+  "meaning": "to open (something)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "開けます",
+    "kana": "あけます"
+   },
+   "masu_neg": {
+    "kanji": "開けません",
+    "kana": "あけません"
+   },
+   "past": {
+    "kanji": "開けた",
+    "kana": "あけた"
+   },
+   "past_polite": {
+    "kanji": "開けました",
+    "kana": "あけました"
+   },
+   "te": {
+    "kanji": "開けて",
+    "kana": "あけて"
+   },
+   "nai": {
+    "kanji": "開けない",
+    "kana": "あけない"
+   },
+   "potential": {
+    "kanji": "開けられる",
+    "kana": "あけられる"
+   },
+   "volitional": {
+    "kanji": "開けよう",
+    "kana": "あけよう"
+   }
+  }
+ },
+ {
+  "word": "閉める",
+  "reading": "しめる",
+  "meaning": "to close (something)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "閉めます",
+    "kana": "しめます"
+   },
+   "masu_neg": {
+    "kanji": "閉めません",
+    "kana": "しめません"
+   },
+   "past": {
+    "kanji": "閉めた",
+    "kana": "しめた"
+   },
+   "past_polite": {
+    "kanji": "閉めました",
+    "kana": "しめました"
+   },
+   "te": {
+    "kanji": "閉めて",
+    "kana": "しめて"
+   },
+   "nai": {
+    "kanji": "閉めない",
+    "kana": "しめない"
+   },
+   "potential": {
+    "kanji": "閉められる",
+    "kana": "しめられる"
+   },
+   "volitional": {
+    "kanji": "閉めよう",
+    "kana": "しめよう"
+   }
+  }
+ },
+ {
+  "word": "教える",
+  "reading": "おしえる",
+  "meaning": "to teach, to tell",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "教えます",
+    "kana": "おしえます"
+   },
+   "masu_neg": {
+    "kanji": "教えません",
+    "kana": "おしえません"
+   },
+   "past": {
+    "kanji": "教えた",
+    "kana": "おしえた"
+   },
+   "past_polite": {
+    "kanji": "教えました",
+    "kana": "おしえました"
+   },
+   "te": {
+    "kanji": "教えて",
+    "kana": "おしえて"
+   },
+   "nai": {
+    "kanji": "教えない",
+    "kana": "おしえない"
+   },
+   "potential": {
+    "kanji": "教えられる",
+    "kana": "おしえられる"
+   },
+   "volitional": {
+    "kanji": "教えよう",
+    "kana": "おしえよう"
+   }
+  }
+ },
+ {
+  "word": "覚える",
+  "reading": "おぼえる",
+  "meaning": "to memorize",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "覚えます",
+    "kana": "おぼえます"
+   },
+   "masu_neg": {
+    "kanji": "覚えません",
+    "kana": "おぼえません"
+   },
+   "past": {
+    "kanji": "覚えた",
+    "kana": "おぼえた"
+   },
+   "past_polite": {
+    "kanji": "覚えました",
+    "kana": "おぼえました"
+   },
+   "te": {
+    "kanji": "覚えて",
+    "kana": "おぼえて"
+   },
+   "nai": {
+    "kanji": "覚えない",
+    "kana": "おぼえない"
+   },
+   "potential": {
+    "kanji": "覚えられる",
+    "kana": "おぼえられる"
+   },
+   "volitional": {
+    "kanji": "覚えよう",
+    "kana": "おぼえよう"
+   }
+  }
+ },
+ {
+  "word": "忘れる",
+  "reading": "わすれる",
+  "meaning": "to forget",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "忘れます",
+    "kana": "わすれます"
+   },
+   "masu_neg": {
+    "kanji": "忘れません",
+    "kana": "わすれません"
+   },
+   "past": {
+    "kanji": "忘れた",
+    "kana": "わすれた"
+   },
+   "past_polite": {
+    "kanji": "忘れました",
+    "kana": "わすれました"
+   },
+   "te": {
+    "kanji": "忘れて",
+    "kana": "わすれて"
+   },
+   "nai": {
+    "kanji": "忘れない",
+    "kana": "わすれない"
+   },
+   "potential": {
+    "kanji": "忘れられる",
+    "kana": "わすれられる"
+   },
+   "volitional": {
+    "kanji": "忘れよう",
+    "kana": "わすれよう"
+   }
+  }
+ },
+ {
+  "word": "借りる",
+  "reading": "かりる",
+  "meaning": "to borrow",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "借ります",
+    "kana": "かります"
+   },
+   "masu_neg": {
+    "kanji": "借りません",
+    "kana": "かりません"
+   },
+   "past": {
+    "kanji": "借りた",
+    "kana": "かりた"
+   },
+   "past_polite": {
+    "kanji": "借りました",
+    "kana": "かりました"
+   },
+   "te": {
+    "kanji": "借りて",
+    "kana": "かりて"
+   },
+   "nai": {
+    "kanji": "借りない",
+    "kana": "かりない"
+   },
+   "potential": {
+    "kanji": "借りられる",
+    "kana": "かりられる"
+   },
+   "volitional": {
+    "kanji": "借りよう",
+    "kana": "かりよう"
+   }
+  }
+ },
+ {
+  "word": "着る",
+  "reading": "きる",
+  "meaning": "to wear (upper body)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "着ます",
+    "kana": "きます"
+   },
+   "masu_neg": {
+    "kanji": "着ません",
+    "kana": "きません"
+   },
+   "past": {
+    "kanji": "着た",
+    "kana": "きた"
+   },
+   "past_polite": {
+    "kanji": "着ました",
+    "kana": "きました"
+   },
+   "te": {
+    "kanji": "着て",
+    "kana": "きて"
+   },
+   "nai": {
+    "kanji": "着ない",
+    "kana": "きない"
+   },
+   "potential": {
+    "kanji": "着られる",
+    "kana": "きられる"
+   },
+   "volitional": {
+    "kanji": "着よう",
+    "kana": "きよう"
+   }
+  }
+ },
+ {
+  "word": "降りる",
+  "reading": "おりる",
+  "meaning": "to get off, to descend",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "降ります",
+    "kana": "おります"
+   },
+   "masu_neg": {
+    "kanji": "降りません",
+    "kana": "おりません"
+   },
+   "past": {
+    "kanji": "降りた",
+    "kana": "おりた"
+   },
+   "past_polite": {
+    "kanji": "降りました",
+    "kana": "おりました"
+   },
+   "te": {
+    "kanji": "降りて",
+    "kana": "おりて"
+   },
+   "nai": {
+    "kanji": "降りない",
+    "kana": "おりない"
+   },
+   "potential": {
+    "kanji": "降りられる",
+    "kana": "おりられる"
+   },
+   "volitional": {
+    "kanji": "降りよう",
+    "kana": "おりよう"
+   }
+  }
+ },
+ {
+  "word": "生まれる",
+  "reading": "うまれる",
+  "meaning": "to be born",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "生まれます",
+    "kana": "うまれます"
+   },
+   "masu_neg": {
+    "kanji": "生まれません",
+    "kana": "うまれません"
+   },
+   "past": {
+    "kanji": "生まれた",
+    "kana": "うまれた"
+   },
+   "past_polite": {
+    "kanji": "生まれました",
+    "kana": "うまれました"
+   },
+   "te": {
+    "kanji": "生まれて",
+    "kana": "うまれて"
+   },
+   "nai": {
+    "kanji": "生まれない",
+    "kana": "うまれない"
+   },
+   "potential": {
+    "kanji": "生まれられる",
+    "kana": "うまれられる"
+   },
+   "volitional": {
+    "kanji": "生まれよう",
+    "kana": "うまれよう"
+   }
+  }
+ },
+ {
+  "word": "入れる",
+  "reading": "いれる",
+  "meaning": "to put in",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "入れます",
+    "kana": "いれます"
+   },
+   "masu_neg": {
+    "kanji": "入れません",
+    "kana": "いれません"
+   },
+   "past": {
+    "kanji": "入れた",
+    "kana": "いれた"
+   },
+   "past_polite": {
+    "kanji": "入れました",
+    "kana": "いれました"
+   },
+   "te": {
+    "kanji": "入れて",
+    "kana": "いれて"
+   },
+   "nai": {
+    "kanji": "入れない",
+    "kana": "いれない"
+   },
+   "potential": {
+    "kanji": "入れられる",
+    "kana": "いれられる"
+   },
+   "volitional": {
+    "kanji": "入れよう",
+    "kana": "いれよう"
+   }
+  }
+ },
+ {
+  "word": "考える",
+  "reading": "かんがえる",
+  "meaning": "to think, to consider",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "考えます",
+    "kana": "かんがえます"
+   },
+   "masu_neg": {
+    "kanji": "考えません",
+    "kana": "かんがえません"
+   },
+   "past": {
+    "kanji": "考えた",
+    "kana": "かんがえた"
+   },
+   "past_polite": {
+    "kanji": "考えました",
+    "kana": "かんがえました"
+   },
+   "te": {
+    "kanji": "考えて",
+    "kana": "かんがえて"
+   },
+   "nai": {
+    "kanji": "考えない",
+    "kana": "かんがえない"
+   },
+   "potential": {
+    "kanji": "考えられる",
+    "kana": "かんがえられる"
+   },
+   "volitional": {
+    "kanji": "考えよう",
+    "kana": "かんがえよう"
+   }
+  }
+ },
+ {
+  "word": "始める",
+  "reading": "はじめる",
+  "meaning": "to begin (something)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "始めます",
+    "kana": "はじめます"
+   },
+   "masu_neg": {
+    "kanji": "始めません",
+    "kana": "はじめません"
+   },
+   "past": {
+    "kanji": "始めた",
+    "kana": "はじめた"
+   },
+   "past_polite": {
+    "kanji": "始めました",
+    "kana": "はじめました"
+   },
+   "te": {
+    "kanji": "始めて",
+    "kana": "はじめて"
+   },
+   "nai": {
+    "kanji": "始めない",
+    "kana": "はじめない"
+   },
+   "potential": {
+    "kanji": "始められる",
+    "kana": "はじめられる"
+   },
+   "volitional": {
+    "kanji": "始めよう",
+    "kana": "はじめよう"
+   }
+  }
+ },
+ {
+  "word": "続ける",
+  "reading": "つづける",
+  "meaning": "to continue",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "続けます",
+    "kana": "つづけます"
+   },
+   "masu_neg": {
+    "kanji": "続けません",
+    "kana": "つづけません"
+   },
+   "past": {
+    "kanji": "続けた",
+    "kana": "つづけた"
+   },
+   "past_polite": {
+    "kanji": "続けました",
+    "kana": "つづけました"
+   },
+   "te": {
+    "kanji": "続けて",
+    "kana": "つづけて"
+   },
+   "nai": {
+    "kanji": "続けない",
+    "kana": "つづけない"
+   },
+   "potential": {
+    "kanji": "続けられる",
+    "kana": "つづけられる"
+   },
+   "volitional": {
+    "kanji": "続けよう",
+    "kana": "つづけよう"
+   }
+  }
+ },
+ {
+  "word": "調べる",
+  "reading": "しらべる",
+  "meaning": "to look up, to investigate",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "調べます",
+    "kana": "しらべます"
+   },
+   "masu_neg": {
+    "kanji": "調べません",
+    "kana": "しらべません"
+   },
+   "past": {
+    "kanji": "調べた",
+    "kana": "しらべた"
+   },
+   "past_polite": {
+    "kanji": "調べました",
+    "kana": "しらべました"
+   },
+   "te": {
+    "kanji": "調べて",
+    "kana": "しらべて"
+   },
+   "nai": {
+    "kanji": "調べない",
+    "kana": "しらべない"
+   },
+   "potential": {
+    "kanji": "調べられる",
+    "kana": "しらべられる"
+   },
+   "volitional": {
+    "kanji": "調べよう",
+    "kana": "しらべよう"
+   }
+  }
+ },
+ {
+  "word": "捨てる",
+  "reading": "すてる",
+  "meaning": "to throw away",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "捨てます",
+    "kana": "すてます"
+   },
+   "masu_neg": {
+    "kanji": "捨てません",
+    "kana": "すてません"
+   },
+   "past": {
+    "kanji": "捨てた",
+    "kana": "すてた"
+   },
+   "past_polite": {
+    "kanji": "捨てました",
+    "kana": "すてました"
+   },
+   "te": {
+    "kanji": "捨てて",
+    "kana": "すてて"
+   },
+   "nai": {
+    "kanji": "捨てない",
+    "kana": "すてない"
+   },
+   "potential": {
+    "kanji": "捨てられる",
+    "kana": "すてられる"
+   },
+   "volitional": {
+    "kanji": "捨てよう",
+    "kana": "すてよう"
+   }
+  }
+ },
+ {
+  "word": "集める",
+  "reading": "あつめる",
+  "meaning": "to collect, to gather",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "集めます",
+    "kana": "あつめます"
+   },
+   "masu_neg": {
+    "kanji": "集めません",
+    "kana": "あつめません"
+   },
+   "past": {
+    "kanji": "集めた",
+    "kana": "あつめた"
+   },
+   "past_polite": {
+    "kanji": "集めました",
+    "kana": "あつめました"
+   },
+   "te": {
+    "kanji": "集めて",
+    "kana": "あつめて"
+   },
+   "nai": {
+    "kanji": "集めない",
+    "kana": "あつめない"
+   },
+   "potential": {
+    "kanji": "集められる",
+    "kana": "あつめられる"
+   },
+   "volitional": {
+    "kanji": "集めよう",
+    "kana": "あつめよう"
+   }
+  }
+ },
+ {
+  "word": "片付ける",
+  "reading": "かたづける",
+  "meaning": "to tidy up",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "片付けます",
+    "kana": "かたづけます"
+   },
+   "masu_neg": {
+    "kanji": "片付けません",
+    "kana": "かたづけません"
+   },
+   "past": {
+    "kanji": "片付けた",
+    "kana": "かたづけた"
+   },
+   "past_polite": {
+    "kanji": "片付けました",
+    "kana": "かたづけました"
+   },
+   "te": {
+    "kanji": "片付けて",
+    "kana": "かたづけて"
+   },
+   "nai": {
+    "kanji": "片付けない",
+    "kana": "かたづけない"
+   },
+   "potential": {
+    "kanji": "片付けられる",
+    "kana": "かたづけられる"
+   },
+   "volitional": {
+    "kanji": "片付けよう",
+    "kana": "かたづけよう"
+   }
+  }
+ },
+ {
+  "word": "信じる",
+  "reading": "しんじる",
+  "meaning": "to believe",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "信じます",
+    "kana": "しんじます"
+   },
+   "masu_neg": {
+    "kanji": "信じません",
+    "kana": "しんじません"
+   },
+   "past": {
+    "kanji": "信じた",
+    "kana": "しんじた"
+   },
+   "past_polite": {
+    "kanji": "信じました",
+    "kana": "しんじました"
+   },
+   "te": {
+    "kanji": "信じて",
+    "kana": "しんじて"
+   },
+   "nai": {
+    "kanji": "信じない",
+    "kana": "しんじない"
+   },
+   "potential": {
+    "kanji": "信じられる",
+    "kana": "しんじられる"
+   },
+   "volitional": {
+    "kanji": "信じよう",
+    "kana": "しんじよう"
+   }
+  }
+ },
+ {
+  "word": "感じる",
+  "reading": "かんじる",
+  "meaning": "to feel",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "感じます",
+    "kana": "かんじます"
+   },
+   "masu_neg": {
+    "kanji": "感じません",
+    "kana": "かんじません"
+   },
+   "past": {
+    "kanji": "感じた",
+    "kana": "かんじた"
+   },
+   "past_polite": {
+    "kanji": "感じました",
+    "kana": "かんじました"
+   },
+   "te": {
+    "kanji": "感じて",
+    "kana": "かんじて"
+   },
+   "nai": {
+    "kanji": "感じない",
+    "kana": "かんじない"
+   },
+   "potential": {
+    "kanji": "感じられる",
+    "kana": "かんじられる"
+   },
+   "volitional": {
+    "kanji": "感じよう",
+    "kana": "かんじよう"
+   }
+  }
+ },
+ {
+  "word": "伝える",
+  "reading": "つたえる",
+  "meaning": "to convey, to tell",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "伝えます",
+    "kana": "つたえます"
+   },
+   "masu_neg": {
+    "kanji": "伝えません",
+    "kana": "つたえません"
+   },
+   "past": {
+    "kanji": "伝えた",
+    "kana": "つたえた"
+   },
+   "past_polite": {
+    "kanji": "伝えました",
+    "kana": "つたえました"
+   },
+   "te": {
+    "kanji": "伝えて",
+    "kana": "つたえて"
+   },
+   "nai": {
+    "kanji": "伝えない",
+    "kana": "つたえない"
+   },
+   "potential": {
+    "kanji": "伝えられる",
+    "kana": "つたえられる"
+   },
+   "volitional": {
+    "kanji": "伝えよう",
+    "kana": "つたえよう"
+   }
+  }
+ },
+ {
+  "word": "変える",
+  "reading": "かえる",
+  "meaning": "to change (something)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "変えます",
+    "kana": "かえます"
+   },
+   "masu_neg": {
+    "kanji": "変えません",
+    "kana": "かえません"
+   },
+   "past": {
+    "kanji": "変えた",
+    "kana": "かえた"
+   },
+   "past_polite": {
+    "kanji": "変えました",
+    "kana": "かえました"
+   },
+   "te": {
+    "kanji": "変えて",
+    "kana": "かえて"
+   },
+   "nai": {
+    "kanji": "変えない",
+    "kana": "かえない"
+   },
+   "potential": {
+    "kanji": "変えられる",
+    "kana": "かえられる"
+   },
+   "volitional": {
+    "kanji": "変えよう",
+    "kana": "かえよう"
+   }
+  }
+ },
+ {
+  "word": "答える",
+  "reading": "こたえる",
+  "meaning": "to answer",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "答えます",
+    "kana": "こたえます"
+   },
+   "masu_neg": {
+    "kanji": "答えません",
+    "kana": "こたえません"
+   },
+   "past": {
+    "kanji": "答えた",
+    "kana": "こたえた"
+   },
+   "past_polite": {
+    "kanji": "答えました",
+    "kana": "こたえました"
+   },
+   "te": {
+    "kanji": "答えて",
+    "kana": "こたえて"
+   },
+   "nai": {
+    "kanji": "答えない",
+    "kana": "こたえない"
+   },
+   "potential": {
+    "kanji": "答えられる",
+    "kana": "こたえられる"
+   },
+   "volitional": {
+    "kanji": "答えよう",
+    "kana": "こたえよう"
+   }
+  }
+ },
+ {
+  "word": "見せる",
+  "reading": "みせる",
+  "meaning": "to show",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "見せます",
+    "kana": "みせます"
+   },
+   "masu_neg": {
+    "kanji": "見せません",
+    "kana": "みせません"
+   },
+   "past": {
+    "kanji": "見せた",
+    "kana": "みせた"
+   },
+   "past_polite": {
+    "kanji": "見せました",
+    "kana": "みせました"
+   },
+   "te": {
+    "kanji": "見せて",
+    "kana": "みせて"
+   },
+   "nai": {
+    "kanji": "見せない",
+    "kana": "みせない"
+   },
+   "potential": {
+    "kanji": "見せられる",
+    "kana": "みせられる"
+   },
+   "volitional": {
+    "kanji": "見せよう",
+    "kana": "みせよう"
+   }
+  }
+ },
+ {
+  "word": "疲れる",
+  "reading": "つかれる",
+  "meaning": "to get tired",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "疲れます",
+    "kana": "つかれます"
+   },
+   "masu_neg": {
+    "kanji": "疲れません",
+    "kana": "つかれません"
+   },
+   "past": {
+    "kanji": "疲れた",
+    "kana": "つかれた"
+   },
+   "past_polite": {
+    "kanji": "疲れました",
+    "kana": "つかれました"
+   },
+   "te": {
+    "kanji": "疲れて",
+    "kana": "つかれて"
+   },
+   "nai": {
+    "kanji": "疲れない",
+    "kana": "つかれない"
+   },
+   "potential": {
+    "kanji": "疲れられる",
+    "kana": "つかれられる"
+   },
+   "volitional": {
+    "kanji": "疲れよう",
+    "kana": "つかれよう"
+   }
+  }
+ },
+ {
+  "word": "晴れる",
+  "reading": "はれる",
+  "meaning": "to clear up (weather)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "晴れます",
+    "kana": "はれます"
+   },
+   "masu_neg": {
+    "kanji": "晴れません",
+    "kana": "はれません"
+   },
+   "past": {
+    "kanji": "晴れた",
+    "kana": "はれた"
+   },
+   "past_polite": {
+    "kanji": "晴れました",
+    "kana": "はれました"
+   },
+   "te": {
+    "kanji": "晴れて",
+    "kana": "はれて"
+   },
+   "nai": {
+    "kanji": "晴れない",
+    "kana": "はれない"
+   },
+   "potential": {
+    "kanji": "晴れられる",
+    "kana": "はれられる"
+   },
+   "volitional": {
+    "kanji": "晴れよう",
+    "kana": "はれよう"
+   }
+  }
+ },
+ {
+  "word": "別れる",
+  "reading": "わかれる",
+  "meaning": "to part, to separate",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "別れます",
+    "kana": "わかれます"
+   },
+   "masu_neg": {
+    "kanji": "別れません",
+    "kana": "わかれません"
+   },
+   "past": {
+    "kanji": "別れた",
+    "kana": "わかれた"
+   },
+   "past_polite": {
+    "kanji": "別れました",
+    "kana": "わかれました"
+   },
+   "te": {
+    "kanji": "別れて",
+    "kana": "わかれて"
+   },
+   "nai": {
+    "kanji": "別れない",
+    "kana": "わかれない"
+   },
+   "potential": {
+    "kanji": "別れられる",
+    "kana": "わかれられる"
+   },
+   "volitional": {
+    "kanji": "別れよう",
+    "kana": "わかれよう"
+   }
+  }
+ },
+ {
+  "word": "行く",
+  "reading": "いく",
+  "meaning": "to go",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "行きます",
+    "kana": "いきます"
+   },
+   "masu_neg": {
+    "kanji": "行きません",
+    "kana": "いきません"
+   },
+   "past": {
+    "kanji": "行った",
+    "kana": "いった"
+   },
+   "past_polite": {
+    "kanji": "行きました",
+    "kana": "いきました"
+   },
+   "te": {
+    "kanji": "行って",
+    "kana": "いって"
+   },
+   "nai": {
+    "kanji": "行かない",
+    "kana": "いかない"
+   },
+   "potential": {
+    "kanji": "行ける",
+    "kana": "いける"
+   },
+   "volitional": {
+    "kanji": "行こう",
+    "kana": "いこう"
+   }
+  }
+ },
+ {
+  "word": "買う",
+  "reading": "かう",
+  "meaning": "to buy",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "買います",
+    "kana": "かいます"
+   },
+   "masu_neg": {
+    "kanji": "買いません",
+    "kana": "かいません"
+   },
+   "past": {
+    "kanji": "買った",
+    "kana": "かった"
+   },
+   "past_polite": {
+    "kanji": "買いました",
+    "kana": "かいました"
+   },
+   "te": {
+    "kanji": "買って",
+    "kana": "かって"
+   },
+   "nai": {
+    "kanji": "買わない",
+    "kana": "かわない"
+   },
+   "potential": {
+    "kanji": "買える",
+    "kana": "かえる"
+   },
+   "volitional": {
+    "kanji": "買おう",
+    "kana": "かおう"
+   }
+  }
+ },
+ {
+  "word": "飲む",
+  "reading": "のむ",
+  "meaning": "to drink",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "飲みます",
+    "kana": "のみます"
+   },
+   "masu_neg": {
+    "kanji": "飲みません",
+    "kana": "のみません"
+   },
+   "past": {
+    "kanji": "飲んだ",
+    "kana": "のんだ"
+   },
+   "past_polite": {
+    "kanji": "飲みました",
+    "kana": "のみました"
+   },
+   "te": {
+    "kanji": "飲んで",
+    "kana": "のんで"
+   },
+   "nai": {
+    "kanji": "飲まない",
+    "kana": "のまない"
+   },
+   "potential": {
+    "kanji": "飲める",
+    "kana": "のめる"
+   },
+   "volitional": {
+    "kanji": "飲もう",
+    "kana": "のもう"
+   }
+  }
+ },
+ {
+  "word": "読む",
+  "reading": "よむ",
+  "meaning": "to read",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "読みます",
+    "kana": "よみます"
+   },
+   "masu_neg": {
+    "kanji": "読みません",
+    "kana": "よみません"
+   },
+   "past": {
+    "kanji": "読んだ",
+    "kana": "よんだ"
+   },
+   "past_polite": {
+    "kanji": "読みました",
+    "kana": "よみました"
+   },
+   "te": {
+    "kanji": "読んで",
+    "kana": "よんで"
+   },
+   "nai": {
+    "kanji": "読まない",
+    "kana": "よまない"
+   },
+   "potential": {
+    "kanji": "読める",
+    "kana": "よめる"
+   },
+   "volitional": {
+    "kanji": "読もう",
+    "kana": "よもう"
+   }
+  }
+ },
+ {
+  "word": "書く",
+  "reading": "かく",
+  "meaning": "to write",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "書きます",
+    "kana": "かきます"
+   },
+   "masu_neg": {
+    "kanji": "書きません",
+    "kana": "かきません"
+   },
+   "past": {
+    "kanji": "書いた",
+    "kana": "かいた"
+   },
+   "past_polite": {
+    "kanji": "書きました",
+    "kana": "かきました"
+   },
+   "te": {
+    "kanji": "書いて",
+    "kana": "かいて"
+   },
+   "nai": {
+    "kanji": "書かない",
+    "kana": "かかない"
+   },
+   "potential": {
+    "kanji": "書ける",
+    "kana": "かける"
+   },
+   "volitional": {
+    "kanji": "書こう",
+    "kana": "かこう"
+   }
+  }
+ },
+ {
+  "word": "話す",
+  "reading": "はなす",
+  "meaning": "to speak",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "話します",
+    "kana": "はなします"
+   },
+   "masu_neg": {
+    "kanji": "話しません",
+    "kana": "はなしません"
+   },
+   "past": {
+    "kanji": "話した",
+    "kana": "はなした"
+   },
+   "past_polite": {
+    "kanji": "話しました",
+    "kana": "はなしました"
+   },
+   "te": {
+    "kanji": "話して",
+    "kana": "はなして"
+   },
+   "nai": {
+    "kanji": "話さない",
+    "kana": "はなさない"
+   },
+   "potential": {
+    "kanji": "話せる",
+    "kana": "はなせる"
+   },
+   "volitional": {
+    "kanji": "話そう",
+    "kana": "はなそう"
+   }
+  }
+ },
+ {
+  "word": "聞く",
+  "reading": "きく",
+  "meaning": "to listen, to ask",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "聞きます",
+    "kana": "ききます"
+   },
+   "masu_neg": {
+    "kanji": "聞きません",
+    "kana": "ききません"
+   },
+   "past": {
+    "kanji": "聞いた",
+    "kana": "きいた"
+   },
+   "past_polite": {
+    "kanji": "聞きました",
+    "kana": "ききました"
+   },
+   "te": {
+    "kanji": "聞いて",
+    "kana": "きいて"
+   },
+   "nai": {
+    "kanji": "聞かない",
+    "kana": "きかない"
+   },
+   "potential": {
+    "kanji": "聞ける",
+    "kana": "きける"
+   },
+   "volitional": {
+    "kanji": "聞こう",
+    "kana": "きこう"
+   }
+  }
+ },
+ {
+  "word": "会う",
+  "reading": "あう",
+  "meaning": "to meet",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "会います",
+    "kana": "あいます"
+   },
+   "masu_neg": {
+    "kanji": "会いません",
+    "kana": "あいません"
+   },
+   "past": {
+    "kanji": "会った",
+    "kana": "あった"
+   },
+   "past_polite": {
+    "kanji": "会いました",
+    "kana": "あいました"
+   },
+   "te": {
+    "kanji": "会って",
+    "kana": "あって"
+   },
+   "nai": {
+    "kanji": "会わない",
+    "kana": "あわない"
+   },
+   "potential": {
+    "kanji": "会える",
+    "kana": "あえる"
+   },
+   "volitional": {
+    "kanji": "会おう",
+    "kana": "あおう"
+   }
+  }
+ },
+ {
+  "word": "待つ",
+  "reading": "まつ",
+  "meaning": "to wait",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "待ちます",
+    "kana": "まちます"
+   },
+   "masu_neg": {
+    "kanji": "待ちません",
+    "kana": "まちません"
+   },
+   "past": {
+    "kanji": "待った",
+    "kana": "まった"
+   },
+   "past_polite": {
+    "kanji": "待ちました",
+    "kana": "まちました"
+   },
+   "te": {
+    "kanji": "待って",
+    "kana": "まって"
+   },
+   "nai": {
+    "kanji": "待たない",
+    "kana": "またない"
+   },
+   "potential": {
+    "kanji": "待てる",
+    "kana": "まてる"
+   },
+   "volitional": {
+    "kanji": "待とう",
+    "kana": "まとう"
+   }
+  }
+ },
+ {
+  "word": "帰る",
+  "reading": "かえる",
+  "meaning": "to return home",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "帰ります",
+    "kana": "かえります"
+   },
+   "masu_neg": {
+    "kanji": "帰りません",
+    "kana": "かえりません"
+   },
+   "past": {
+    "kanji": "帰った",
+    "kana": "かえった"
+   },
+   "past_polite": {
+    "kanji": "帰りました",
+    "kana": "かえりました"
+   },
+   "te": {
+    "kanji": "帰って",
+    "kana": "かえって"
+   },
+   "nai": {
+    "kanji": "帰らない",
+    "kana": "かえらない"
+   },
+   "potential": {
+    "kanji": "帰れる",
+    "kana": "かえれる"
+   },
+   "volitional": {
+    "kanji": "帰ろう",
+    "kana": "かえろう"
+   }
+  }
+ },
+ {
+  "word": "ある",
+  "reading": "ある",
+  "meaning": "to exist (inanimate)",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "あります",
+    "kana": "あります"
+   },
+   "masu_neg": {
+    "kanji": "ありません",
+    "kana": "ありません"
+   },
+   "past": {
+    "kanji": "あった",
+    "kana": "あった"
+   },
+   "past_polite": {
+    "kanji": "ありました",
+    "kana": "ありました"
+   },
+   "te": {
+    "kanji": "あって",
+    "kana": "あって"
+   },
+   "nai": {
+    "kanji": "ない",
+    "kana": "ない"
+   },
+   "potential": {
+    "kanji": "あれる",
+    "kana": "あれる"
+   },
+   "volitional": {
+    "kanji": "あろう",
+    "kana": "あろう"
+   }
+  }
+ },
+ {
+  "word": "わかる",
+  "reading": "わかる",
+  "meaning": "to understand",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "わかります",
+    "kana": "わかります"
+   },
+   "masu_neg": {
+    "kanji": "わかりません",
+    "kana": "わかりません"
+   },
+   "past": {
+    "kanji": "わかった",
+    "kana": "わかった"
+   },
+   "past_polite": {
+    "kanji": "わかりました",
+    "kana": "わかりました"
+   },
+   "te": {
+    "kanji": "わかって",
+    "kana": "わかって"
+   },
+   "nai": {
+    "kanji": "わからない",
+    "kana": "わからない"
+   },
+   "potential": {
+    "kanji": "わかれる",
+    "kana": "わかれる"
+   },
+   "volitional": {
+    "kanji": "わかろう",
+    "kana": "わかろう"
+   }
+  }
+ },
+ {
+  "word": "使う",
+  "reading": "つかう",
+  "meaning": "to use",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "使います",
+    "kana": "つかいます"
+   },
+   "masu_neg": {
+    "kanji": "使いません",
+    "kana": "つかいません"
+   },
+   "past": {
+    "kanji": "使った",
+    "kana": "つかった"
+   },
+   "past_polite": {
+    "kanji": "使いました",
+    "kana": "つかいました"
+   },
+   "te": {
+    "kanji": "使って",
+    "kana": "つかって"
+   },
+   "nai": {
+    "kanji": "使わない",
+    "kana": "つかわない"
+   },
+   "potential": {
+    "kanji": "使える",
+    "kana": "つかえる"
+   },
+   "volitional": {
+    "kanji": "使おう",
+    "kana": "つかおう"
+   }
+  }
+ },
+ {
+  "word": "作る",
+  "reading": "つくる",
+  "meaning": "to make",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "作ります",
+    "kana": "つくります"
+   },
+   "masu_neg": {
+    "kanji": "作りません",
+    "kana": "つくりません"
+   },
+   "past": {
+    "kanji": "作った",
+    "kana": "つくった"
+   },
+   "past_polite": {
+    "kanji": "作りました",
+    "kana": "つくりました"
+   },
+   "te": {
+    "kanji": "作って",
+    "kana": "つくって"
+   },
+   "nai": {
+    "kanji": "作らない",
+    "kana": "つくらない"
+   },
+   "potential": {
+    "kanji": "作れる",
+    "kana": "つくれる"
+   },
+   "volitional": {
+    "kanji": "作ろう",
+    "kana": "つくろう"
+   }
+  }
+ },
+ {
+  "word": "持つ",
+  "reading": "もつ",
+  "meaning": "to hold, to have",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "持ちます",
+    "kana": "もちます"
+   },
+   "masu_neg": {
+    "kanji": "持ちません",
+    "kana": "もちません"
+   },
+   "past": {
+    "kanji": "持った",
+    "kana": "もった"
+   },
+   "past_polite": {
+    "kanji": "持ちました",
+    "kana": "もちました"
+   },
+   "te": {
+    "kanji": "持って",
+    "kana": "もって"
+   },
+   "nai": {
+    "kanji": "持たない",
+    "kana": "もたない"
+   },
+   "potential": {
+    "kanji": "持てる",
+    "kana": "もてる"
+   },
+   "volitional": {
+    "kanji": "持とう",
+    "kana": "もとう"
+   }
+  }
+ },
+ {
+  "word": "立つ",
+  "reading": "たつ",
+  "meaning": "to stand",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "立ちます",
+    "kana": "たちます"
+   },
+   "masu_neg": {
+    "kanji": "立ちません",
+    "kana": "たちません"
+   },
+   "past": {
+    "kanji": "立った",
+    "kana": "たった"
+   },
+   "past_polite": {
+    "kanji": "立ちました",
+    "kana": "たちました"
+   },
+   "te": {
+    "kanji": "立って",
+    "kana": "たって"
+   },
+   "nai": {
+    "kanji": "立たない",
+    "kana": "たたない"
+   },
+   "potential": {
+    "kanji": "立てる",
+    "kana": "たてる"
+   },
+   "volitional": {
+    "kanji": "立とう",
+    "kana": "たとう"
+   }
+  }
+ },
+ {
+  "word": "座る",
+  "reading": "すわる",
+  "meaning": "to sit",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "座ります",
+    "kana": "すわります"
+   },
+   "masu_neg": {
+    "kanji": "座りません",
+    "kana": "すわりません"
+   },
+   "past": {
+    "kanji": "座った",
+    "kana": "すわった"
+   },
+   "past_polite": {
+    "kanji": "座りました",
+    "kana": "すわりました"
+   },
+   "te": {
+    "kanji": "座って",
+    "kana": "すわって"
+   },
+   "nai": {
+    "kanji": "座らない",
+    "kana": "すわらない"
+   },
+   "potential": {
+    "kanji": "座れる",
+    "kana": "すわれる"
+   },
+   "volitional": {
+    "kanji": "座ろう",
+    "kana": "すわろう"
+   }
+  }
+ },
+ {
+  "word": "歩く",
+  "reading": "あるく",
+  "meaning": "to walk",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "歩きます",
+    "kana": "あるきます"
+   },
+   "masu_neg": {
+    "kanji": "歩きません",
+    "kana": "あるきません"
+   },
+   "past": {
+    "kanji": "歩いた",
+    "kana": "あるいた"
+   },
+   "past_polite": {
+    "kanji": "歩きました",
+    "kana": "あるきました"
+   },
+   "te": {
+    "kanji": "歩いて",
+    "kana": "あるいて"
+   },
+   "nai": {
+    "kanji": "歩かない",
+    "kana": "あるかない"
+   },
+   "potential": {
+    "kanji": "歩ける",
+    "kana": "あるける"
+   },
+   "volitional": {
+    "kanji": "歩こう",
+    "kana": "あるこう"
+   }
+  }
+ },
+ {
+  "word": "走る",
+  "reading": "はしる",
+  "meaning": "to run",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "走ります",
+    "kana": "はしります"
+   },
+   "masu_neg": {
+    "kanji": "走りません",
+    "kana": "はしりません"
+   },
+   "past": {
+    "kanji": "走った",
+    "kana": "はしった"
+   },
+   "past_polite": {
+    "kanji": "走りました",
+    "kana": "はしりました"
+   },
+   "te": {
+    "kanji": "走って",
+    "kana": "はしって"
+   },
+   "nai": {
+    "kanji": "走らない",
+    "kana": "はしらない"
+   },
+   "potential": {
+    "kanji": "走れる",
+    "kana": "はしれる"
+   },
+   "volitional": {
+    "kanji": "走ろう",
+    "kana": "はしろう"
+   }
+  }
+ },
+ {
+  "word": "泳ぐ",
+  "reading": "およぐ",
+  "meaning": "to swim",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "泳ぎます",
+    "kana": "およぎます"
+   },
+   "masu_neg": {
+    "kanji": "泳ぎません",
+    "kana": "およぎません"
+   },
+   "past": {
+    "kanji": "泳いだ",
+    "kana": "およいだ"
+   },
+   "past_polite": {
+    "kanji": "泳ぎました",
+    "kana": "およぎました"
+   },
+   "te": {
+    "kanji": "泳いで",
+    "kana": "およいで"
+   },
+   "nai": {
+    "kanji": "泳がない",
+    "kana": "およがない"
+   },
+   "potential": {
+    "kanji": "泳げる",
+    "kana": "およげる"
+   },
+   "volitional": {
+    "kanji": "泳ごう",
+    "kana": "およごう"
+   }
+  }
+ },
+ {
+  "word": "急ぐ",
+  "reading": "いそぐ",
+  "meaning": "to hurry",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "急ぎます",
+    "kana": "いそぎます"
+   },
+   "masu_neg": {
+    "kanji": "急ぎません",
+    "kana": "いそぎません"
+   },
+   "past": {
+    "kanji": "急いだ",
+    "kana": "いそいだ"
+   },
+   "past_polite": {
+    "kanji": "急ぎました",
+    "kana": "いそぎました"
+   },
+   "te": {
+    "kanji": "急いで",
+    "kana": "いそいで"
+   },
+   "nai": {
+    "kanji": "急がない",
+    "kana": "いそがない"
+   },
+   "potential": {
+    "kanji": "急げる",
+    "kana": "いそげる"
+   },
+   "volitional": {
+    "kanji": "急ごう",
+    "kana": "いそごう"
+   }
+  }
+ },
+ {
+  "word": "入る",
+  "reading": "はいる",
+  "meaning": "to enter",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "入ります",
+    "kana": "はいります"
+   },
+   "masu_neg": {
+    "kanji": "入りません",
+    "kana": "はいりません"
+   },
+   "past": {
+    "kanji": "入った",
+    "kana": "はいった"
+   },
+   "past_polite": {
+    "kanji": "入りました",
+    "kana": "はいりました"
+   },
+   "te": {
+    "kanji": "入って",
+    "kana": "はいって"
+   },
+   "nai": {
+    "kanji": "入らない",
+    "kana": "はいらない"
+   },
+   "potential": {
+    "kanji": "入れる",
+    "kana": "はいれる"
+   },
+   "volitional": {
+    "kanji": "入ろう",
+    "kana": "はいろう"
+   }
+  }
+ },
+ {
+  "word": "働く",
+  "reading": "はたらく",
+  "meaning": "to work",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "働きます",
+    "kana": "はたらきます"
+   },
+   "masu_neg": {
+    "kanji": "働きません",
+    "kana": "はたらきません"
+   },
+   "past": {
+    "kanji": "働いた",
+    "kana": "はたらいた"
+   },
+   "past_polite": {
+    "kanji": "働きました",
+    "kana": "はたらきました"
+   },
+   "te": {
+    "kanji": "働いて",
+    "kana": "はたらいて"
+   },
+   "nai": {
+    "kanji": "働かない",
+    "kana": "はたらかない"
+   },
+   "potential": {
+    "kanji": "働ける",
+    "kana": "はたらける"
+   },
+   "volitional": {
+    "kanji": "働こう",
+    "kana": "はたらこう"
+   }
+  }
+ },
+ {
+  "word": "休む",
+  "reading": "やすむ",
+  "meaning": "to rest, to take time off",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "休みます",
+    "kana": "やすみます"
+   },
+   "masu_neg": {
+    "kanji": "休みません",
+    "kana": "やすみません"
+   },
+   "past": {
+    "kanji": "休んだ",
+    "kana": "やすんだ"
+   },
+   "past_polite": {
+    "kanji": "休みました",
+    "kana": "やすみました"
+   },
+   "te": {
+    "kanji": "休んで",
+    "kana": "やすんで"
+   },
+   "nai": {
+    "kanji": "休まない",
+    "kana": "やすまない"
+   },
+   "potential": {
+    "kanji": "休める",
+    "kana": "やすめる"
+   },
+   "volitional": {
+    "kanji": "休もう",
+    "kana": "やすもう"
+   }
+  }
+ },
+ {
+  "word": "遊ぶ",
+  "reading": "あそぶ",
+  "meaning": "to play",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "遊びます",
+    "kana": "あそびます"
+   },
+   "masu_neg": {
+    "kanji": "遊びません",
+    "kana": "あそびません"
+   },
+   "past": {
+    "kanji": "遊んだ",
+    "kana": "あそんだ"
+   },
+   "past_polite": {
+    "kanji": "遊びました",
+    "kana": "あそびました"
+   },
+   "te": {
+    "kanji": "遊んで",
+    "kana": "あそんで"
+   },
+   "nai": {
+    "kanji": "遊ばない",
+    "kana": "あそばない"
+   },
+   "potential": {
+    "kanji": "遊べる",
+    "kana": "あそべる"
+   },
+   "volitional": {
+    "kanji": "遊ぼう",
+    "kana": "あそぼう"
+   }
+  }
+ },
+ {
+  "word": "呼ぶ",
+  "reading": "よぶ",
+  "meaning": "to call",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "呼びます",
+    "kana": "よびます"
+   },
+   "masu_neg": {
+    "kanji": "呼びません",
+    "kana": "よびません"
+   },
+   "past": {
+    "kanji": "呼んだ",
+    "kana": "よんだ"
+   },
+   "past_polite": {
+    "kanji": "呼びました",
+    "kana": "よびました"
+   },
+   "te": {
+    "kanji": "呼んで",
+    "kana": "よんで"
+   },
+   "nai": {
+    "kanji": "呼ばない",
+    "kana": "よばない"
+   },
+   "potential": {
+    "kanji": "呼べる",
+    "kana": "よべる"
+   },
+   "volitional": {
+    "kanji": "呼ぼう",
+    "kana": "よぼう"
+   }
+  }
+ },
+ {
+  "word": "死ぬ",
+  "reading": "しぬ",
+  "meaning": "to die",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "死にます",
+    "kana": "しにます"
+   },
+   "masu_neg": {
+    "kanji": "死にません",
+    "kana": "しにません"
+   },
+   "past": {
+    "kanji": "死んだ",
+    "kana": "しんだ"
+   },
+   "past_polite": {
+    "kanji": "死にました",
+    "kana": "しにました"
+   },
+   "te": {
+    "kanji": "死んで",
+    "kana": "しんで"
+   },
+   "nai": {
+    "kanji": "死なない",
+    "kana": "しなない"
+   },
+   "potential": {
+    "kanji": "死ねる",
+    "kana": "しねる"
+   },
+   "volitional": {
+    "kanji": "死のう",
+    "kana": "しのう"
+   }
+  }
+ },
+ {
+  "word": "洗う",
+  "reading": "あらう",
+  "meaning": "to wash",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "洗います",
+    "kana": "あらいます"
+   },
+   "masu_neg": {
+    "kanji": "洗いません",
+    "kana": "あらいません"
+   },
+   "past": {
+    "kanji": "洗った",
+    "kana": "あらった"
+   },
+   "past_polite": {
+    "kanji": "洗いました",
+    "kana": "あらいました"
+   },
+   "te": {
+    "kanji": "洗って",
+    "kana": "あらって"
+   },
+   "nai": {
+    "kanji": "洗わない",
+    "kana": "あらわない"
+   },
+   "potential": {
+    "kanji": "洗える",
+    "kana": "あらえる"
+   },
+   "volitional": {
+    "kanji": "洗おう",
+    "kana": "あらおう"
+   }
+  }
+ },
+ {
+  "word": "歌う",
+  "reading": "うたう",
+  "meaning": "to sing",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "歌います",
+    "kana": "うたいます"
+   },
+   "masu_neg": {
+    "kanji": "歌いません",
+    "kana": "うたいません"
+   },
+   "past": {
+    "kanji": "歌った",
+    "kana": "うたった"
+   },
+   "past_polite": {
+    "kanji": "歌いました",
+    "kana": "うたいました"
+   },
+   "te": {
+    "kanji": "歌って",
+    "kana": "うたって"
+   },
+   "nai": {
+    "kanji": "歌わない",
+    "kana": "うたわない"
+   },
+   "potential": {
+    "kanji": "歌える",
+    "kana": "うたえる"
+   },
+   "volitional": {
+    "kanji": "歌おう",
+    "kana": "うたおう"
+   }
+  }
+ },
+ {
+  "word": "笑う",
+  "reading": "わらう",
+  "meaning": "to laugh, to smile",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "笑います",
+    "kana": "わらいます"
+   },
+   "masu_neg": {
+    "kanji": "笑いません",
+    "kana": "わらいません"
+   },
+   "past": {
+    "kanji": "笑った",
+    "kana": "わらった"
+   },
+   "past_polite": {
+    "kanji": "笑いました",
+    "kana": "わらいました"
+   },
+   "te": {
+    "kanji": "笑って",
+    "kana": "わらって"
+   },
+   "nai": {
+    "kanji": "笑わない",
+    "kana": "わらわない"
+   },
+   "potential": {
+    "kanji": "笑える",
+    "kana": "わらえる"
+   },
+   "volitional": {
+    "kanji": "笑おう",
+    "kana": "わらおう"
+   }
+  }
+ },
+ {
+  "word": "泣く",
+  "reading": "なく",
+  "meaning": "to cry",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "泣きます",
+    "kana": "なきます"
+   },
+   "masu_neg": {
+    "kanji": "泣きません",
+    "kana": "なきません"
+   },
+   "past": {
+    "kanji": "泣いた",
+    "kana": "ないた"
+   },
+   "past_polite": {
+    "kanji": "泣きました",
+    "kana": "なきました"
+   },
+   "te": {
+    "kanji": "泣いて",
+    "kana": "ないて"
+   },
+   "nai": {
+    "kanji": "泣かない",
+    "kana": "なかない"
+   },
+   "potential": {
+    "kanji": "泣ける",
+    "kana": "なける"
+   },
+   "volitional": {
+    "kanji": "泣こう",
+    "kana": "なこう"
+   }
+  }
+ },
+ {
+  "word": "思う",
+  "reading": "おもう",
+  "meaning": "to think",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "思います",
+    "kana": "おもいます"
+   },
+   "masu_neg": {
+    "kanji": "思いません",
+    "kana": "おもいません"
+   },
+   "past": {
+    "kanji": "思った",
+    "kana": "おもった"
+   },
+   "past_polite": {
+    "kanji": "思いました",
+    "kana": "おもいました"
+   },
+   "te": {
+    "kanji": "思って",
+    "kana": "おもって"
+   },
+   "nai": {
+    "kanji": "思わない",
+    "kana": "おもわない"
+   },
+   "potential": {
+    "kanji": "思える",
+    "kana": "おもえる"
+   },
+   "volitional": {
+    "kanji": "思おう",
+    "kana": "おもおう"
+   }
+  }
+ },
+ {
+  "word": "言う",
+  "reading": "いう",
+  "meaning": "to say",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "言います",
+    "kana": "いいます"
+   },
+   "masu_neg": {
+    "kanji": "言いません",
+    "kana": "いいません"
+   },
+   "past": {
+    "kanji": "言った",
+    "kana": "いった"
+   },
+   "past_polite": {
+    "kanji": "言いました",
+    "kana": "いいました"
+   },
+   "te": {
+    "kanji": "言って",
+    "kana": "いって"
+   },
+   "nai": {
+    "kanji": "言わない",
+    "kana": "いわない"
+   },
+   "potential": {
+    "kanji": "言える",
+    "kana": "いえる"
+   },
+   "volitional": {
+    "kanji": "言おう",
+    "kana": "いおう"
+   }
+  }
+ },
+ {
+  "word": "知る",
+  "reading": "しる",
+  "meaning": "to know",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "知ります",
+    "kana": "しります"
+   },
+   "masu_neg": {
+    "kanji": "知りません",
+    "kana": "しりません"
+   },
+   "past": {
+    "kanji": "知った",
+    "kana": "しった"
+   },
+   "past_polite": {
+    "kanji": "知りました",
+    "kana": "しりました"
+   },
+   "te": {
+    "kanji": "知って",
+    "kana": "しって"
+   },
+   "nai": {
+    "kanji": "知らない",
+    "kana": "しらない"
+   },
+   "potential": {
+    "kanji": "知れる",
+    "kana": "しれる"
+   },
+   "volitional": {
+    "kanji": "知ろう",
+    "kana": "しろう"
+   }
+  }
+ },
+ {
+  "word": "送る",
+  "reading": "おくる",
+  "meaning": "to send",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "送ります",
+    "kana": "おくります"
+   },
+   "masu_neg": {
+    "kanji": "送りません",
+    "kana": "おくりません"
+   },
+   "past": {
+    "kanji": "送った",
+    "kana": "おくった"
+   },
+   "past_polite": {
+    "kanji": "送りました",
+    "kana": "おくりました"
+   },
+   "te": {
+    "kanji": "送って",
+    "kana": "おくって"
+   },
+   "nai": {
+    "kanji": "送らない",
+    "kana": "おくらない"
+   },
+   "potential": {
+    "kanji": "送れる",
+    "kana": "おくれる"
+   },
+   "volitional": {
+    "kanji": "送ろう",
+    "kana": "おくろう"
+   }
+  }
+ },
+ {
+  "word": "取る",
+  "reading": "とる",
+  "meaning": "to take",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "取ります",
+    "kana": "とります"
+   },
+   "masu_neg": {
+    "kanji": "取りません",
+    "kana": "とりません"
+   },
+   "past": {
+    "kanji": "取った",
+    "kana": "とった"
+   },
+   "past_polite": {
+    "kanji": "取りました",
+    "kana": "とりました"
+   },
+   "te": {
+    "kanji": "取って",
+    "kana": "とって"
+   },
+   "nai": {
+    "kanji": "取らない",
+    "kana": "とらない"
+   },
+   "potential": {
+    "kanji": "取れる",
+    "kana": "とれる"
+   },
+   "volitional": {
+    "kanji": "取ろう",
+    "kana": "とろう"
+   }
+  }
+ },
+ {
+  "word": "撮る",
+  "reading": "とる",
+  "meaning": "to take (a photo)",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "撮ります",
+    "kana": "とります"
+   },
+   "masu_neg": {
+    "kanji": "撮りません",
+    "kana": "とりません"
+   },
+   "past": {
+    "kanji": "撮った",
+    "kana": "とった"
+   },
+   "past_polite": {
+    "kanji": "撮りました",
+    "kana": "とりました"
+   },
+   "te": {
+    "kanji": "撮って",
+    "kana": "とって"
+   },
+   "nai": {
+    "kanji": "撮らない",
+    "kana": "とらない"
+   },
+   "potential": {
+    "kanji": "撮れる",
+    "kana": "とれる"
+   },
+   "volitional": {
+    "kanji": "撮ろう",
+    "kana": "とろう"
+   }
+  }
+ },
+ {
+  "word": "乗る",
+  "reading": "のる",
+  "meaning": "to ride, to get on",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "乗ります",
+    "kana": "のります"
+   },
+   "masu_neg": {
+    "kanji": "乗りません",
+    "kana": "のりません"
+   },
+   "past": {
+    "kanji": "乗った",
+    "kana": "のった"
+   },
+   "past_polite": {
+    "kanji": "乗りました",
+    "kana": "のりました"
+   },
+   "te": {
+    "kanji": "乗って",
+    "kana": "のって"
+   },
+   "nai": {
+    "kanji": "乗らない",
+    "kana": "のらない"
+   },
+   "potential": {
+    "kanji": "乗れる",
+    "kana": "のれる"
+   },
+   "volitional": {
+    "kanji": "乗ろう",
+    "kana": "のろう"
+   }
+  }
+ },
+ {
+  "word": "降る",
+  "reading": "ふる",
+  "meaning": "to fall (rain, snow)",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "降ります",
+    "kana": "ふります"
+   },
+   "masu_neg": {
+    "kanji": "降りません",
+    "kana": "ふりません"
+   },
+   "past": {
+    "kanji": "降った",
+    "kana": "ふった"
+   },
+   "past_polite": {
+    "kanji": "降りました",
+    "kana": "ふりました"
+   },
+   "te": {
+    "kanji": "降って",
+    "kana": "ふって"
+   },
+   "nai": {
+    "kanji": "降らない",
+    "kana": "ふらない"
+   },
+   "potential": {
+    "kanji": "降れる",
+    "kana": "ふれる"
+   },
+   "volitional": {
+    "kanji": "降ろう",
+    "kana": "ふろう"
+   }
+  }
+ },
+ {
+  "word": "吹く",
+  "reading": "ふく",
+  "meaning": "to blow",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "吹きます",
+    "kana": "ふきます"
+   },
+   "masu_neg": {
+    "kanji": "吹きません",
+    "kana": "ふきません"
+   },
+   "past": {
+    "kanji": "吹いた",
+    "kana": "ふいた"
+   },
+   "past_polite": {
+    "kanji": "吹きました",
+    "kana": "ふきました"
+   },
+   "te": {
+    "kanji": "吹いて",
+    "kana": "ふいて"
+   },
+   "nai": {
+    "kanji": "吹かない",
+    "kana": "ふかない"
+   },
+   "potential": {
+    "kanji": "吹ける",
+    "kana": "ふける"
+   },
+   "volitional": {
+    "kanji": "吹こう",
+    "kana": "ふこう"
+   }
+  }
+ },
+ {
+  "word": "咲く",
+  "reading": "さく",
+  "meaning": "to bloom",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "咲きます",
+    "kana": "さきます"
+   },
+   "masu_neg": {
+    "kanji": "咲きません",
+    "kana": "さきません"
+   },
+   "past": {
+    "kanji": "咲いた",
+    "kana": "さいた"
+   },
+   "past_polite": {
+    "kanji": "咲きました",
+    "kana": "さきました"
+   },
+   "te": {
+    "kanji": "咲いて",
+    "kana": "さいて"
+   },
+   "nai": {
+    "kanji": "咲かない",
+    "kana": "さかない"
+   },
+   "potential": {
+    "kanji": "咲ける",
+    "kana": "さける"
+   },
+   "volitional": {
+    "kanji": "咲こう",
+    "kana": "さこう"
+   }
+  }
+ },
+ {
+  "word": "散る",
+  "reading": "ちる",
+  "meaning": "to scatter, to fall (petals)",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "散ります",
+    "kana": "ちります"
+   },
+   "masu_neg": {
+    "kanji": "散りません",
+    "kana": "ちりません"
+   },
+   "past": {
+    "kanji": "散った",
+    "kana": "ちった"
+   },
+   "past_polite": {
+    "kanji": "散りました",
+    "kana": "ちりました"
+   },
+   "te": {
+    "kanji": "散って",
+    "kana": "ちって"
+   },
+   "nai": {
+    "kanji": "散らない",
+    "kana": "ちらない"
+   },
+   "potential": {
+    "kanji": "散れる",
+    "kana": "ちれる"
+   },
+   "volitional": {
+    "kanji": "散ろう",
+    "kana": "ちろう"
+   }
+  }
+ },
+ {
+  "word": "運ぶ",
+  "reading": "はこぶ",
+  "meaning": "to carry, to transport",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "運びます",
+    "kana": "はこびます"
+   },
+   "masu_neg": {
+    "kanji": "運びません",
+    "kana": "はこびません"
+   },
+   "past": {
+    "kanji": "運んだ",
+    "kana": "はこんだ"
+   },
+   "past_polite": {
+    "kanji": "運びました",
+    "kana": "はこびました"
+   },
+   "te": {
+    "kanji": "運んで",
+    "kana": "はこんで"
+   },
+   "nai": {
+    "kanji": "運ばない",
+    "kana": "はこばない"
+   },
+   "potential": {
+    "kanji": "運べる",
+    "kana": "はこべる"
+   },
+   "volitional": {
+    "kanji": "運ぼう",
+    "kana": "はこぼう"
+   }
+  }
+ },
+ {
+  "word": "掘る",
+  "reading": "ほる",
+  "meaning": "to dig",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "掘ります",
+    "kana": "ほります"
+   },
+   "masu_neg": {
+    "kanji": "掘りません",
+    "kana": "ほりません"
+   },
+   "past": {
+    "kanji": "掘った",
+    "kana": "ほった"
+   },
+   "past_polite": {
+    "kanji": "掘りました",
+    "kana": "ほりました"
+   },
+   "te": {
+    "kanji": "掘って",
+    "kana": "ほって"
+   },
+   "nai": {
+    "kanji": "掘らない",
+    "kana": "ほらない"
+   },
+   "potential": {
+    "kanji": "掘れる",
+    "kana": "ほれる"
+   },
+   "volitional": {
+    "kanji": "掘ろう",
+    "kana": "ほろう"
+   }
+  }
+ },
+ {
+  "word": "選ぶ",
+  "reading": "えらぶ",
+  "meaning": "to choose",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "選びます",
+    "kana": "えらびます"
+   },
+   "masu_neg": {
+    "kanji": "選びません",
+    "kana": "えらびません"
+   },
+   "past": {
+    "kanji": "選んだ",
+    "kana": "えらんだ"
+   },
+   "past_polite": {
+    "kanji": "選びました",
+    "kana": "えらびました"
+   },
+   "te": {
+    "kanji": "選んで",
+    "kana": "えらんで"
+   },
+   "nai": {
+    "kanji": "選ばない",
+    "kana": "えらばない"
+   },
+   "potential": {
+    "kanji": "選べる",
+    "kana": "えらべる"
+   },
+   "volitional": {
+    "kanji": "選ぼう",
+    "kana": "えらぼう"
+   }
+  }
+ },
+ {
+  "word": "払う",
+  "reading": "はらう",
+  "meaning": "to pay",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "払います",
+    "kana": "はらいます"
+   },
+   "masu_neg": {
+    "kanji": "払いません",
+    "kana": "はらいません"
+   },
+   "past": {
+    "kanji": "払った",
+    "kana": "はらった"
+   },
+   "past_polite": {
+    "kanji": "払いました",
+    "kana": "はらいました"
+   },
+   "te": {
+    "kanji": "払って",
+    "kana": "はらって"
+   },
+   "nai": {
+    "kanji": "払わない",
+    "kana": "はらわない"
+   },
+   "potential": {
+    "kanji": "払える",
+    "kana": "はらえる"
+   },
+   "volitional": {
+    "kanji": "払おう",
+    "kana": "はらおう"
+   }
+  }
+ },
+ {
+  "word": "手伝う",
+  "reading": "てつだう",
+  "meaning": "to help",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "手伝います",
+    "kana": "てつだいます"
+   },
+   "masu_neg": {
+    "kanji": "手伝いません",
+    "kana": "てつだいません"
+   },
+   "past": {
+    "kanji": "手伝った",
+    "kana": "てつだった"
+   },
+   "past_polite": {
+    "kanji": "手伝いました",
+    "kana": "てつだいました"
+   },
+   "te": {
+    "kanji": "手伝って",
+    "kana": "てつだって"
+   },
+   "nai": {
+    "kanji": "手伝わない",
+    "kana": "てつだわない"
+   },
+   "potential": {
+    "kanji": "手伝える",
+    "kana": "てつだえる"
+   },
+   "volitional": {
+    "kanji": "手伝おう",
+    "kana": "てつだおう"
+   }
+  }
+ },
+ {
+  "word": "習う",
+  "reading": "ならう",
+  "meaning": "to learn",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "習います",
+    "kana": "ならいます"
+   },
+   "masu_neg": {
+    "kanji": "習いません",
+    "kana": "ならいません"
+   },
+   "past": {
+    "kanji": "習った",
+    "kana": "ならった"
+   },
+   "past_polite": {
+    "kanji": "習いました",
+    "kana": "ならいました"
+   },
+   "te": {
+    "kanji": "習って",
+    "kana": "ならって"
+   },
+   "nai": {
+    "kanji": "習わない",
+    "kana": "ならわない"
+   },
+   "potential": {
+    "kanji": "習える",
+    "kana": "ならえる"
+   },
+   "volitional": {
+    "kanji": "習おう",
+    "kana": "ならおう"
+   }
+  }
+ },
+ {
+  "word": "住む",
+  "reading": "すむ",
+  "meaning": "to live, to reside",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "住みます",
+    "kana": "すみます"
+   },
+   "masu_neg": {
+    "kanji": "住みません",
+    "kana": "すみません"
+   },
+   "past": {
+    "kanji": "住んだ",
+    "kana": "すんだ"
+   },
+   "past_polite": {
+    "kanji": "住みました",
+    "kana": "すみました"
+   },
+   "te": {
+    "kanji": "住んで",
+    "kana": "すんで"
+   },
+   "nai": {
+    "kanji": "住まない",
+    "kana": "すまない"
+   },
+   "potential": {
+    "kanji": "住める",
+    "kana": "すめる"
+   },
+   "volitional": {
+    "kanji": "住もう",
+    "kana": "すもう"
+   }
+  }
+ },
+ {
+  "word": "困る",
+  "reading": "こまる",
+  "meaning": "to be troubled",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "困ります",
+    "kana": "こまります"
+   },
+   "masu_neg": {
+    "kanji": "困りません",
+    "kana": "こまりません"
+   },
+   "past": {
+    "kanji": "困った",
+    "kana": "こまった"
+   },
+   "past_polite": {
+    "kanji": "困りました",
+    "kana": "こまりました"
+   },
+   "te": {
+    "kanji": "困って",
+    "kana": "こまって"
+   },
+   "nai": {
+    "kanji": "困らない",
+    "kana": "こまらない"
+   },
+   "potential": {
+    "kanji": "困れる",
+    "kana": "こまれる"
+   },
+   "volitional": {
+    "kanji": "困ろう",
+    "kana": "こまろう"
+   }
+  }
+ },
+ {
+  "word": "始まる",
+  "reading": "はじまる",
+  "meaning": "to begin (something begins)",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "始まります",
+    "kana": "はじまります"
+   },
+   "masu_neg": {
+    "kanji": "始まりません",
+    "kana": "はじまりません"
+   },
+   "past": {
+    "kanji": "始まった",
+    "kana": "はじまった"
+   },
+   "past_polite": {
+    "kanji": "始まりました",
+    "kana": "はじまりました"
+   },
+   "te": {
+    "kanji": "始まって",
+    "kana": "はじまって"
+   },
+   "nai": {
+    "kanji": "始まらない",
+    "kana": "はじまらない"
+   },
+   "potential": {
+    "kanji": "始まれる",
+    "kana": "はじまれる"
+   },
+   "volitional": {
+    "kanji": "始まろう",
+    "kana": "はじまろう"
+   }
+  }
+ },
+ {
+  "word": "終わる",
+  "reading": "おわる",
+  "meaning": "to end",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "終わります",
+    "kana": "おわります"
+   },
+   "masu_neg": {
+    "kanji": "終わりません",
+    "kana": "おわりません"
+   },
+   "past": {
+    "kanji": "終わった",
+    "kana": "おわった"
+   },
+   "past_polite": {
+    "kanji": "終わりました",
+    "kana": "おわりました"
+   },
+   "te": {
+    "kanji": "終わって",
+    "kana": "おわって"
+   },
+   "nai": {
+    "kanji": "終わらない",
+    "kana": "おわらない"
+   },
+   "potential": {
+    "kanji": "終われる",
+    "kana": "おわれる"
+   },
+   "volitional": {
+    "kanji": "終わろう",
+    "kana": "おわろう"
+   }
+  }
+ },
+ {
+  "word": "変わる",
+  "reading": "かわる",
+  "meaning": "to change (something changes)",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "変わります",
+    "kana": "かわります"
+   },
+   "masu_neg": {
+    "kanji": "変わりません",
+    "kana": "かわりません"
+   },
+   "past": {
+    "kanji": "変わった",
+    "kana": "かわった"
+   },
+   "past_polite": {
+    "kanji": "変わりました",
+    "kana": "かわりました"
+   },
+   "te": {
+    "kanji": "変わって",
+    "kana": "かわって"
+   },
+   "nai": {
+    "kanji": "変わらない",
+    "kana": "かわらない"
+   },
+   "potential": {
+    "kanji": "変われる",
+    "kana": "かわれる"
+   },
+   "volitional": {
+    "kanji": "変わろう",
+    "kana": "かわろう"
+   }
+  }
+ },
+ {
+  "word": "止まる",
+  "reading": "とまる",
+  "meaning": "to stop",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "止まります",
+    "kana": "とまります"
+   },
+   "masu_neg": {
+    "kanji": "止まりません",
+    "kana": "とまりません"
+   },
+   "past": {
+    "kanji": "止まった",
+    "kana": "とまった"
+   },
+   "past_polite": {
+    "kanji": "止まりました",
+    "kana": "とまりました"
+   },
+   "te": {
+    "kanji": "止まって",
+    "kana": "とまって"
+   },
+   "nai": {
+    "kanji": "止まらない",
+    "kana": "とまらない"
+   },
+   "potential": {
+    "kanji": "止まれる",
+    "kana": "とまれる"
+   },
+   "volitional": {
+    "kanji": "止まろう",
+    "kana": "とまろう"
+   }
+  }
+ },
+ {
+  "word": "曲がる",
+  "reading": "まがる",
+  "meaning": "to turn, to bend",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "曲がります",
+    "kana": "まがります"
+   },
+   "masu_neg": {
+    "kanji": "曲がりません",
+    "kana": "まがりません"
+   },
+   "past": {
+    "kanji": "曲がった",
+    "kana": "まがった"
+   },
+   "past_polite": {
+    "kanji": "曲がりました",
+    "kana": "まがりました"
+   },
+   "te": {
+    "kanji": "曲がって",
+    "kana": "まがって"
+   },
+   "nai": {
+    "kanji": "曲がらない",
+    "kana": "まがらない"
+   },
+   "potential": {
+    "kanji": "曲がれる",
+    "kana": "まがれる"
+   },
+   "volitional": {
+    "kanji": "曲がろう",
+    "kana": "まがろう"
+   }
+  }
+ },
+ {
+  "word": "登る",
+  "reading": "のぼる",
+  "meaning": "to climb",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "登ります",
+    "kana": "のぼります"
+   },
+   "masu_neg": {
+    "kanji": "登りません",
+    "kana": "のぼりません"
+   },
+   "past": {
+    "kanji": "登った",
+    "kana": "のぼった"
+   },
+   "past_polite": {
+    "kanji": "登りました",
+    "kana": "のぼりました"
+   },
+   "te": {
+    "kanji": "登って",
+    "kana": "のぼって"
+   },
+   "nai": {
+    "kanji": "登らない",
+    "kana": "のぼらない"
+   },
+   "potential": {
+    "kanji": "登れる",
+    "kana": "のぼれる"
+   },
+   "volitional": {
+    "kanji": "登ろう",
+    "kana": "のぼろう"
+   }
+  }
+ },
+ {
+  "word": "釣る",
+  "reading": "つる",
+  "meaning": "to fish",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "釣ります",
+    "kana": "つります"
+   },
+   "masu_neg": {
+    "kanji": "釣りません",
+    "kana": "つりません"
+   },
+   "past": {
+    "kanji": "釣った",
+    "kana": "つった"
+   },
+   "past_polite": {
+    "kanji": "釣りました",
+    "kana": "つりました"
+   },
+   "te": {
+    "kanji": "釣って",
+    "kana": "つって"
+   },
+   "nai": {
+    "kanji": "釣らない",
+    "kana": "つらない"
+   },
+   "potential": {
+    "kanji": "釣れる",
+    "kana": "つれる"
+   },
+   "volitional": {
+    "kanji": "釣ろう",
+    "kana": "つろう"
+   }
+  }
+ },
+ {
+  "word": "捕まえる",
+  "reading": "つかまえる",
+  "meaning": "to catch",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "捕まえます",
+    "kana": "つかまえます"
+   },
+   "masu_neg": {
+    "kanji": "捕まえません",
+    "kana": "つかまえません"
+   },
+   "past": {
+    "kanji": "捕まえた",
+    "kana": "つかまえた"
+   },
+   "past_polite": {
+    "kanji": "捕まえました",
+    "kana": "つかまえました"
+   },
+   "te": {
+    "kanji": "捕まえて",
+    "kana": "つかまえて"
+   },
+   "nai": {
+    "kanji": "捕まえない",
+    "kana": "つかまえない"
+   },
+   "potential": {
+    "kanji": "捕まえられる",
+    "kana": "つかまえられる"
+   },
+   "volitional": {
+    "kanji": "捕まえよう",
+    "kana": "つかまえよう"
+   }
+  }
+ },
+ {
+  "word": "返す",
+  "reading": "かえす",
+  "meaning": "to give back, to return",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "返します",
+    "kana": "かえします"
+   },
+   "masu_neg": {
+    "kanji": "返しません",
+    "kana": "かえしません"
+   },
+   "past": {
+    "kanji": "返した",
+    "kana": "かえした"
+   },
+   "past_polite": {
+    "kanji": "返しました",
+    "kana": "かえしました"
+   },
+   "te": {
+    "kanji": "返して",
+    "kana": "かえして"
+   },
+   "nai": {
+    "kanji": "返さない",
+    "kana": "かえさない"
+   },
+   "potential": {
+    "kanji": "返せる",
+    "kana": "かえせる"
+   },
+   "volitional": {
+    "kanji": "返そう",
+    "kana": "かえそう"
+   }
+  }
+ },
+ {
+  "word": "直す",
+  "reading": "なおす",
+  "meaning": "to fix, to correct",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "直します",
+    "kana": "なおします"
+   },
+   "masu_neg": {
+    "kanji": "直しません",
+    "kana": "なおしません"
+   },
+   "past": {
+    "kanji": "直した",
+    "kana": "なおした"
+   },
+   "past_polite": {
+    "kanji": "直しました",
+    "kana": "なおしました"
+   },
+   "te": {
+    "kanji": "直して",
+    "kana": "なおして"
+   },
+   "nai": {
+    "kanji": "直さない",
+    "kana": "なおさない"
+   },
+   "potential": {
+    "kanji": "直せる",
+    "kana": "なおせる"
+   },
+   "volitional": {
+    "kanji": "直そう",
+    "kana": "なおそう"
+   }
+  }
+ },
+ {
+  "word": "探す",
+  "reading": "さがす",
+  "meaning": "to look for",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "探します",
+    "kana": "さがします"
+   },
+   "masu_neg": {
+    "kanji": "探しません",
+    "kana": "さがしません"
+   },
+   "past": {
+    "kanji": "探した",
+    "kana": "さがした"
+   },
+   "past_polite": {
+    "kanji": "探しました",
+    "kana": "さがしました"
+   },
+   "te": {
+    "kanji": "探して",
+    "kana": "さがして"
+   },
+   "nai": {
+    "kanji": "探さない",
+    "kana": "さがさない"
+   },
+   "potential": {
+    "kanji": "探せる",
+    "kana": "さがせる"
+   },
+   "volitional": {
+    "kanji": "探そう",
+    "kana": "さがそう"
+   }
+  }
+ },
+ {
+  "word": "貸す",
+  "reading": "かす",
+  "meaning": "to lend",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "貸します",
+    "kana": "かします"
+   },
+   "masu_neg": {
+    "kanji": "貸しません",
+    "kana": "かしません"
+   },
+   "past": {
+    "kanji": "貸した",
+    "kana": "かした"
+   },
+   "past_polite": {
+    "kanji": "貸しました",
+    "kana": "かしました"
+   },
+   "te": {
+    "kanji": "貸して",
+    "kana": "かして"
+   },
+   "nai": {
+    "kanji": "貸さない",
+    "kana": "かさない"
+   },
+   "potential": {
+    "kanji": "貸せる",
+    "kana": "かせる"
+   },
+   "volitional": {
+    "kanji": "貸そう",
+    "kana": "かそう"
+   }
+  }
+ },
+ {
+  "word": "出す",
+  "reading": "だす",
+  "meaning": "to take out, to submit",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "出します",
+    "kana": "だします"
+   },
+   "masu_neg": {
+    "kanji": "出しません",
+    "kana": "だしません"
+   },
+   "past": {
+    "kanji": "出した",
+    "kana": "だした"
+   },
+   "past_polite": {
+    "kanji": "出しました",
+    "kana": "だしました"
+   },
+   "te": {
+    "kanji": "出して",
+    "kana": "だして"
+   },
+   "nai": {
+    "kanji": "出さない",
+    "kana": "ださない"
+   },
+   "potential": {
+    "kanji": "出せる",
+    "kana": "だせる"
+   },
+   "volitional": {
+    "kanji": "出そう",
+    "kana": "だそう"
+   }
+  }
+ },
+ {
+  "word": "押す",
+  "reading": "おす",
+  "meaning": "to push",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "押します",
+    "kana": "おします"
+   },
+   "masu_neg": {
+    "kanji": "押しません",
+    "kana": "おしません"
+   },
+   "past": {
+    "kanji": "押した",
+    "kana": "おした"
+   },
+   "past_polite": {
+    "kanji": "押しました",
+    "kana": "おしました"
+   },
+   "te": {
+    "kanji": "押して",
+    "kana": "おして"
+   },
+   "nai": {
+    "kanji": "押さない",
+    "kana": "おさない"
+   },
+   "potential": {
+    "kanji": "押せる",
+    "kana": "おせる"
+   },
+   "volitional": {
+    "kanji": "押そう",
+    "kana": "おそう"
+   }
+  }
+ },
+ {
+  "word": "引く",
+  "reading": "ひく",
+  "meaning": "to pull",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "引きます",
+    "kana": "ひきます"
+   },
+   "masu_neg": {
+    "kanji": "引きません",
+    "kana": "ひきません"
+   },
+   "past": {
+    "kanji": "引いた",
+    "kana": "ひいた"
+   },
+   "past_polite": {
+    "kanji": "引きました",
+    "kana": "ひきました"
+   },
+   "te": {
+    "kanji": "引いて",
+    "kana": "ひいて"
+   },
+   "nai": {
+    "kanji": "引かない",
+    "kana": "ひかない"
+   },
+   "potential": {
+    "kanji": "引ける",
+    "kana": "ひける"
+   },
+   "volitional": {
+    "kanji": "引こう",
+    "kana": "ひこう"
+   }
+  }
+ },
+ {
+  "word": "置く",
+  "reading": "おく",
+  "meaning": "to put, to place",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "置きます",
+    "kana": "おきます"
+   },
+   "masu_neg": {
+    "kanji": "置きません",
+    "kana": "おきません"
+   },
+   "past": {
+    "kanji": "置いた",
+    "kana": "おいた"
+   },
+   "past_polite": {
+    "kanji": "置きました",
+    "kana": "おきました"
+   },
+   "te": {
+    "kanji": "置いて",
+    "kana": "おいて"
+   },
+   "nai": {
+    "kanji": "置かない",
+    "kana": "おかない"
+   },
+   "potential": {
+    "kanji": "置ける",
+    "kana": "おける"
+   },
+   "volitional": {
+    "kanji": "置こう",
+    "kana": "おこう"
+   }
+  }
+ },
+ {
+  "word": "届く",
+  "reading": "とどく",
+  "meaning": "to reach, to be delivered",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "届きます",
+    "kana": "とどきます"
+   },
+   "masu_neg": {
+    "kanji": "届きません",
+    "kana": "とどきません"
+   },
+   "past": {
+    "kanji": "届いた",
+    "kana": "とどいた"
+   },
+   "past_polite": {
+    "kanji": "届きました",
+    "kana": "とどきました"
+   },
+   "te": {
+    "kanji": "届いて",
+    "kana": "とどいて"
+   },
+   "nai": {
+    "kanji": "届かない",
+    "kana": "とどかない"
+   },
+   "potential": {
+    "kanji": "届ける",
+    "kana": "とどける"
+   },
+   "volitional": {
+    "kanji": "届こう",
+    "kana": "とどこう"
+   }
+  }
+ },
+ {
+  "word": "動く",
+  "reading": "うごく",
+  "meaning": "to move",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "動きます",
+    "kana": "うごきます"
+   },
+   "masu_neg": {
+    "kanji": "動きません",
+    "kana": "うごきません"
+   },
+   "past": {
+    "kanji": "動いた",
+    "kana": "うごいた"
+   },
+   "past_polite": {
+    "kanji": "動きました",
+    "kana": "うごきました"
+   },
+   "te": {
+    "kanji": "動いて",
+    "kana": "うごいて"
+   },
+   "nai": {
+    "kanji": "動かない",
+    "kana": "うごかない"
+   },
+   "potential": {
+    "kanji": "動ける",
+    "kana": "うごける"
+   },
+   "volitional": {
+    "kanji": "動こう",
+    "kana": "うごこう"
+   }
+  }
+ },
+ {
+  "word": "驚く",
+  "reading": "おどろく",
+  "meaning": "to be surprised",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "驚きます",
+    "kana": "おどろきます"
+   },
+   "masu_neg": {
+    "kanji": "驚きません",
+    "kana": "おどろきません"
+   },
+   "past": {
+    "kanji": "驚いた",
+    "kana": "おどろいた"
+   },
+   "past_polite": {
+    "kanji": "驚きました",
+    "kana": "おどろきました"
+   },
+   "te": {
+    "kanji": "驚いて",
+    "kana": "おどろいて"
+   },
+   "nai": {
+    "kanji": "驚かない",
+    "kana": "おどろかない"
+   },
+   "potential": {
+    "kanji": "驚ける",
+    "kana": "おどろける"
+   },
+   "volitional": {
+    "kanji": "驚こう",
+    "kana": "おどろこう"
+   }
+  }
+ },
+ {
+  "word": "頑張る",
+  "reading": "がんばる",
+  "meaning": "to do one's best",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "頑張ります",
+    "kana": "がんばります"
+   },
+   "masu_neg": {
+    "kanji": "頑張りません",
+    "kana": "がんばりません"
+   },
+   "past": {
+    "kanji": "頑張った",
+    "kana": "がんばった"
+   },
+   "past_polite": {
+    "kanji": "頑張りました",
+    "kana": "がんばりました"
+   },
+   "te": {
+    "kanji": "頑張って",
+    "kana": "がんばって"
+   },
+   "nai": {
+    "kanji": "頑張らない",
+    "kana": "がんばらない"
+   },
+   "potential": {
+    "kanji": "頑張れる",
+    "kana": "がんばれる"
+   },
+   "volitional": {
+    "kanji": "頑張ろう",
+    "kana": "がんばろう"
+   }
+  }
+ },
+ {
+  "word": "残る",
+  "reading": "のこる",
+  "meaning": "to remain",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "残ります",
+    "kana": "のこります"
+   },
+   "masu_neg": {
+    "kanji": "残りません",
+    "kana": "のこりません"
+   },
+   "past": {
+    "kanji": "残った",
+    "kana": "のこった"
+   },
+   "past_polite": {
+    "kanji": "残りました",
+    "kana": "のこりました"
+   },
+   "te": {
+    "kanji": "残って",
+    "kana": "のこって"
+   },
+   "nai": {
+    "kanji": "残らない",
+    "kana": "のこらない"
+   },
+   "potential": {
+    "kanji": "残れる",
+    "kana": "のこれる"
+   },
+   "volitional": {
+    "kanji": "残ろう",
+    "kana": "のころう"
+   }
+  }
+ },
+ {
+  "word": "渡る",
+  "reading": "わたる",
+  "meaning": "to cross",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "渡ります",
+    "kana": "わたります"
+   },
+   "masu_neg": {
+    "kanji": "渡りません",
+    "kana": "わたりません"
+   },
+   "past": {
+    "kanji": "渡った",
+    "kana": "わたった"
+   },
+   "past_polite": {
+    "kanji": "渡りました",
+    "kana": "わたりました"
+   },
+   "te": {
+    "kanji": "渡って",
+    "kana": "わたって"
+   },
+   "nai": {
+    "kanji": "渡らない",
+    "kana": "わたらない"
+   },
+   "potential": {
+    "kanji": "渡れる",
+    "kana": "わたれる"
+   },
+   "volitional": {
+    "kanji": "渡ろう",
+    "kana": "わたろう"
+   }
+  }
+ },
+ {
+  "word": "眠る",
+  "reading": "ねむる",
+  "meaning": "to sleep, to fall asleep",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "眠ります",
+    "kana": "ねむります"
+   },
+   "masu_neg": {
+    "kanji": "眠りません",
+    "kana": "ねむりません"
+   },
+   "past": {
+    "kanji": "眠った",
+    "kana": "ねむった"
+   },
+   "past_polite": {
+    "kanji": "眠りました",
+    "kana": "ねむりました"
+   },
+   "te": {
+    "kanji": "眠って",
+    "kana": "ねむって"
+   },
+   "nai": {
+    "kanji": "眠らない",
+    "kana": "ねむらない"
+   },
+   "potential": {
+    "kanji": "眠れる",
+    "kana": "ねむれる"
+   },
+   "volitional": {
+    "kanji": "眠ろう",
+    "kana": "ねむろう"
+   }
+  }
+ },
+ {
+  "word": "怒る",
+  "reading": "おこる",
+  "meaning": "to get angry",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "怒ります",
+    "kana": "おこります"
+   },
+   "masu_neg": {
+    "kanji": "怒りません",
+    "kana": "おこりません"
+   },
+   "past": {
+    "kanji": "怒った",
+    "kana": "おこった"
+   },
+   "past_polite": {
+    "kanji": "怒りました",
+    "kana": "おこりました"
+   },
+   "te": {
+    "kanji": "怒って",
+    "kana": "おこって"
+   },
+   "nai": {
+    "kanji": "怒らない",
+    "kana": "おこらない"
+   },
+   "potential": {
+    "kanji": "怒れる",
+    "kana": "おこれる"
+   },
+   "volitional": {
+    "kanji": "怒ろう",
+    "kana": "おころう"
+   }
+  }
+ },
+ {
+  "word": "光る",
+  "reading": "ひかる",
+  "meaning": "to shine",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "光ります",
+    "kana": "ひかります"
+   },
+   "masu_neg": {
+    "kanji": "光りません",
+    "kana": "ひかりません"
+   },
+   "past": {
+    "kanji": "光った",
+    "kana": "ひかった"
+   },
+   "past_polite": {
+    "kanji": "光りました",
+    "kana": "ひかりました"
+   },
+   "te": {
+    "kanji": "光って",
+    "kana": "ひかって"
+   },
+   "nai": {
+    "kanji": "光らない",
+    "kana": "ひからない"
+   },
+   "potential": {
+    "kanji": "光れる",
+    "kana": "ひかれる"
+   },
+   "volitional": {
+    "kanji": "光ろう",
+    "kana": "ひかろう"
+   }
+  }
+ },
+ {
+  "word": "飛ぶ",
+  "reading": "とぶ",
+  "meaning": "to fly, to jump",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "飛びます",
+    "kana": "とびます"
+   },
+   "masu_neg": {
+    "kanji": "飛びません",
+    "kana": "とびません"
+   },
+   "past": {
+    "kanji": "飛んだ",
+    "kana": "とんだ"
+   },
+   "past_polite": {
+    "kanji": "飛びました",
+    "kana": "とびました"
+   },
+   "te": {
+    "kanji": "飛んで",
+    "kana": "とんで"
+   },
+   "nai": {
+    "kanji": "飛ばない",
+    "kana": "とばない"
+   },
+   "potential": {
+    "kanji": "飛べる",
+    "kana": "とべる"
+   },
+   "volitional": {
+    "kanji": "飛ぼう",
+    "kana": "とぼう"
+   }
+  }
+ },
+ {
+  "word": "着替える",
+  "reading": "きがえる",
+  "meaning": "to change clothes",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "着替えます",
+    "kana": "きがえます"
+   },
+   "masu_neg": {
+    "kanji": "着替えません",
+    "kana": "きがえません"
+   },
+   "past": {
+    "kanji": "着替えた",
+    "kana": "きがえた"
+   },
+   "past_polite": {
+    "kanji": "着替えました",
+    "kana": "きがえました"
+   },
+   "te": {
+    "kanji": "着替えて",
+    "kana": "きがえて"
+   },
+   "nai": {
+    "kanji": "着替えない",
+    "kana": "きがえない"
+   },
+   "potential": {
+    "kanji": "着替えられる",
+    "kana": "きがえられる"
+   },
+   "volitional": {
+    "kanji": "着替えよう",
+    "kana": "きがえよう"
+   }
+  }
+ },
+ {
+  "word": "出かける",
+  "reading": "でかける",
+  "meaning": "to go out",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "出かけます",
+    "kana": "でかけます"
+   },
+   "masu_neg": {
+    "kanji": "出かけません",
+    "kana": "でかけません"
+   },
+   "past": {
+    "kanji": "出かけた",
+    "kana": "でかけた"
+   },
+   "past_polite": {
+    "kanji": "出かけました",
+    "kana": "でかけました"
+   },
+   "te": {
+    "kanji": "出かけて",
+    "kana": "でかけて"
+   },
+   "nai": {
+    "kanji": "出かけない",
+    "kana": "でかけない"
+   },
+   "potential": {
+    "kanji": "出かけられる",
+    "kana": "でかけられる"
+   },
+   "volitional": {
+    "kanji": "出かけよう",
+    "kana": "でかけよう"
+   }
+  }
+ },
+ {
+  "word": "乗り換える",
+  "reading": "のりかえる",
+  "meaning": "to transfer (trains)",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "乗り換えます",
+    "kana": "のりかえます"
+   },
+   "masu_neg": {
+    "kanji": "乗り換えません",
+    "kana": "のりかえません"
+   },
+   "past": {
+    "kanji": "乗り換えた",
+    "kana": "のりかえた"
+   },
+   "past_polite": {
+    "kanji": "乗り換えました",
+    "kana": "のりかえました"
+   },
+   "te": {
+    "kanji": "乗り換えて",
+    "kana": "のりかえて"
+   },
+   "nai": {
+    "kanji": "乗り換えない",
+    "kana": "のりかえない"
+   },
+   "potential": {
+    "kanji": "乗り換えられる",
+    "kana": "のりかえられる"
+   },
+   "volitional": {
+    "kanji": "乗り換えよう",
+    "kana": "のりかえよう"
+   }
+  }
+ },
+ {
+  "word": "決める",
+  "reading": "きめる",
+  "meaning": "to decide",
+  "group": "ichidan",
+  "group_label": "Ichidan (ru-verb, 一段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "決めます",
+    "kana": "きめます"
+   },
+   "masu_neg": {
+    "kanji": "決めません",
+    "kana": "きめません"
+   },
+   "past": {
+    "kanji": "決めた",
+    "kana": "きめた"
+   },
+   "past_polite": {
+    "kanji": "決めました",
+    "kana": "きめました"
+   },
+   "te": {
+    "kanji": "決めて",
+    "kana": "きめて"
+   },
+   "nai": {
+    "kanji": "決めない",
+    "kana": "きめない"
+   },
+   "potential": {
+    "kanji": "決められる",
+    "kana": "きめられる"
+   },
+   "volitional": {
+    "kanji": "決めよう",
+    "kana": "きめよう"
+   }
+  }
+ },
+ {
+  "word": "戻る",
+  "reading": "もどる",
+  "meaning": "to go back, to return",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "戻ります",
+    "kana": "もどります"
+   },
+   "masu_neg": {
+    "kanji": "戻りません",
+    "kana": "もどりません"
+   },
+   "past": {
+    "kanji": "戻った",
+    "kana": "もどった"
+   },
+   "past_polite": {
+    "kanji": "戻りました",
+    "kana": "もどりました"
+   },
+   "te": {
+    "kanji": "戻って",
+    "kana": "もどって"
+   },
+   "nai": {
+    "kanji": "戻らない",
+    "kana": "もどらない"
+   },
+   "potential": {
+    "kanji": "戻れる",
+    "kana": "もどれる"
+   },
+   "volitional": {
+    "kanji": "戻ろう",
+    "kana": "もどろう"
+   }
+  }
+ },
+ {
+  "word": "包む",
+  "reading": "つつむ",
+  "meaning": "to wrap",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "包みます",
+    "kana": "つつみます"
+   },
+   "masu_neg": {
+    "kanji": "包みません",
+    "kana": "つつみません"
+   },
+   "past": {
+    "kanji": "包んだ",
+    "kana": "つつんだ"
+   },
+   "past_polite": {
+    "kanji": "包みました",
+    "kana": "つつみました"
+   },
+   "te": {
+    "kanji": "包んで",
+    "kana": "つつんで"
+   },
+   "nai": {
+    "kanji": "包まない",
+    "kana": "つつまない"
+   },
+   "potential": {
+    "kanji": "包める",
+    "kana": "つつめる"
+   },
+   "volitional": {
+    "kanji": "包もう",
+    "kana": "つつもう"
+   }
+  }
+ },
+ {
+  "word": "値切る",
+  "reading": "ねぎる",
+  "meaning": "to haggle",
+  "group": "godan",
+  "group_label": "Godan (u-verb, 五段)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "値切ります",
+    "kana": "ねぎります"
+   },
+   "masu_neg": {
+    "kanji": "値切りません",
+    "kana": "ねぎりません"
+   },
+   "past": {
+    "kanji": "値切った",
+    "kana": "ねぎった"
+   },
+   "past_polite": {
+    "kanji": "値切りました",
+    "kana": "ねぎりました"
+   },
+   "te": {
+    "kanji": "値切って",
+    "kana": "ねぎって"
+   },
+   "nai": {
+    "kanji": "値切らない",
+    "kana": "ねぎらない"
+   },
+   "potential": {
+    "kanji": "値切れる",
+    "kana": "ねぎれる"
+   },
+   "volitional": {
+    "kanji": "値切ろう",
+    "kana": "ねぎろう"
+   }
+  }
+ },
+ {
+  "word": "通勤する",
+  "reading": "つうきんする",
+  "meaning": "to commute to work",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "通勤します",
+    "kana": "つうきんします"
+   },
+   "masu_neg": {
+    "kanji": "通勤しません",
+    "kana": "つうきんしません"
+   },
+   "past": {
+    "kanji": "通勤した",
+    "kana": "つうきんした"
+   },
+   "past_polite": {
+    "kanji": "通勤しました",
+    "kana": "つうきんしました"
+   },
+   "te": {
+    "kanji": "通勤して",
+    "kana": "つうきんして"
+   },
+   "nai": {
+    "kanji": "通勤しない",
+    "kana": "つうきんしない"
+   },
+   "potential": {
+    "kanji": "通勤できる",
+    "kana": "つうきんできる"
+   },
+   "volitional": {
+    "kanji": "通勤しよう",
+    "kana": "つうきんしよう"
+   }
+  }
+ },
+ {
+  "word": "料理する",
+  "reading": "りょうりする",
+  "meaning": "to cook",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "料理します",
+    "kana": "りょうりします"
+   },
+   "masu_neg": {
+    "kanji": "料理しません",
+    "kana": "りょうりしません"
+   },
+   "past": {
+    "kanji": "料理した",
+    "kana": "りょうりした"
+   },
+   "past_polite": {
+    "kanji": "料理しました",
+    "kana": "りょうりしました"
+   },
+   "te": {
+    "kanji": "料理して",
+    "kana": "りょうりして"
+   },
+   "nai": {
+    "kanji": "料理しない",
+    "kana": "りょうりしない"
+   },
+   "potential": {
+    "kanji": "料理できる",
+    "kana": "りょうりできる"
+   },
+   "volitional": {
+    "kanji": "料理しよう",
+    "kana": "りょうりしよう"
+   }
+  }
+ },
+ {
+  "word": "買い物する",
+  "reading": "かいものする",
+  "meaning": "to go shopping",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "買い物します",
+    "kana": "かいものします"
+   },
+   "masu_neg": {
+    "kanji": "買い物しません",
+    "kana": "かいものしません"
+   },
+   "past": {
+    "kanji": "買い物した",
+    "kana": "かいものした"
+   },
+   "past_polite": {
+    "kanji": "買い物しました",
+    "kana": "かいものしました"
+   },
+   "te": {
+    "kanji": "買い物して",
+    "kana": "かいものして"
+   },
+   "nai": {
+    "kanji": "買い物しない",
+    "kana": "かいものしない"
+   },
+   "potential": {
+    "kanji": "買い物できる",
+    "kana": "かいものできる"
+   },
+   "volitional": {
+    "kanji": "買い物しよう",
+    "kana": "かいものしよう"
+   }
+  }
+ },
+ {
+  "word": "昼寝する",
+  "reading": "ひるねする",
+  "meaning": "to take a nap",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "昼寝します",
+    "kana": "ひるねします"
+   },
+   "masu_neg": {
+    "kanji": "昼寝しません",
+    "kana": "ひるねしません"
+   },
+   "past": {
+    "kanji": "昼寝した",
+    "kana": "ひるねした"
+   },
+   "past_polite": {
+    "kanji": "昼寝しました",
+    "kana": "ひるねしました"
+   },
+   "te": {
+    "kanji": "昼寝して",
+    "kana": "ひるねして"
+   },
+   "nai": {
+    "kanji": "昼寝しない",
+    "kana": "ひるねしない"
+   },
+   "potential": {
+    "kanji": "昼寝できる",
+    "kana": "ひるねできる"
+   },
+   "volitional": {
+    "kanji": "昼寝しよう",
+    "kana": "ひるねしよう"
+   }
+  }
+ },
+ {
+  "word": "散歩する",
+  "reading": "さんぽする",
+  "meaning": "to take a walk",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "easy",
+  "forms": {
+   "masu": {
+    "kanji": "散歩します",
+    "kana": "さんぽします"
+   },
+   "masu_neg": {
+    "kanji": "散歩しません",
+    "kana": "さんぽしません"
+   },
+   "past": {
+    "kanji": "散歩した",
+    "kana": "さんぽした"
+   },
+   "past_polite": {
+    "kanji": "散歩しました",
+    "kana": "さんぽしました"
+   },
+   "te": {
+    "kanji": "散歩して",
+    "kana": "さんぽして"
+   },
+   "nai": {
+    "kanji": "散歩しない",
+    "kana": "さんぽしない"
+   },
+   "potential": {
+    "kanji": "散歩できる",
+    "kana": "さんぽできる"
+   },
+   "volitional": {
+    "kanji": "散歩しよう",
+    "kana": "さんぽしよう"
+   }
+  }
+ },
+ {
+  "word": "卒業する",
+  "reading": "そつぎょうする",
+  "meaning": "to graduate",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "卒業します",
+    "kana": "そつぎょうします"
+   },
+   "masu_neg": {
+    "kanji": "卒業しません",
+    "kana": "そつぎょうしません"
+   },
+   "past": {
+    "kanji": "卒業した",
+    "kana": "そつぎょうした"
+   },
+   "past_polite": {
+    "kanji": "卒業しました",
+    "kana": "そつぎょうしました"
+   },
+   "te": {
+    "kanji": "卒業して",
+    "kana": "そつぎょうして"
+   },
+   "nai": {
+    "kanji": "卒業しない",
+    "kana": "そつぎょうしない"
+   },
+   "potential": {
+    "kanji": "卒業できる",
+    "kana": "そつぎょうできる"
+   },
+   "volitional": {
+    "kanji": "卒業しよう",
+    "kana": "そつぎょうしよう"
+   }
+  }
+ },
+ {
+  "word": "入院する",
+  "reading": "にゅういんする",
+  "meaning": "to be hospitalized",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "入院します",
+    "kana": "にゅういんします"
+   },
+   "masu_neg": {
+    "kanji": "入院しません",
+    "kana": "にゅういんしません"
+   },
+   "past": {
+    "kanji": "入院した",
+    "kana": "にゅういんした"
+   },
+   "past_polite": {
+    "kanji": "入院しました",
+    "kana": "にゅういんしました"
+   },
+   "te": {
+    "kanji": "入院して",
+    "kana": "にゅういんして"
+   },
+   "nai": {
+    "kanji": "入院しない",
+    "kana": "にゅういんしない"
+   },
+   "potential": {
+    "kanji": "入院できる",
+    "kana": "にゅういんできる"
+   },
+   "volitional": {
+    "kanji": "入院しよう",
+    "kana": "にゅういんしよう"
+   }
+  }
+ },
+ {
+  "word": "印刷する",
+  "reading": "いんさつする",
+  "meaning": "to print",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "印刷します",
+    "kana": "いんさつします"
+   },
+   "masu_neg": {
+    "kanji": "印刷しません",
+    "kana": "いんさつしません"
+   },
+   "past": {
+    "kanji": "印刷した",
+    "kana": "いんさつした"
+   },
+   "past_polite": {
+    "kanji": "印刷しました",
+    "kana": "いんさつしました"
+   },
+   "te": {
+    "kanji": "印刷して",
+    "kana": "いんさつして"
+   },
+   "nai": {
+    "kanji": "印刷しない",
+    "kana": "いんさつしない"
+   },
+   "potential": {
+    "kanji": "印刷できる",
+    "kana": "いんさつできる"
+   },
+   "volitional": {
+    "kanji": "印刷しよう",
+    "kana": "いんさつしよう"
+   }
+  }
+ },
+ {
+  "word": "保存する",
+  "reading": "ほぞんする",
+  "meaning": "to save (a file)",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "保存します",
+    "kana": "ほぞんします"
+   },
+   "masu_neg": {
+    "kanji": "保存しません",
+    "kana": "ほぞんしません"
+   },
+   "past": {
+    "kanji": "保存した",
+    "kana": "ほぞんした"
+   },
+   "past_polite": {
+    "kanji": "保存しました",
+    "kana": "ほぞんしました"
+   },
+   "te": {
+    "kanji": "保存して",
+    "kana": "ほぞんして"
+   },
+   "nai": {
+    "kanji": "保存しない",
+    "kana": "ほぞんしない"
+   },
+   "potential": {
+    "kanji": "保存できる",
+    "kana": "ほぞんできる"
+   },
+   "volitional": {
+    "kanji": "保存しよう",
+    "kana": "ほぞんしよう"
+   }
+  }
+ },
+ {
+  "word": "検索する",
+  "reading": "けんさくする",
+  "meaning": "to search online",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "検索します",
+    "kana": "けんさくします"
+   },
+   "masu_neg": {
+    "kanji": "検索しません",
+    "kana": "けんさくしません"
+   },
+   "past": {
+    "kanji": "検索した",
+    "kana": "けんさくした"
+   },
+   "past_polite": {
+    "kanji": "検索しました",
+    "kana": "けんさくしました"
+   },
+   "te": {
+    "kanji": "検索して",
+    "kana": "けんさくして"
+   },
+   "nai": {
+    "kanji": "検索しない",
+    "kana": "けんさくしない"
+   },
+   "potential": {
+    "kanji": "検索できる",
+    "kana": "けんさくできる"
+   },
+   "volitional": {
+    "kanji": "検索しよう",
+    "kana": "けんさくしよう"
+   }
+  }
+ },
+ {
+  "word": "ログインする",
+  "reading": "ログインする",
+  "meaning": "to log in",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "ログインします",
+    "kana": "ログインします"
+   },
+   "masu_neg": {
+    "kanji": "ログインしません",
+    "kana": "ログインしません"
+   },
+   "past": {
+    "kanji": "ログインした",
+    "kana": "ログインした"
+   },
+   "past_polite": {
+    "kanji": "ログインしました",
+    "kana": "ログインしました"
+   },
+   "te": {
+    "kanji": "ログインして",
+    "kana": "ログインして"
+   },
+   "nai": {
+    "kanji": "ログインしない",
+    "kana": "ログインしない"
+   },
+   "potential": {
+    "kanji": "ログインできる",
+    "kana": "ログインできる"
+   },
+   "volitional": {
+    "kanji": "ログインしよう",
+    "kana": "ログインしよう"
+   }
+  }
+ },
+ {
+  "word": "クリックする",
+  "reading": "クリックする",
+  "meaning": "to click",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "クリックします",
+    "kana": "クリックします"
+   },
+   "masu_neg": {
+    "kanji": "クリックしません",
+    "kana": "クリックしません"
+   },
+   "past": {
+    "kanji": "クリックした",
+    "kana": "クリックした"
+   },
+   "past_polite": {
+    "kanji": "クリックしました",
+    "kana": "クリックしました"
+   },
+   "te": {
+    "kanji": "クリックして",
+    "kana": "クリックして"
+   },
+   "nai": {
+    "kanji": "クリックしない",
+    "kana": "クリックしない"
+   },
+   "potential": {
+    "kanji": "クリックできる",
+    "kana": "クリックできる"
+   },
+   "volitional": {
+    "kanji": "クリックしよう",
+    "kana": "クリックしよう"
+   }
+  }
+ },
+ {
+  "word": "送信する",
+  "reading": "そうしんする",
+  "meaning": "to send (a message)",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "送信します",
+    "kana": "そうしんします"
+   },
+   "masu_neg": {
+    "kanji": "送信しません",
+    "kana": "そうしんしません"
+   },
+   "past": {
+    "kanji": "送信した",
+    "kana": "そうしんした"
+   },
+   "past_polite": {
+    "kanji": "送信しました",
+    "kana": "そうしんしました"
+   },
+   "te": {
+    "kanji": "送信して",
+    "kana": "そうしんして"
+   },
+   "nai": {
+    "kanji": "送信しない",
+    "kana": "そうしんしない"
+   },
+   "potential": {
+    "kanji": "送信できる",
+    "kana": "そうしんできる"
+   },
+   "volitional": {
+    "kanji": "送信しよう",
+    "kana": "そうしんしよう"
+   }
+  }
+ },
+ {
+  "word": "削除する",
+  "reading": "さくじょする",
+  "meaning": "to delete",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "削除します",
+    "kana": "さくじょします"
+   },
+   "masu_neg": {
+    "kanji": "削除しません",
+    "kana": "さくじょしません"
+   },
+   "past": {
+    "kanji": "削除した",
+    "kana": "さくじょした"
+   },
+   "past_polite": {
+    "kanji": "削除しました",
+    "kana": "さくじょしました"
+   },
+   "te": {
+    "kanji": "削除して",
+    "kana": "さくじょして"
+   },
+   "nai": {
+    "kanji": "削除しない",
+    "kana": "さくじょしない"
+   },
+   "potential": {
+    "kanji": "削除できる",
+    "kana": "さくじょできる"
+   },
+   "volitional": {
+    "kanji": "削除しよう",
+    "kana": "さくじょしよう"
+   }
+  }
+ },
+ {
+  "word": "接続する",
+  "reading": "せつぞくする",
+  "meaning": "to connect",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "hard",
+  "forms": {
+   "masu": {
+    "kanji": "接続します",
+    "kana": "せつぞくします"
+   },
+   "masu_neg": {
+    "kanji": "接続しません",
+    "kana": "せつぞくしません"
+   },
+   "past": {
+    "kanji": "接続した",
+    "kana": "せつぞくした"
+   },
+   "past_polite": {
+    "kanji": "接続しました",
+    "kana": "せつぞくしました"
+   },
+   "te": {
+    "kanji": "接続して",
+    "kana": "せつぞくして"
+   },
+   "nai": {
+    "kanji": "接続しない",
+    "kana": "せつぞくしない"
+   },
+   "potential": {
+    "kanji": "接続できる",
+    "kana": "せつぞくできる"
+   },
+   "volitional": {
+    "kanji": "接続しよう",
+    "kana": "せつぞくしよう"
+   }
+  }
+ },
+ {
+  "word": "ダウンロードする",
+  "reading": "ダウンロードする",
+  "meaning": "to download",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "ダウンロードします",
+    "kana": "ダウンロードします"
+   },
+   "masu_neg": {
+    "kanji": "ダウンロードしません",
+    "kana": "ダウンロードしません"
+   },
+   "past": {
+    "kanji": "ダウンロードした",
+    "kana": "ダウンロードした"
+   },
+   "past_polite": {
+    "kanji": "ダウンロードしました",
+    "kana": "ダウンロードしました"
+   },
+   "te": {
+    "kanji": "ダウンロードして",
+    "kana": "ダウンロードして"
+   },
+   "nai": {
+    "kanji": "ダウンロードしない",
+    "kana": "ダウンロードしない"
+   },
+   "potential": {
+    "kanji": "ダウンロードできる",
+    "kana": "ダウンロードできる"
+   },
+   "volitional": {
+    "kanji": "ダウンロードしよう",
+    "kana": "ダウンロードしよう"
+   }
+  }
+ },
+ {
+  "word": "充電する",
+  "reading": "じゅうでんする",
+  "meaning": "to charge (a battery)",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "充電します",
+    "kana": "じゅうでんします"
+   },
+   "masu_neg": {
+    "kanji": "充電しません",
+    "kana": "じゅうでんしません"
+   },
+   "past": {
+    "kanji": "充電した",
+    "kana": "じゅうでんした"
+   },
+   "past_polite": {
+    "kanji": "充電しました",
+    "kana": "じゅうでんしました"
+   },
+   "te": {
+    "kanji": "充電して",
+    "kana": "じゅうでんして"
+   },
+   "nai": {
+    "kanji": "充電しない",
+    "kana": "じゅうでんしない"
+   },
+   "potential": {
+    "kanji": "充電できる",
+    "kana": "じゅうでんできる"
+   },
+   "volitional": {
+    "kanji": "充電しよう",
+    "kana": "じゅうでんしよう"
+   }
+  }
+ },
+ {
+  "word": "連絡する",
+  "reading": "れんらくする",
+  "meaning": "to contact",
+  "group": "irregular",
+  "group_label": "Irregular (する・来る)",
+  "difficulty": "medium",
+  "forms": {
+   "masu": {
+    "kanji": "連絡します",
+    "kana": "れんらくします"
+   },
+   "masu_neg": {
+    "kanji": "連絡しません",
+    "kana": "れんらくしません"
+   },
+   "past": {
+    "kanji": "連絡した",
+    "kana": "れんらくした"
+   },
+   "past_polite": {
+    "kanji": "連絡しました",
+    "kana": "れんらくしました"
+   },
+   "te": {
+    "kanji": "連絡して",
+    "kana": "れんらくして"
+   },
+   "nai": {
+    "kanji": "連絡しない",
+    "kana": "れんらくしない"
+   },
+   "potential": {
+    "kanji": "連絡できる",
+    "kana": "れんらくできる"
+   },
+   "volitional": {
+    "kanji": "連絡しよう",
+    "kana": "れんらくしよう"
+   }
+  }
+ }
+]

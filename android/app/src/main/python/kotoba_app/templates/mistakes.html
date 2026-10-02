@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Mistake Notebook — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">間違い — machigai, mistakes</p>
+  <h1>Mistake Notebook</h1>
+  <p class="hero-lede">Wrong answers from practice are saved here automatically. Correct the same item twice later and Kotoba marks it recovered instead of deleting the history.</p>
+  <div class="practice-cta-row"><a class="btn-primary" href="{{ url_for('smart_review_page') }}">Practice weak items →</a></div>
+</section>
+<section class="mistake-filter-row">
+  <button type="button" class="level-btn active" data-mistakes="open">Needs work ({{ learner.mistakes_open }})</button>
+  <button type="button" class="level-btn" data-mistakes="mastered">Recovered</button>
+  <button type="button" class="level-btn" data-mistakes="all">All</button>
+</section>
+<section class="mistake-grid" id="mistake-grid">
+{% for m in mistakes %}
+<article class="mistake-card {{ 'mistake-mastered' if m.mastered else '' }}" data-mastered="{{ 'yes' if m.mastered else 'no' }}">
+  <div class="mistake-card-head"><span class="exam-category-chip">{{ m.kind }}</span><span>missed {{ m.count }}×</span></div>
+  <h3>{{ m.prompt }}</h3>
+  {% if m.chosen %}<p class="exam-review-wrong"><strong>Your answer:</strong> {{ m.chosen }}</p>{% endif %}
+  <p class="exam-review-correct"><strong>Correct:</strong> {{ m.correct_answer }}</p>
+  {% if m.explanation %}<p class="mistake-explain">{{ m.explanation }}</p>{% endif %}
+  <div class="mistake-footer"><span>{{ 'Recovered ✓' if m.mastered else 'Needs review' }}</span><span>{{ m.level }}</span></div>
+</article>
+{% else %}
+<p class="empty-note">No mistakes saved yet. When you miss a scored question, it will appear here automatically.</p>
+{% endfor %}
+</section>
+{% endblock %}
+{% block scripts %}<script>document.querySelectorAll('[data-mistakes]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-mistakes]').forEach(x=>x.classList.remove('active'));b.classList.add('active');const v=b.dataset.mistakes;document.querySelectorAll('.mistake-card').forEach(c=>c.hidden=v!=='all'&&((v==='mastered')!==(c.dataset.mastered==='yes')));}));</script>{% endblock %}

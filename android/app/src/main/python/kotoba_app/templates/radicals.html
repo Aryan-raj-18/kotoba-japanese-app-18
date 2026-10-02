@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}Radicals — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">部首 — building blocks of kanji</p>
+  <h1>Radicals</h1>
+  <p class="hero-lede">A radical is the part of a kanji that carries a hint of its <strong>meaning</strong>. Learn the {{ core|length }} most useful radical shapes first and unknown kanji stop looking like random strokes: you can guess what a character is about the moment you spot its radical.</p>
+  <a href="{{ url_for('roadmap_page') }}" class="btn-primary kanji-practice-cta">Learn radicals step by step in the Roadmap →</a>
+  <a href="{{ url_for('flashcards') }}" class="btn-ghost kanji-practice-cta">Kanji flashcards (with radicals) →</a>
+</section>
+
+<section class="rad-intro">
+  <h2>How radicals work</h2>
+  <div class="rad-intro-grid">
+    <div class="rad-intro-card">
+      <h3>1 · Meaning hint</h3>
+      <p>氵 (water) in 海 <em>sea</em>, 洗 <em>wash</em>, 泳 <em>swim</em>. Same radical, all about water.</p>
+    </div>
+    <div class="rad-intro-card">
+      <h3>2 · Squashed forms</h3>
+      <p>Some radicals change shape on the side of a kanji: 人→亻, 水→氵, 心→忄, 手→扌, 犬→犭. Same meaning, thinner body.</p>
+    </div>
+    <div class="rad-intro-card">
+      <h3>3 · Position</h3>
+      <p>Radicals sit in set places: <strong>hen</strong> left, <strong>tsukuri</strong> right, <strong>kanmuri</strong> top, <strong>ashi</strong> bottom, <strong>tare</strong> top-left cover, <strong>nyō</strong> wraps left-bottom, <strong>kamae</strong> enclosure.</p>
+    </div>
+    <div class="rad-intro-card">
+      <h3>4 · Sound hint</h3>
+      <p>The other half of a kanji often hints at the <em>sound</em>. 青 is <em>sei</em>, so 静 晴 清 精 are all read <em>sei</em>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="rad-section">
+  <h2>The {{ core|length }} core radicals</h2>
+  <input type="text" id="rad-filter" class="filter-input" placeholder="Filter by meaning or name (e.g. water, てへん)...">
+  <div class="rad-grid" id="rad-grid-core">
+    {% for r in core %}
+    <a class="rad-card" href="{{ url_for('radical_detail', rid=r.id) }}"
+       data-search="{{ (r.meaning ~ ' ' ~ r.name ~ ' ' ~ r.romaji ~ ' ' ~ r.glyph)|lower }}">
+      <span class="rad-card-glyph">{{ r.glyph }}</span>
+      <span class="rad-card-name">{{ r.name }}</span>
+      <span class="rad-card-meaning">{{ r.meaning }}</span>
+      <span class="rad-card-pos">{{ r.position_label }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="rad-section">
+  <details>
+    <summary><h2 class="rad-inline-h">More radicals ({{ extra|length }})</h2></summary>
+    <p class="hero-lede">Less frequent radicals that still appear in the kanji in this app.</p>
+    <div class="rad-grid" id="rad-grid-extra">
+      {% for r in extra %}
+      <a class="rad-card" href="{{ url_for('radical_detail', rid=r.id) }}"
+         data-search="{{ (r.meaning ~ ' ' ~ r.name ~ ' ' ~ r.romaji ~ ' ' ~ r.glyph)|lower }}">
+        <span class="rad-card-glyph">{{ r.glyph }}</span>
+        <span class="rad-card-name">{{ r.name }}</span>
+        <span class="rad-card-meaning">{{ r.meaning }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </details>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function(){
+  var f=document.getElementById('rad-filter'); if(!f) return;
+  f.addEventListener('input', function(){
+    var q=f.value.trim().toLowerCase();
+    document.querySelectorAll('#rad-grid-core .rad-card, #rad-grid-extra .rad-card').forEach(function(c){
+      c.style.display = (!q || c.dataset.search.indexOf(q)>-1) ? '' : 'none';
+    });
+    if(q){var d=document.querySelector('.rad-section details'); if(d) d.open=true;}
+  });
+})();
+</script>
+{% endblock %}

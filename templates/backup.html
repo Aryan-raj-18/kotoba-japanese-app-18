@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Backup & Restore — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head"><p class="hero-eyebrow">保存 — backup</p><h1>Portable learning backup</h1><p class="hero-lede">Kotoba accounts are local profiles in this offline build. Export your learner history, SRS schedule, streak, roadmap progress, theme preferences, and saved lists to one JSON file, then restore it on another installation.</p></section>
+<section class="backup-grid">
+  <article class="path-card"><span class="path-kanji">出</span><h2>Export</h2><p>Create a portable backup file from this device.</p><button class="btn-primary" id="backup-export" type="button">Download backup</button></article>
+  <article class="path-card"><span class="path-kanji">入</span><h2>Restore</h2><p>Choose a Kotoba backup. Current learning state will be replaced.</p><input type="file" id="backup-file" accept="application/json,.json"><button class="btn-primary" id="backup-import" type="button">Restore backup</button></article>
+</section><p class="practice-note" id="backup-status"></p>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/backup.js') }}"></script>{% endblock %}

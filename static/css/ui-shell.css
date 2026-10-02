@@ -1,0 +1,334 @@
+/* =====================================================================
+   Kotoba Immersive UI Shell
+   ---------------------------------------------------------------------
+   Non-invasive visual wrapper. It deliberately does not redefine routes,
+   data, forms, page scripts, IDs, or learning logic. Existing components
+   remain the source of truth; this file only changes presentation.
+
+   IMPORTANT: this shell no longer ships its own fixed color palette.
+   Earlier it redefined --paper/--card-bg/--ink/etc. under
+   [data-ui-shell="immersive"] to one hardcoded dark scheme, which sat at
+   the same CSS specificity as the theme picker's [data-theme="…"] rules
+   in style.css and loaded after them — so it silently won every time,
+   and switching themes in the settings panel had no visible effect.
+   Instead, every "glass" surface below reads the *current* theme's own
+   tokens (--paper, --card-bg, --ink, --indigo, --seal, --line, …) and
+   only adds translucency + blur on top of them with color-mix(). Pick
+   Sumi and the glass goes dark; pick Sakura and it goes a soft pink —
+   the shell is a finish, not a competing theme.
+
+   Each color-mix() line is preceded by a plain fallback using the same
+   variable name. Browsers without color-mix() support simply keep the
+   opaque fallback (a custom property with an unparsable value is
+   dropped, not blank), so the UI stays fully readable either way.
+   ===================================================================== */
+
+html[data-ui-shell="immersive"] {
+  --shell-radius: 22px;
+
+  /* Card / panel surfaces. ~92% of the theme's own card color, so the
+     glass reads as "the theme, lightly frosted" rather than "see-through". */
+  --shell-surface: var(--card-bg);
+  --shell-surface: color-mix(in srgb, var(--card-bg) 92%, transparent);
+  --shell-surface-strong: var(--card-bg);
+  --shell-surface-strong: color-mix(in srgb, var(--card-bg) 96%, transparent);
+
+  /* Floating header / bottom nav — slightly lighter than cards so they
+     still read as a distinct layer floating over content. */
+  --shell-header-bg: var(--paper);
+  --shell-header-bg: color-mix(in srgb, var(--paper) 90%, transparent);
+
+  --shell-border: var(--line);
+  --shell-border: color-mix(in srgb, var(--ink) 14%, var(--line));
+
+  --shell-input-bg: var(--surface);
+  --shell-input-bg: color-mix(in srgb, var(--surface) 90%, transparent);
+
+  --shell-active-bg: var(--indigo);
+}
+
+html[data-ui-shell="immersive"],
+html[data-ui-shell="immersive"] body {
+  min-height: 100%;
+}
+
+/* Ambient body wash, built from the active theme's own wash colors
+   (already tuned per-theme in style.css) rather than a fixed dark
+   gradient, so it shifts with the theme too. */
+html[data-ui-shell="immersive"] body {
+  background:
+    radial-gradient(ellipse at 12% 8%, var(--bg-wash-1), transparent 40%),
+    radial-gradient(ellipse at 88% 16%, var(--bg-wash-2), transparent 42%),
+    radial-gradient(ellipse at 50% 105%, var(--bg-wash-1), transparent 46%),
+    var(--paper);
+  background-attachment: fixed;
+}
+
+/* =====================================================================
+   USER WALLPAPER
+   ---------------------------------------------------------------------
+   Presentation-only: the chosen image/GIF is stored as a Blob in
+   IndexedDB on this device (ui-shell.js) and painted here as a fixed
+   layer behind the app. A theme-colored scrim sits on top of it at an
+   adjustable strength (the "Dim" slider) so body text and kana/kanji
+   stay legible over any photo — the scrim uses --paper, so it darkens
+   for dark themes and stays light for light themes instead of always
+   flattening everything to black.
+   ================================================================== */
+.kotoba-wallpaper {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--paper);
+}
+.kotoba-wallpaper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--paper);
+  opacity: var(--wallpaper-scrim, 0.6);
+}
+html[data-ui-shell="immersive"] body.has-kotoba-wallpaper {
+  background: var(--paper);
+}
+html[data-ui-shell="immersive"] .seal-bg { z-index: 1; }
+html[data-ui-shell="immersive"] .site-main,
+html[data-ui-shell="immersive"] .site-footer {
+  position: relative;
+  z-index: 2;
+}
+
+/* Subtle paper-grain dot texture, colored from the theme's own ink
+   pattern token instead of a fixed white, so it stays visible without
+   ever looking like a mistake on a light theme. */
+html[data-ui-shell="immersive"] .seal-bg {
+  opacity: 0.5;
+  background-image:
+    radial-gradient(circle at 20% 25%, var(--pattern-ink) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 70% 65%, var(--pattern-ink) 0 1px, transparent 1.5px);
+  background-size: 32px 32px, 47px 47px;
+}
+
+/* Floating glass header */
+html[data-ui-shell="immersive"] .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  margin: 12px auto 0;
+  width: min(1180px, calc(100% - 24px));
+  padding: 12px 16px;
+  gap: 12px;
+  border: 1px solid var(--shell-border);
+  border-radius: 24px;
+  background: var(--shell-header-bg);
+  backdrop-filter: blur(22px) saturate(135%);
+  -webkit-backdrop-filter: blur(22px) saturate(135%);
+  box-shadow: var(--shadow-lg);
+}
+
+html[data-ui-shell="immersive"] .header-search,
+html[data-ui-shell="immersive"] .settings-btn {
+  background: var(--shell-input-bg);
+  border-color: var(--shell-border);
+}
+html[data-ui-shell="immersive"] .site-nav a.active {
+  border-bottom-color: transparent;
+  background: var(--shell-surface-strong);
+  border-radius: 999px;
+  padding: 7px 13px;
+}
+
+/* Main content becomes the translucent surface over the backdrop. */
+html[data-ui-shell="immersive"] .site-main {
+  max-width: 1180px;
+  padding-top: 34px;
+  padding-bottom: 110px;
+}
+
+html[data-ui-shell="immersive"] .hero {
+  min-height: 360px;
+  margin-bottom: 26px;
+  padding: 34px;
+  border: 1px solid var(--shell-border);
+  border-radius: 30px;
+  background: var(--shell-surface-strong);
+  backdrop-filter: blur(18px) saturate(125%);
+  -webkit-backdrop-filter: blur(18px) saturate(125%);
+  box-shadow: var(--shadow-lg);
+}
+html[data-ui-shell="immersive"] .jp-clock,
+html[data-ui-shell="immersive"] .hero-search input {
+  background: var(--shell-input-bg);
+  border-color: var(--shell-border);
+  box-shadow: none;
+}
+
+/* Cards: same links and click handlers, new glass presentation. */
+html[data-ui-shell="immersive"] .path-grid {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+}
+html[data-ui-shell="immersive"] .path-card,
+html[data-ui-shell="immersive"] .quiz-card,
+html[data-ui-shell="immersive"] .explain-card,
+html[data-ui-shell="immersive"] .section-card,
+html[data-ui-shell="immersive"] .jp-card,
+html[data-ui-shell="immersive"] .card,
+html[data-ui-shell="immersive"] .panel {
+  background: var(--shell-surface);
+  border: 1px solid var(--shell-border);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(16px) saturate(125%);
+  -webkit-backdrop-filter: blur(16px) saturate(125%);
+}
+html[data-ui-shell="immersive"] .path-card:hover {
+  transform: translateY(-3px);
+  background: var(--shell-surface-strong);
+}
+html[data-ui-shell="immersive"] .path-card-accent {
+  background: color-mix(in srgb, var(--seal-soft) 88%, transparent);
+  border-color: var(--seal);
+}
+
+html[data-ui-shell="immersive"] input,
+html[data-ui-shell="immersive"] textarea,
+html[data-ui-shell="immersive"] select {
+  background: var(--shell-input-bg);
+  border-color: var(--shell-border);
+}
+
+/* Wallpaper controls live inside the existing settings panel. */
+html[data-ui-shell="immersive"] .wallpaper-settings {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+html[data-ui-shell="immersive"] .wallpaper-actions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+html[data-ui-shell="immersive"] .wallpaper-upload-btn,
+html[data-ui-shell="immersive"] .wallpaper-clear-btn {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  padding: 8px 11px;
+  font: inherit;
+}
+html[data-ui-shell="immersive"] .wallpaper-upload-btn:hover,
+html[data-ui-shell="immersive"] .wallpaper-clear-btn:hover {
+  border-color: var(--indigo);
+}
+html[data-ui-shell="immersive"] .wallpaper-clear-btn[hidden] { display: none; }
+html[data-ui-shell="immersive"] .wallpaper-hint {
+  margin: 7px 0 0;
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.4;
+}
+html[data-ui-shell="immersive"] .wallpaper-progress {
+  margin: 9px 0 0;
+  font-size: 12px;
+  color: var(--bad-fg);
+}
+html[data-ui-shell="immersive"] .wallpaper-dim-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+html[data-ui-shell="immersive"] .wallpaper-dim-row input[type="range"] {
+  flex: 1;
+  accent-color: var(--seal);
+}
+html[data-ui-shell="immersive"] .wallpaper-dim-row[hidden] { display: none; }
+
+.kotoba-bottom-nav { display: none; }
+
+@media (max-width: 700px) {
+  html[data-ui-shell="immersive"] .site-header {
+    position: sticky;
+    margin: 8px 8px 0;
+    width: calc(100% - 16px);
+    padding: 10px 12px;
+    border-radius: 20px;
+  }
+  html[data-ui-shell="immersive"] .header-search,
+  html[data-ui-shell="immersive"] .auth-nav,
+  html[data-ui-shell="immersive"] .site-nav { display: none; }
+  html[data-ui-shell="immersive"] .settings-wrap { display: block; }
+  html[data-ui-shell="immersive"] .site-header .brand { margin-right: auto; }
+
+  html[data-ui-shell="immersive"] .site-main {
+    padding: 18px 12px calc(105px + env(safe-area-inset-bottom, 0px));
+  }
+  html[data-ui-shell="immersive"] .hero {
+    min-height: auto;
+    padding: 24px 20px;
+    border-radius: 26px;
+    display: block;
+  }
+  html[data-ui-shell="immersive"] .hero h1 { font-size: 34px; }
+  html[data-ui-shell="immersive"] .hero-glyphs { display: none; }
+  html[data-ui-shell="immersive"] .hero-search { max-width: none; }
+  html[data-ui-shell="immersive"] .path-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  html[data-ui-shell="immersive"] .path-card {
+    min-height: 145px;
+    padding: 18px 14px;
+    border-radius: 20px;
+  }
+  html[data-ui-shell="immersive"] .path-card h2 { font-size: 16px; }
+  html[data-ui-shell="immersive"] .path-card p { font-size: 12.5px; line-height: 1.4; }
+  html[data-ui-shell="immersive"] .path-card .path-kanji { font-size: 32px; }
+
+  .kotoba-bottom-nav {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: calc(8px + env(safe-area-inset-bottom, 0px));
+    z-index: 500;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    padding: 7px;
+    border: 1px solid var(--shell-border);
+    border-radius: 24px;
+    background: var(--shell-header-bg);
+    backdrop-filter: blur(24px) saturate(145%);
+    -webkit-backdrop-filter: blur(24px) saturate(145%);
+    box-shadow: var(--shadow-lg);
+  }
+  .kotoba-bottom-nav a {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-height: 48px;
+    border-radius: 18px;
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .kotoba-bottom-nav a.active {
+    color: var(--on-accent);
+    background: var(--shell-active-bg);
+  }
+  .kotoba-bottom-nav .nav-icon { font-size: 18px; line-height: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-ui-shell="immersive"] * { scroll-behavior: auto !important; }
+}

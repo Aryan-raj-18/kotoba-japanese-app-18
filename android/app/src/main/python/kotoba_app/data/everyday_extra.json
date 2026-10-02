@@ -1,0 +1,322 @@
+[
+ {
+  "word": "こんにちは",
+  "reading": "こんにちは",
+  "romaji": "konnichiwa",
+  "meaning": "hello / good afternoon",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "おはようございます",
+  "reading": "おはようございます",
+  "romaji": "ohayō gozaimasu",
+  "meaning": "good morning (polite)",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "こんばんは",
+  "reading": "こんばんは",
+  "romaji": "konbanwa",
+  "meaning": "good evening",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "さようなら",
+  "reading": "さようなら",
+  "romaji": "sayōnara",
+  "meaning": "goodbye",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "おやすみなさい",
+  "reading": "おやすみなさい",
+  "romaji": "oyasuminasai",
+  "meaning": "good night",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "ありがとうございます",
+  "reading": "ありがとうございます",
+  "romaji": "arigatō gozaimasu",
+  "meaning": "thank you (polite)",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "どういたしまして",
+  "reading": "どういたしまして",
+  "romaji": "dō itashimashite",
+  "meaning": "you're welcome",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "すみません",
+  "reading": "すみません",
+  "romaji": "sumimasen",
+  "meaning": "excuse me / sorry",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "ごめんなさい",
+  "reading": "ごめんなさい",
+  "romaji": "gomen nasai",
+  "meaning": "I'm sorry",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "はじめまして",
+  "reading": "はじめまして",
+  "romaji": "hajimemashite",
+  "meaning": "nice to meet you",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "よろしくお願いします",
+  "reading": "よろしくおねがいします",
+  "romaji": "yoroshiku onegaishimasu",
+  "meaning": "please treat me well / thanks in advance",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "お願いします",
+  "reading": "おねがいします",
+  "romaji": "onegaishimasu",
+  "meaning": "please (asking a favor)",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "いただきます",
+  "reading": "いただきます",
+  "romaji": "itadakimasu",
+  "meaning": "said before eating",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "ごちそうさまでした",
+  "reading": "ごちそうさまでした",
+  "romaji": "gochisōsama deshita",
+  "meaning": "said after eating, thanking for the meal",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "いってきます",
+  "reading": "いってきます",
+  "romaji": "ittekimasu",
+  "meaning": "I'm heading out (said when leaving home)",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "いってらっしゃい",
+  "reading": "いってらっしゃい",
+  "romaji": "itterasshai",
+  "meaning": "see you off / take care (said to someone leaving)",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "ただいま",
+  "reading": "ただいま",
+  "romaji": "tadaima",
+  "meaning": "I'm home",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "おかえりなさい",
+  "reading": "おかえりなさい",
+  "romaji": "okaerinasai",
+  "meaning": "welcome home",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "はい",
+  "reading": "はい",
+  "romaji": "hai",
+  "meaning": "yes",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "いいえ",
+  "reading": "いいえ",
+  "romaji": "iie",
+  "meaning": "no",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "わかりました",
+  "reading": "わかりました",
+  "romaji": "wakarimashita",
+  "meaning": "understood / got it",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "わかりません",
+  "reading": "わかりません",
+  "romaji": "wakarimasen",
+  "meaning": "I don't understand",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "大丈夫です",
+  "reading": "だいじょうぶです",
+  "romaji": "daijōbu desu",
+  "meaning": "it's okay / I'm fine",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "頑張って",
+  "reading": "がんばって",
+  "romaji": "ganbatte",
+  "meaning": "good luck / do your best",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "おめでとうございます",
+  "reading": "おめでとうございます",
+  "romaji": "omedetō gozaimasu",
+  "meaning": "congratulations",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "お元気ですか",
+  "reading": "おげんきですか",
+  "romaji": "ogenki desu ka",
+  "meaning": "how are you?",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "元気です",
+  "reading": "げんきです",
+  "romaji": "genki desu",
+  "meaning": "I'm doing well",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "お先に失礼します",
+  "reading": "おさきにしつれいします",
+  "romaji": "osaki ni shitsurei shimasu",
+  "meaning": "excuse me for leaving first (workplace phrase)",
+  "category": "Greetings & Phrases",
+  "difficulty": "hard"
+ },
+ {
+  "word": "ちょっと待ってください",
+  "reading": "ちょっとまってください",
+  "romaji": "chotto matte kudasai",
+  "meaning": "please wait a moment",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ },
+ {
+  "word": "どうぞ",
+  "reading": "どうぞ",
+  "romaji": "dōzo",
+  "meaning": "please / go ahead (offering something)",
+  "category": "Greetings & Phrases",
+  "difficulty": "easy"
+ },
+ {
+  "word": "いくらですか",
+  "reading": "いくらですか",
+  "romaji": "ikura desu ka",
+  "meaning": "how much is it?",
+  "category": "Shopping & Money",
+  "difficulty": "easy"
+ },
+ {
+  "word": "これをください",
+  "reading": "これをください",
+  "romaji": "kore o kudasai",
+  "meaning": "I'll take this, please",
+  "category": "Shopping & Money",
+  "difficulty": "easy"
+ },
+ {
+  "word": "お会計お願いします",
+  "reading": "おかいけいおねがいします",
+  "romaji": "okaikei onegaishimasu",
+  "meaning": "check, please (at a restaurant)",
+  "category": "Shopping & Money",
+  "difficulty": "hard"
+ },
+ {
+  "word": "トイレはどこですか",
+  "reading": "トイレはどこですか",
+  "romaji": "toire wa doko desu ka",
+  "meaning": "where is the bathroom?",
+  "category": "Out & About",
+  "difficulty": "medium"
+ },
+ {
+  "word": "駅はどこですか",
+  "reading": "えきはどこですか",
+  "romaji": "eki wa doko desu ka",
+  "meaning": "where is the station?",
+  "category": "Out & About",
+  "difficulty": "medium"
+ },
+ {
+  "word": "日本語が話せますか",
+  "reading": "にほんごがはなせますか",
+  "romaji": "nihongo ga hanasemasu ka",
+  "meaning": "can you speak Japanese?",
+  "category": "Out & About",
+  "difficulty": "hard"
+ },
+ {
+  "word": "英語が話せますか",
+  "reading": "えいごがはなせますか",
+  "romaji": "eigo ga hanasemasu ka",
+  "meaning": "can you speak English?",
+  "category": "Out & About",
+  "difficulty": "hard"
+ },
+ {
+  "word": "もう一度お願いします",
+  "reading": "もういちどおねがいします",
+  "romaji": "mō ichido onegaishimasu",
+  "meaning": "one more time, please",
+  "category": "Out & About",
+  "difficulty": "hard"
+ },
+ {
+  "word": "写真を撮ってもいいですか",
+  "reading": "しゃしんをとってもいいですか",
+  "romaji": "shashin o tottemo ii desu ka",
+  "meaning": "may I take a photo?",
+  "category": "Out & About",
+  "difficulty": "hard"
+ },
+ {
+  "word": "調子はどう",
+  "reading": "ちょうしはどう",
+  "romaji": "chōshi wa dō",
+  "meaning": "how's it going? (casual)",
+  "category": "Greetings & Phrases",
+  "difficulty": "medium"
+ }
+]

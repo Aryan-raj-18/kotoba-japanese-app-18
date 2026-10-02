@@ -1,0 +1,10 @@
+<resources>
+    <!-- Dark-mode counterpart, so launching the app with the system in
+         dark mode doesn't flash a sheet of white paper before the
+         WebView's own dark theme (sumi) paints. -->
+    <style name="Theme.Kotoba" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#13161A</item>
+        <item name="android:windowBackground">#13161A</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

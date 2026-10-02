@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Log in — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">ログイン — log in</p>
+  <h1>Log in</h1>
+  <p class="hero-lede">Sign in to keep your streak and progress tied to your account.</p>
+</section>
+
+<form class="auth-form" method="post" novalidate>
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <input type="hidden" name="next" value="{{ next }}">
+  {% if error %}
+  <p class="form-status err" role="alert">{{ error }}</p>
+  {% endif %}
+
+  <div class="field">
+    <label for="login-username">Username</label>
+    <input type="text" id="login-username" name="username" value="{{ username }}"
+           autocomplete="username" autocapitalize="none" spellcheck="false" required>
+  </div>
+
+  <div class="field">
+    <label for="login-password">Password</label>
+    <input type="password" id="login-password" name="password"
+           autocomplete="current-password" required>
+  </div>
+
+  <div class="auth-actions">
+    <button type="submit" class="btn-primary">Log in</button>
+  </div>
+  <p class="auth-switch">No account yet? <a href="{{ url_for('signup') }}">Sign up</a></p>
+</form>
+{% endblock %}

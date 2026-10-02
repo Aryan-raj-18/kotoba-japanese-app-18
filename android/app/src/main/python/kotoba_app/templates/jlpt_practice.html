@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}{{ level }} Kanji Practice — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">漢字練習 — {{ level }}</p>
+  <h1>{{ level }} Kanji Practice</h1>
+  <p class="hero-lede">Pick a difficulty and a round length. Each kanji gets 4 meaning options — no right/wrong shown until the round ends, then you'll see every question and answer laid out together.</p>
+  <p class="practice-note">Easy/medium/hard here is specific to {{ level }} — split by how common each kanji is within this level, not compared against other levels. Looking for the main 408-kanji set instead? Try <a href="{{ url_for('kanji_practice') }}">Kanji practice</a>.</p>
+  <a href="{{ url_for('jlpt_level', level=level) }}" class="back-link">← {{ level }} kanji list</a>
+</section>
+
+<section class="practice-stage" id="mcq-stage" data-level="{{ level }}">
+
+  <div class="stage-panel" id="mcq-panel-intro">
+    <div class="level-picker">
+      <h3>Difficulty</h3>
+      <div class="level-options" id="mcq-level-options">
+        <button type="button" class="level-btn active" data-level="all">All</button>
+        <button type="button" class="level-btn" data-level="easy">Easy</button>
+        <button type="button" class="level-btn" data-level="medium">Medium</button>
+        <button type="button" class="level-btn" data-level="hard">Hard</button>
+      </div>
+      <h3>Test length</h3>
+      <div class="count-options" id="mcq-count-options">
+        <button type="button" class="count-btn" data-count="10">10 kanji</button>
+        <button type="button" class="count-btn active" data-count="20">20 kanji</button>
+        <button type="button" class="count-btn" data-count="30">30 kanji</button>
+        <button type="button" class="count-btn" data-count="40">40 kanji</button>
+      </div>
+    </div>
+    <p>Ready?</p>
+    <button type="button" class="btn-primary" id="mcq-start-btn">Start test</button>
+  </div>
+
+  <div class="stage-panel" id="mcq-panel-quiz" hidden>
+    <p class="stage-label">Question <span id="mcq-progress"></span></p>
+    <div class="quiz-card">
+      <p class="mcq-kanji" id="mcq-kanji"></p>
+      <p class="mcq-question">What does this kanji mean?</p>
+      <div class="mcq-options" id="mcq-options"></div>
+    </div>
+  </div>
+
+  <div class="stage-panel" id="mcq-panel-results" hidden>
+    <p class="stage-label">Test complete</p>
+    <p class="done-score" id="mcq-score"></p>
+    <div class="mcq-review" id="mcq-review"></div>
+    <button type="button" class="btn-primary" id="mcq-restart-btn">Start another test</button>
+  </div>
+
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/jlpt_practice.js') }}"></script>
+{% endblock %}

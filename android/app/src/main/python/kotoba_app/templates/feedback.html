@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Feedback — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">ご意見 — go-iken, your thoughts</p>
+  <h1>Feedback</h1>
+  <p class="hero-lede">
+    Something confusing, something missing, something broken? Say so
+    here. Notes are saved on this device — use <strong>Send by email</strong>
+    if you'd like it to reach the developer directly.
+  </p>
+</section>
+
+<form class="feedback-form" id="feedback-form" novalidate>
+  <div class="field">
+    <label for="fb-topic">What's this about?</label>
+    <select id="fb-topic" name="topic">
+      <option value="Idea">An idea — something to add</option>
+      <option value="Problem">A problem — something broken or confusing</option>
+      <option value="Content">Content — a word, reading or sentence that looks wrong</option>
+      <option value="Design">Look and feel</option>
+      <option value="Other">Something else</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label id="rating-label">How's the app treating you so far?</label>
+    <div class="rating-row" role="group" aria-labelledby="rating-label" id="fb-rating">
+      {% for n in [1, 2, 3, 4, 5] %}
+      <button type="button" class="rating-btn" data-value="{{ n }}"
+              aria-pressed="false" aria-label="{{ n }} out of 5">{{ n }}</button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="fb-message">What should we improve?</label>
+    <textarea id="fb-message" name="message" required
+              placeholder="Be as specific as you like — which page, what you expected, what happened instead."></textarea>
+  </div>
+
+  <div class="field">
+    <label for="fb-name">Your name or email <span style="opacity:.7">(optional)</span></label>
+    <input type="text" id="fb-name" name="name" autocomplete="off"
+           placeholder="So we can follow up, if you want us to">
+  </div>
+
+  <p class="form-status" id="fb-status" role="status" aria-live="polite" hidden></p>
+
+  <div class="feedback-actions">
+    <button type="submit" class="btn-primary">Send feedback</button>
+    <button type="button" class="btn-ghost" id="fb-email">Send by email instead</button>
+  </div>
+  <p class="feedback-note">
+    Saved locally on this device. Nothing is uploaded anywhere.
+  </p>
+</form>
+
+<section class="feedback-log" id="feedback-log" hidden>
+  <h2 class="category-heading">Notes you've left <span id="fb-count"></span></h2>
+  <div id="feedback-entries"></div>
+  <button type="button" class="btn-ghost" id="fb-clear" style="margin-top: 10px;">Clear all notes</button>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>window.FEEDBACK_EMAIL = "{{ feedback_email }}";</script>
+<script src="{{ url_for('static', filename='js/feedback.js') }}"></script>
+{% endblock %}

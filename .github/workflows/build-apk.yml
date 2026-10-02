@@ -1,0 +1,106 @@
+name: Build Android APK
+
+# Builds a debug APK of the Kotoba app (Flask, running locally on-device
+# via Chaquopy, shown in a WebView) any time the app or this workflow
+# changes, or on demand from the Actions tab.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'android/**'
+      - 'app.py'
+      - 'templates/**'
+      - 'static/**'
+      - 'data/**'
+      - 'sync_android.py'
+      - 'smoke_test_android.py'
+      - 'everyday_nl.py'
+      - 'roadmap_extra.py'
+      - '.github/workflows/build-apk.yml'
+  pull_request:
+    paths:
+      - 'android/**'
+      - 'app.py'
+      - 'templates/**'
+      - 'static/**'
+      - 'data/**'
+      - 'sync_android.py'
+      - 'smoke_test_android.py'
+      - 'everyday_nl.py'
+      - 'roadmap_extra.py'
+      - '.github/workflows/build-apk.yml'
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # The APK ships its own copy of app.py/templates/static/data under
+      # android/app/src/main/python/. Regenerating it here means an edit
+      # to a template can never silently miss the build.
+      - name: Sync web app into the Android package
+        run: python sync_android.py
+
+      # Imports the packaged copy the way the phone does (only the package
+      # root on sys.path) on Python 3.8 - the version Chaquopy 16 runs - and
+      # requests every page. Catches launch crashes (a sibling module that
+      # cannot be imported, syntax newer Pythons accept but 3.8 rejects, a
+      # server that dies when started twice) in seconds, instead of after a
+      # 10-minute APK build and a trip to a phone.
+      - name: Smoke-test the packaged app on Python 3.8
+        run: |
+          pip install uv
+          uv venv --python 3.8 /tmp/py38
+          uv pip install --python /tmp/py38/bin/python flask==3.0.3
+          /tmp/py38/bin/python smoke_test_android.py
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      # No gradlew is committed (Gradle wrapper binaries are the kind of
+      # thing that's easy to get subtly wrong without a real Android
+      # environment to test in) - this installs a pinned Gradle version
+      # directly and adds it to PATH, with build-cache support.
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          # The action's own default (`tools platform-tools`) always
+          # tries to install the legacy "tools" SDK package, which
+          # Google has removed from the SDK repository entirely. That
+          # makes the action's *internal* sdkmanager call fail before
+          # this workflow's own "Install SDK platform & build tools"
+          # step ever runs — the two steps below install everything
+          # this build actually needs, so skip the action's own list.
+          packages: ''
+
+      - name: Install SDK platform & build tools
+        run: sdkmanager --install "platforms;android-34" "build-tools;34.0.0"
+
+      - name: Build debug APK
+        working-directory: android
+        run: gradle :app:assembleDebug --stacktrace
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kotoba-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error

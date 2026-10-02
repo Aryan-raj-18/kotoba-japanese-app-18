@@ -1,0 +1,426 @@
+# ---------------------------------------------------------- learner engine --
+
+def _learner_summary(user=None):
+    if user is None:
+        user = current_user()
+    streak = _compute_streak(_load_streak_dates(user))
+    state = _learner.load_state(DATA_DIR, user)
+    return _learner.summary(state, streak_current=streak.get("current", 0))
+
+
+@app.route("/api/learner/summary")
+def api_learner_summary():
+    return jsonify(_learner_summary(current_user()))
+
+
+@app.route("/api/learner/record", methods=["POST"])
+def api_learner_record():
+    payload = request.get_json(silent=True) or {}
+    if not (payload.get("id") or payload.get("front") or payload.get("prompt")):
+        return jsonify({"error": "missing learning item"}), 400
+    result = _learner.record_answer(DATA_DIR, current_user(), payload)
+    # Count any scored interaction as activity for the existing streak too.
+    dates = _load_streak_dates(current_user())
+    dates.add(date.today().isoformat())
+    try:
+        _save_streak_dates(dates, current_user())
+    except OSError:
+        pass
+    return jsonify(result)
+
+
+@app.route("/api/learner/action", methods=["POST"])
+def api_learner_action():
+    payload = request.get_json(silent=True) or {}
+    action = (payload.get("action") or "").lower()
+    if action not in {"audio", "speaking", "lessons", "mock"}:
+        return jsonify({"error": "invalid action"}), 400
+    return jsonify(_learner.record_action(DATA_DIR, current_user(), action, payload.get("amount", 1)))
+
+
+@app.route("/review")
+def smart_review_page():
+    return render_template("smart_review.html", learner=_learner_summary(current_user()))
+
+
+@app.route("/api/review/due")
+def api_review_due():
+    try:
+        limit = max(5, min(int(request.args.get("limit", 20)), 60))
+    except (TypeError, ValueError):
+        limit = 20
+    user = current_user()
+    state = _learner.load_state(DATA_DIR, user)
+    rows = _learner.due_items(state, limit)
+    # A Daily Review should never be an empty dead end. Fill remaining slots
+    # with unseen vocabulary at the learner's current placement/difficulty.
+    seen_keys = set(state.get("srs", {}).keys())
+    remaining = limit - len(rows)
+    if remaining > 0:
+        placement = state.get("placement") or {}
+        approx = placement.get("approx_level", "N5")
+        difficulty = "easy" if approx in {"N5", "N4"} else ("medium" if approx == "N3" else "hard")
+        pool = [w for w in VOCAB_POOL if w.get("difficulty") == difficulty]
+        pool += [w for w in VOCAB_POOL if w.get("difficulty") != difficulty]
+        random.shuffle(pool)
+        for w in pool:
+            key = _learner.item_key("vocab", w.get("word"))
+            if key in seen_keys:
+                continue
+            rows.append({
+                "key": key, "kind": "vocab", "id": w.get("word"), "front": w.get("word"),
+                "answer": w.get("meaning"), "reading": w.get("reading") or w.get("romaji") or "",
+                "sub": (f"Common #{w['frequency_rank']}" if w.get("frequency_rank") else "New word"),
+                "mastery": "New", "reviews": 0, "interval": 0,
+            })
+            seen_keys.add(key)
+            if len(rows) >= limit:
+                break
+    return jsonify({"items": rows, "summary": _learner.summary(state)})
+
+
+@app.route("/mistakes")
+def mistakes_page():
+    state = _learner.load_state(DATA_DIR, current_user())
+    mistakes = list(state.get("mistakes", {}).values())
+    mistakes.sort(key=lambda m: (bool(m.get("mastered")), m.get("last_missed", "")), reverse=False)
+    return render_template("mistakes.html", mistakes=mistakes, learner=_learner_summary(current_user()))
+
+
+@app.route("/favorites")
+def favorites_page():
+    state = _learner.load_state(DATA_DIR, current_user())
+    return render_template("favorites.html", lists=state.get("lists", {}))
+
+
+@app.route("/api/favorites/toggle", methods=["POST"])
+def api_favorites_toggle():
+    payload = request.get_json(silent=True) or {}
+    item = payload.get("item") or {}
+    if not (item.get("id") or item.get("front") or item.get("word")):
+        return jsonify({"error": "missing item"}), 400
+    return jsonify(_learner.toggle_favorite(DATA_DIR, current_user(), item, payload.get("list")))
+
+
+@app.route("/api/favorites/list", methods=["POST"])
+def api_favorites_list():
+    payload = request.get_json(silent=True) or {}
+    ok = _learner.add_list(DATA_DIR, current_user(), payload.get("name"))
+    return jsonify({"ok": ok}), (200 if ok else 400)
+
+
+@app.route("/backup")
+def backup_page():
+    return render_template("backup.html")
+
+
+def _backup_payload(user):
+    state = _learner.load_state(DATA_DIR, user)
+    progress = {k: sorted(v) for k, v in _load_progress(user).items()}
+    return {
+        "format": "kotoba-backup-v1",
+        "created": datetime.now().replace(microsecond=0).isoformat(),
+        "app_version": APP_VERSION,
+        "learner": state,
+        "progress": progress,
+        "roadmap_completed": sorted(_load_roadmap_progress(user)),
+        "roadmap_start": _load_roadmap_start(user),
+        "streak_dates": sorted(_load_streak_dates(user)),
+    }
+
+
+@app.route("/api/backup/data", methods=["GET", "POST"])
+def api_backup_data():
+    user = current_user()
+    if request.method == "GET":
+        return jsonify(_backup_payload(user))
+    payload = request.get_json(silent=True) or {}
+    if payload.get("format") != "kotoba-backup-v1":
+        return jsonify({"error": "not a Kotoba backup"}), 400
+    try:
+        if isinstance(payload.get("learner"), dict):
+            _learner.save_state(DATA_DIR, payload["learner"], user)
+        if isinstance(payload.get("progress"), dict):
+            progress = {k: set(v) for k, v in payload["progress"].items() if k in PROGRESS_DECKS and isinstance(v, list)}
+            _save_progress(progress, user)
+        if isinstance(payload.get("roadmap_completed"), list):
+            _save_roadmap_progress(set(payload["roadmap_completed"]), user)
+        if payload.get("roadmap_start") in ROADMAP_CHAPTERS:
+            _save_roadmap_start(payload["roadmap_start"], user)
+        if isinstance(payload.get("streak_dates"), list):
+            _save_streak_dates(set(payload["streak_dates"]), user)
+    except OSError:
+        return jsonify({"error": "could not write backup data"}), 500
+    return jsonify({"ok": True, "summary": _learner_summary(user)})
+
+
+# ------------------------------------------------------------ placement --
+
+def _choice_question(qid, qtype, prompt, correct, distractors, sub="", band="N5"):
+    wrong = []
+    seen = {correct}
+    for d in distractors:
+        if d and d not in seen:
+            wrong.append(d); seen.add(d)
+        if len(wrong) == 3:
+            break
+    options = wrong + [correct]
+    random.shuffle(options)
+    return {"id": qid, "type": qtype, "prompt": prompt, "sub": sub,
+            "options": options, "answer_index": options.index(correct), "band": band}
+
+
+def _placement_questions():
+    out = []
+    kana_pool = random.sample(HIRAGANA_DATA[:46], min(4, len(HIRAGANA_DATA[:46])))
+    for i, e in enumerate(kana_pool):
+        distract = [x["romaji"] for x in HIRAGANA_DATA[:46] if x["char"] != e["char"]]
+        random.shuffle(distract)
+        out.append(_choice_question(f"kana-{i}", "Kana", e["char"], e["romaji"], distract, "Choose the sound.", "N5"))
+
+    rank_bands = [(1,300,"N5"),(301,700,"N4"),(701,1200,"N3"),(1201,1600,"N2")]
+    vi = 0
+    for lo, hi, band in rank_bands:
+        pool = [w for w in FREQUENCY_WORDS if lo <= int(w.get("rank",9999)) <= hi and w.get("meaning")]
+        for e in random.sample(pool, min(2, len(pool))):
+            distract = [x["meaning"] for x in pool if x["word"] != e["word"]]
+            random.shuffle(distract)
+            out.append(_choice_question(f"vocab-{vi}", "Vocabulary", e["word"], e["meaning"], distract,
+                                        e.get("reading") or e.get("romaji") or "", band)); vi += 1
+
+    ki = 0
+    for band in ("N5","N4","N3"):
+        pool = JLPT_BY_LEVEL.get(band, [])
+        for e in random.sample(pool, min(2, len(pool))):
+            distract = [x["meaning"] for x in pool if x["kanji"] != e["kanji"]]
+            random.shuffle(distract)
+            out.append(_choice_question(f"kanji-{ki}", "Kanji", e["kanji"], e["meaning"], distract,
+                                        e.get("kun_yomi") or e.get("on_yomi") or "", band)); ki += 1
+
+    gi = 0
+    for band, take in (("N5",3),("N4",2),("N3",2)):
+        pool = [q for q in JLPT_EXAM_QUESTIONS.get(band, []) if "Grammar" in q.get("category","") or band == "N5"]
+        if not pool: continue
+        for q in random.sample(pool, min(take, len(pool))):
+            out.append({"id":f"grammar-{gi}","type":"Grammar","prompt":q.get("prompt",""),"sub":"",
+                        "options":q.get("options",[]),"answer_index":q.get("answer_index",0),"band":band}); gi += 1
+    random.shuffle(out)
+    return out[:25]
+
+
+@app.route("/placement")
+def placement_page():
+    return render_template("placement.html")
+
+
+@app.route("/api/placement_test")
+def api_placement_test():
+    return jsonify({"questions": _placement_questions()})
+
+
+def _placement_recommend(score):
+    if score < 25: return "hiragana-1", "Foundation", "N5"
+    if score < 45: return "greetings-intro", "Beginner", "N5"
+    if score < 62: return "particles-wa-ga-o", "Grammar foundations", "N4"
+    if score < 76: return "n5-kanji-checkpoint", "Intermediate bridge", "N3"
+    if score < 88 and "n3-grammar-01" in ROADMAP_CHAPTERS: return "n3-grammar-01", "Upper intermediate", "N3"
+    if score < 96 and "n2-grammar-01" in ROADMAP_CHAPTERS: return "n2-grammar-01", "Advanced", "N2"
+    if "n1-grammar-01" in ROADMAP_CHAPTERS: return "n1-grammar-01", "N1 mastery", "N1"
+    return "grand-review", "Advanced", "N1"
+
+
+@app.route("/api/placement/save", methods=["POST"])
+def api_placement_save():
+    payload = request.get_json(silent=True) or {}
+    try: score = max(0, min(100, int(payload.get("score",0))))
+    except (TypeError, ValueError): score = 0
+    chapter_id, label, approx = _placement_recommend(score)
+    _save_roadmap_start(chapter_id, current_user())
+    result = {"score":score,"chapter_id":chapter_id,"recommendation":label,"approx_level":approx,
+              "chapter_title":ROADMAP_CHAPTERS.get(chapter_id,{}).get("title",label)}
+    _learner.save_placement(DATA_DIR, current_user(), result)
+    return jsonify({"ok":True, **result, "url":url_for("roadmap_chapter", chapter_id=chapter_id)})
+
+
+# --------------------------------------------------------------- grammar --
+
+@app.route("/grammar")
+def grammar_page():
+    counts = {lvl: sum(1 for g in GRAMMAR_DATA if g.get("level") == lvl) for lvl in JLPT_LEVELS}
+    return render_template("grammar.html", grammar=GRAMMAR_DATA, levels=JLPT_LEVELS, counts=counts)
+
+
+@app.route("/grammar/<grammar_id>")
+def grammar_detail(grammar_id):
+    entry = next((g for g in GRAMMAR_DATA if g.get("id") == grammar_id), None)
+    if not entry: return "Grammar pattern not found", 404
+    return render_template("grammar_detail.html", entry=entry)
+
+
+@app.route("/api/grammar_quiz")
+def api_grammar_quiz():
+    level = (request.args.get("level") or "all").upper()
+    pool = GRAMMAR_DATA if level == "ALL" else [g for g in GRAMMAR_DATA if g.get("level") == level]
+    if len(pool) < 4: pool = GRAMMAR_DATA
+    try: count = max(5, min(int(request.args.get("count",10)), 30))
+    except (TypeError, ValueError): count = 10
+    chosen = random.sample(pool, min(count, len(pool)))
+    qs=[]
+    for g in chosen:
+        distract=[x["meaning"] for x in pool if x["id"] != g["id"] and x.get("meaning") != g.get("meaning")]
+        random.shuffle(distract)
+        q=_choice_question(g["id"],"Grammar",g["pattern"],g["meaning"],distract,g.get("example_ja",""),g.get("level",""))
+        qs.append(q)
+    return jsonify({"questions":qs})
+
+
+# ------------------------------------------------------------- speaking --
+
+def _speaking_items(level="all"):
+    rows=[]
+    for conv in CONVERSATIONS_DATA:
+        if level != "all" and conv.get("level") != level: continue
+        for i,line in enumerate(conv.get("lines",[])):
+            text=line.get("kanji") or line.get("hiragana")
+            if text:
+                rows.append({"id":f"conv-{conv['id']}-{i}","level":conv.get("level","easy"),"jp":text,
+                             "reading":line.get("hiragana",""),"romaji":line.get("romaji",""),
+                             "english":line.get("english",""),"source":conv.get("title_en","Conversation")})
+    for story in STORIES_DATA:
+        if level != "all" and story.get("level") != level: continue
+        for i,line in enumerate(story.get("sentences",[])[:4]):
+            text=line.get("kanji") or line.get("hiragana")
+            if text:
+                rows.append({"id":f"story-{story['id']}-{i}","level":story.get("level","easy"),"jp":text,
+                             "reading":line.get("hiragana",""),"romaji":line.get("romaji",""),
+                             "english":line.get("english",""),"source":story.get("title_en","Story")})
+    return rows
+
+
+@app.route("/speaking")
+def speaking_page():
+    return render_template("speaking.html")
+
+
+@app.route("/api/speaking_items")
+def api_speaking_items():
+    level=(request.args.get("level") or "all").lower()
+    if level not in {"all","easy","medium","hard"}: level="all"
+    pool=_speaking_items(level)
+    random.shuffle(pool)
+    try: count=max(5,min(int(request.args.get("count",15)),40))
+    except (TypeError,ValueError): count=15
+    return jsonify({"items":pool[:count]})
+
+
+# ----------------------------------------------------------- JLPT mocks --
+
+def _mock_questions(level, limit=50):
+    pool=list(JLPT_EXAM_QUESTIONS.get(level,[]))
+    bycat={}
+    for q in pool: bycat.setdefault(q.get("category","Practice"),[]).append(q)
+    for qs in bycat.values(): random.shuffle(qs)
+    chosen=[]
+    cats=list(bycat)
+    while cats and len(chosen)<limit:
+        next_cats=[]
+        for c in cats:
+            if bycat[c] and len(chosen)<limit:
+                chosen.append(bycat[c].pop())
+            if bycat[c]: next_cats.append(c)
+        cats=next_cats
+    random.shuffle(chosen)
+    return chosen
+
+
+@app.route("/jlpt/<level>/mock")
+def jlpt_mock(level):
+    level=level.upper()
+    if level not in JLPT_LEVELS or not JLPT_EXAM_QUESTIONS.get(level): return "Mock unavailable",404
+    count=min(50,len(JLPT_EXAM_QUESTIONS[level]))
+    return render_template("jlpt_mock.html",level=level,count=count,minutes=max(20,round(count*1.25)))
+
+
+@app.route("/api/jlpt_mock")
+def api_jlpt_mock():
+    level=(request.args.get("level") or "").upper()
+    if level not in JLPT_LEVELS or not JLPT_EXAM_QUESTIONS.get(level): return jsonify({"error":"mock unavailable"}),400
+    chosen=_mock_questions(level,min(50,len(JLPT_EXAM_QUESTIONS[level])))
+    return jsonify({"level":level,"questions":[{
+        "id":q.get("id",""),"category":q.get("category","Practice"),"passage":q.get("passage",""),
+        "prompt":q.get("prompt",""),"options":q.get("options",[]),"answer_index":q.get("answer_index",0),
+        "explanation":q.get("explanation",""),"explanation_blocks":q.get("explanation_blocks",[]),
+    } for q in chosen]})
+
+
+@app.route("/api/jlpt_mock/save", methods=["POST"])
+def api_jlpt_mock_save():
+    payload=request.get_json(silent=True) or {}
+    level=(payload.get("level") or "").upper()
+    try:
+        score=int(payload.get("score",0)); total=max(1,int(payload.get("total",1)))
+    except (TypeError,ValueError): return jsonify({"error":"invalid score"}),400
+    result={"level":level,"score":score,"total":total,"percent":round(100*score/total),
+            "categories":payload.get("categories",{})}
+    _learner.save_mock(DATA_DIR,current_user(),result)
+    return jsonify({"ok":True,"summary":_learner_summary(current_user())})
+
+
+# --------------------------------------------------------------- games --
+
+@app.route("/games")
+def games_page():
+    return render_template("games.html")
+
+
+@app.route("/api/games/deck")
+def api_games_deck():
+    game=(request.args.get("game") or "match").lower()
+    difficulty=(request.args.get("difficulty") or "easy").lower()
+    if difficulty not in {"easy","medium","hard"}: difficulty="easy"
+    vocab=[w for w in VOCAB_POOL if w.get("difficulty")==difficulty and w.get("word") and w.get("meaning")]
+    if len(vocab)<12: vocab=VOCAB_POOL
+    random.shuffle(vocab)
+    if game=="match":
+        return jsonify({"game":game,"items":[{"id":i,"jp":w["word"],"en":w["meaning"],"reading":w.get("reading","")} for i,w in enumerate(vocab[:8])]})
+    if game=="audio":
+        items=[]
+        for i,w in enumerate(vocab[:10]):
+            wrong=[x["meaning"] for x in vocab[10:] if x["meaning"]!=w["meaning"]][:3]
+            opts=wrong+[w["meaning"]]; random.shuffle(opts)
+            items.append({"id":i,"jp":w["word"],"reading":w.get("reading","") or w.get("romaji",""),"correct":w["meaning"],"options":opts})
+        return jsonify({"game":game,"items":items})
+    if game=="kana":
+        base=HIRAGANA_DATA[:46]+KATAKANA_DATA[:46]; random.shuffle(base)
+        items=[]
+        for i,e in enumerate(base[:20]):
+            wrong=[x["romaji"] for x in base if x["char"]!=e["char"] and x["romaji"]!=e["romaji"]][:3]
+            opts=wrong+[e["romaji"]]; random.shuffle(opts)
+            items.append({"id":i,"jp":e["char"],"correct":e["romaji"],"options":opts})
+        return jsonify({"game":game,"items":items})
+    if game=="verbs":
+        pool=[v for v in VERBS_DATA if v.get("difficulty")==difficulty] or VERBS_DATA
+        random.shuffle(pool); items=[]
+        forms=[("masu","polite present"),("te","て-form"),("past","past"),("negative","negative")]
+        for i,v in enumerate(pool[:12]):
+            fk,label=random.choice(forms); correct=(v.get("forms",{}).get(fk) or {}).get("kanji")
+            if not correct: continue
+            wrong=[]
+            for x in pool[12:]:
+                val=(x.get("forms",{}).get(fk) or {}).get("kanji")
+                if val and val!=correct and val not in wrong: wrong.append(val)
+                if len(wrong)==3: break
+            opts=wrong+[correct]; random.shuffle(opts)
+            items.append({"id":i,"jp":v["word"],"prompt":f"Choose the {label} form", "correct":correct,"options":opts})
+        return jsonify({"game":game,"items":items})
+    if game=="sentence":
+        sents=[s for s in PRACTICE_SENTENCES if s.get("word") and s.get("sentence_kanji")]
+        random.shuffle(sents); items=[]
+        words=[s["word"] for s in sents]
+        for i,s in enumerate(sents[:12]):
+            prompt=s["sentence_kanji"].replace(s["word"],"＿＿＿",1)
+            wrong=[w for w in words if w!=s["word"]][:3]; opts=wrong+[s["word"]]; random.shuffle(opts)
+            items.append({"id":i,"jp":prompt,"sub":s.get("sentence_en",""),"correct":s["word"],"options":opts})
+        return jsonify({"game":game,"items":items})
+    return jsonify({"error":"invalid game"}),400
+

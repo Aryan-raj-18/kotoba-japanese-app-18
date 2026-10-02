@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}{{ kana_type }} — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">learn &amp; memorize</p>
+  <h1>{{ kana_type }}</h1>
+  <p class="hero-lede">
+    {% if kana_type == 'Hiragana' %}
+      Used for native Japanese words, particles, and verb endings. Tap a
+      card to flip it and check the sound.
+    {% else %}
+      Used for foreign loanwords, names, and onomatopoeia. Same sounds as
+      hiragana, sharper strokes.
+    {% endif %}
+  </p>
+  <div class="mode-toggle" role="group" aria-label="Study mode">
+    <button type="button" class="mode-btn active" data-mode="chart">Chart</button>
+    <button type="button" class="mode-btn" data-mode="flash">Flashcards</button>
+  </div>
+</section>
+
+<section class="kana-chart" id="kana-chart" data-kana="{{ kana_type|lower }}">
+  {% for row_type, label in [('basic','Basic'), ('dakuten', 'Dakuten &amp; Handakuten'), ('yoon', 'Combination sounds (yōon)')] %}
+  <div class="kana-group">
+    <h3>{{ label|safe }}</h3>
+    <div class="kana-grid">
+      {% for k in data if k.type == row_type %}
+      <button type="button" class="kana-tile" data-char="{{ k.char }}" data-romaji="{{ k.romaji }}">
+        <span class="kana-char">{{ k.char }}</span>
+        <span class="kana-romaji">{{ k.romaji }}</span>
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="flash-mode" id="flash-mode" hidden>
+  <div class="flashcard" id="flashcard">
+    <div class="flash-face flash-front" id="flash-front">?</div>
+  </div>
+  <div class="flash-controls">
+    <button type="button" id="flash-prev">← Back</button>
+    <span id="flash-progress">1 / {{ data|selectattr('type','equalto','basic')|list|length }}</span>
+    <button type="button" id="flash-next">Next →</button>
+  </div>
+  <p class="flash-hint">Tap the card to reveal the romaji reading.</p>
+</section>
+
+<div class="modal-overlay" id="kana-modal" hidden>
+  <div class="modal-card">
+    <button type="button" class="modal-close" id="kana-modal-close" aria-label="Close">×</button>
+    <p class="modal-word jlpt-modal-char" id="modal-kana-char"></p>
+    <p class="modal-reading" id="modal-kana-romaji"></p>
+    <button type="button" class="btn-ghost" id="kana-listen">🔊 Listen</button>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+window.KANA_DATA = {{ data|tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/kana.js') }}"></script>
+{% endblock %}

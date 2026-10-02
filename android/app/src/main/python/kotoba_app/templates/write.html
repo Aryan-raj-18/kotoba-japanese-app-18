@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block title %}Writing Practice — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">書く — kaku, to write</p>
+  <h1>Writing Practice</h1>
+  <p class="hero-lede">
+    Trace a character inside its practice square and the app checks how
+    closely you matched it. Or switch to the keyboard to build words —
+    type romaji and watch it convert, or tap the kana directly.
+  </p>
+  <div class="mode-toggle" role="group" aria-label="Script">
+    <button type="button" class="mode-btn active" data-panel="hira-panel">Hiragana</button>
+    <button type="button" class="mode-btn" data-panel="kata-panel">Katakana</button>
+    <button type="button" class="mode-btn" data-panel="kanji-panel">Kanji</button>
+  </div>
+</section>
+
+{% macro trace_pad(id, aria) -%}
+<div class="trace-block" id="{{ id }}">
+  <div class="trace-head">
+    <div class="trace-target">
+      <span class="trace-target-char"></span>
+      <span class="trace-target-meaning"></span>
+    </div>
+    <span class="trace-progress"></span>
+  </div>
+
+  <div class="trace-stage">
+    <div class="trace-grid" aria-hidden="true"></div>
+    <canvas class="trace-guide-canvas" aria-hidden="true"></canvas>
+    <canvas class="trace-canvas" aria-label="{{ aria }}" role="img"></canvas>
+  </div>
+
+  <p class="trace-verdict" role="status" aria-live="polite" hidden></p>
+
+  <div class="trace-controls">
+    <button type="button" class="btn-primary trace-check">Check my writing</button>
+    <button type="button" class="btn-ghost trace-clear">Clear</button>
+    <button type="button" class="btn-ghost trace-guide-toggle" aria-pressed="false">Hide guide</button>
+    <button type="button" class="btn-ghost trace-prev">← Prev</button>
+    <button type="button" class="btn-ghost trace-next">Next →</button>
+  </div>
+
+  <p class="trace-picker-label">Jump to a character</p>
+  <div class="trace-picker"></div>
+</div>
+{%- endmacro %}
+
+<!-- ============================ HIRAGANA ============================ -->
+<section class="write-panel" id="hira-panel">
+  <div class="sub-toggle" role="group" aria-label="Hiragana practice mode">
+    <button type="button" class="sub-btn active" data-sub="hira-trace">✍ Tracing</button>
+    <button type="button" class="sub-btn" data-sub="hira-keys">⌨ Keyboard</button>
+  </div>
+
+  <div class="sub-panel" id="hira-trace">
+    {{ trace_pad('hira-tracer', 'Hiragana tracing pad') }}
+  </div>
+
+  <div class="sub-panel" id="hira-keys" hidden>
+    <div class="write-output-row">
+      <input type="text" id="hira-romaji" class="write-input" placeholder="Type romaji here, e.g. konnichiwa..." autocomplete="off">
+      <button type="button" class="btn-ghost" id="hira-clear">Clear</button>
+    </div>
+    <div class="write-output" id="hira-output"></div>
+    <div class="kb-grid" id="hira-keyboard"></div>
+  </div>
+</section>
+
+<!-- ============================ KATAKANA ============================ -->
+<section class="write-panel" id="kata-panel" hidden>
+  <div class="sub-toggle" role="group" aria-label="Katakana practice mode">
+    <button type="button" class="sub-btn active" data-sub="kata-trace">✍ Tracing</button>
+    <button type="button" class="sub-btn" data-sub="kata-keys">⌨ Keyboard</button>
+  </div>
+
+  <div class="sub-panel" id="kata-trace">
+    {{ trace_pad('kata-tracer', 'Katakana tracing pad') }}
+  </div>
+
+  <div class="sub-panel" id="kata-keys" hidden>
+    <div class="write-output-row">
+      <input type="text" id="kata-romaji" class="write-input" placeholder="Type romaji here, e.g. konpyuutaa..." autocomplete="off">
+      <button type="button" class="btn-ghost" id="kata-clear">Clear</button>
+    </div>
+    <div class="write-output" id="kata-output"></div>
+    <p class="flash-hint">Note: long vowels convert phonetically (e.g. "uu" → ウウ). Real katakana usually uses ー instead — swap it in by hand, or use the keyboard grid below.</p>
+    <div class="kb-grid" id="kata-keyboard"></div>
+  </div>
+</section>
+
+<!-- ============================== KANJI ============================== -->
+<section class="write-panel" id="kanji-panel" hidden>
+  <div class="kanji-write-controls">
+    <input type="text" id="kanji-pick-filter" class="filter-input" placeholder="Search a kanji to trace (by meaning or character)...">
+  </div>
+  {{ trace_pad('kanji-tracer', 'Kanji tracing pad') }}
+</section>
+
+<p class="flash-hint">
+  Draw with your finger or mouse, then tap <strong>Check my writing</strong>.
+  Miss the same character more than twice and the square will shake and
+  buzz — clear it and take the strokes slowly.
+</p>
+{% endblock %}
+
+{% block scripts %}
+<script>
+window.HIRAGANA_DATA = {{ hiragana|tojson }};
+window.KATAKANA_DATA = {{ katakana|tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/romaji.js') }}"></script>
+<script src="{{ url_for('static', filename='js/trace.js') }}"></script>
+<script src="{{ url_for('static', filename='js/write.js') }}"></script>
+{% endblock %}
